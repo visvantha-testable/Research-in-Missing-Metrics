@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/terryyin/lizard/master/lizard.xsl"?>
+<cppncss>
+	<measure type="Function">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+		</labels>
+		<item name="depth_six(...) at D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\depth_six.c:2">
+			<value>1</value>
+			<value>16</value>
+			<value>7</value>
+		</item>
+		<average label="NCSS" value="16.0"/>
+		<average label="CCN" value="7.0"/>
+		<item name="depth_three(...) at D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\depth_three.c:2">
+			<value>2</value>
+			<value>10</value>
+			<value>4</value>
+		</item>
+		<average label="NCSS" value="13.0"/>
+		<average label="CCN" value="5.5"/>
+		<item name="flat(...) at D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\flat.c:2">
+			<value>3</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="9.666666666666666"/>
+		<average label="CCN" value="4.0"/>
+		<item name="loop_nesting(...) at D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\loop_nesting.c:2">
+			<value>4</value>
+			<value>17</value>
+			<value>7</value>
+		</item>
+		<average label="NCSS" value="11.5"/>
+		<average label="CCN" value="4.75"/>
+	</measure>
+	<measure type="File">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+			<label>Functions</label>
+		</labels>
+		<item name="D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\depth_six.c">
+			<value>1</value>
+			<value>16</value>
+			<value>7</value>
+			<value>1</value>
+		</item>
+		<item name="D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\depth_three.c">
+			<value>2</value>
+			<value>10</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\flat.c">
+			<value>3</value>
+			<value>3</value>
+			<value>1</value>
+			<value>1</value>
+		</item>
+		<item name="D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\loop_nesting.c">
+			<value>4</value>
+			<value>17</value>
+			<value>7</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="11.5"/>
+		<average label="CCN" value="4.75"/>
+		<average label="Functions" value="1.0"/>
+		<sum label="NCSS" value="46"/>
+		<sum label="CCN" value="19"/>
+		<sum label="Functions" value="4"/>
+		<average label="NCSS" value="11.5"/>
+		<average label="CCN" value="4.75"/>
+	</measure>
+</cppncss>
+

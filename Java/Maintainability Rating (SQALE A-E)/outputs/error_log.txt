@@ -1,0 +1,4 @@
+timestamp,file,error_message
+2026-07-03 12:26:53 UTC,pmd_text,PMD text run exited with code 1
+2026-07-03 12:26:53 UTC,pmd_csv,PMD CSV run exited with code 1
+2026-07-03 12:26:53 UTC,pmd_json,PMD JSON run exited with code 1

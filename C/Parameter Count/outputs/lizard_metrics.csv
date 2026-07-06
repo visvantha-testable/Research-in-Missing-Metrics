@@ -1,0 +1,5 @@
+file,function,nloc,cyclomatic_complexity,token_count,parameter_count,function_length,start_line,end_line
+D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\clean.c,normal_add,3,1,20,3,3,3,5
+D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\long_parameter_list.c,too_many_parameters,3,1,45,8,3,3,5
+D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\moderate_params.c,moderate_sum,3,1,25,4,3,3,5
+D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\nested_control.c,nested_example,10,4,37,1,10,3,12

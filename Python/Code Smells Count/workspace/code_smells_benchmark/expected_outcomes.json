@@ -1,0 +1,17 @@
+{
+  "benchmark_name": "code_smells_benchmark",
+  "description": "Deterministic Python code-smells benchmark for Pylint maintainability validation.",
+  "expected_code_smells_min": 10,
+  "expected_symbols": [
+    "too-many-arguments",
+    "too-many-locals",
+    "too-many-branches",
+    "too-many-return-statements",
+    "too-many-statements",
+    "too-many-nested-blocks",
+    "too-many-boolean-expressions",
+    "too-many-instance-attributes",
+    "too-many-public-methods",
+    "too-many-ancestors"
+  ]
+}

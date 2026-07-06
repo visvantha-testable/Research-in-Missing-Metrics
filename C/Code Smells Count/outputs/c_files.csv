@@ -1,0 +1,13 @@
+absolute_path,relative_path
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\clean.c,cases\clean.c
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\const_variable.c,cases\const_variable.c
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\duplicate_expression.c,cases\duplicate_expression.c
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\function_static.c,cases\function_static.c
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\known_condition.c,cases\known_condition.c
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\passed_by_value.c,cases\passed_by_value.c
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\runner.c,cases\runner.c
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\shadow_variable.c,cases\shadow_variable.c
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\unread_variable.c,cases\unread_variable.c
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\unused_function.c,cases\unused_function.c
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\unused_struct_member.c,cases\unused_struct_member.c
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\variable_scope.c,cases\variable_scope.c

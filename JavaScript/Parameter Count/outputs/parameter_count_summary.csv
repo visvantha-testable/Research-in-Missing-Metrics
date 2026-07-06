@@ -1,0 +1,2 @@
+file,function,parameter_count,allowed_limit
+D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases\long_parameter_list.js,tooManyParameters,8,5

@@ -1,0 +1,8 @@
+{
+  "name": "eslint-nesting-depth-benchmark",
+  "private": true,
+  "description": "ESLint dependency for JavaScript maintainability nesting depth extraction",
+  "devDependencies": {
+    "eslint": "^10.0.0"
+  }
+}

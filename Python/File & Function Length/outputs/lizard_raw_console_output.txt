@@ -1,0 +1,51 @@
+===== lizard text =====
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+       2      1     15      3       2 add@4-5@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\clean.py
+      54     52    471      1      54 very_long_function@4-57@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.py
+       2      1      9      1       2 step_one@4-5@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py
+       2      1      9      1       2 step_two@8-9@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py
+       2      1      9      1       2 step_three@12-13@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py
+       2      1      9      1       2 step_four@16-17@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py
+       2      1      9      1       2 step_five@20-21@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py
+       6      4     24      1       6 nested_example@4-9@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.py
+4 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+      2       2.0     1.0       15.0         1     D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\clean.py
+     54      54.0    52.0      471.0         1     D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.py
+     10       2.0     1.0        9.0         5     D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py
+      6       6.0     4.0       24.0         1     D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.py
+
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      54     52    471      1      54 very_long_function@4-57@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.py
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+        72       9.0     7.8       69.4        8            1      0.12    0.75
+
+===== lizard csv =====
+2,1,15,3,2,"add@4-5@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\clean.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\clean.py","add","add( a , b , c )",4,5
+54,52,471,1,54,"very_long_function@4-57@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.py","very_long_function","very_long_function( value )",4,57
+2,1,9,1,2,"step_one@4-5@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","step_one","step_one( x )",4,5
+2,1,9,1,2,"step_two@8-9@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","step_two","step_two( x )",8,9
+2,1,9,1,2,"step_three@12-13@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","step_three","step_three( x )",12,13
+2,1,9,1,2,"step_four@16-17@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","step_four","step_four( x )",16,17
+2,1,9,1,2,"step_five@20-21@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","step_five","step_five( x )",20,21
+6,4,24,1,6,"nested_example@4-9@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.py","nested_example","nested_example( x )",4,9
+
+===== lizard csv_ens =====
+2,1,15,3,2,"add@4-5@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\clean.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\clean.py","add","add( a , b , c )",4,5,0
+54,52,471,1,54,"very_long_function@4-57@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.py","very_long_function","very_long_function( value )",4,57,102
+2,1,9,1,2,"step_one@4-5@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","step_one","step_one( x )",4,5,0
+2,1,9,1,2,"step_two@8-9@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","step_two","step_two( x )",8,9,0
+2,1,9,1,2,"step_three@12-13@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","step_three","step_three( x )",12,13,0
+2,1,9,1,2,"step_four@16-17@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","step_four","step_four( x )",16,17,0
+2,1,9,1,2,"step_five@20-21@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.py","step_five","step_five( x )",20,21,0
+6,4,24,1,6,"nested_example@4-9@D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.py","D:\Research in Missing Metrics\Python\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.py","nested_example","nested_example( x )",4,9,105

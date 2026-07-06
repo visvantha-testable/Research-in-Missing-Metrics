@@ -1,0 +1,35 @@
+# Shared toolchains (provisioned on first run — see README)
+runtimes/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# .NET build artifacts
+**/bin/
+**/obj/
+*.user
+.vs/
+
+# Node.js
+node_modules/
+
+# Cloned benchmark repositories (re-fetched by prepare_repository scripts)
+**/workspace/django/
+
+# Large caches and logs
+**/cache/*.zip
+**/logs/
+
+# IDE / OS
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+debug.log

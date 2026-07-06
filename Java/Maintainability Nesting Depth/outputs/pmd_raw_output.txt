@@ -1,0 +1,3 @@
+D:\Research in Missing Metrics\Java\Maintainability Nesting Depth\workspace\java_nesting_benchmark\src\cases\DepthFourViolation.java:7:	AvoidDeeplyNestedIfStmts:	Deeply nested if..then statements are hard to read
+D:\Research in Missing Metrics\Java\Maintainability Nesting Depth\workspace\java_nesting_benchmark\src\cases\DepthSixViolation.java:7:	AvoidDeeplyNestedIfStmts:	Deeply nested if..then statements are hard to read
+D:\Research in Missing Metrics\Java\Maintainability Nesting Depth\workspace\java_nesting_benchmark\src\cases\DepthThree.java:7:	AvoidDeeplyNestedIfStmts:	Deeply nested if..then statements are hard to read

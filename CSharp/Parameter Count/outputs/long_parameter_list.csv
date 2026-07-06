@@ -1,0 +1,7 @@
+file,class,method,parameter_count,status
+D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases\CleanDemo.cs,CleanDemo,Add,3,OK
+D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases\ExcessiveParameterListDemo.cs,ExcessiveParameterListDemo,ManyParameters,8,Long Parameter List
+D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases\ExtensionMethodDemo.cs,ExtensionMethodDemo,SumWithParams,4,OK
+D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases\LocalFunctionDemo.cs,LocalFunctionDemo,Run,1,OK
+D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases\LocalFunctionDemo.cs,LocalFunctionDemo,LocalWithMany,7,Long Parameter List
+D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases\ModerateParamsDemo.cs,ModerateParamsDemo,ModerateSum,4,OK

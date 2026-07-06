@@ -1,0 +1,58 @@
+/** Benchmark case: function exceeding long-function threshold (NLOC > 50). */
+function veryLongFunction(value) {
+  let total = 0;
+  total += value > 0 ? 1 : 0;
+  total += value > 1 ? 1 : 0;
+  total += value > 2 ? 1 : 0;
+  total += value > 3 ? 1 : 0;
+  total += value > 4 ? 1 : 0;
+  total += value > 5 ? 1 : 0;
+  total += value > 6 ? 1 : 0;
+  total += value > 7 ? 1 : 0;
+  total += value > 8 ? 1 : 0;
+  total += value > 9 ? 1 : 0;
+  total += value > 10 ? 1 : 0;
+  total += value > 11 ? 1 : 0;
+  total += value > 12 ? 1 : 0;
+  total += value > 13 ? 1 : 0;
+  total += value > 14 ? 1 : 0;
+  total += value > 15 ? 1 : 0;
+  total += value > 16 ? 1 : 0;
+  total += value > 17 ? 1 : 0;
+  total += value > 18 ? 1 : 0;
+  total += value > 19 ? 1 : 0;
+  total += value > 20 ? 1 : 0;
+  total += value > 21 ? 1 : 0;
+  total += value > 22 ? 1 : 0;
+  total += value > 23 ? 1 : 0;
+  total += value > 24 ? 1 : 0;
+  total += value > 25 ? 1 : 0;
+  total += value > 26 ? 1 : 0;
+  total += value > 27 ? 1 : 0;
+  total += value > 28 ? 1 : 0;
+  total += value > 29 ? 1 : 0;
+  total += value > 30 ? 1 : 0;
+  total += value > 31 ? 1 : 0;
+  total += value > 32 ? 1 : 0;
+  total += value > 33 ? 1 : 0;
+  total += value > 34 ? 1 : 0;
+  total += value > 35 ? 1 : 0;
+  total += value > 36 ? 1 : 0;
+  total += value > 37 ? 1 : 0;
+  total += value > 38 ? 1 : 0;
+  total += value > 39 ? 1 : 0;
+  total += value > 40 ? 1 : 0;
+  total += value > 41 ? 1 : 0;
+  total += value > 42 ? 1 : 0;
+  total += value > 43 ? 1 : 0;
+  total += value > 44 ? 1 : 0;
+  total += value > 45 ? 1 : 0;
+  total += value > 46 ? 1 : 0;
+  total += value > 47 ? 1 : 0;
+  total += value > 48 ? 1 : 0;
+  total += value > 49 ? 1 : 0;
+  total += value > 50 ? 1 : 0;
+  return total + value;
+}
+
+module.exports = { veryLongFunction };

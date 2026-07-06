@@ -1,0 +1,4 @@
+pandas
+lizard
+gitpython
+jupyter

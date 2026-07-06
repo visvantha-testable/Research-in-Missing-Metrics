@@ -1,0 +1,26 @@
+file,line,message_id,symbol,message,severity
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_arguments.py,4,R0913,too-many-arguments,Too many arguments (8/5),refactor
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_boolean_expressions.py,4,R0913,too-many-arguments,Too many arguments (6/5),refactor
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_boolean_expressions.py,5,R0916,too-many-boolean-expressions,Too many boolean expressions in if statement (6/5),refactor
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_branches.py,4,R0911,too-many-return-statements,Too many return statements (15/6),refactor
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_branches.py,4,R0912,too-many-branches,Too many branches (14/12),refactor
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_instance_attributes.py,4,R0902,too-many-instance-attributes,Too many instance attributes (10/7),refactor
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_locals.py,4,R0914,too-many-locals,Too many local variables (17/15),refactor
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_nested_blocks.py,5,R1702,too-many-nested-blocks,Too many nested blocks (6/5),refactor
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py,4,R0904,too-many-public-methods,Too many public methods (21/20),refactor
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_returns.py,4,R0911,too-many-return-statements,Too many return statements (9/6),refactor
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_statements.py,4,R0915,too-many-statements,Too many statements (56/50),refactor
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_statements.py,1,R0801,duplicate-code,"Similar lines in 2 files
+==cases.duplicate_code_a:[4:15]
+==cases.duplicate_code_b:[4:15]
+    result = 0
+    if x > 0:
+        result += x
+    if y > 0:
+        result += y
+    if z > 0:
+        result += z
+    for item in [x, y, z]:
+        if item % 2 == 0:
+            result += item
+    return result",refactor

@@ -1,0 +1,77 @@
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\clean.c ...
+1/12 files checked 2% done
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\const_variable.c ...
+2/12 files checked 5% done
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\duplicate_expression.c ...
+3/12 files checked 10% done
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\function_static.c ...
+4/12 files checked 15% done
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\known_condition.c ...
+5/12 files checked 20% done
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\passed_by_value.c ...
+6/12 files checked 31% done
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\runner.c ...
+7/12 files checked 72% done
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\shadow_variable.c ...
+8/12 files checked 77% done
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\unread_variable.c ...
+9/12 files checked 81% done
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\unused_function.c ...
+10/12 files checked 87% done
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\unused_struct_member.c ...
+11/12 files checked 93% done
+Checking D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\variable_scope.c ...
+12/12 files checked 100% done
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\duplicate_expression.c:2:21: style: Condition 'a==b' is always true [knownConditionTrueFalse]
+    if (a == b && a == b) {
+                    ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\duplicate_expression.c:2:11: note: Assuming that condition 'a==b' is not redundant
+    if (a == b && a == b) {
+          ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\duplicate_expression.c:2:21: note: Condition 'a==b' is always true
+    if (a == b && a == b) {
+                    ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\duplicate_expression.c:2:16: style: Same expression on both sides of '&&'. [duplicateExpression]
+    if (a == b && a == b) {
+               ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\passed_by_value.c:2:10: style: struct member 'LargeStruct::data' is never used. [unusedStructMember]
+    char data[512];
+         ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\passed_by_value.c:7:12: style: Variable 's.flag' is assigned a value that is never used. [unreadVariable]
+    s.flag = 1;
+           ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\runner.c:26:38: error: Uninitialized variable: ls [uninitvar]
+    total += trigger_passed_by_value(ls);
+                                     ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\shadow_variable.c:4:13: style: Local variable 'x' shadows outer variable [shadowVariable]
+        int x = 2;
+            ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\shadow_variable.c:2:9: note: Shadowed variable
+    int x = outer;
+        ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\shadow_variable.c:4:13: note: Shadow local variable
+        int x = 2;
+            ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\shadow_variable.c:4:15: style: Variable 'x' is assigned a value that is never used. [unreadVariable]
+        int x = 2;
+              ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\shadow_variable.c:5:11: style: Variable 'x' is assigned a value that is never used. [unreadVariable]
+        x += 1;
+          ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\unread_variable.c:2:16: style: Variable 'unread' is assigned a value that is never used. [unreadVariable]
+    int unread = 42;
+               ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\unused_struct_member.c:3:9: style: struct member 'Widget::unused_field' is never used. [unusedStructMember]
+    int unused_field;
+        ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\runner.c:16:5: style: The function 'benchmark_runner' is never used. [unusedFunction]
+int benchmark_runner(void) {
+    ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\unused_function.c:4:13: style: The function 'never_called' is never used. [unusedFunction]
+static void never_called(void) {
+            ^
+D:\Research in Missing Metrics\C\Code Smells Count\workspace\c_code_smells_benchmark\cases\function_static.c:1:6: style: The function 'helper_for_static' should have static linkage since it is not used outside of its translation unit. [staticFunction]
+���void helper_for_static(void) {
+     ^
+nofile:0:0: information: Active checkers: 119/186 (use --checkers-report=<filename> to see details) [checkersReport]
+

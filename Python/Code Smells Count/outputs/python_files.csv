@@ -1,0 +1,14 @@
+absolute_path,relative_path
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\clean.py,cases\clean.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\duplicate_code_a.py,cases\duplicate_code_a.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\duplicate_code_b.py,cases\duplicate_code_b.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py,cases\too_many_ancestors.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_arguments.py,cases\too_many_arguments.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_boolean_expressions.py,cases\too_many_boolean_expressions.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_branches.py,cases\too_many_branches.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_instance_attributes.py,cases\too_many_instance_attributes.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_locals.py,cases\too_many_locals.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_nested_blocks.py,cases\too_many_nested_blocks.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py,cases\too_many_public_methods.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_returns.py,cases\too_many_returns.py
+D:\Research in Missing Metrics\Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_statements.py,cases\too_many_statements.py

@@ -1,0 +1,7 @@
+file,line,warning,message,detected_nesting_depth
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_6_violation.py,6,too-many-nested-blocks,Too many nested blocks (6/5),6
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_7_violation.py,6,too-many-nested-blocks,Too many nested blocks (7/5),7
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_8_violation.py,6,too-many-nested-blocks,Too many nested blocks (8/5),8
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\mixed_loop_nesting.py,7,too-many-nested-blocks,Too many nested blocks (10/5),10
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py,6,too-many-nested-blocks,Too many nested blocks (6/5),6
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py,17,too-many-nested-blocks,Too many nested blocks (8/5),8

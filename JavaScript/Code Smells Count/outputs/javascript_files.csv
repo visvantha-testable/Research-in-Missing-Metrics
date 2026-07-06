@@ -1,0 +1,13 @@
+absolute_path,relative_path,extension
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\clean.js,cases\clean.js,.js
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\complexity.js,cases\complexity.js,.js
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\duplicate_imports.js,cases\duplicate_imports.js,.js
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_depth.js,cases\max_depth.js,.js
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_lines.js,cases\max_lines.js,.js
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_params.js,cases\max_params.js,.js
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_statements.js,cases\max_statements.js,.js
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\shadow.js,cases\shadow.js,.js
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\unreachable.js,cases\unreachable.js,.js
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\unused_vars.js,cases\unused_vars.js,.js
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\eslint.config.js,eslint.config.js,.js
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\utils.js,utils.js,.js

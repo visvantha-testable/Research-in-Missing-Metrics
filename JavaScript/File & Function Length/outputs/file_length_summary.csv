@@ -1,0 +1,5 @@
+file,file_length
+D:\Research in Missing Metrics\JavaScript\File & Function Length\workspace\file_function_length_benchmark\cases\clean.js,4
+D:\Research in Missing Metrics\JavaScript\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.js,56
+D:\Research in Missing Metrics\JavaScript\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.js,16
+D:\Research in Missing Metrics\JavaScript\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.js,11

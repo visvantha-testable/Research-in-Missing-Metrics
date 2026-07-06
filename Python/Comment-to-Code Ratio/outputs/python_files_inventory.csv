@@ -1,0 +1,5 @@
+file_path,file_name,directory
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\clean.py,clean.py,D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\heavily_commented.py,heavily_commented.py,D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\moderate.py,moderate.py,D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\sparse_comments.py,sparse_comments.py,D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases

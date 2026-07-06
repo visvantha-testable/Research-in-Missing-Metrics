@@ -1,0 +1,70 @@
+{
+  "benchmark_name": "nesting_depth_benchmark",
+  "description": "Deterministic Pylint nesting-depth benchmark for raw-output metric validation.",
+  "pylint_rule": "R1702",
+  "pylint_symbol": "too-many-nested-blocks",
+  "max_nested_blocks_default": 5,
+  "python_file_count": 7,
+  "expected_nesting_findings_count": 6,
+  "expected_files_with_no_nesting_violation": [
+    "cases/clean_flat.py",
+    "cases/depth_5_at_limit.py"
+  ],
+  "expected_nesting_findings": [
+    {
+      "file_suffix": "cases/depth_6_violation.py",
+      "line": 6,
+      "function": "depth_six",
+      "message": "Too many nested blocks (6/5)",
+      "detected_nesting_depth": 6,
+      "max_allowed": 5
+    },
+    {
+      "file_suffix": "cases/depth_7_violation.py",
+      "line": 6,
+      "function": "depth_seven",
+      "message": "Too many nested blocks (7/5)",
+      "detected_nesting_depth": 7,
+      "max_allowed": 5
+    },
+    {
+      "file_suffix": "cases/depth_8_violation.py",
+      "line": 6,
+      "function": "depth_eight",
+      "message": "Too many nested blocks (8/5)",
+      "detected_nesting_depth": 8,
+      "max_allowed": 5
+    },
+    {
+      "file_suffix": "cases/mixed_loop_nesting.py",
+      "line": 7,
+      "function": "loop_nesting",
+      "message": "Too many nested blocks (10/5)",
+      "detected_nesting_depth": 10,
+      "max_allowed": 5
+    },
+    {
+      "file_suffix": "cases/multi_violation_file.py",
+      "line": 6,
+      "function": "minor_violation",
+      "message": "Too many nested blocks (6/5)",
+      "detected_nesting_depth": 6,
+      "max_allowed": 5
+    },
+    {
+      "file_suffix": "cases/multi_violation_file.py",
+      "line": 17,
+      "function": "major_violation",
+      "message": "Too many nested blocks (8/5)",
+      "detected_nesting_depth": 8,
+      "max_allowed": 5
+    }
+  ],
+  "evaluation_criteria": {
+    "raw_output_must_contain_all_messages": true,
+    "json_must_match_expected_count": true,
+    "csv_must_match_expected_count": true,
+    "detected_depth_must_match_expected": true,
+    "clean_files_must_have_zero_R1702": true
+  }
+}

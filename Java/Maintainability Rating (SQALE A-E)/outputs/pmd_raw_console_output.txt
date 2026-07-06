@@ -1,0 +1,14 @@
+===== pmd check (text) =====
+Error: LinkageError occurred while loading main class net.sourceforge.pmd.cli.PmdCli
+	java.lang.ExceptionInInitializerError: null
+Runtime.exit(1) logging failed: Could not initialize class jdk.internal.module.SystemModuleFinders$SystemImage
+
+===== pmd check (csv) =====
+Error: LinkageError occurred while loading main class net.sourceforge.pmd.cli.PmdCli
+	java.lang.ExceptionInInitializerError: null
+Runtime.exit(1) logging failed: Could not initialize class jdk.internal.module.SystemModuleFinders$SystemImage
+
+===== pmd check (json) =====
+Error: LinkageError occurred while loading main class net.sourceforge.pmd.cli.PmdCli
+	java.lang.ExceptionInInitializerError: null
+Runtime.exit(1) logging failed: Could not initialize class jdk.internal.module.SystemModuleFinders$SystemImage

@@ -1,0 +1,224 @@
+************* Module clean
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\clean.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 5.00/10 (previous run: 0.00/10, +5.00)
+
+************* Module duplicate_code_a
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\duplicate_code_a.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 9.17/10
+
+************* Module duplicate_code_b
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\duplicate_code_b.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 9.17/10
+
+************* Module too_many_ancestors
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:8:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:12:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:12:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:16:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:16:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:20:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:24:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:24:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:28:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:28:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:32:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:32:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+
+************* Module too_many_arguments
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_arguments.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_arguments.py:4:0: R0913: Too many arguments (8/5) (too-many-arguments)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_arguments.py:4:0: R0917: Too many positional arguments (8/5) (too-many-positional-arguments)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+
+************* Module too_many_boolean_expressions
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_boolean_expressions.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_boolean_expressions.py:4:0: R0913: Too many arguments (6/5) (too-many-arguments)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_boolean_expressions.py:4:0: R0917: Too many positional arguments (6/5) (too-many-positional-arguments)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_boolean_expressions.py:5:7: R0916: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+
+************* Module too_many_branches
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_branches.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_branches.py:4:0: R0911: Too many return statements (15/6) (too-many-return-statements)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_branches.py:4:0: R0912: Too many branches (14/12) (too-many-branches)
+
+-----------------------------------
+Your code has been rated at 9.00/10
+
+************* Module too_many_instance_attributes
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_instance_attributes.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_instance_attributes.py:4:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_instance_attributes.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 7.50/10
+
+************* Module too_many_locals
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_locals.py:21:0: C0301: Line too long (104/100) (line-too-long)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_locals.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_locals.py:4:0: R0914: Too many local variables (17/15) (too-many-locals)
+
+-----------------------------------
+Your code has been rated at 8.33/10
+
+************* Module too_many_nested_blocks
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_nested_blocks.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_nested_blocks.py:5:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+
+-----------------------------------
+Your code has been rated at 7.78/10
+
+************* Module too_many_public_methods
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:5:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:8:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:32:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:38:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:44:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:47:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:50:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:53:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:56:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:59:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:62:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:65:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:4:0: R0904: Too many public methods (21/20) (too-many-public-methods)
+
+-----------------------------------
+Your code has been rated at 4.65/10
+
+************* Module too_many_returns
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_returns.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_returns.py:4:0: R0911: Too many return statements (9/6) (too-many-return-statements)
+
+-----------------------------------
+Your code has been rated at 8.89/10
+
+************* Module too_many_statements
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_statements.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_statements.py:4:0: R0915: Too many statements (56/50) (too-many-statements)
+
+-----------------------------------
+Your code has been rated at 9.65/10
+
+************* Module cases.clean
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\clean.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module cases.duplicate_code_a
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\duplicate_code_a.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module cases.duplicate_code_b
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\duplicate_code_b.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module cases.too_many_ancestors
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:8:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:8:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:12:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:12:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:16:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:16:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:20:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:24:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:24:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:28:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:28:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:32:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_ancestors.py:32:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+************* Module cases.too_many_arguments
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_arguments.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_arguments.py:4:0: R0913: Too many arguments (8/5) (too-many-arguments)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_arguments.py:4:0: R0917: Too many positional arguments (8/5) (too-many-positional-arguments)
+************* Module cases.too_many_boolean_expressions
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_boolean_expressions.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_boolean_expressions.py:4:0: R0913: Too many arguments (6/5) (too-many-arguments)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_boolean_expressions.py:4:0: R0917: Too many positional arguments (6/5) (too-many-positional-arguments)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_boolean_expressions.py:5:7: R0916: Too many boolean expressions in if statement (6/5) (too-many-boolean-expressions)
+************* Module cases.too_many_branches
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_branches.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_branches.py:4:0: R0911: Too many return statements (15/6) (too-many-return-statements)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_branches.py:4:0: R0912: Too many branches (14/12) (too-many-branches)
+************* Module cases.too_many_instance_attributes
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_instance_attributes.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_instance_attributes.py:4:0: R0902: Too many instance attributes (10/7) (too-many-instance-attributes)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_instance_attributes.py:4:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+************* Module cases.too_many_locals
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_locals.py:21:0: C0301: Line too long (104/100) (line-too-long)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_locals.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_locals.py:4:0: R0914: Too many local variables (17/15) (too-many-locals)
+************* Module cases.too_many_nested_blocks
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_nested_blocks.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_nested_blocks.py:5:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+************* Module cases.too_many_public_methods
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:4:0: C0115: Missing class docstring (missing-class-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:5:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:8:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:14:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:17:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:23:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:29:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:32:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:35:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:38:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:41:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:44:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:47:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:50:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:53:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:56:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:59:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:62:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:65:4: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_public_methods.py:4:0: R0904: Too many public methods (21/20) (too-many-public-methods)
+************* Module cases.too_many_returns
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_returns.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_returns.py:4:0: R0911: Too many return statements (9/6) (too-many-return-statements)
+************* Module cases.too_many_statements
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_statements.py:4:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_statements.py:4:0: R0915: Too many statements (56/50) (too-many-statements)
+Python\Code Smells Count\workspace\code_smells_benchmark\cases\too_many_statements.py:1:0: R0801: Similar lines in 2 files
+==cases.duplicate_code_a:[4:15]
+==cases.duplicate_code_b:[4:15]
+    result = 0
+    if x > 0:
+        result += x
+    if y > 0:
+        result += y
+    if z > 0:
+        result += z
+    for item in [x, y, z]:
+        if item % 2 == 0:
+            result += item
+    return result (duplicate-code)
+
+-----------------------------------
+Your code has been rated at 7.23/10
+

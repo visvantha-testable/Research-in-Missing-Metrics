@@ -1,0 +1,2 @@
+file,line,column,severity,rule,message
+D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases\long_parameter_list.js,1,1,2,max-params,Function 'tooManyParameters' has too many parameters (8). Maximum allowed is 5.

@@ -1,0 +1,4 @@
+file,total_lines,comment_lines,javadoc_lines,block_comment_lines,single_comment_lines,code_lines
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java,7,0,0,0,0,6
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java,34,18,14,1,3,12
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java,11,0,0,0,0,9

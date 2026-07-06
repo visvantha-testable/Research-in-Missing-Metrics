@@ -1,0 +1,6 @@
+file_path,file_name,directory
+D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases\arg_variants.js,arg_variants.js,D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases
+D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases\clean.js,clean.js,D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases
+D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases\long_parameter_list.js,long_parameter_list.js,D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases
+D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases\moderate_params.js,moderate_params.js,D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases
+D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases\nested_control.js,nested_control.js,D:\Research in Missing Metrics\JavaScript\Parameter Count\workspace\parameter_count_benchmark\cases

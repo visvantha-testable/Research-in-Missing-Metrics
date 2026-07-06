@@ -1,0 +1,157 @@
+{
+  "benchmark_passed": true,
+  "expected_nesting_findings_count": 6,
+  "actual_nesting_findings_count": 6,
+  "count_match": true,
+  "finding_checks": [
+    {
+      "expected": {
+        "file_suffix": "cases/depth_6_violation.py",
+        "line": 6,
+        "function": "depth_six",
+        "message": "Too many nested blocks (6/5)",
+        "detected_nesting_depth": 6,
+        "max_allowed": 5
+      },
+      "matched": true,
+      "actual": {
+        "file_suffix": "cases/depth_6_violation.py",
+        "line": 6,
+        "function": "depth_six",
+        "message": "Too many nested blocks (6/5)",
+        "detected_nesting_depth": 6
+      }
+    },
+    {
+      "expected": {
+        "file_suffix": "cases/depth_7_violation.py",
+        "line": 6,
+        "function": "depth_seven",
+        "message": "Too many nested blocks (7/5)",
+        "detected_nesting_depth": 7,
+        "max_allowed": 5
+      },
+      "matched": true,
+      "actual": {
+        "file_suffix": "cases/depth_7_violation.py",
+        "line": 6,
+        "function": "depth_seven",
+        "message": "Too many nested blocks (7/5)",
+        "detected_nesting_depth": 7
+      }
+    },
+    {
+      "expected": {
+        "file_suffix": "cases/depth_8_violation.py",
+        "line": 6,
+        "function": "depth_eight",
+        "message": "Too many nested blocks (8/5)",
+        "detected_nesting_depth": 8,
+        "max_allowed": 5
+      },
+      "matched": true,
+      "actual": {
+        "file_suffix": "cases/depth_8_violation.py",
+        "line": 6,
+        "function": "depth_eight",
+        "message": "Too many nested blocks (8/5)",
+        "detected_nesting_depth": 8
+      }
+    },
+    {
+      "expected": {
+        "file_suffix": "cases/mixed_loop_nesting.py",
+        "line": 7,
+        "function": "loop_nesting",
+        "message": "Too many nested blocks (10/5)",
+        "detected_nesting_depth": 10,
+        "max_allowed": 5
+      },
+      "matched": true,
+      "actual": {
+        "file_suffix": "cases/mixed_loop_nesting.py",
+        "line": 7,
+        "function": "loop_nesting",
+        "message": "Too many nested blocks (10/5)",
+        "detected_nesting_depth": 10
+      }
+    },
+    {
+      "expected": {
+        "file_suffix": "cases/multi_violation_file.py",
+        "line": 6,
+        "function": "minor_violation",
+        "message": "Too many nested blocks (6/5)",
+        "detected_nesting_depth": 6,
+        "max_allowed": 5
+      },
+      "matched": true,
+      "actual": {
+        "file_suffix": "cases/multi_violation_file.py",
+        "line": 6,
+        "function": "minor_violation",
+        "message": "Too many nested blocks (6/5)",
+        "detected_nesting_depth": 6
+      }
+    },
+    {
+      "expected": {
+        "file_suffix": "cases/multi_violation_file.py",
+        "line": 17,
+        "function": "major_violation",
+        "message": "Too many nested blocks (8/5)",
+        "detected_nesting_depth": 8,
+        "max_allowed": 5
+      },
+      "matched": true,
+      "actual": {
+        "file_suffix": "cases/multi_violation_file.py",
+        "line": 17,
+        "function": "major_violation",
+        "message": "Too many nested blocks (8/5)",
+        "detected_nesting_depth": 8
+      }
+    }
+  ],
+  "clean_file_checks": [
+    {
+      "file_suffix": "cases/clean_flat.py",
+      "no_violation": true
+    },
+    {
+      "file_suffix": "cases/depth_5_at_limit.py",
+      "no_violation": true
+    }
+  ],
+  "raw_output_message_checks": [
+    {
+      "message": "Too many nested blocks (6/5)",
+      "present_in_raw_output": true
+    },
+    {
+      "message": "Too many nested blocks (7/5)",
+      "present_in_raw_output": true
+    },
+    {
+      "message": "Too many nested blocks (8/5)",
+      "present_in_raw_output": true
+    },
+    {
+      "message": "Too many nested blocks (10/5)",
+      "present_in_raw_output": true
+    },
+    {
+      "message": "Too many nested blocks (6/5)",
+      "present_in_raw_output": true
+    },
+    {
+      "message": "Too many nested blocks (8/5)",
+      "present_in_raw_output": true
+    }
+  ],
+  "all_expected_findings_matched": true,
+  "all_clean_files_clean": true,
+  "all_messages_in_raw_output": true,
+  "benchmark_repo": "D:\\Research in Missing Metrics\\Python\\Maintainability Nesting Depth\\workspace\\nesting_depth_benchmark",
+  "generated_at_utc": "2026-07-02T13:06:11.966753+00:00"
+}

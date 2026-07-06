@@ -1,0 +1,6 @@
+{
+  "name": "js-code-smells-benchmark",
+  "private": true,
+  "type": "module",
+  "description": "ESLint code smells benchmark for JavaScript maintainability extraction"
+}

@@ -1,0 +1,5 @@
+metric_name,metric_value
+Cyclomatic_Complexity,52
+Function_Length,54
+Maximum_Nesting_Depth,105
+Token_Count,471

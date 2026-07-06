@@ -1,0 +1,14 @@
+file,line,severity,rule_id,message,cwe
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/duplicate_expression.c,2,style,knownConditionTrueFalse,Condition 'a==b' is always true,571
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/duplicate_expression.c,2,style,duplicateExpression,Same expression on both sides of '&&'.,398
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/passed_by_value.c,2,style,unusedStructMember,struct member 'LargeStruct::data' is never used.,563
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/passed_by_value.c,7,style,unreadVariable,Variable 's.flag' is assigned a value that is never used.,563
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/shadow_variable.c,4,style,shadowVariable,Local variable 'x' shadows outer variable,398
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/shadow_variable.c,2,style,shadowVariable,Local variable 'x' shadows outer variable,398
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/shadow_variable.c,4,style,unreadVariable,Variable 'x' is assigned a value that is never used.,563
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/shadow_variable.c,5,style,unreadVariable,Variable 'x' is assigned a value that is never used.,563
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/unread_variable.c,2,style,unreadVariable,Variable 'unread' is assigned a value that is never used.,563
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/unused_struct_member.c,3,style,unusedStructMember,struct member 'Widget::unused_field' is never used.,563
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/runner.c,16,style,unusedFunction,The function 'benchmark_runner' is never used.,561
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/unused_function.c,4,style,unusedFunction,The function 'never_called' is never used.,561
+D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/function_static.c,1,style,staticFunction,The function 'helper_for_static' should have static linkage since it is not used outside of its translation unit.,

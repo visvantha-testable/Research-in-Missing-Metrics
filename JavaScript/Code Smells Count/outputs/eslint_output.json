@@ -1,0 +1,268 @@
+[
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\cases\\clean.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\cases\\complexity.js",
+    "messages": [
+      {
+        "ruleId": "complexity",
+        "severity": 1,
+        "message": "Function 'complexityDemo' has a complexity of 12. Maximum allowed is 10.",
+        "line": 1,
+        "column": 8,
+        "messageId": "complex",
+        "endLine": 1,
+        "endColumn": 31
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "export function complexityDemo(value) {\r\n  if (value > 0) return 1;\r\n  if (value > 1) return 2;\r\n  if (value > 2) return 3;\r\n  if (value > 3) return 4;\r\n  if (value > 4) return 5;\r\n  if (value > 5) return 6;\r\n  if (value > 6) return 7;\r\n  if (value > 7) return 8;\r\n  if (value > 8) return 9;\r\n  if (value > 9) return 10;\r\n  if (value > 10) return 11;\r\n  return 0;\r\n}\r\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\cases\\duplicate_imports.js",
+    "messages": [
+      {
+        "ruleId": "no-duplicate-imports",
+        "severity": 1,
+        "message": "'./utils.js' import is duplicated.",
+        "line": 2,
+        "column": 1,
+        "messageId": "import",
+        "endLine": 2,
+        "endColumn": 38
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "import { helperA } from './utils.js';\r\nimport { helperB } from './utils.js';\r\n\r\nexport function duplicateImportsDemo() {\r\n  return helperA() + helperB();\r\n}\r\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\cases\\max_depth.js",
+    "messages": [
+      {
+        "ruleId": "max-depth",
+        "severity": 1,
+        "message": "Blocks are nested too deeply (5). Maximum allowed is 4.",
+        "line": 6,
+        "column": 11,
+        "messageId": "tooDeeply",
+        "endLine": 6,
+        "endColumn": 13
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "export function maxDepthDemo(value) {\r\n  if (value > 0) {\r\n    if (value > 1) {\r\n      if (value > 2) {\r\n        if (value > 3) {\r\n          if (value > 4) {\r\n            return value;\r\n          }\r\n        }\r\n      }\r\n    }\r\n  }\r\n  return 0;\r\n}\r\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\cases\\max_lines.js",
+    "messages": [
+      {
+        "ruleId": "max-lines-per-function",
+        "severity": 1,
+        "message": "Function 'longFunction' has too many lines (55). Maximum allowed is 50.",
+        "line": 1,
+        "column": 8,
+        "messageId": "exceed",
+        "endLine": 1,
+        "endColumn": 29
+      },
+      {
+        "ruleId": "max-statements",
+        "severity": 1,
+        "message": "Function 'longFunction' has too many statements (53). Maximum allowed is 20.",
+        "line": 1,
+        "column": 8,
+        "messageId": "exceed",
+        "endLine": 1,
+        "endColumn": 29
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 2,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "export function longFunction(seed) {\r\n  let total = seed;\r\n  total += 1;\r\n  total += 2;\r\n  total += 3;\r\n  total += 4;\r\n  total += 5;\r\n  total += 6;\r\n  total += 7;\r\n  total += 8;\r\n  total += 9;\r\n  total += 10;\r\n  total += 11;\r\n  total += 12;\r\n  total += 13;\r\n  total += 14;\r\n  total += 15;\r\n  total += 16;\r\n  total += 17;\r\n  total += 18;\r\n  total += 19;\r\n  total += 20;\r\n  total += 21;\r\n  total += 22;\r\n  total += 23;\r\n  total += 24;\r\n  total += 25;\r\n  total += 26;\r\n  total += 27;\r\n  total += 28;\r\n  total += 29;\r\n  total += 30;\r\n  total += 31;\r\n  total += 32;\r\n  total += 33;\r\n  total += 34;\r\n  total += 35;\r\n  total += 36;\r\n  total += 37;\r\n  total += 38;\r\n  total += 39;\r\n  total += 40;\r\n  total += 41;\r\n  total += 42;\r\n  total += 43;\r\n  total += 44;\r\n  total += 45;\r\n  total += 46;\r\n  total += 47;\r\n  total += 48;\r\n  total += 49;\r\n  total += 50;\r\n  total += 51;\r\n  return total;\r\n}\r\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\cases\\max_params.js",
+    "messages": [
+      {
+        "ruleId": "max-params",
+        "severity": 1,
+        "message": "Function 'tooManyParams' has too many parameters (6). Maximum allowed is 5.",
+        "line": 1,
+        "column": 8,
+        "messageId": "exceed",
+        "endLine": 1,
+        "endColumn": 30
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "export function tooManyParams(a, b, c, d, e, f) {\r\n  return a + b + c + d + e + f;\r\n}\r\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\cases\\max_statements.js",
+    "messages": [
+      {
+        "ruleId": "max-statements",
+        "severity": 1,
+        "message": "Function 'manyStatements' has too many statements (23). Maximum allowed is 20.",
+        "line": 1,
+        "column": 8,
+        "messageId": "exceed",
+        "endLine": 1,
+        "endColumn": 31
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "export function manyStatements(seed) {\r\n  let a = seed;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  a += 1;\r\n  return a;\r\n}\r\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\cases\\shadow.js",
+    "messages": [
+      {
+        "ruleId": "no-shadow",
+        "severity": 1,
+        "message": "'outer' is already declared in the upper scope on line 1 column 28.",
+        "line": 3,
+        "column": 11,
+        "messageId": "noShadow",
+        "endLine": 3,
+        "endColumn": 16
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "export function shadowDemo(outer) {\r\n  function inner() {\r\n    const outer = 10;\r\n    return outer;\r\n  }\r\n  return inner() + outer;\r\n}\r\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\cases\\unreachable.js",
+    "messages": [
+      {
+        "ruleId": "no-unreachable",
+        "severity": 1,
+        "message": "Unreachable code.",
+        "line": 4,
+        "column": 5,
+        "messageId": "unreachableCode",
+        "endLine": 5,
+        "endColumn": 24
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "export function unreachableDemo(flag) {\r\n  if (flag) {\r\n    return 1;\r\n    const unreachable = 99;\r\n    return unreachable;\r\n  }\r\n  return 0;\r\n}\r\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\cases\\unused_vars.js",
+    "messages": [
+      {
+        "ruleId": "no-unused-vars",
+        "severity": 1,
+        "message": "'unused' is assigned a value but never used.",
+        "line": 2,
+        "column": 9,
+        "messageId": "unusedVar",
+        "endLine": 2,
+        "endColumn": 15,
+        "suggestions": [
+          {
+            "messageId": "removeVar",
+            "data": {
+              "varName": "unused"
+            },
+            "fix": {
+              "range": [
+                42,
+                60
+              ],
+              "text": ""
+            },
+            "desc": "Remove unused variable 'unused'."
+          }
+        ]
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "export function unusedVariableDemo() {\r\n  const unused = 42;\r\n  return 0;\r\n}\r\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\eslint.config.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Code Smells Count\\workspace\\js_code_smells_benchmark\\utils.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  }
+]

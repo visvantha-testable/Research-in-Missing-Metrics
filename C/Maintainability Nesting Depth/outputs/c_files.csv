@@ -1,0 +1,5 @@
+absolute_path,relative_path,extension
+D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\depth_six.c,cases\depth_six.c,.c
+D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\depth_three.c,cases\depth_three.c,.c
+D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\flat.c,cases\flat.c,.c
+D:\Research in Missing Metrics\C\Maintainability Nesting Depth\workspace\c_nesting_benchmark\cases\loop_nesting.c,cases\loop_nesting.c,.c

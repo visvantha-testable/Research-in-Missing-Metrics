@@ -1,0 +1,16 @@
+file,h1,h2,N1,N2,vocabulary,length,volume,difficulty,effort,bugs,time
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\clean.py,1,2,1,2,3,3,4.754887502163469,0.5,2.3774437510817346,0.0015849625007211565,0.1320802083934297
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\complex.py,2,19,17,34,21,51,224.0081885617168,1.7894736842105263,400.85675847886165,0.07466939618723893,22.269819915492313
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\duplicate_code_a.py,4,8,9,18,12,27,96.79398751947123,4.5,435.5729438376205,0.03226466250649041,24.198496879867808
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\duplicate_code_b.py,4,8,9,18,12,27,96.79398751947123,4.5,435.5729438376205,0.03226466250649041,24.198496879867808
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\moderate.py,2,6,4,8,8,12,36.0,1.3333333333333333,48.0,0.012,2.6666666666666665
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_ancestors.py,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_arguments.py,1,14,7,14,15,21,82.0447025077789,0.5,41.02235125388945,0.02734823416925963,2.279019514104969
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_boolean_expressions.py,1,6,1,6,7,7,19.651484454403228,0.5,9.825742227201614,0.00655049481813441,0.5458745681778674
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_branches.py,2,14,14,28,16,42,168.0,2.0,336.0,0.056,18.666666666666668
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_instance_attributes.py,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_locals.py,1,47,31,62,48,93,519.4015125670676,0.6595744680851063,342.5839763740233,0.17313383752235587,19.032443131890183
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_nested_blocks.py,1,7,6,12,8,18,54.0,0.8571428571428571,46.285714285714285,0.018,2.571428571428571
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_public_methods.py,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_returns.py,3,8,9,17,11,26,89.94522208456974,3.1875,286.70039539456604,0.02998174069485658,15.927799744142558
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_statements.py,1,54,53,106,55,159,919.236194450421,0.9814814814814815,902.2133019605984,0.306412064816807,50.12296122003325

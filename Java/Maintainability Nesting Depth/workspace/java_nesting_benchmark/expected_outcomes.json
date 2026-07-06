@@ -1,0 +1,8 @@
+{
+  "benchmark_name": "java_nesting_benchmark",
+  "description": "Deterministic Java nesting-depth benchmark for PMD AvoidDeeplyNestedIfStmts validation.",
+  "rule": "AvoidDeeplyNestedIfStmts",
+  "problem_depth_default": 3,
+  "expected_nesting_findings_min": 2,
+  "notes": "DepthThree should not violate at default depth 3 threshold at the 3rd if start; DepthFourViolation and DepthSixViolation should violate."
+}

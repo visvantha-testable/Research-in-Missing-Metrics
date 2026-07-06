@@ -1,0 +1,31 @@
+
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\complexity.js
+  1:8  warning  Function 'complexityDemo' has a complexity of 12. Maximum allowed is 10  complexity
+
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\duplicate_imports.js
+  2:1  warning  './utils.js' import is duplicated  no-duplicate-imports
+
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_depth.js
+  6:11  warning  Blocks are nested too deeply (5). Maximum allowed is 4  max-depth
+
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_lines.js
+  1:8  warning  Function 'longFunction' has too many lines (55). Maximum allowed is 50       max-lines-per-function
+  1:8  warning  Function 'longFunction' has too many statements (53). Maximum allowed is 20  max-statements
+
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_params.js
+  1:8  warning  Function 'tooManyParams' has too many parameters (6). Maximum allowed is 5  max-params
+
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_statements.js
+  1:8  warning  Function 'manyStatements' has too many statements (23). Maximum allowed is 20  max-statements
+
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\shadow.js
+  3:11  warning  'outer' is already declared in the upper scope on line 1 column 28  no-shadow
+
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\unreachable.js
+  4:5  warning  Unreachable code  no-unreachable
+
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\unused_vars.js
+  2:9  warning  'unused' is assigned a value but never used  no-unused-vars
+
+✖ 10 problems (0 errors, 10 warnings)
+

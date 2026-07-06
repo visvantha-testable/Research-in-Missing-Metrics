@@ -1,0 +1,473 @@
+===== radon cc (text) =====
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\clean.py
+    F 4:0 add - A (1)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\complex.py
+    F 3:0 complex_router - C (13)
+    F 30:0 nested_decisions - A (5)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\duplicate_code_a.py
+    F 4:0 duplicate_logic_alpha - B (6)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\duplicate_code_b.py
+    F 4:0 duplicate_logic_beta - B (6)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\moderate.py
+    F 3:0 classify - A (4)
+    F 12:0 summarize - A (2)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_ancestors.py
+    C 4:0 Base01 - A (1)
+    C 8:0 Base02 - A (1)
+    C 12:0 Base03 - A (1)
+    C 16:0 Base04 - A (1)
+    C 20:0 Base05 - A (1)
+    C 24:0 Base06 - A (1)
+    C 28:0 Base07 - A (1)
+    C 32:0 DeepChild - A (1)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_arguments.py
+    F 4:0 too_many_arguments - A (1)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_boolean_expressions.py
+    F 4:0 too_many_boolean_expressions - B (7)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_branches.py
+    F 4:0 too_many_branches - C (15)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_instance_attributes.py
+    C 4:0 TooManyAttributes - A (2)
+    M 5:4 TooManyAttributes.__init__ - A (1)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_locals.py
+    F 4:0 too_many_locals - A (1)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_nested_blocks.py
+    F 4:0 too_many_nested_blocks - B (7)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_public_methods.py
+    C 4:0 TooManyPublicMethods - A (2)
+    M 5:4 TooManyPublicMethods.method01 - A (1)
+    M 8:4 TooManyPublicMethods.method02 - A (1)
+    M 11:4 TooManyPublicMethods.method03 - A (1)
+    M 14:4 TooManyPublicMethods.method04 - A (1)
+    M 17:4 TooManyPublicMethods.method05 - A (1)
+    M 20:4 TooManyPublicMethods.method06 - A (1)
+    M 23:4 TooManyPublicMethods.method07 - A (1)
+    M 26:4 TooManyPublicMethods.method08 - A (1)
+    M 29:4 TooManyPublicMethods.method09 - A (1)
+    M 32:4 TooManyPublicMethods.method10 - A (1)
+    M 35:4 TooManyPublicMethods.method11 - A (1)
+    M 38:4 TooManyPublicMethods.method12 - A (1)
+    M 41:4 TooManyPublicMethods.method13 - A (1)
+    M 44:4 TooManyPublicMethods.method14 - A (1)
+    M 47:4 TooManyPublicMethods.method15 - A (1)
+    M 50:4 TooManyPublicMethods.method16 - A (1)
+    M 53:4 TooManyPublicMethods.method17 - A (1)
+    M 56:4 TooManyPublicMethods.method18 - A (1)
+    M 59:4 TooManyPublicMethods.method19 - A (1)
+    M 62:4 TooManyPublicMethods.method20 - A (1)
+    M 65:4 TooManyPublicMethods.method21 - A (1)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_returns.py
+    F 4:0 too_many_returns - B (9)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_statements.py
+    F 4:0 too_many_statements - A (2)
+
+46 blocks (classes, functions, methods) analyzed.
+Average complexity: A (2.4565217391304346)
+
+===== radon cc (json) =====
+{"D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\clean.py": [{"type": "function", "rank": "A", "endline": 5, "name": "add", "complexity": 1, "lineno": 4, "col_offset": 0, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\complex.py": [{"type": "function", "rank": "C", "endline": 28, "name": "complex_router", "complexity": 13, "lineno": 3, "col_offset": 0, "closures": []}, {"type": "function", "rank": "A", "endline": 45, "name": "nested_decisions", "complexity": 5, "lineno": 30, "col_offset": 0, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\duplicate_code_a.py": [{"type": "function", "rank": "B", "endline": 15, "name": "duplicate_logic_alpha", "complexity": 6, "lineno": 4, "col_offset": 0, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\duplicate_code_b.py": [{"type": "function", "rank": "B", "endline": 15, "name": "duplicate_logic_beta", "complexity": 6, "lineno": 4, "col_offset": 0, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\moderate.py": [{"type": "function", "rank": "A", "endline": 10, "name": "classify", "complexity": 4, "lineno": 3, "col_offset": 0, "closures": []}, {"type": "function", "rank": "A", "endline": 16, "name": "summarize", "complexity": 2, "lineno": 12, "col_offset": 0, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_ancestors.py": [{"type": "class", "rank": "A", "endline": 5, "name": "Base01", "complexity": 1, "lineno": 4, "col_offset": 0, "methods": []}, {"type": "class", "rank": "A", "endline": 9, "name": "Base02", "complexity": 1, "lineno": 8, "col_offset": 0, "methods": []}, {"type": "class", "rank": "A", "endline": 13, "name": "Base03", "complexity": 1, "lineno": 12, "col_offset": 0, "methods": []}, {"type": "class", "rank": "A", "endline": 17, "name": "Base04", "complexity": 1, "lineno": 16, "col_offset": 0, "methods": []}, {"type": "class", "rank": "A", "endline": 21, "name": "Base05", "complexity": 1, "lineno": 20, "col_offset": 0, "methods": []}, {"type": "class", "rank": "A", "endline": 25, "name": "Base06", "complexity": 1, "lineno": 24, "col_offset": 0, "methods": []}, {"type": "class", "rank": "A", "endline": 29, "name": "Base07", "complexity": 1, "lineno": 28, "col_offset": 0, "methods": []}, {"type": "class", "rank": "A", "endline": 33, "name": "DeepChild", "complexity": 1, "lineno": 32, "col_offset": 0, "methods": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_arguments.py": [{"type": "function", "rank": "A", "endline": 5, "name": "too_many_arguments", "complexity": 1, "lineno": 4, "col_offset": 0, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_boolean_expressions.py": [{"type": "function", "rank": "B", "endline": 7, "name": "too_many_boolean_expressions", "complexity": 7, "lineno": 4, "col_offset": 0, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_branches.py": [{"type": "function", "rank": "C", "endline": 33, "name": "too_many_branches", "complexity": 15, "lineno": 4, "col_offset": 0, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_instance_attributes.py": [{"type": "class", "rank": "A", "endline": 15, "name": "TooManyAttributes", "complexity": 2, "lineno": 4, "col_offset": 0, "methods": [{"type": "method", "rank": "A", "classname": "TooManyAttributes", "endline": 15, "name": "__init__", "complexity": 1, "lineno": 5, "col_offset": 4, "closures": []}]}, {"type": "method", "rank": "A", "classname": "TooManyAttributes", "endline": 15, "name": "__init__", "complexity": 1, "lineno": 5, "col_offset": 4, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_locals.py": [{"type": "function", "rank": "A", "endline": 21, "name": "too_many_locals", "complexity": 1, "lineno": 4, "col_offset": 0, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_nested_blocks.py": [{"type": "function", "rank": "B", "endline": 12, "name": "too_many_nested_blocks", "complexity": 7, "lineno": 4, "col_offset": 0, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_public_methods.py": [{"type": "class", "rank": "A", "endline": 66, "name": "TooManyPublicMethods", "complexity": 2, "lineno": 4, "col_offset": 0, "methods": [{"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 6, "name": "method01", "complexity": 1, "lineno": 5, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 9, "name": "method02", "complexity": 1, "lineno": 8, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 12, "name": "method03", "complexity": 1, "lineno": 11, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 15, "name": "method04", "complexity": 1, "lineno": 14, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 18, "name": "method05", "complexity": 1, "lineno": 17, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 21, "name": "method06", "complexity": 1, "lineno": 20, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 24, "name": "method07", "complexity": 1, "lineno": 23, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 27, "name": "method08", "complexity": 1, "lineno": 26, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 30, "name": "method09", "complexity": 1, "lineno": 29, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 33, "name": "method10", "complexity": 1, "lineno": 32, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 36, "name": "method11", "complexity": 1, "lineno": 35, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 39, "name": "method12", "complexity": 1, "lineno": 38, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 42, "name": "method13", "complexity": 1, "lineno": 41, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 45, "name": "method14", "complexity": 1, "lineno": 44, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 48, "name": "method15", "complexity": 1, "lineno": 47, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 51, "name": "method16", "complexity": 1, "lineno": 50, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 54, "name": "method17", "complexity": 1, "lineno": 53, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 57, "name": "method18", "complexity": 1, "lineno": 56, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 60, "name": "method19", "complexity": 1, "lineno": 59, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 63, "name": "method20", "complexity": 1, "lineno": 62, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 66, "name": "method21", "complexity": 1, "lineno": 65, "col_offset": 4, "closures": []}]}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 6, "name": "method01", "complexity": 1, "lineno": 5, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 9, "name": "method02", "complexity": 1, "lineno": 8, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 12, "name": "method03", "complexity": 1, "lineno": 11, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 15, "name": "method04", "complexity": 1, "lineno": 14, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 18, "name": "method05", "complexity": 1, "lineno": 17, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 21, "name": "method06", "complexity": 1, "lineno": 20, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 24, "name": "method07", "complexity": 1, "lineno": 23, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 27, "name": "method08", "complexity": 1, "lineno": 26, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 30, "name": "method09", "complexity": 1, "lineno": 29, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 33, "name": "method10", "complexity": 1, "lineno": 32, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 36, "name": "method11", "complexity": 1, "lineno": 35, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 39, "name": "method12", "complexity": 1, "lineno": 38, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 42, "name": "method13", "complexity": 1, "lineno": 41, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 45, "name": "method14", "complexity": 1, "lineno": 44, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 48, "name": "method15", "complexity": 1, "lineno": 47, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 51, "name": "method16", "complexity": 1, "lineno": 50, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 54, "name": "method17", "complexity": 1, "lineno": 53, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 57, "name": "method18", "complexity": 1, "lineno": 56, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 60, "name": "method19", "complexity": 1, "lineno": 59, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 63, "name": "method20", "complexity": 1, "lineno": 62, "col_offset": 4, "closures": []}, {"type": "method", "rank": "A", "classname": "TooManyPublicMethods", "endline": 66, "name": "method21", "complexity": 1, "lineno": 65, "col_offset": 4, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_returns.py": [{"type": "function", "rank": "B", "endline": 21, "name": "too_many_returns", "complexity": 9, "lineno": 4, "col_offset": 0, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_statements.py": [{"type": "function", "rank": "A", "endline": 60, "name": "too_many_statements", "complexity": 2, "lineno": 4, "col_offset": 0, "closures": []}]}
+
+===== radon mi (text) =====
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\clean.py - A (84.72)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\complex.py - A (45.62)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\duplicate_code_a.py - A (60.99)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\duplicate_code_b.py - A (60.99)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\moderate.py - A (63.43)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_ancestors.py - A (100.00)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_arguments.py - A (76.06)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_boolean_expressions.py - A (74.75)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_branches.py - A (49.87)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_instance_attributes.py - A (100.00)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_locals.py - A (52.96)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_nested_blocks.py - A (65.11)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_public_methods.py - A (100.00)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_returns.py - A (57.21)
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_statements.py - A (40.51)
+
+===== radon mi (json) =====
+{"D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\clean.py": {"mi": 84.71624627594792, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\complex.py": {"mi": 45.62444945495979, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\duplicate_code_a.py": {"mi": 60.98852575051242, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\duplicate_code_b.py": {"mi": 60.98852575051242, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\moderate.py": {"mi": 63.42863905278425, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_ancestors.py": {"mi": 100.0, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_arguments.py": {"mi": 76.05538410353388, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_boolean_expressions.py": {"mi": 74.75480166166564, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_branches.py": {"mi": 49.86830093242322, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_instance_attributes.py": {"mi": 100.0, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_locals.py": {"mi": 52.95682282946973, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_nested_blocks.py": {"mi": 65.11427160898376, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_public_methods.py": {"mi": 100.0, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_returns.py": {"mi": 57.21300828161646, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_statements.py": {"mi": 40.513683684106944, "rank": "A"}}
+
+===== radon raw (text) =====
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\clean.py
+    LOC: 5
+    LLOC: 3
+    SLOC: 2
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\complex.py
+    LOC: 45
+    LLOC: 43
+    SLOC: 42
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\duplicate_code_a.py
+    LOC: 15
+    LLOC: 13
+    SLOC: 12
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\duplicate_code_b.py
+    LOC: 15
+    LLOC: 13
+    SLOC: 12
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\moderate.py
+    LOC: 16
+    LLOC: 14
+    SLOC: 13
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_ancestors.py
+    LOC: 33
+    LLOC: 17
+    SLOC: 16
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 16
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_arguments.py
+    LOC: 5
+    LLOC: 3
+    SLOC: 2
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_boolean_expressions.py
+    LOC: 7
+    LLOC: 5
+    SLOC: 4
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_branches.py
+    LOC: 33
+    LLOC: 31
+    SLOC: 30
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_instance_attributes.py
+    LOC: 15
+    LLOC: 13
+    SLOC: 12
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_locals.py
+    LOC: 21
+    LLOC: 19
+    SLOC: 18
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_nested_blocks.py
+    LOC: 12
+    LLOC: 10
+    SLOC: 9
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_public_methods.py
+    LOC: 66
+    LLOC: 44
+    SLOC: 43
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 22
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_returns.py
+    LOC: 21
+    LLOC: 19
+    SLOC: 18
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_statements.py
+    LOC: 60
+    LLOC: 58
+    SLOC: 57
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 2
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+
+===== radon raw (json) =====
+{"D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\clean.py": {"loc": 5, "lloc": 3, "sloc": 2, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\complex.py": {"loc": 45, "lloc": 43, "sloc": 42, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\duplicate_code_a.py": {"loc": 15, "lloc": 13, "sloc": 12, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\duplicate_code_b.py": {"loc": 15, "lloc": 13, "sloc": 12, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\moderate.py": {"loc": 16, "lloc": 14, "sloc": 13, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_ancestors.py": {"loc": 33, "lloc": 17, "sloc": 16, "comments": 0, "multi": 0, "blank": 16, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_arguments.py": {"loc": 5, "lloc": 3, "sloc": 2, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_boolean_expressions.py": {"loc": 7, "lloc": 5, "sloc": 4, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_branches.py": {"loc": 33, "lloc": 31, "sloc": 30, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_instance_attributes.py": {"loc": 15, "lloc": 13, "sloc": 12, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_locals.py": {"loc": 21, "lloc": 19, "sloc": 18, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_nested_blocks.py": {"loc": 12, "lloc": 10, "sloc": 9, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_public_methods.py": {"loc": 66, "lloc": 44, "sloc": 43, "comments": 0, "multi": 0, "blank": 22, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_returns.py": {"loc": 21, "lloc": 19, "sloc": 18, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_statements.py": {"loc": 60, "lloc": 58, "sloc": 57, "comments": 0, "multi": 0, "blank": 2, "single_comments": 1}}
+
+===== radon hal (text) =====
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\clean.py:
+    h1: 1
+    h2: 2
+    N1: 1
+    N2: 2
+    vocabulary: 3
+    length: 3
+    calculated_length: 2.0
+    volume: 4.754887502163469
+    difficulty: 0.5
+    effort: 2.3774437510817346
+    time: 0.1320802083934297
+    bugs: 0.0015849625007211565
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\complex.py:
+    h1: 2
+    h2: 19
+    N1: 17
+    N2: 34
+    vocabulary: 21
+    length: 51
+    calculated_length: 82.71062275542812
+    volume: 224.0081885617168
+    difficulty: 1.7894736842105263
+    effort: 400.85675847886165
+    time: 22.269819915492313
+    bugs: 0.07466939618723893
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\duplicate_code_a.py:
+    h1: 4
+    h2: 8
+    N1: 9
+    N2: 18
+    vocabulary: 12
+    length: 27
+    calculated_length: 32.0
+    volume: 96.79398751947123
+    difficulty: 4.5
+    effort: 435.5729438376205
+    time: 24.198496879867808
+    bugs: 0.03226466250649041
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\duplicate_code_b.py:
+    h1: 4
+    h2: 8
+    N1: 9
+    N2: 18
+    vocabulary: 12
+    length: 27
+    calculated_length: 32.0
+    volume: 96.79398751947123
+    difficulty: 4.5
+    effort: 435.5729438376205
+    time: 24.198496879867808
+    bugs: 0.03226466250649041
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\moderate.py:
+    h1: 2
+    h2: 6
+    N1: 4
+    N2: 8
+    vocabulary: 8
+    length: 12
+    calculated_length: 17.509775004326936
+    volume: 36.0
+    difficulty: 1.3333333333333333
+    effort: 48.0
+    time: 2.6666666666666665
+    bugs: 0.012
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_ancestors.py:
+    h1: 0
+    h2: 0
+    N1: 0
+    N2: 0
+    vocabulary: 0
+    length: 0
+    calculated_length: 0
+    volume: 0
+    difficulty: 0
+    effort: 0
+    time: 0.0
+    bugs: 0.0
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_arguments.py:
+    h1: 1
+    h2: 14
+    N1: 7
+    N2: 14
+    vocabulary: 15
+    length: 21
+    calculated_length: 53.30296890880645
+    volume: 82.0447025077789
+    difficulty: 0.5
+    effort: 41.02235125388945
+    time: 2.279019514104969
+    bugs: 0.02734823416925963
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_boolean_expressions.py:
+    h1: 1
+    h2: 6
+    N1: 1
+    N2: 6
+    vocabulary: 7
+    length: 7
+    calculated_length: 15.509775004326936
+    volume: 19.651484454403228
+    difficulty: 0.5
+    effort: 9.825742227201614
+    time: 0.5458745681778674
+    bugs: 0.00655049481813441
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_branches.py:
+    h1: 2
+    h2: 14
+    N1: 14
+    N2: 28
+    vocabulary: 16
+    length: 42
+    calculated_length: 55.30296890880645
+    volume: 168.0
+    difficulty: 2.0
+    effort: 336.0
+    time: 18.666666666666668
+    bugs: 0.056
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_instance_attributes.py:
+    h1: 0
+    h2: 0
+    N1: 0
+    N2: 0
+    vocabulary: 0
+    length: 0
+    calculated_length: 0
+    volume: 0
+    difficulty: 0
+    effort: 0
+    time: 0.0
+    bugs: 0.0
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_locals.py:
+    h1: 1
+    h2: 47
+    N1: 31
+    N2: 62
+    vocabulary: 48
+    length: 93
+    calculated_length: 261.06567602884894
+    volume: 519.4015125670676
+    difficulty: 0.6595744680851063
+    effort: 342.5839763740233
+    time: 19.032443131890183
+    bugs: 0.17313383752235587
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_nested_blocks.py:
+    h1: 1
+    h2: 7
+    N1: 6
+    N2: 12
+    vocabulary: 8
+    length: 18
+    calculated_length: 19.651484454403228
+    volume: 54.0
+    difficulty: 0.8571428571428571
+    effort: 46.285714285714285
+    time: 2.571428571428571
+    bugs: 0.018
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_public_methods.py:
+    h1: 0
+    h2: 0
+    N1: 0
+    N2: 0
+    vocabulary: 0
+    length: 0
+    calculated_length: 0
+    volume: 0
+    difficulty: 0
+    effort: 0
+    time: 0.0
+    bugs: 0.0
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_returns.py:
+    h1: 3
+    h2: 8
+    N1: 9
+    N2: 17
+    vocabulary: 11
+    length: 26
+    calculated_length: 28.75488750216347
+    volume: 89.94522208456974
+    difficulty: 3.1875
+    effort: 286.70039539456604
+    time: 15.927799744142558
+    bugs: 0.02998174069485658
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A�E)\workspace\sqale_rating_benchmark\cases\too_many_statements.py:
+    h1: 1
+    h2: 54
+    N1: 53
+    N2: 106
+    vocabulary: 55
+    length: 159
+    calculated_length: 310.76392511682735
+    volume: 919.236194450421
+    difficulty: 0.9814814814814815
+    effort: 902.2133019605984
+    time: 50.12296122003325
+    bugs: 0.306412064816807
+
+===== radon hal (json) =====
+{"D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\clean.py": {"total": {"h1": 1, "h2": 2, "N1": 1, "N2": 2, "vocabulary": 3, "length": 3, "calculated_length": 2.0, "volume": 4.754887502163469, "difficulty": 0.5, "effort": 2.3774437510817346, "time": 0.1320802083934297, "bugs": 0.0015849625007211565}, "functions": {"add": {"h1": 1, "h2": 2, "N1": 1, "N2": 2, "vocabulary": 3, "length": 3, "calculated_length": 2.0, "volume": 4.754887502163469, "difficulty": 0.5, "effort": 2.3774437510817346, "time": 0.1320802083934297, "bugs": 0.0015849625007211565}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\complex.py": {"total": {"h1": 2, "h2": 19, "N1": 17, "N2": 34, "vocabulary": 21, "length": 51, "calculated_length": 82.71062275542812, "volume": 224.0081885617168, "difficulty": 1.7894736842105263, "effort": 400.85675847886165, "time": 22.269819915492313, "bugs": 0.07466939618723893}, "functions": {"complex_router": {"h1": 1, "h2": 13, "N1": 12, "N2": 24, "vocabulary": 14, "length": 36, "calculated_length": 48.105716335834195, "volume": 137.06477719407374, "difficulty": 0.9230769230769231, "effort": 126.52133279452961, "time": 7.0289629330294225, "bugs": 0.04568825906469125}, "nested_decisions": {"h1": 1, "h2": 6, "N1": 5, "N2": 10, "vocabulary": 7, "length": 15, "calculated_length": 15.509775004326936, "volume": 42.11032383086406, "difficulty": 0.8333333333333334, "effort": 35.09193652572005, "time": 1.9495520292066695, "bugs": 0.01403677461028802}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\duplicate_code_a.py": {"total": {"h1": 4, "h2": 8, "N1": 9, "N2": 18, "vocabulary": 12, "length": 27, "calculated_length": 32.0, "volume": 96.79398751947123, "difficulty": 4.5, "effort": 435.5729438376205, "time": 24.198496879867808, "bugs": 0.03226466250649041}, "functions": {"duplicate_logic_alpha": {"h1": 4, "h2": 8, "N1": 9, "N2": 18, "vocabulary": 12, "length": 27, "calculated_length": 32.0, "volume": 96.79398751947123, "difficulty": 4.5, "effort": 435.5729438376205, "time": 24.198496879867808, "bugs": 0.03226466250649041}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\duplicate_code_b.py": {"total": {"h1": 4, "h2": 8, "N1": 9, "N2": 18, "vocabulary": 12, "length": 27, "calculated_length": 32.0, "volume": 96.79398751947123, "difficulty": 4.5, "effort": 435.5729438376205, "time": 24.198496879867808, "bugs": 0.03226466250649041}, "functions": {"duplicate_logic_beta": {"h1": 4, "h2": 8, "N1": 9, "N2": 18, "vocabulary": 12, "length": 27, "calculated_length": 32.0, "volume": 96.79398751947123, "difficulty": 4.5, "effort": 435.5729438376205, "time": 24.198496879867808, "bugs": 0.03226466250649041}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\moderate.py": {"total": {"h1": 2, "h2": 6, "N1": 4, "N2": 8, "vocabulary": 8, "length": 12, "calculated_length": 17.509775004326936, "volume": 36.0, "difficulty": 1.3333333333333333, "effort": 48.0, "time": 2.6666666666666665, "bugs": 0.012}, "functions": {"classify": {"h1": 1, "h2": 4, "N1": 3, "N2": 6, "vocabulary": 5, "length": 9, "calculated_length": 8.0, "volume": 20.89735285398626, "difficulty": 0.75, "effort": 15.673014640489694, "time": 0.8707230355827608, "bugs": 0.0069657842846620865}, "summarize": {"h1": 1, "h2": 2, "N1": 1, "N2": 2, "vocabulary": 3, "length": 3, "calculated_length": 2.0, "volume": 4.754887502163469, "difficulty": 0.5, "effort": 2.3774437510817346, "time": 0.1320802083934297, "bugs": 0.0015849625007211565}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_ancestors.py": {"total": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "functions": {}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_arguments.py": {"total": {"h1": 1, "h2": 14, "N1": 7, "N2": 14, "vocabulary": 15, "length": 21, "calculated_length": 53.30296890880645, "volume": 82.0447025077789, "difficulty": 0.5, "effort": 41.02235125388945, "time": 2.279019514104969, "bugs": 0.02734823416925963}, "functions": {"too_many_arguments": {"h1": 1, "h2": 14, "N1": 7, "N2": 14, "vocabulary": 15, "length": 21, "calculated_length": 53.30296890880645, "volume": 82.0447025077789, "difficulty": 0.5, "effort": 41.02235125388945, "time": 2.279019514104969, "bugs": 0.02734823416925963}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_boolean_expressions.py": {"total": {"h1": 1, "h2": 6, "N1": 1, "N2": 6, "vocabulary": 7, "length": 7, "calculated_length": 15.509775004326936, "volume": 19.651484454403228, "difficulty": 0.5, "effort": 9.825742227201614, "time": 0.5458745681778674, "bugs": 0.00655049481813441}, "functions": {"too_many_boolean_expressions": {"h1": 1, "h2": 6, "N1": 1, "N2": 6, "vocabulary": 7, "length": 7, "calculated_length": 15.509775004326936, "volume": 19.651484454403228, "difficulty": 0.5, "effort": 9.825742227201614, "time": 0.5458745681778674, "bugs": 0.00655049481813441}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_branches.py": {"total": {"h1": 2, "h2": 14, "N1": 14, "N2": 28, "vocabulary": 16, "length": 42, "calculated_length": 55.30296890880645, "volume": 168.0, "difficulty": 2.0, "effort": 336.0, "time": 18.666666666666668, "bugs": 0.056}, "functions": {"too_many_branches": {"h1": 2, "h2": 14, "N1": 14, "N2": 28, "vocabulary": 16, "length": 42, "calculated_length": 55.30296890880645, "volume": 168.0, "difficulty": 2.0, "effort": 336.0, "time": 18.666666666666668, "bugs": 0.056}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_instance_attributes.py": {"total": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "functions": {"__init__": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_locals.py": {"total": {"h1": 1, "h2": 47, "N1": 31, "N2": 62, "vocabulary": 48, "length": 93, "calculated_length": 261.06567602884894, "volume": 519.4015125670676, "difficulty": 0.6595744680851063, "effort": 342.5839763740233, "time": 19.032443131890183, "bugs": 0.17313383752235587}, "functions": {"too_many_locals": {"h1": 1, "h2": 47, "N1": 31, "N2": 62, "vocabulary": 48, "length": 93, "calculated_length": 261.06567602884894, "volume": 519.4015125670676, "difficulty": 0.6595744680851063, "effort": 342.5839763740233, "time": 19.032443131890183, "bugs": 0.17313383752235587}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_nested_blocks.py": {"total": {"h1": 1, "h2": 7, "N1": 6, "N2": 12, "vocabulary": 8, "length": 18, "calculated_length": 19.651484454403228, "volume": 54.0, "difficulty": 0.8571428571428571, "effort": 46.285714285714285, "time": 2.571428571428571, "bugs": 0.018}, "functions": {"too_many_nested_blocks": {"h1": 1, "h2": 7, "N1": 6, "N2": 12, "vocabulary": 8, "length": 18, "calculated_length": 19.651484454403228, "volume": 54.0, "difficulty": 0.8571428571428571, "effort": 46.285714285714285, "time": 2.571428571428571, "bugs": 0.018}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_public_methods.py": {"total": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "functions": {"method01": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method02": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method03": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method04": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method05": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method06": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method07": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method08": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method09": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method10": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method11": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method12": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method13": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method14": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method15": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method16": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method17": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method18": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method19": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method20": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}, "method21": {"h1": 0, "h2": 0, "N1": 0, "N2": 0, "vocabulary": 0, "length": 0, "calculated_length": 0, "volume": 0, "difficulty": 0, "effort": 0, "time": 0.0, "bugs": 0.0}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_returns.py": {"total": {"h1": 3, "h2": 8, "N1": 9, "N2": 17, "vocabulary": 11, "length": 26, "calculated_length": 28.75488750216347, "volume": 89.94522208456974, "difficulty": 3.1875, "effort": 286.70039539456604, "time": 15.927799744142558, "bugs": 0.02998174069485658}, "functions": {"too_many_returns": {"h1": 3, "h2": 8, "N1": 9, "N2": 17, "vocabulary": 11, "length": 26, "calculated_length": 28.75488750216347, "volume": 89.94522208456974, "difficulty": 3.1875, "effort": 286.70039539456604, "time": 15.927799744142558, "bugs": 0.02998174069485658}}}, "D:\\Research in Missing Metrics\\Python\\Maintainability Rating (SQALE A\u2013E)\\workspace\\sqale_rating_benchmark\\cases\\too_many_statements.py": {"total": {"h1": 1, "h2": 54, "N1": 53, "N2": 106, "vocabulary": 55, "length": 159, "calculated_length": 310.76392511682735, "volume": 919.236194450421, "difficulty": 0.9814814814814815, "effort": 902.2133019605984, "time": 50.12296122003325, "bugs": 0.306412064816807}, "functions": {"too_many_statements": {"h1": 1, "h2": 54, "N1": 53, "N2": 106, "vocabulary": 55, "length": 159, "calculated_length": 310.76392511682735, "volume": 919.236194450421, "difficulty": 0.9814814814814815, "effort": 902.2133019605984, "time": 50.12296122003325, "bugs": 0.306412064816807}}}}

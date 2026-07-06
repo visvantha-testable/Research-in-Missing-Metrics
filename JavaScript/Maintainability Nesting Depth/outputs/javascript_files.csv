@@ -1,0 +1,6 @@
+absolute_path,relative_path,extension
+D:\Research in Missing Metrics\JavaScript\Maintainability Nesting Depth\workspace\js_nesting_benchmark\cases\depth_five.js,cases\depth_five.js,.js
+D:\Research in Missing Metrics\JavaScript\Maintainability Nesting Depth\workspace\js_nesting_benchmark\cases\depth_six_violation.js,cases\depth_six_violation.js,.js
+D:\Research in Missing Metrics\JavaScript\Maintainability Nesting Depth\workspace\js_nesting_benchmark\cases\flat.js,cases\flat.js,.js
+D:\Research in Missing Metrics\JavaScript\Maintainability Nesting Depth\workspace\js_nesting_benchmark\cases\loop_nesting.js,cases\loop_nesting.js,.js
+D:\Research in Missing Metrics\JavaScript\Maintainability Nesting Depth\workspace\js_nesting_benchmark\eslint.config.js,eslint.config.js,.js

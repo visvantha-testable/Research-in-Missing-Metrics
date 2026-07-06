@@ -1,0 +1,366 @@
+===== pmd check (text) =====
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java:3:	CommentRequired:	Class comments are required
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java:3:	AtLeastOneConstructor:	Each class should declare at least one constructor
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java:4:	CommentRequired:	Public method and constructor comments are required
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java:4:	MethodArgumentCouldBeFinal:	Parameter 'left' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java:4:	MethodArgumentCouldBeFinal:	Parameter 'right' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:7:	AtLeastOneConstructor:	Each class should declare at least one constructor
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:16:	MethodArgumentCouldBeFinal:	Parameter 'left' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:16:	MethodArgumentCouldBeFinal:	Parameter 'right' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:22:	CommentRequired:	Public method and constructor comments are required
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:22:	MethodArgumentCouldBeFinal:	Parameter 'left' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:22:	MethodArgumentCouldBeFinal:	Parameter 'right' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:30:	ShortVariable:	Avoid variables with short names like a
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:30:	MethodArgumentCouldBeFinal:	Parameter 'a' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:30:	ShortVariable:	Avoid variables with short names like b
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:30:	MethodArgumentCouldBeFinal:	Parameter 'b' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:30:	ShortVariable:	Avoid variables with short names like c
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java:30:	MethodArgumentCouldBeFinal:	Parameter 'c' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java:3:	CommentRequired:	Class comments are required
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java:3:	AtLeastOneConstructor:	Each class should declare at least one constructor
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java:4:	CommentRequired:	Public method and constructor comments are required
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java:4:	MethodArgumentCouldBeFinal:	Parameter 'left' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java:4:	MethodArgumentCouldBeFinal:	Parameter 'right' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java:8:	CommentRequired:	Public method and constructor comments are required
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java:8:	MethodArgumentCouldBeFinal:	Parameter 'left' is not assigned and could be declared final
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java:8:	MethodArgumentCouldBeFinal:	Parameter 'right' is not assigned and could be declared final
+LoosePackageCoupling	-	No packages or classes specified
+[WARN] Removed misconfigured rule: LoosePackageCoupling cause: No packages or classes specified
+
+===== pmd check (csv) =====
+"Problem","Package","File","Priority","Line","Description","Rule set","Rule"
+"1","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java","3","3","Class comments are required","Documentation","CommentRequired"
+"2","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java","3","3","Each class should declare at least one constructor","Code Style","AtLeastOneConstructor"
+"3","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java","3","4","Public method and constructor comments are required","Documentation","CommentRequired"
+"4","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java","3","4","Parameter 'left' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"5","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java","3","4","Parameter 'right' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"1","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","7","Each class should declare at least one constructor","Code Style","AtLeastOneConstructor"
+"2","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","16","Parameter 'left' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"3","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","16","Parameter 'right' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"4","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","22","Public method and constructor comments are required","Documentation","CommentRequired"
+"5","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","22","Parameter 'left' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"6","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","22","Parameter 'right' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"7","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","30","Avoid variables with short names like a","Code Style","ShortVariable"
+"8","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","30","Parameter 'a' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"9","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","30","Avoid variables with short names like b","Code Style","ShortVariable"
+"10","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","30","Parameter 'b' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"11","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","30","Avoid variables with short names like c","Code Style","ShortVariable"
+"12","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java","3","30","Parameter 'c' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"1","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java","3","3","Class comments are required","Documentation","CommentRequired"
+"2","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java","3","3","Each class should declare at least one constructor","Code Style","AtLeastOneConstructor"
+"3","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java","3","4","Public method and constructor comments are required","Documentation","CommentRequired"
+"4","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java","3","4","Parameter 'left' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"5","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java","3","4","Parameter 'right' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"6","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java","3","8","Public method and constructor comments are required","Documentation","CommentRequired"
+"7","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java","3","8","Parameter 'left' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+"8","cases","D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java","3","8","Parameter 'right' is not assigned and could be declared final","Code Style","MethodArgumentCouldBeFinal"
+[WARN] Removed misconfigured rule: LoosePackageCoupling cause: No packages or classes specified
+
+===== pmd check (json) =====
+{
+  "formatVersion": 0,
+  "pmdVersion": "7.14.0",
+  "timestamp": "2026-07-06T13:08:13.634+05:30",
+  "files": [
+    {
+      "filename": "D:\\Research in Missing Metrics\\Java\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\src\\cases\\CleanDemo.java",
+      "violations": [
+        {
+          "beginline": 3,
+          "begincolumn": 8,
+          "endline": 3,
+          "endcolumn": 13,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 8,
+          "endline": 3,
+          "endcolumn": 13,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 16,
+          "endline": 4,
+          "endcolumn": 19,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 24,
+          "endline": 4,
+          "endcolumn": 28,
+          "description": "Parameter \u0027left\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 34,
+          "endline": 4,
+          "endcolumn": 39,
+          "description": "Parameter \u0027right\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    },
+    {
+      "filename": "D:\\Research in Missing Metrics\\Java\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\src\\cases\\HeavilyCommentedDemo.java",
+      "violations": [
+        {
+          "beginline": 7,
+          "begincolumn": 8,
+          "endline": 7,
+          "endcolumn": 13,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 16,
+          "begincolumn": 24,
+          "endline": 16,
+          "endcolumn": 28,
+          "description": "Parameter \u0027left\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 16,
+          "begincolumn": 34,
+          "endline": 16,
+          "endcolumn": 39,
+          "description": "Parameter \u0027right\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 22,
+          "begincolumn": 16,
+          "endline": 22,
+          "endcolumn": 24,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 22,
+          "begincolumn": 29,
+          "endline": 22,
+          "endcolumn": 33,
+          "description": "Parameter \u0027left\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 22,
+          "begincolumn": 39,
+          "endline": 22,
+          "endcolumn": 44,
+          "description": "Parameter \u0027right\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 29,
+          "endline": 30,
+          "endcolumn": 30,
+          "description": "Avoid variables with short names like a",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 29,
+          "endline": 30,
+          "endcolumn": 30,
+          "description": "Parameter \u0027a\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 36,
+          "endline": 30,
+          "endcolumn": 37,
+          "description": "Avoid variables with short names like b",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 36,
+          "endline": 30,
+          "endcolumn": 37,
+          "description": "Parameter \u0027b\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 43,
+          "endline": 30,
+          "endcolumn": 44,
+          "description": "Avoid variables with short names like c",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 43,
+          "endline": 30,
+          "endcolumn": 44,
+          "description": "Parameter \u0027c\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    },
+    {
+      "filename": "D:\\Research in Missing Metrics\\Java\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\src\\cases\\SparseCommentsDemo.java",
+      "violations": [
+        {
+          "beginline": 3,
+          "begincolumn": 8,
+          "endline": 3,
+          "endcolumn": 13,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 8,
+          "endline": 3,
+          "endcolumn": 13,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 16,
+          "endline": 4,
+          "endcolumn": 19,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 24,
+          "endline": 4,
+          "endcolumn": 28,
+          "description": "Parameter \u0027left\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 34,
+          "endline": 4,
+          "endcolumn": 39,
+          "description": "Parameter \u0027right\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 8,
+          "begincolumn": 16,
+          "endline": 8,
+          "endcolumn": 24,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 8,
+          "begincolumn": 29,
+          "endline": 8,
+          "endcolumn": 33,
+          "description": "Parameter \u0027left\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 8,
+          "begincolumn": 39,
+          "endline": 8,
+          "endcolumn": 44,
+          "description": "Parameter \u0027right\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://docs.pmd-code.org/pmd-doc-7.14.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    }
+  ],
+  "suppressedViolations": [],
+  "processingErrors": [],
+  "configurationErrors": [
+    {
+      "rule": "LoosePackageCoupling",
+      "ruleset": "Design",
+      "message": "No packages or classes specified"
+    }
+  ]
+}
+[WARN] Removed misconfigured rule: LoosePackageCoupling cause: No packages or classes specified

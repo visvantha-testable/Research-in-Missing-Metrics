@@ -1,0 +1,5 @@
+absolute_path,relative_path
+D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\DepthSixViolation.cs,cases\DepthSixViolation.cs
+D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\DepthThree.cs,cases\DepthThree.cs
+D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\FlatLogic.cs,cases\FlatLogic.cs
+D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\LoopNesting.cs,cases\LoopNesting.cs

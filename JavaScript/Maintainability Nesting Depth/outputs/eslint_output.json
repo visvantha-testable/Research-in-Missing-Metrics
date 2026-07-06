@@ -1,0 +1,81 @@
+[
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Maintainability Nesting Depth\\workspace\\js_nesting_benchmark\\cases\\depth_five.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Maintainability Nesting Depth\\workspace\\js_nesting_benchmark\\cases\\depth_six_violation.js",
+    "messages": [
+      {
+        "ruleId": "max-depth",
+        "severity": 1,
+        "message": "Blocks are nested too deeply (6). Maximum allowed is 5.",
+        "line": 7,
+        "column": 13,
+        "messageId": "tooDeeply",
+        "endLine": 7,
+        "endColumn": 15
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "export function depthSixViolation(x) {\n  if (x > 0) {\n    if (x > 1) {\n      if (x > 2) {\n        if (x > 3) {\n          if (x > 4) {\n            if (x > 5) {\n              return x;\n            }\n          }\n        }\n      }\n    }\n  }\n  return 0;\n}\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Maintainability Nesting Depth\\workspace\\js_nesting_benchmark\\cases\\flat.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Maintainability Nesting Depth\\workspace\\js_nesting_benchmark\\cases\\loop_nesting.js",
+    "messages": [
+      {
+        "ruleId": "max-depth",
+        "severity": 1,
+        "message": "Blocks are nested too deeply (6). Maximum allowed is 5.",
+        "line": 8,
+        "column": 13,
+        "messageId": "tooDeeply",
+        "endLine": 8,
+        "endColumn": 15
+      }
+    ],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 1,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "source": "export function loopNesting(items) {\n  let total = 0;\n  for (const item of items) {\n    if (item > 0) {\n      for (const nested of items) {\n        if (nested > 10) {\n          for (const deep of items) {\n            if (deep > 20) {\n              total += deep;\n            }\n          }\n        }\n      }\n    }\n  }\n  return total;\n}\n",
+    "usedDeprecatedRules": []
+  },
+  {
+    "filePath": "D:\\Research in Missing Metrics\\JavaScript\\Maintainability Nesting Depth\\workspace\\js_nesting_benchmark\\eslint.config.js",
+    "messages": [],
+    "suppressedMessages": [],
+    "errorCount": 0,
+    "fatalErrorCount": 0,
+    "warningCount": 0,
+    "fixableErrorCount": 0,
+    "fixableWarningCount": 0,
+    "usedDeprecatedRules": []
+  }
+]

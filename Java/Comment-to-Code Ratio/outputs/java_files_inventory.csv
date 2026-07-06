@@ -1,0 +1,4 @@
+file_path,file_name,directory
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\CleanDemo.java,CleanDemo.java,D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\HeavilyCommentedDemo.java,HeavilyCommentedDemo.java,D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases
+D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases\SparseCommentsDemo.java,SparseCommentsDemo.java,D:\Research in Missing Metrics\Java\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\src\cases

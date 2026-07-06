@@ -1,0 +1,6 @@
+project,file,line,column,severity,diagnostic_id,message
+,cases\DepthSixViolation.cs,5,16,info,CA1822,Member 'DeeplyNested' does not access instance data and can be marked as static
+,cases\DepthThree.cs,5,16,info,CA1822,Member 'ThreeLevels' does not access instance data and can be marked as static
+,cases\FlatLogic.cs,5,16,info,CA1822,Member 'Add' does not access instance data and can be marked as static
+,cases\FlatLogic.cs,10,19,info,CA1822,Member 'FormatName' does not access instance data and can be marked as static
+,cases\LoopNesting.cs,5,16,info,CA1822,Member 'NestedLoops' does not access instance data and can be marked as static

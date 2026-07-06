@@ -1,0 +1,11 @@
+file,function,complexity,rank
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\clean.py,add,1,A
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\heavily_commented.py,process_values,2,A
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\heavily_commented.py,documented_add,1,A
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\heavily_commented.py,documented_multiply,1,A
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\moderate.py,classify,4,A
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\moderate.py,summarize,2,A
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\sparse_comments.py,Calculator,2,A
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\sparse_comments.py,add,1,A
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\sparse_comments.py,multiply,1,A
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\sparse_comments.py,combine,1,A

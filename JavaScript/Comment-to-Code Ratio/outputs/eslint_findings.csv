@@ -1,0 +1,3 @@
+file,line,column,severity,rule_id,message
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\bad_comments.js,6,1,1,spaced-comment,Expected space or tab after '//' in comment.
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\complexity_demo.js,1,1,1,complexity,Function 'complexityDemo' has a complexity of 12. Maximum allowed is 10.

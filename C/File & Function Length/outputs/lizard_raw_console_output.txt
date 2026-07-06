@@ -1,0 +1,51 @@
+===== lizard text =====
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+       3      1     20      3       3 normal_add@3-5@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\clean.c
+      55     52    629      1      55 very_long_function@4-58@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.c
+       3      1     12      1       3 step_one@3-5@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c
+       3      1     12      1       3 step_two@7-9@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c
+       3      1     12      1       3 step_three@11-13@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c
+       3      1     12      1       3 step_four@15-17@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c
+       3      1     12      1       3 step_five@19-21@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c
+      10      4     37      1      10 nested_example@3-12@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.c
+4 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+      3       3.0     1.0       20.0         1     D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\clean.c
+     56      55.0    52.0      629.0         1     D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.c
+     15       3.0     1.0       12.0         5     D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c
+     10      10.0     4.0       37.0         1     D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.c
+
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      55     52    629      1      55 very_long_function@4-58@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.c
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+        84      10.4     7.8       93.2        8            1      0.12    0.66
+
+===== lizard csv =====
+3,1,20,3,3,"normal_add@3-5@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\clean.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\clean.c","normal_add","normal_add( int a , int b , int c)",3,5
+55,52,629,1,55,"very_long_function@4-58@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.c","very_long_function","very_long_function( int value)",4,58
+3,1,12,1,3,"step_one@3-5@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","step_one","step_one( int x)",3,5
+3,1,12,1,3,"step_two@7-9@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","step_two","step_two( int x)",7,9
+3,1,12,1,3,"step_three@11-13@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","step_three","step_three( int x)",11,13
+3,1,12,1,3,"step_four@15-17@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","step_four","step_four( int x)",15,17
+3,1,12,1,3,"step_five@19-21@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","step_five","step_five( int x)",19,21
+10,4,37,1,10,"nested_example@3-12@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.c","nested_example","nested_example( int x)",3,12
+
+===== lizard csv_ens =====
+3,1,20,3,3,"normal_add@3-5@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\clean.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\clean.c","normal_add","normal_add( int a , int b , int c)",3,5,0
+55,52,629,1,55,"very_long_function@4-58@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\long_function.c","very_long_function","very_long_function( int value)",4,58,0
+3,1,12,1,3,"step_one@3-5@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","step_one","step_one( int x)",3,5,0
+3,1,12,1,3,"step_two@7-9@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","step_two","step_two( int x)",7,9,0
+3,1,12,1,3,"step_three@11-13@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","step_three","step_three( int x)",11,13,0
+3,1,12,1,3,"step_four@15-17@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","step_four","step_four( int x)",15,17,0
+3,1,12,1,3,"step_five@19-21@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\moderate.c","step_five","step_five( int x)",19,21,0
+10,4,37,1,10,"nested_example@3-12@D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.c","D:\Research in Missing Metrics\C\File & Function Length\workspace\file_function_length_benchmark\cases\nested_control.c","nested_example","nested_example( int x)",3,12,3

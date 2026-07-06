@@ -1,0 +1,5 @@
+metric_name,metric_value
+Total_Code_Smells,50
+Cyclomatic_Complexity_Violations,0
+Documentation_Violations,12
+Maintainability_Violations,0

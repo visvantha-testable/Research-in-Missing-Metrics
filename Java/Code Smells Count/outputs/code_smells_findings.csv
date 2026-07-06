@@ -1,0 +1,8 @@
+file,begin_line,end_line,rule,priority,message,ruleset
+D:\Research in Missing Metrics\Java\Code Smells Count\workspace\java_code_smells_benchmark\src\cases\AvoidDeeplyNestedIfStmtsDemo.java,7,7,AvoidDeeplyNestedIfStmts,3,Deeply nested if..then statements are hard to read,Design
+D:\Research in Missing Metrics\Java\Code Smells Count\workspace\java_code_smells_benchmark\src\cases\CyclomaticComplexityDemo.java,4,4,CyclomaticComplexity,3,The method 'complexBranches(int)' has a cyclomatic complexity of 13.,Design
+D:\Research in Missing Metrics\Java\Code Smells Count\workspace\java_code_smells_benchmark\src\cases\CyclomaticComplexityDemo.java,4,4,NPathComplexity,3,"The method 'complexBranches(int)' has an NPath complexity of 4096, current threshold is 200",Design
+D:\Research in Missing Metrics\Java\Code Smells Count\workspace\java_code_smells_benchmark\src\cases\DataClassDemo.java,3,3,DataClass,3,"The class 'DataClassDemo' is suspected to be a Data Class (WOC=0.000%, NOPA=0, NOAM=6, WMC=6)",Design
+D:\Research in Missing Metrics\Java\Code Smells Count\workspace\java_code_smells_benchmark\src\cases\ExcessiveParameterListDemo.java,4,4,ExcessiveParameterList,3,Avoid long parameter lists.,Design
+D:\Research in Missing Metrics\Java\Code Smells Count\workspace\java_code_smells_benchmark\src\cases\TooManyFieldsDemo.java,3,3,TooManyFields,3,Too many fields,Design
+D:\Research in Missing Metrics\Java\Code Smells Count\workspace\java_code_smells_benchmark\src\cases\TooManyMethodsDemo.java,3,3,TooManyMethods,3,"This class has too many methods, consider refactoring it.",Design

@@ -1,0 +1,7 @@
+file,function,parameter_count,status
+D:\Research in Missing Metrics\Python\Parameter Count\workspace\parameter_count_benchmark\cases\arg_variants.py,mixed_parameters,5,OK
+D:\Research in Missing Metrics\Python\Parameter Count\workspace\parameter_count_benchmark\cases\arg_variants.py,only_varargs,1,OK
+D:\Research in Missing Metrics\Python\Parameter Count\workspace\parameter_count_benchmark\cases\arg_variants.py,only_kwargs,1,OK
+D:\Research in Missing Metrics\Python\Parameter Count\workspace\parameter_count_benchmark\cases\clean.py,normal,3,OK
+D:\Research in Missing Metrics\Python\Parameter Count\workspace\parameter_count_benchmark\cases\long_parameter_list.py,too_many_parameters,8,Long Parameter List
+D:\Research in Missing Metrics\Python\Parameter Count\workspace\parameter_count_benchmark\cases\nested_control.py,nested_example,1,OK

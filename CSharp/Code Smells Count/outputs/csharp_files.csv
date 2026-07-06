@@ -1,0 +1,9 @@
+absolute_path,relative_path
+D:\Research in Missing Metrics\CSharp\Code Smells Count\workspace\cs_code_smells_benchmark\cases\BlankLineViolation.cs,cases\BlankLineViolation.cs
+D:\Research in Missing Metrics\CSharp\Code Smells Count\workspace\cs_code_smells_benchmark\cases\BracesViolation.cs,cases\BracesViolation.cs
+D:\Research in Missing Metrics\CSharp\Code Smells Count\workspace\cs_code_smells_benchmark\cases\CleanDemo.cs,cases\CleanDemo.cs
+D:\Research in Missing Metrics\CSharp\Code Smells Count\workspace\cs_code_smells_benchmark\cases\GenericConstraintViolation.cs,cases\GenericConstraintViolation.cs
+D:\Research in Missing Metrics\CSharp\Code Smells Count\workspace\cs_code_smells_benchmark\cases\MissingThisPrefix.cs,cases\MissingThisPrefix.cs
+D:\Research in Missing Metrics\CSharp\Code Smells Count\workspace\cs_code_smells_benchmark\cases\PublicFieldViolation.cs,cases\PublicFieldViolation.cs
+D:\Research in Missing Metrics\CSharp\Code Smells Count\workspace\cs_code_smells_benchmark\cases\RegionViolation.cs,cases\RegionViolation.cs
+D:\Research in Missing Metrics\CSharp\Code Smells Count\workspace\cs_code_smells_benchmark\cases\UndocumentedMembers.cs,cases\UndocumentedMembers.cs

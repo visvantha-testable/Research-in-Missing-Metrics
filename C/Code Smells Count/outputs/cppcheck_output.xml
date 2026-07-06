@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.21.0"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;a==b&apos; is always true" verbose="Condition &apos;a==b&apos; is always true" cwe="571" file0="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/duplicate_expression.c">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/duplicate_expression.c" line="2" column="21" info="Condition &apos;a==b&apos; is always true"/>
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/duplicate_expression.c" line="2" column="11" info="Assuming that condition &apos;a==b&apos; is not redundant"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;&amp;&amp;&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" file0="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/duplicate_expression.c">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/duplicate_expression.c" line="2" column="16"/>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;LargeStruct::data&apos; is never used." verbose="struct member &apos;LargeStruct::data&apos; is never used." cwe="563" file0="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/passed_by_value.c">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/passed_by_value.c" line="2" column="10"/>
+            <symbol>LargeStruct::data</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;s.flag&apos; is assigned a value that is never used." verbose="Variable &apos;s.flag&apos; is assigned a value that is never used." cwe="563" file0="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/passed_by_value.c">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/passed_by_value.c" line="7" column="12"/>
+            <symbol>s.flag</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: ls" verbose="Uninitialized variable: ls" cwe="457" file0="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/runner.c">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/runner.c" line="26" column="38"/>
+            <symbol>ls</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;x&apos; shadows outer variable" verbose="Local variable &apos;x&apos; shadows outer variable" cwe="398" file0="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/shadow_variable.c">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/shadow_variable.c" line="4" column="13" info="Shadow local variable"/>
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/shadow_variable.c" line="2" column="9" info="Shadowed variable"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/shadow_variable.c">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/shadow_variable.c" line="4" column="15"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;x&apos; is assigned a value that is never used." verbose="Variable &apos;x&apos; is assigned a value that is never used." cwe="563" file0="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/shadow_variable.c">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/shadow_variable.c" line="5" column="11"/>
+            <symbol>x</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;unread&apos; is assigned a value that is never used." verbose="Variable &apos;unread&apos; is assigned a value that is never used." cwe="563" file0="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/unread_variable.c">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/unread_variable.c" line="2" column="16"/>
+            <symbol>unread</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Widget::unused_field&apos; is never used." verbose="struct member &apos;Widget::unused_field&apos; is never used." cwe="563" file0="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/unused_struct_member.c">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/unused_struct_member.c" line="3" column="9"/>
+            <symbol>Widget::unused_field</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;benchmark_runner&apos; is never used." verbose="The function &apos;benchmark_runner&apos; is never used." cwe="561">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/runner.c" line="16" column="5"/>
+            <symbol>benchmark_runner</symbol>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &apos;never_called&apos; is never used." verbose="The function &apos;never_called&apos; is never used." cwe="561">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/unused_function.c" line="4" column="13"/>
+            <symbol>never_called</symbol>
+        </error>
+        <error id="staticFunction" severity="style" msg="The function &apos;helper_for_static&apos; should have static linkage since it is not used outside of its translation unit." verbose="The function &apos;helper_for_static&apos; should have static linkage since it is not used outside of its translation unit.">
+            <location file="D:/Research in Missing Metrics/C/Code Smells Count/workspace/c_code_smells_benchmark/cases/function_static.c" line="1" column="6"/>
+            <symbol>helper_for_static</symbol>
+        </error>
+        <error id="checkersReport" severity="information" msg="Active checkers: 119/186 (use --checkers-report=&lt;filename&gt; to see details)" verbose="Active checkers: 119/186 (use --checkers-report=&lt;filename&gt; to see details)"/>
+    </errors>
+</results>

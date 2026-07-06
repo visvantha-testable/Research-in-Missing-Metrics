@@ -1,0 +1,39 @@
+===== lizard text =====
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+       3      1     20      3       3 CleanDemo::add@4-6@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CleanDemo.java
+      14     12    109      1      14 CyclomaticComplexityDemo::complex@4-17@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CyclomaticComplexityDemo.java
+       5      1     45      8       5 ExcessiveParameterListDemo::manyParameters@4-8@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ExcessiveParameterListDemo.java
+       3      1     25      4       3 ModerateParamsDemo::moderateSum@4-6@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ModerateParamsDemo.java
+      10      4     37      1      10 NestedControlDemo::nestedExample@4-13@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\NestedControlDemo.java
+5 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+      6       3.0     1.0       20.0         1     D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CleanDemo.java
+     17      14.0    12.0      109.0         1     D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CyclomaticComplexityDemo.java
+      8       5.0     1.0       45.0         1     D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ExcessiveParameterListDemo.java
+      6       3.0     1.0       25.0         1     D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ModerateParamsDemo.java
+     13      10.0     4.0       37.0         1     D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\NestedControlDemo.java
+
+===============================================================================================================
+No thresholds exceeded (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100)
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+        50       7.0     3.8       47.2        5            0      0.00    0.00
+
+===== lizard csv =====
+3,1,20,3,3,"CleanDemo::add@4-6@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CleanDemo.java","D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CleanDemo.java","CleanDemo::add","CleanDemo::add( int a , int b , int c)",4,6
+14,12,109,1,14,"CyclomaticComplexityDemo::complex@4-17@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CyclomaticComplexityDemo.java","D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CyclomaticComplexityDemo.java","CyclomaticComplexityDemo::complex","CyclomaticComplexityDemo::complex( int value)",4,17
+5,1,45,8,5,"ExcessiveParameterListDemo::manyParameters@4-8@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ExcessiveParameterListDemo.java","D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ExcessiveParameterListDemo.java","ExcessiveParameterListDemo::manyParameters","ExcessiveParameterListDemo::manyParameters( int p1 , int p2 , int p3 , int p4 , int p5 , int p6 , int p7 , int p8)",4,8
+3,1,25,4,3,"ModerateParamsDemo::moderateSum@4-6@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ModerateParamsDemo.java","D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ModerateParamsDemo.java","ModerateParamsDemo::moderateSum","ModerateParamsDemo::moderateSum( int a , int b , int c , int d)",4,6
+10,4,37,1,10,"NestedControlDemo::nestedExample@4-13@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\NestedControlDemo.java","D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\NestedControlDemo.java","NestedControlDemo::nestedExample","NestedControlDemo::nestedExample( int x)",4,13
+
+===== lizard csv_ens =====
+3,1,20,3,3,"CleanDemo::add@4-6@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CleanDemo.java","D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CleanDemo.java","CleanDemo::add","CleanDemo::add( int a , int b , int c)",4,6,0
+14,12,109,1,14,"CyclomaticComplexityDemo::complex@4-17@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CyclomaticComplexityDemo.java","D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CyclomaticComplexityDemo.java","CyclomaticComplexityDemo::complex","CyclomaticComplexityDemo::complex( int value)",4,17,1
+5,1,45,8,5,"ExcessiveParameterListDemo::manyParameters@4-8@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ExcessiveParameterListDemo.java","D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ExcessiveParameterListDemo.java","ExcessiveParameterListDemo::manyParameters","ExcessiveParameterListDemo::manyParameters( int p1 , int p2 , int p3 , int p4 , int p5 , int p6 , int p7 , int p8)",4,8,0
+3,1,25,4,3,"ModerateParamsDemo::moderateSum@4-6@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ModerateParamsDemo.java","D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ModerateParamsDemo.java","ModerateParamsDemo::moderateSum","ModerateParamsDemo::moderateSum( int a , int b , int c , int d)",4,6,0
+10,4,37,1,10,"NestedControlDemo::nestedExample@4-13@D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\NestedControlDemo.java","D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\NestedControlDemo.java","NestedControlDemo::nestedExample","NestedControlDemo::nestedExample( int x)",4,13,3

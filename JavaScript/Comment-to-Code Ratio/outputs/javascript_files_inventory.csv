@@ -1,0 +1,6 @@
+file_path,file_name,directory
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\bad_comments.js,bad_comments.js,D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\clean.js,clean.js,D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\complexity_demo.js,complexity_demo.js,D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\heavily_commented.js,heavily_commented.js,D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\sparse_comments.js,sparse_comments.js,D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases

@@ -1,0 +1,10 @@
+{
+  "prepared_at_utc": "2026-07-02T13:06:11.966753+00:00",
+  "repo_path": "D:\\Research in Missing Metrics\\Python\\Maintainability Nesting Depth\\workspace\\nesting_depth_benchmark",
+  "benchmark_name": "nesting_depth_benchmark",
+  "python_file_count": 7,
+  "expected_nesting_findings_count": 6,
+  "actual_nesting_findings_count": 6,
+  "benchmark_passed": true,
+  "ready_for_metric_evaluation": true
+}

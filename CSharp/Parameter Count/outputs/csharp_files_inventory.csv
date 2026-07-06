@@ -1,0 +1,6 @@
+file_path,file_name,directory
+D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases\CleanDemo.cs,CleanDemo.cs,D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases
+D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases\ExcessiveParameterListDemo.cs,ExcessiveParameterListDemo.cs,D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases
+D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases\ExtensionMethodDemo.cs,ExtensionMethodDemo.cs,D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases
+D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases\LocalFunctionDemo.cs,LocalFunctionDemo.cs,D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases
+D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases\ModerateParamsDemo.cs,ModerateParamsDemo.cs,D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\cases

@@ -1,0 +1,6 @@
+file,class,method,nloc,cyclomatic_complexity,token_count,parameter_count,function_length,start_line,end_line
+D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CleanDemo.java,CleanDemo,add,3,1,20,3,3,4,6
+D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CyclomaticComplexityDemo.java,CyclomaticComplexityDemo,complex,14,12,109,1,14,4,17
+D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ExcessiveParameterListDemo.java,ExcessiveParameterListDemo,manyParameters,5,1,45,8,5,4,8
+D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ModerateParamsDemo.java,ModerateParamsDemo,moderateSum,3,1,25,4,3,4,6
+D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\NestedControlDemo.java,NestedControlDemo,nestedExample,10,4,37,1,10,4,13

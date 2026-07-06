@@ -1,0 +1,261 @@
+"""Generate roslynator_parameter_count_extraction.ipynb."""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+METRIC_ROOT = ROOT.parent
+NOTEBOOK = METRIC_ROOT / "roslynator_parameter_count_extraction.ipynb"
+
+
+def md(source: str) -> dict:
+    return {"cell_type": "markdown", "metadata": {}, "source": [line + "\n" for line in source.split("\n")]}
+
+
+def code(source: str) -> dict:
+    return {"cell_type": "code", "execution_count": None, "metadata": {}, "outputs": [], "source": [line + "\n" for line in source.split("\n")]}
+
+
+cells = [
+    md(
+        "# Roslynator Parameter Count — Raw Output Extraction (C#)\n\n"
+        "This notebook analyzes **C# repositories** with **Roslynator** and derives **Parameter Count** "
+        "by traversing the **Roslyn syntax tree** (`ParameterSyntax` nodes).\n\n"
+        "**Default benchmark repository:** [dotnet/runtime](https://github.com/dotnet/runtime)\n\n"
+        "> **Note:** **Parameter Count is a derived metric** for Roslynator. It is computed by counting "
+        "`ParameterSyntax` nodes via Roslyn, while Roslynator diagnostics are preserved as raw evidence."
+    ),
+    md("## Section 1 — Install Dependencies\n\nInstall Python packages, bootstrap .NET SDK, and install Roslynator CLI."),
+    code("!pip install -q pandas gitpython jupyter"),
+    code(
+        "import os\nimport sys\nfrom pathlib import Path\n\n"
+        "os.environ.pop('PYTHONPATH', None)\n"
+        "METRIC_ROOT = Path('.').resolve()\n"
+        "TOOL_ROOT = METRIC_ROOT / 'tool'\n"
+        "PROJECT_ROOT = METRIC_ROOT\n"
+        "for _ in range(8):\n"
+        "    if (PROJECT_ROOT / 'runtimes').is_dir() or (PROJECT_ROOT / 'README.md').is_file():\n"
+        "        break\n"
+        "    if PROJECT_ROOT.parent == PROJECT_ROOT:\n"
+        "        break\n"
+        "    PROJECT_ROOT = PROJECT_ROOT.parent\n"
+        "RUNTIMES_ROOT = PROJECT_ROOT / 'runtimes'\n"
+        "if str(TOOL_ROOT) not in sys.path:\n"
+        "    sys.path.insert(0, str(TOOL_ROOT))\n\n"
+        "from run_parameter_count_benchmark_impl import (\n"
+        "    DOTNET_CHANNEL, build_parameter_count_analyzer, download_dotnet_sdk, dotnet_env, dotnet_executable,\n"
+        "    install_roslynator, run_command,\n"
+        ")\n\n"
+        "DOTNET_ROOT = download_dotnet_sdk(RUNTIMES_ROOT / 'dotnet-sdk', channel=DOTNET_CHANNEL)\n"
+        "ROSLYNATOR_PATH = install_roslynator(DOTNET_ROOT, RUNTIMES_ROOT / 'dotnet-tools')\n"
+        "ANALYZER_DLL = build_parameter_count_analyzer(DOTNET_ROOT)\n"
+        "version_stdout, version_stderr, _ = run_command([str(ROSLYNATOR_PATH), '--version'], env=dotnet_env(DOTNET_ROOT))\n"
+        "print((version_stdout or version_stderr).strip())\n"
+        "print(f'.NET SDK: {dotnet_executable(DOTNET_ROOT)}')\n"
+        "print(f'Roslynator: {ROSLYNATOR_PATH}')\n"
+        "print(f'ParameterCountAnalyzer: {ANALYZER_DLL}')"
+    ),
+    md("## Section 2 — Configuration"),
+    code(
+        "USE_GIT_URL = True\n\n"
+        "REPO_URL = 'https://github.com/dotnet/runtime.git'\n\n"
+        "LOCAL_REPO_PATH = '/content/runtime'\n\n"
+        "WORKSPACE_DIR = './workspace'\n\n"
+        "OUTPUT_DIR = './outputs'\n\n"
+        "IF_CLONE_EXISTS = 'reuse'\n\n"
+        "CLONE_DEPTH = 1\n\n"
+        "RAW_OUTPUT_PREVIEW_LINES = 150\n\n"
+        "# Fast validation benchmark:\n"
+        "# USE_GIT_URL = False\n"
+        "# LOCAL_REPO_PATH = './workspace/parameter_count_benchmark'"
+    ),
+    md("## Section 3 — Imports and Utility Functions"),
+    code(
+        "from pathlib import Path\nimport json\nimport sys\n\n"
+        "TOOL_ROOT = Path('tool').resolve()\n"
+        "if str(TOOL_ROOT) not in sys.path:\n"
+        "    sys.path.insert(0, str(TOOL_ROOT))\n\n"
+        "from _roslynator_parameter_count_notebook_utils import (\n"
+        "    NotebookLogger, compute_repository_stats, ensure_output_dir, preview_raw_output, resolve_repository_path,\n"
+        ")\n"
+        "from run_parameter_count_benchmark_impl import (\n"
+        "    analyze_targets, build_long_parameter_list, combine_xml_outputs, discover_csharp_files,\n"
+        "    discover_solution_and_project_files, dotnet_env, findings_to_json, merge_roslynator_results,\n"
+        "    parse_roslynator_text, parse_roslynator_xml, run_parameter_count_analyzer, run_roslynator_suite,\n"
+        "    save_csharp_inventory,\n"
+        ")\n"
+        "from IPython.display import display\n"
+        "import pandas as pd"
+    ),
+    md("## Section 4 — Repository Setup"),
+    code(
+        "OUTPUT_PATH = Path(OUTPUT_DIR).resolve()\n"
+        "WORKSPACE_PATH = Path(WORKSPACE_DIR).resolve()\n"
+        "ERROR_LOG_PATH = OUTPUT_PATH / 'error_log.txt'\n\n"
+        "ensure_output_dir(OUTPUT_PATH)\n"
+        "logger = NotebookLogger(ERROR_LOG_PATH)\n\n"
+        "try:\n"
+        "    REPO_PATH = resolve_repository_path(\n"
+        "        use_git_url=USE_GIT_URL, repo_url=REPO_URL, local_repo_path=LOCAL_REPO_PATH,\n"
+        "        workspace_dir=WORKSPACE_PATH, if_clone_exists=IF_CLONE_EXISTS, logger=logger, clone_depth=CLONE_DEPTH,\n"
+        "    )\n"
+        "except Exception as exc:\n"
+        "    logger.error(f'Repository setup failed: {exc}')\n"
+        "    raise\n\n"
+        "CS_FILES = discover_csharp_files(REPO_PATH)\n"
+        "if not CS_FILES:\n"
+        "    logger.error('No C# source files found in repository.', file=str(REPO_PATH))\n"
+        "    raise FileNotFoundError('No C# source files found.')\n\n"
+        "REPO_STATS = compute_repository_stats(REPO_PATH, CS_FILES)\n"
+        "logger.info(f'Repository ready at: {REPO_PATH}')\n"
+        "print(f\"Repository: {REPO_STATS['repository_name']}\")\n"
+        "print(f\"Size (C# files): {REPO_STATS['repository_size_bytes']:,} bytes\")\n"
+        "print(f\"Directories: {REPO_STATS['directory_count']:,}\")\n"
+        "print(f\"C# files: {REPO_STATS['csharp_file_count']:,}\")"
+    ),
+    md("## Section 5 — Discover C# Files"),
+    code(
+        "INVENTORY_CSV = OUTPUT_PATH / 'csharp_files_inventory.csv'\n"
+        "save_csharp_inventory(CS_FILES, INVENTORY_CSV)\n\n"
+        "print(f'Total C# Files Found: {len(CS_FILES)}')\n"
+        "print(f'Saved inventory to: {INVENTORY_CSV}')"
+    ),
+    md("## Section 6 — Execute Roslynator\n\nRun Roslynator in text, XML, and GitLab formats. Preserve stdout/stderr exactly as emitted."),
+    code(
+        "SOLUTIONS, PROJECTS = discover_solution_and_project_files(REPO_PATH)\n"
+        "TARGETS = analyze_targets(SOLUTIONS, PROJECTS)\n"
+        "ENV = dotnet_env(DOTNET_ROOT)\n"
+        "GITLAB_PATH = None\n\n"
+        "if not TARGETS:\n"
+        "    logger.error('No .sln or .csproj files discovered; Roslynator analysis skipped.')\n"
+        "    ROSLYNATOR_RAW = ''\n"
+        "    XML_PATHS = []\n"
+        "else:\n"
+        "    ROSLYNATOR_RAW, XML_PATHS, GITLAB_PATH = run_roslynator_suite(ROSLYNATOR_PATH, TARGETS, OUTPUT_PATH, ENV)\n"
+        "    logger.info(f'Roslynator analyzed {len(TARGETS)} target(s)')"
+    ),
+    md("## Section 7 — Raw Output Extraction"),
+    code(
+        "CONSOLE_PATH = OUTPUT_PATH / 'roslynator_raw_console_output.txt'\n"
+        "XML_PATH = OUTPUT_PATH / 'roslynator_output.xml'\n"
+        "JSON_PATH = OUTPUT_PATH / 'roslynator_output.json'\n\n"
+        "CONSOLE_PATH.write_text(ROSLYNATOR_RAW, encoding='utf-8')\n"
+        "combine_xml_outputs(XML_PATHS, XML_PATH)\n\n"
+        "FINDINGS_DF = merge_roslynator_results(\n"
+        "    parse_roslynator_xml([XML_PATH] if XML_PATH.exists() else XML_PATHS),\n"
+        "    parse_roslynator_text(ROSLYNATOR_RAW),\n"
+        ")\n"
+        "FINDINGS_CSV = OUTPUT_PATH / 'roslynator_findings.csv'\n"
+        "FINDINGS_DF.to_csv(FINDINGS_CSV, index=False)\n\n"
+        "JSON_PATH.write_text(json.dumps(findings_to_json(FINDINGS_DF, GITLAB_PATH), indent=2), encoding='utf-8')\n\n"
+        "logger.info(f'Parsed {len(FINDINGS_DF)} Roslynator findings')\n"
+        "preview_raw_output(ROSLYNATOR_RAW, RAW_OUTPUT_PREVIEW_LINES, CONSOLE_PATH)"
+    ),
+    md(
+        "## Section 8 — Extract Parameter Count Using Roslyn Syntax API\n\n"
+        "Traverse C# source files and count `ParameterSyntax` nodes for methods, constructors, local functions, "
+        "delegates, and record primary constructors."
+    ),
+    code(
+        "PARAM_CSV = OUTPUT_PATH / 'parameter_count.csv'\n"
+        "analyzer_stdout, analyzer_stderr, analyzer_code = run_parameter_count_analyzer(\n"
+        "    ANALYZER_DLL, REPO_PATH, PARAM_CSV, DOTNET_ROOT\n"
+        ")\n"
+        "if analyzer_stderr.strip():\n"
+        "    logger.error(analyzer_stderr.strip(), file='parameter_count_analyzer')\n"
+        "if analyzer_stdout.strip():\n"
+        "    CONSOLE_PATH.write_text(\n"
+        "        CONSOLE_PATH.read_text(encoding='utf-8') + '\\n===== ParameterCountAnalyzer (stdout) =====\\n' + analyzer_stdout,\n"
+        "        encoding='utf-8',\n"
+        "    )\n\n"
+        "PARAM_DF = pd.read_csv(PARAM_CSV) if PARAM_CSV.exists() else pd.DataFrame(\n"
+        "    columns=['file', 'namespace', 'class', 'method', 'line', 'parameter_count', 'parameter_names']\n"
+        ")\n"
+        "logger.info(f'Extracted parameter counts for {len(PARAM_DF)} members')\n"
+        "display(PARAM_DF.head())"
+    ),
+    md(
+        "## Section 9 — Parameter Count (Derived)\n\n"
+        "**Derived metric** from Roslyn syntax tree:\n\n"
+        "```text\n"
+        "Parameter_Count = Count(ParameterSyntax nodes)\n"
+        "```"
+    ),
+    code(
+        "PARAM_VALUES = pd.to_numeric(PARAM_DF['parameter_count'], errors='coerce').dropna()\n"
+        "MAX_PARAM = int(PARAM_VALUES.max()) if not PARAM_VALUES.empty else 0\n"
+        "AVG_PARAM = round(float(PARAM_VALUES.mean()), 4) if not PARAM_VALUES.empty else 0.0\n\n"
+        "PARAM_SUMMARY_CSV = OUTPUT_PATH / 'parameter_count_summary.csv'\n"
+        "pd.DataFrame([{'metric_name': 'Parameter_Count', 'metric_value': MAX_PARAM}]).to_csv(PARAM_SUMMARY_CSV, index=False)\n\n"
+        "logger.info(f'Maximum Parameter Count (derived)={MAX_PARAM}')\n"
+        "display(pd.read_csv(PARAM_SUMMARY_CSV))"
+    ),
+    md("## Section 10 — Long Parameter List Detection\n\nFlag methods where `Parameter_Count > 5`."),
+    code(
+        "LONG_PARAM_DF = build_long_parameter_list(PARAM_DF)\n"
+        "LONG_PARAM_CSV = OUTPUT_PATH / 'long_parameter_list.csv'\n"
+        "LONG_PARAM_DF.to_csv(LONG_PARAM_CSV, index=False)\n\n"
+        "LONG_PARAM_COUNT = int((LONG_PARAM_DF['status'] == 'Long Parameter List').sum())\n"
+        "logger.info(f'Long parameter list count={LONG_PARAM_COUNT}')\n"
+        "display(LONG_PARAM_DF)"
+    ),
+    md("## Section 11 — Summary Dashboard"),
+    code(
+        "summary_df = pd.DataFrame([\n"
+        "    {'Metric': 'Total C# Files', 'Value': len(CS_FILES)},\n"
+        "    {'Metric': 'Total Methods', 'Value': len(PARAM_DF)},\n"
+        "    {'Metric': 'Average Parameter Count', 'Value': AVG_PARAM},\n"
+        "    {'Metric': 'Maximum Parameter Count', 'Value': MAX_PARAM},\n"
+        "    {'Metric': 'Long Parameter List Count', 'Value': LONG_PARAM_COUNT},\n"
+        "    {'Metric': 'Total Roslynator Diagnostics', 'Value': len(FINDINGS_DF)},\n"
+        "])\n"
+        "display(summary_df)\n\n"
+        "deliverables = [\n"
+        "    CONSOLE_PATH, XML_PATH, JSON_PATH, FINDINGS_CSV, PARAM_CSV, PARAM_SUMMARY_CSV,\n"
+        "    LONG_PARAM_CSV, INVENTORY_CSV, ERROR_LOG_PATH,\n"
+        "]\n"
+        "print('\\nDeliverables:')\n"
+        "for path in deliverables:\n"
+        "    print(f\"  [{'OK' if path.exists() else 'MISSING'}] {path}\")"
+    ),
+    md("## Section 12 — Error Handling"),
+    code(
+        "if ERROR_LOG_PATH.exists() and ERROR_LOG_PATH.stat().st_size > 0:\n"
+        "    print(ERROR_LOG_PATH.read_text(encoding='utf-8'))\n"
+        "else:\n"
+        "    print('No errors logged.')"
+    ),
+    md(
+        "## Section 13 — Deliverables\n\n"
+        "```text\n"
+        "outputs/\n"
+        "├── roslynator_raw_console_output.txt\n"
+        "├── roslynator_output.xml\n"
+        "├── roslynator_output.json\n"
+        "├── roslynator_findings.csv\n"
+        "├── parameter_count.csv\n"
+        "├── parameter_count_summary.csv\n"
+        "├── long_parameter_list.csv\n"
+        "├── csharp_files_inventory.csv\n"
+        "└── error_log.txt\n"
+        "```"
+    ),
+]
+
+NOTEBOOK.write_text(
+    json.dumps(
+        {
+            "cells": cells,
+            "metadata": {
+                "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
+                "language_info": {"name": "python", "version": "3.11.0"},
+            },
+            "nbformat": 4,
+            "nbformat_minor": 5,
+        },
+        indent=1,
+    ),
+    encoding="utf-8",
+)
+print(f"Wrote {NOTEBOOK}")

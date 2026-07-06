@@ -1,0 +1,5 @@
+pandas
+gitpython
+jupyter
+requests
+tqdm

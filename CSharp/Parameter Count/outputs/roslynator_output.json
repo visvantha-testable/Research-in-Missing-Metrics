@@ -1,0 +1,41 @@
+{
+  "source": "roslynator_findings_csv",
+  "diagnostics": [
+    {
+      "project": "",
+      "file": "cases\\CleanDemo.cs",
+      "line": "5",
+      "column": "16",
+      "severity": "info",
+      "diagnostic_id": "CA1822",
+      "message": "Member 'Add' does not access instance data and can be marked as static"
+    },
+    {
+      "project": "",
+      "file": "cases\\ExcessiveParameterListDemo.cs",
+      "line": "5",
+      "column": "16",
+      "severity": "info",
+      "diagnostic_id": "CA1822",
+      "message": "Member 'ManyParameters' does not access instance data and can be marked as static"
+    },
+    {
+      "project": "",
+      "file": "cases\\LocalFunctionDemo.cs",
+      "line": "5",
+      "column": "16",
+      "severity": "info",
+      "diagnostic_id": "CA1822",
+      "message": "Member 'Run' does not access instance data and can be marked as static"
+    },
+    {
+      "project": "",
+      "file": "cases\\ModerateParamsDemo.cs",
+      "line": "5",
+      "column": "16",
+      "severity": "info",
+      "diagnostic_id": "CA1822",
+      "message": "Member 'ModerateSum' does not access instance data and can be marked as static"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+metric_name,metric_value
+Cyclomatic_Complexity,4
+Parameter_Count,8
+Function_Length,10
+Maximum_Nesting_Depth,3

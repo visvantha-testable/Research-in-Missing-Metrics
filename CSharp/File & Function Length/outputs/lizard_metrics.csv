@@ -1,0 +1,9 @@
+file,class,method,nloc,cyclomatic_complexity,token_count,parameter_count,function_length,start_line,end_line
+D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\CleanDemo.cs,CleanDemo,Add,4,1,20,3,4,5,8
+D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\LongMethodDemo.cs,LongMethodDemo,VeryLongMethod,56,52,527,1,56,6,61
+D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs,ModerateDemo,StepOne,1,1,10,1,1,5,5
+D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs,ModerateDemo,StepTwo,1,1,10,1,1,7,7
+D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs,ModerateDemo,StepThree,1,1,10,1,1,9,9
+D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs,ModerateDemo,StepFour,1,1,10,1,1,11,11
+D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs,ModerateDemo,StepFive,1,1,10,1,1,13,13
+D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\NestedControlDemo.cs,NestedControlDemo,NestedExample,14,4,37,1,14,5,18

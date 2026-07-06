@@ -1,0 +1,6 @@
+file,class,method,parameter_count,status
+D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CleanDemo.java,CleanDemo,add,3,OK
+D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\CyclomaticComplexityDemo.java,CyclomaticComplexityDemo,complex,1,OK
+D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ExcessiveParameterListDemo.java,ExcessiveParameterListDemo,manyParameters,8,Long Parameter List
+D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\ModerateParamsDemo.java,ModerateParamsDemo,moderateSum,4,OK
+D:\Research in Missing Metrics\Java\Parameter Count\workspace\parameter_count_benchmark\src\cases\NestedControlDemo.java,NestedControlDemo,nestedExample,1,OK

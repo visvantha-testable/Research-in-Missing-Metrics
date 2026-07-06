@@ -1,0 +1,5 @@
+file,loc,lloc,sloc,comments,multi,blank,single_comments
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\clean.py,10,3,2,0,0,7,1
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\heavily_commented.py,36,15,11,8,3,11,11
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\moderate.py,32,14,13,0,0,18,1
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\sparse_comments.py,11,7,7,0,0,4,0

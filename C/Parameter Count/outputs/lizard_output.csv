@@ -1,0 +1,5 @@
+NLOC,CCN,token,PARAM,length,location,file,function
+3,1,20,3,3,normal_add@3-5@D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\clean.c,D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\clean.c,normal_add
+3,1,45,8,3,too_many_parameters@3-5@D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\long_parameter_list.c,D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\long_parameter_list.c,too_many_parameters
+3,1,25,4,3,moderate_sum@3-5@D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\moderate_params.c,D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\moderate_params.c,moderate_sum
+10,4,37,1,10,nested_example@3-12@D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\nested_control.c,D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\nested_control.c,nested_example

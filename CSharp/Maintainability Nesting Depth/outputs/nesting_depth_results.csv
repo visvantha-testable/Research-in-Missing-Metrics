@@ -1,0 +1,6 @@
+file,class,method,start_line,end_line,max_nesting_depth,status
+D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\DepthSixViolation.cs,DepthSixViolation,DeeplyNested,5,28,6,analyzed
+D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\DepthThree.cs,DepthThree,ThreeLevels,5,19,3,analyzed
+D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\FlatLogic.cs,FlatLogic,Add,5,8,0,analyzed
+D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\FlatLogic.cs,FlatLogic,FormatName,10,14,0,analyzed
+D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\LoopNesting.cs,LoopNesting,NestedLoops,5,29,6,analyzed

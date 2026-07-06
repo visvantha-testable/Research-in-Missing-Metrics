@@ -1,0 +1,2 @@
+PMD CSV stderr: [WARN] Removed misconfigured rule: LoosePackageCoupling cause: No packages or classes specified
+PMD XML stderr: [WARN] Removed misconfigured rule: LoosePackageCoupling cause: No packages or classes specified

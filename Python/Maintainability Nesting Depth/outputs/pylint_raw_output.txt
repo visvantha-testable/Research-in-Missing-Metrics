@@ -1,0 +1,87 @@
+************* Module cases.clean_flat
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\clean_flat.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\clean_flat.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\clean_flat.py:13:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module cases.depth_5_at_limit
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_5_at_limit.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+************* Module cases.depth_6_violation
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_6_violation.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_6_violation.py:6:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+************* Module cases.depth_7_violation
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_7_violation.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_7_violation.py:6:4: R1702: Too many nested blocks (7/5) (too-many-nested-blocks)
+************* Module cases.depth_8_violation
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_8_violation.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_8_violation.py:6:4: R1702: Too many nested blocks (8/5) (too-many-nested-blocks)
+************* Module cases.mixed_loop_nesting
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\mixed_loop_nesting.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\mixed_loop_nesting.py:7:4: R1702: Too many nested blocks (10/5) (too-many-nested-blocks)
+************* Module cases.multi_violation_file
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py:6:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py:16:0: C0116: Missing function or method docstring (missing-function-docstring)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py:17:4: R1702: Too many nested blocks (8/5) (too-many-nested-blocks)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py:1:0: R0801: Similar lines in 2 files
+==cases.depth_8_violation:[5:15]
+==cases.multi_violation_file:[16:26]
+    if value > 0:
+        if value > 1:
+            if value > 2:
+                if value > 3:
+                    if value > 4:
+                        if value > 5:
+                            if value > 6:
+                                if value > 7:
+                                    return value
+    return 0 (duplicate-code)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py:1:0: R0801: Similar lines in 2 files
+==cases.depth_6_violation:[5:13]
+==cases.multi_violation_file:[5:16]
+    if value > 0:
+        if value > 1:
+            if value > 2:
+                if value > 3:
+                    if value > 4:
+                        if value > 5:
+                            return value
+    return 0 (duplicate-code)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py:1:0: R0801: Similar lines in 2 files
+==cases.depth_7_violation:[5:12]
+==cases.depth_8_violation:[5:12]
+    if value > 0:
+        if value > 1:
+            if value > 2:
+                if value > 3:
+                    if value > 4:
+                        if value > 5:
+                            if value > 6: (duplicate-code)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py:1:0: R0801: Similar lines in 2 files
+==cases.depth_6_violation:[5:11]
+==cases.depth_7_violation:[5:11]
+    if value > 0:
+        if value > 1:
+            if value > 2:
+                if value > 3:
+                    if value > 4:
+                        if value > 5: (duplicate-code)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py:1:0: R0801: Similar lines in 2 files
+==cases.depth_8_violation:[5:11]
+==cases.multi_violation_file:[5:11]
+    if value > 0:
+        if value > 1:
+            if value > 2:
+                if value > 3:
+                    if value > 4:
+                        if value > 5: (duplicate-code)
+Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py:1:0: R0801: Similar lines in 2 files
+==cases.depth_5_at_limit:[5:10]
+==cases.depth_6_violation:[5:10]
+    if value > 0:
+        if value > 1:
+            if value > 2:
+                if value > 3:
+                    if value > 4: (duplicate-code)
+
+------------------------------------------------------------------
+Your code has been rated at 7.53/10 (previous run: 7.53/10, +0.00)
+

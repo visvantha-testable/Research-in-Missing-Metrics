@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roslynator>
+  <CodeAnalysis>
+    <Summary>
+      <Diagnostic Id="CA1822" Title="Mark members as static" Count="5">
+        <Description>Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.</Description>
+        <HelpLink>https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822</HelpLink>
+      </Diagnostic>
+    </Summary>
+    <Projects>
+      <Project Name="NestingBenchmark" FilePath="D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\NestingBenchmark.csproj">
+        <Diagnostics>
+          <Diagnostic Id="CA1822">
+            <Severity>Info</Severity>
+            <Message>Mark members as static</Message>
+            <FilePath>D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\DepthSixViolation.cs</FilePath>
+            <Location Line="5" Character="16" />
+          </Diagnostic>
+          <Diagnostic Id="CA1822">
+            <Severity>Info</Severity>
+            <Message>Mark members as static</Message>
+            <FilePath>D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\DepthThree.cs</FilePath>
+            <Location Line="5" Character="16" />
+          </Diagnostic>
+          <Diagnostic Id="CA1822">
+            <Severity>Info</Severity>
+            <Message>Mark members as static</Message>
+            <FilePath>D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\FlatLogic.cs</FilePath>
+            <Location Line="5" Character="16" />
+          </Diagnostic>
+          <Diagnostic Id="CA1822">
+            <Severity>Info</Severity>
+            <Message>Mark members as static</Message>
+            <FilePath>D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\FlatLogic.cs</FilePath>
+            <Location Line="10" Character="19" />
+          </Diagnostic>
+          <Diagnostic Id="CA1822">
+            <Severity>Info</Severity>
+            <Message>Mark members as static</Message>
+            <FilePath>D:\Research in Missing Metrics\CSharp\Maintainability Nesting Depth\workspace\cs_nesting_benchmark\cases\LoopNesting.cs</FilePath>
+            <Location Line="5" Character="16" />
+          </Diagnostic>
+        </Diagnostics>
+      </Project>
+    </Projects>
+  </CodeAnalysis>
+</Roslynator>

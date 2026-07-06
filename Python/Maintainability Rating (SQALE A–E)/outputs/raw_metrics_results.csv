@@ -1,0 +1,16 @@
+file,loc,lloc,sloc,comments,multi,blank
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\clean.py,5,3,2,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\complex.py,45,43,42,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\duplicate_code_a.py,15,13,12,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\duplicate_code_b.py,15,13,12,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\moderate.py,16,14,13,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_ancestors.py,33,17,16,0,0,16
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_arguments.py,5,3,2,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_boolean_expressions.py,7,5,4,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_branches.py,33,31,30,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_instance_attributes.py,15,13,12,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_locals.py,21,19,18,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_nested_blocks.py,12,10,9,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_public_methods.py,66,44,43,0,0,22
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_returns.py,21,19,18,0,0,2
+D:\Research in Missing Metrics\Python\Maintainability Rating (SQALE A–E)\workspace\sqale_rating_benchmark\cases\too_many_statements.py,60,58,57,0,0,2

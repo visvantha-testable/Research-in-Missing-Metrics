@@ -1,0 +1,66 @@
+﻿[
+  {
+    "type": "issue",
+    "fingerprint": "1be29f542606bac2fa9d8c17e531dd61865347fc7200a14fb806af4fe24e98a2",
+    "check_name": "CA1822",
+    "description": "Mark members as static",
+    "severity": "minor",
+    "location": {
+      "path": "D:\\Research in Missing Metrics\\CSharp\\Parameter Count\\workspace\\parameter_count_benchmark\\cases\\ModerateParamsDemo.cs",
+      "lines": {
+        "begin": 4
+      }
+    },
+    "categories": [
+      "Performance"
+    ]
+  },
+  {
+    "type": "issue",
+    "fingerprint": "28ea7f39e2121beffc6eb61087045ecdd6452c34a5fdad9a05d63f1e87f67b7d",
+    "check_name": "CA1822",
+    "description": "Mark members as static",
+    "severity": "minor",
+    "location": {
+      "path": "D:\\Research in Missing Metrics\\CSharp\\Parameter Count\\workspace\\parameter_count_benchmark\\cases\\ExcessiveParameterListDemo.cs",
+      "lines": {
+        "begin": 4
+      }
+    },
+    "categories": [
+      "Performance"
+    ]
+  },
+  {
+    "type": "issue",
+    "fingerprint": "d2daa8cd3ca8294f9111dccafa603a54228656d1472157c594b4eb582cb514f4",
+    "check_name": "CA1822",
+    "description": "Mark members as static",
+    "severity": "minor",
+    "location": {
+      "path": "D:\\Research in Missing Metrics\\CSharp\\Parameter Count\\workspace\\parameter_count_benchmark\\cases\\CleanDemo.cs",
+      "lines": {
+        "begin": 4
+      }
+    },
+    "categories": [
+      "Performance"
+    ]
+  },
+  {
+    "type": "issue",
+    "fingerprint": "627d901ff58b044d323f54ecfdfc4689e80b5c825d0728606fc7415f9128f058",
+    "check_name": "CA1822",
+    "description": "Mark members as static",
+    "severity": "minor",
+    "location": {
+      "path": "D:\\Research in Missing Metrics\\CSharp\\Parameter Count\\workspace\\parameter_count_benchmark\\cases\\LocalFunctionDemo.cs",
+      "lines": {
+        "begin": 4
+      }
+    },
+    "categories": [
+      "Performance"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+file,total_lines,comment_lines,block_comment_lines,single_comment_lines,code_lines,blank_lines
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\bad_comments.js,11,2,1,1,7,2
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\clean.js,5,0,0,0,4,1
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\complexity_demo.js,16,0,0,0,15,1
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\heavily_commented.js,33,18,15,3,10,5
+D:\Research in Missing Metrics\JavaScript\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\sparse_comments.js,9,0,0,0,7,2

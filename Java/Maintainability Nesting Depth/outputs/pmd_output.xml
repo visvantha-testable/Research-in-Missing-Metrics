@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="7.0.0" timestamp="2026-07-02T18:36:31.043">
+<file name="D:\Research in Missing Metrics\Java\Maintainability Nesting Depth\workspace\java_nesting_benchmark\src\cases\DepthFourViolation.java">
+<violation beginline="7" endline="11" begincolumn="17" endcolumn="18" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="cases" class="DepthFourViolation" method="overThreshold" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+</file>
+<file name="D:\Research in Missing Metrics\Java\Maintainability Nesting Depth\workspace\java_nesting_benchmark\src\cases\DepthSixViolation.java">
+<violation beginline="7" endline="15" begincolumn="17" endcolumn="18" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="cases" class="DepthSixViolation" method="deeplyNested" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+</file>
+<file name="D:\Research in Missing Metrics\Java\Maintainability Nesting Depth\workspace\java_nesting_benchmark\src\cases\DepthThree.java">
+<violation beginline="7" endline="9" begincolumn="17" endcolumn="18" rule="AvoidDeeplyNestedIfStmts" ruleset="Design" package="cases" class="DepthThree" method="atThreshold" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.0.0/pmd_rules_java_design.html#avoiddeeplynestedifstmts" priority="3">
+Deeply nested if..then statements are hard to read
+</violation>
+</file>
+</pmd>

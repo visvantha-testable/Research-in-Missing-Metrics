@@ -1,0 +1,11 @@
+file,line,column,severity,ruleId,message,nodeType
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\complexity.js,1,8,1,complexity,Function 'complexityDemo' has a complexity of 12. Maximum allowed is 10.,
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\duplicate_imports.js,2,1,1,no-duplicate-imports,'./utils.js' import is duplicated.,
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_depth.js,6,11,1,max-depth,Blocks are nested too deeply (5). Maximum allowed is 4.,
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_lines.js,1,8,1,max-lines-per-function,Function 'longFunction' has too many lines (55). Maximum allowed is 50.,
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_lines.js,1,8,1,max-statements,Function 'longFunction' has too many statements (53). Maximum allowed is 20.,
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_params.js,1,8,1,max-params,Function 'tooManyParams' has too many parameters (6). Maximum allowed is 5.,
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\max_statements.js,1,8,1,max-statements,Function 'manyStatements' has too many statements (23). Maximum allowed is 20.,
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\shadow.js,3,11,1,no-shadow,'outer' is already declared in the upper scope on line 1 column 28.,
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\unreachable.js,4,5,1,no-unreachable,Unreachable code.,
+D:\Research in Missing Metrics\JavaScript\Code Smells Count\workspace\js_code_smells_benchmark\cases\unused_vars.js,2,9,1,no-unused-vars,'unused' is assigned a value but never used.,

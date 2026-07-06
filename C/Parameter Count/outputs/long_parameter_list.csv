@@ -1,0 +1,5 @@
+file,function,parameter_count,status
+D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\clean.c,normal_add,3,OK
+D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\long_parameter_list.c,too_many_parameters,8,Long Parameter List
+D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\moderate_params.c,moderate_sum,4,OK
+D:\Research in Missing Metrics\C\Parameter Count\workspace\parameter_count_benchmark\cases\nested_control.c,nested_example,1,OK

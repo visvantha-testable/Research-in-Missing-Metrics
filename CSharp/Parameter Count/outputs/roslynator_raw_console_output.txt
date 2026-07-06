@@ -1,0 +1,44 @@
+===== Roslynator analyze (text): D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln =====
+Loading solution 'D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln'...
+Analyze solution 'D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln'
+Analyze 'ParameterCountBenchmark' 1/1
+  cases\CleanDemo.cs(5,16): info CA1822: Member 'Add' does not access instance data and can be marked as static
+  cases\ExcessiveParameterListDemo.cs(5,16): info CA1822: Member 'ManyParameters' does not access instance data and can be marked as static
+  cases\LocalFunctionDemo.cs(5,16): info CA1822: Member 'Run' does not access instance data and can be marked as static
+  cases\ModerateParamsDemo.cs(5,16): info CA1822: Member 'ModerateSum' does not access instance data and can be marked as static
+Analyzed solution 'D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln' (in 3.6 s)
+
+4 CA1822 Mark members as static
+
+4 diagnostics found
+
+===== Roslynator analyze (xml): D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln =====
+Loading solution 'D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln'...
+Analyze solution 'D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln'
+Analyze 'ParameterCountBenchmark' 1/1
+  cases\CleanDemo.cs(5,16): info CA1822: Member 'Add' does not access instance data and can be marked as static
+  cases\ExcessiveParameterListDemo.cs(5,16): info CA1822: Member 'ManyParameters' does not access instance data and can be marked as static
+  cases\LocalFunctionDemo.cs(5,16): info CA1822: Member 'Run' does not access instance data and can be marked as static
+  cases\ModerateParamsDemo.cs(5,16): info CA1822: Member 'ModerateSum' does not access instance data and can be marked as static
+Analyzed solution 'D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln' (in 3.1 s)
+
+4 CA1822 Mark members as static
+
+4 diagnostics found
+
+===== Roslynator analyze (gitlab): D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln =====
+Loading solution 'D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln'...
+Analyze solution 'D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln'
+Analyze 'ParameterCountBenchmark' 1/1
+  cases\CleanDemo.cs(5,16): info CA1822: Member 'Add' does not access instance data and can be marked as static
+  cases\ExcessiveParameterListDemo.cs(5,16): info CA1822: Member 'ManyParameters' does not access instance data and can be marked as static
+  cases\LocalFunctionDemo.cs(5,16): info CA1822: Member 'Run' does not access instance data and can be marked as static
+  cases\ModerateParamsDemo.cs(5,16): info CA1822: Member 'ModerateSum' does not access instance data and can be marked as static
+Analyzed solution 'D:\Research in Missing Metrics\CSharp\Parameter Count\workspace\parameter_count_benchmark\ParameterCountBenchmark.sln' (in 3.1 s)
+
+4 CA1822 Mark members as static
+
+4 diagnostics found
+
+===== ParameterCountAnalyzer (stdout) =====
+Analyzed 5 C# files, 6 member rows written to D:\Research in Missing Metrics\CSharp\Parameter Count\outputs\parameter_count.csv

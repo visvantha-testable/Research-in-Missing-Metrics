@@ -1,0 +1,21 @@
+file,function,start_line,end_line,max_nesting_depth,status
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\clean.c,add,1,3,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\const_variable.c,const_demo,1,4,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\depth_six.c,depth_six,2,17,6,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\depth_three.c,depth_three,2,11,3,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\duplicate_expression.c,duplicate_expr,1,6,1,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\flat.c,flat,2,4,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\function_static.c,helper_for_static,1,2,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\function_static.c,call_helper,4,7,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\known_condition.c,known_condition,1,6,1,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\loop_nesting.c,loop_nesting,2,18,6,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\passed_by_value.c,consume,6,8,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\passed_by_value.c,trigger_passed_by_value,10,13,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\runner.c,benchmark_runner,16,33,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\shadow_variable.c,shadow_demo,1,8,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\unread_variable.c,unread_demo,1,4,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\unused_function.c,internal_helper,1,2,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\unused_function.c,never_called,4,5,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\unused_function.c,public_api,7,10,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\unused_struct_member.c,use_widget,6,9,0,reported
+D:\Research in Missing Metrics\C\Maintainability Rating (SQALE A-E)\workspace\sqale_rating_benchmark\cases\variable_scope.c,scope_demo,1,8,1,reported

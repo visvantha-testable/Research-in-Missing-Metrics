@@ -1,0 +1,8 @@
+absolute_path,relative_path
+D:\Research in Missing Metrics\Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\clean_flat.py,cases\clean_flat.py
+D:\Research in Missing Metrics\Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_5_at_limit.py,cases\depth_5_at_limit.py
+D:\Research in Missing Metrics\Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_6_violation.py,cases\depth_6_violation.py
+D:\Research in Missing Metrics\Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_7_violation.py,cases\depth_7_violation.py
+D:\Research in Missing Metrics\Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\depth_8_violation.py,cases\depth_8_violation.py
+D:\Research in Missing Metrics\Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\mixed_loop_nesting.py,cases\mixed_loop_nesting.py
+D:\Research in Missing Metrics\Python\Maintainability Nesting Depth\workspace\nesting_depth_benchmark\cases\multi_violation_file.py,cases\multi_violation_file.py

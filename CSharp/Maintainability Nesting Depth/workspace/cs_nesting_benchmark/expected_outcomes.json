@@ -1,0 +1,11 @@
+{
+  "benchmark_name": "cs_nesting_benchmark",
+  "description": "Deterministic C# nesting-depth benchmark for Roslynator + Roslyn AST validation.",
+  "expected_methods_min": 5,
+  "expected_max_nesting_depth": 6,
+  "expected_methods_at_max_depth": [
+    "Cases.DepthSixViolation.DeeplyNested",
+    "Cases.LoopNesting.NestedLoops"
+  ],
+  "notes": "FlatLogic methods should have max depth 0; DepthThree should reach 3; DepthSixViolation and LoopNesting should reach 6."
+}

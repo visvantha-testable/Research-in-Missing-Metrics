@@ -1,0 +1,83 @@
+===== radon raw (text) =====
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\clean.py
+    LOC: 10
+    LLOC: 3
+    SLOC: 2
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 7
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\heavily_commented.py
+    LOC: 36
+    LLOC: 15
+    SLOC: 11
+    Comments: 8
+    Single comments: 11
+    Multi: 3
+    Blank: 11
+    - Comment Stats
+        (C % L): 22%
+        (C % S): 73%
+        (C + M % L): 31%
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\moderate.py
+    LOC: 32
+    LLOC: 14
+    SLOC: 13
+    Comments: 0
+    Single comments: 1
+    Multi: 0
+    Blank: 18
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\sparse_comments.py
+    LOC: 11
+    LLOC: 7
+    SLOC: 7
+    Comments: 0
+    Single comments: 0
+    Multi: 0
+    Blank: 4
+    - Comment Stats
+        (C % L): 0%
+        (C % S): 0%
+        (C + M % L): 0%
+
+===== radon raw (json) =====
+{"D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\clean.py": {"loc": 10, "lloc": 3, "sloc": 2, "comments": 0, "multi": 0, "blank": 7, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\heavily_commented.py": {"loc": 36, "lloc": 15, "sloc": 11, "comments": 8, "multi": 3, "blank": 11, "single_comments": 11}, "D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\moderate.py": {"loc": 32, "lloc": 14, "sloc": 13, "comments": 0, "multi": 0, "blank": 18, "single_comments": 1}, "D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\sparse_comments.py": {"loc": 11, "lloc": 7, "sloc": 7, "comments": 0, "multi": 0, "blank": 4, "single_comments": 0}}
+
+===== radon mi (text) =====
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\clean.py - A (84.72)
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\heavily_commented.py - A (89.70)
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\moderate.py - A (63.43)
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\sparse_comments.py - A (71.27)
+
+===== radon mi (json) =====
+{"D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\clean.py": {"mi": 84.71624627594792, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\heavily_commented.py": {"mi": 89.6956654840838, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\moderate.py": {"mi": 63.42863905278425, "rank": "A"}, "D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\sparse_comments.py": {"mi": 71.2736280012172, "rank": "A"}}
+
+===== radon cc (text) =====
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\clean.py
+    F 7:0 add - A (1)
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\heavily_commented.py
+    F 30:0 process_values - A (2)
+    F 13:0 documented_add - A (1)
+    F 20:0 documented_multiply - A (1)
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\moderate.py
+    F 5:0 classify - A (4)
+    F 23:0 summarize - A (2)
+D:\Research in Missing Metrics\Python\Comment-to-Code Ratio\workspace\comment_to_code_ratio_benchmark\cases\sparse_comments.py
+    C 9:0 Calculator - A (2)
+    F 1:0 add - A (1)
+    F 5:0 multiply - A (1)
+    M 10:4 Calculator.combine - A (1)
+
+10 blocks (classes, functions, methods) analyzed.
+Average complexity: A (1.6)
+
+===== radon cc (json) =====
+{"D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\clean.py": [{"type": "function", "rank": "A", "complexity": 1, "name": "add", "col_offset": 0, "endline": 9, "lineno": 7, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\heavily_commented.py": [{"type": "function", "rank": "A", "complexity": 2, "name": "process_values", "col_offset": 0, "endline": 36, "lineno": 30, "closures": []}, {"type": "function", "rank": "A", "complexity": 1, "name": "documented_add", "col_offset": 0, "endline": 17, "lineno": 13, "closures": []}, {"type": "function", "rank": "A", "complexity": 1, "name": "documented_multiply", "col_offset": 0, "endline": 24, "lineno": 20, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\moderate.py": [{"type": "function", "rank": "A", "complexity": 4, "name": "classify", "col_offset": 0, "endline": 19, "lineno": 5, "closures": []}, {"type": "function", "rank": "A", "complexity": 2, "name": "summarize", "col_offset": 0, "endline": 31, "lineno": 23, "closures": []}], "D:\\Research in Missing Metrics\\Python\\Comment-to-Code Ratio\\workspace\\comment_to_code_ratio_benchmark\\cases\\sparse_comments.py": [{"type": "class", "rank": "A", "complexity": 2, "name": "Calculator", "col_offset": 0, "endline": 11, "lineno": 9, "methods": [{"type": "method", "rank": "A", "complexity": 1, "name": "combine", "col_offset": 4, "endline": 11, "lineno": 10, "classname": "Calculator", "closures": []}]}, {"type": "function", "rank": "A", "complexity": 1, "name": "add", "col_offset": 0, "endline": 2, "lineno": 1, "closures": []}, {"type": "function", "rank": "A", "complexity": 1, "name": "multiply", "col_offset": 0, "endline": 6, "lineno": 5, "closures": []}, {"type": "method", "rank": "A", "complexity": 1, "name": "combine", "col_offset": 4, "endline": 11, "lineno": 10, "classname": "Calculator", "closures": []}]}

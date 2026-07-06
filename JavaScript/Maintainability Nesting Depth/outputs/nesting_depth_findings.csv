@@ -1,0 +1,3 @@
+file,line,rule,actual_depth,threshold,status
+D:\Research in Missing Metrics\JavaScript\Maintainability Nesting Depth\workspace\js_nesting_benchmark\cases\depth_six_violation.js,7,max-depth,6,5,reported
+D:\Research in Missing Metrics\JavaScript\Maintainability Nesting Depth\workspace\js_nesting_benchmark\cases\loop_nesting.js,8,max-depth,6,5,reported

@@ -1,0 +1,51 @@
+===== lizard text =====
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+       4      1     20      3       4 CleanDemo::Add@5-8@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\CleanDemo.cs
+      56     52    527      1      56 LongMethodDemo::VeryLongMethod@6-61@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\LongMethodDemo.cs
+       1      1     10      1       1 ModerateDemo::StepOne@5-5@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs
+       1      1     10      1       1 ModerateDemo::StepTwo@7-7@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs
+       1      1     10      1       1 ModerateDemo::StepThree@9-9@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs
+       1      1     10      1       1 ModerateDemo::StepFour@11-11@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs
+       1      1     10      1       1 ModerateDemo::StepFive@13-13@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs
+      14      4     37      1      14 NestedControlDemo::NestedExample@5-18@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\NestedControlDemo.cs
+4 file analyzed.
+==============================================================
+NLOC    Avg.NLOC  AvgCCN  Avg.token  function_cnt    file
+--------------------------------------------------------------
+      8       4.0     1.0       20.0         1     D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\CleanDemo.cs
+     60      56.0    52.0      527.0         1     D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\LongMethodDemo.cs
+      9       1.0     1.0       10.0         5     D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs
+     18      14.0     4.0       37.0         1     D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\NestedControlDemo.cs
+
+===========================================================================================================
+!!!! Warnings (cyclomatic_complexity > 15 or length > 1000 or nloc > 1000000 or parameter_count > 100) !!!!
+================================================
+  NLOC    CCN   token  PARAM  length  location  
+------------------------------------------------
+      56     52    527      1      56 LongMethodDemo::VeryLongMethod@6-61@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\LongMethodDemo.cs
+==========================================================================================
+Total nloc   Avg.NLOC  AvgCCN  Avg.token   Fun Cnt  Warning cnt   Fun Rt   nloc Rt
+------------------------------------------------------------------------------------------
+        95       9.9     7.8       79.2        8            1      0.12    0.71
+
+===== lizard csv =====
+4,1,20,3,4,"CleanDemo::Add@5-8@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\CleanDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\CleanDemo.cs","CleanDemo::Add","CleanDemo::Add( int a , int b , int c)",5,8
+56,52,527,1,56,"LongMethodDemo::VeryLongMethod@6-61@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\LongMethodDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\LongMethodDemo.cs","LongMethodDemo::VeryLongMethod","LongMethodDemo::VeryLongMethod( int value)",6,61
+1,1,10,1,1,"ModerateDemo::StepOne@5-5@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","ModerateDemo::StepOne","ModerateDemo::StepOne( int x)",5,5
+1,1,10,1,1,"ModerateDemo::StepTwo@7-7@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","ModerateDemo::StepTwo","ModerateDemo::StepTwo( int x)",7,7
+1,1,10,1,1,"ModerateDemo::StepThree@9-9@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","ModerateDemo::StepThree","ModerateDemo::StepThree( int x)",9,9
+1,1,10,1,1,"ModerateDemo::StepFour@11-11@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","ModerateDemo::StepFour","ModerateDemo::StepFour( int x)",11,11
+1,1,10,1,1,"ModerateDemo::StepFive@13-13@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","ModerateDemo::StepFive","ModerateDemo::StepFive( int x)",13,13
+14,4,37,1,14,"NestedControlDemo::NestedExample@5-18@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\NestedControlDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\NestedControlDemo.cs","NestedControlDemo::NestedExample","NestedControlDemo::NestedExample( int x)",5,18
+
+===== lizard csv_ens =====
+4,1,20,3,4,"CleanDemo::Add@5-8@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\CleanDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\CleanDemo.cs","CleanDemo::Add","CleanDemo::Add( int a , int b , int c)",5,8,0
+56,52,527,1,56,"LongMethodDemo::VeryLongMethod@6-61@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\LongMethodDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\LongMethodDemo.cs","LongMethodDemo::VeryLongMethod","LongMethodDemo::VeryLongMethod( int value)",6,61,0
+1,1,10,1,1,"ModerateDemo::StepOne@5-5@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","ModerateDemo::StepOne","ModerateDemo::StepOne( int x)",5,5,0
+1,1,10,1,1,"ModerateDemo::StepTwo@7-7@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","ModerateDemo::StepTwo","ModerateDemo::StepTwo( int x)",7,7,0
+1,1,10,1,1,"ModerateDemo::StepThree@9-9@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","ModerateDemo::StepThree","ModerateDemo::StepThree( int x)",9,9,0
+1,1,10,1,1,"ModerateDemo::StepFour@11-11@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","ModerateDemo::StepFour","ModerateDemo::StepFour( int x)",11,11,0
+1,1,10,1,1,"ModerateDemo::StepFive@13-13@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\ModerateDemo.cs","ModerateDemo::StepFive","ModerateDemo::StepFive( int x)",13,13,0
+14,4,37,1,14,"NestedControlDemo::NestedExample@5-18@D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\NestedControlDemo.cs","D:\Research in Missing Metrics\CSharp\File & Function Length\workspace\file_function_length_benchmark\cases\NestedControlDemo.cs","NestedControlDemo::NestedExample","NestedControlDemo::NestedExample( int x)",5,18,3

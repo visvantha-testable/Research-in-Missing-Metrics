@@ -1,0 +1,5 @@
+project,file,line,column,severity,diagnostic_id,message
+,cases\CleanDemo.cs,5,16,info,CA1822,Member 'Add' does not access instance data and can be marked as static
+,cases\ExcessiveParameterListDemo.cs,5,16,info,CA1822,Member 'ManyParameters' does not access instance data and can be marked as static
+,cases\LocalFunctionDemo.cs,5,16,info,CA1822,Member 'Run' does not access instance data and can be marked as static
+,cases\ModerateParamsDemo.cs,5,16,info,CA1822,Member 'ModerateSum' does not access instance data and can be marked as static
