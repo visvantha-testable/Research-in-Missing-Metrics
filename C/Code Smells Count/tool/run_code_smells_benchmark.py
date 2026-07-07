@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 import sys
 from pathlib import Path
-"""hii"""
+
 TOOL_ROOT = Path(__file__).resolve().parent
 METRIC_ROOT = TOOL_ROOT.parent
 PROJECT_ROOT = METRIC_ROOT.parent.parent
