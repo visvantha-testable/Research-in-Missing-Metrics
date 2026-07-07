@@ -1,6 +1,6 @@
 """Run Cppcheck code smells benchmark pipeline."""
 from __future__ import annotations
-
+"""hello"""
 import json
 import sys
 from pathlib import Path
