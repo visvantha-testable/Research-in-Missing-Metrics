@@ -1,0 +1,74 @@
+===== D:\Research in Missing Metrics\runtimes\apache-maven-3.9.6\bin\mvn.cmd clean compile -pl static-du-platform -am =====
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Java Tool Testing Static DU                                        [pom]
+[INFO] Static DU Platform Trigger                                         [jar]
+[INFO] 
+[INFO] ---------< com.testable.training:java-tool-testing-static-du >----------
+[INFO] Building Java Tool Testing Static DU 1.0.0                         [1/2]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ java-tool-testing-static-du ---
+[INFO] 
+[INFO] --------------< com.testable.training:static-du-platform >--------------
+[INFO] Building Static DU Platform Trigger 1.0.0                          [2/2]
+[INFO]   from static-du-platform\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ static-du-platform ---
+[INFO] Deleting D:\Research in Missing Metrics\Java\Static DU Analysis\workspace\java-tool-testing-static-du\static-du-platform\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ static-du-platform ---
+[INFO] skip non existing resourceDirectory D:\Research in Missing Metrics\Java\Static DU Analysis\workspace\java-tool-testing-static-du\static-du-platform\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ static-du-platform ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 10 source files with javac [debug release 17] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Java Tool Testing Static DU 1.0.0:
+[INFO] 
+[INFO] Java Tool Testing Static DU ........................ SUCCESS [  0.351 s]
+[INFO] Static DU Platform Trigger ......................... SUCCESS [  3.285 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.904 s
+[INFO] Finished at: 2026-07-15T16:02:05+05:30
+[INFO] ------------------------------------------------------------------------
+
+===== D:\Research in Missing Metrics\runtimes\apache-maven-3.9.6\bin\mvn.cmd -pl static-du-platform exec:java -Dexec.mainClass=com.testable.training.platform.StaticDuTrigger -Dexec.args=--skip-verify =====
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.testable.training:static-du-platform >--------------
+[INFO] Building Static DU Platform Trigger 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.3.0:java (default-cli) @ static-du-platform ---
+Starting Static DU platform trigger (5 Data Flow metrics)
+Collected Static DU artifacts into D:\Research in Missing Metrics\Java\Static DU Analysis\workspace\java-tool-testing-static-du\artifacts\training
+  definitions_total=4
+  definitions_covered=4
+  du_pairs_total=7
+  du_pairs_covered=7
+  all_defs_percent=100.0
+  all_uses_percent=100.0
+Exported platform bundle:
+  static_du.json
+  static_du_metrics.json
+  static_du_metric_evidence.json
+  dashboard_metrics.json
+  platform_metrics.json
+  metrics.json
+  testable_dashboard.json
+
+TRIGGER COMPLETE: static_du.json ready — all 5 Static DU metrics covered=yes 100/100
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.605 s
+[INFO] Finished at: 2026-07-15T16:02:10+05:30
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,32 @@
+[
+  {
+    "Taxonomy Level": "Technique",
+    "Value": "Control Flow Testing",
+    "Supported": "Not Supported",
+    "Evidence": "No exception-flow or error-flow fields found in raw Knip output."
+  },
+  {
+    "Taxonomy Level": "Classification",
+    "Value": "Path Coverage",
+    "Supported": "Not Supported",
+    "Evidence": "No exception-flow or error-flow fields found in raw Knip output."
+  },
+  {
+    "Taxonomy Level": "Metric",
+    "Value": "Exception Path Handling",
+    "Supported": "Not Supported",
+    "Evidence": "No exception-flow or error-flow fields found in raw Knip output."
+  },
+  {
+    "Taxonomy Level": "KPI",
+    "Value": "Error Flow Verification",
+    "Supported": "Not Supported",
+    "Evidence": "No exception-flow or error-flow fields found in raw Knip output."
+  },
+  {
+    "Taxonomy Level": "Assessment",
+    "Value": "Knip is a static dependency analysis tool and does not execute the application. Therefore Exception Path Handling and Error Flow Verification cannot be directly measured.",
+    "Supported": "Not Supported",
+    "Evidence": "No exception-flow or error-flow fields found in raw Knip output."
+  }
+]

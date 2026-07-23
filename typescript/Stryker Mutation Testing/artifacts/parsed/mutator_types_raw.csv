@@ -1,0 +1,6 @@
+Mutator,Emitted In Report
+BlockStatement,mutation-report.json
+ConditionalExpression,mutation-report.json
+EqualityOperator,mutation-report.json
+LogicalOperator,mutation-report.json
+StringLiteral,mutation-report.json

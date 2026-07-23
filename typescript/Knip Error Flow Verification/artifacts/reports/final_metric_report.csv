@@ -1,0 +1,2 @@
+Technique,Classification,Metric,Definition,Tool,Raw Output File,Supported,Evidence
+Control Flow Testing,Path Coverage,Exception Path Handling,"Measures the code's ability to gracefully handle and recover from unexpected errors or try-catch blocks, ensuring the system does not crash when forced into a failure state.",Knip,knip-report.json,NO,No exception-flow or error-flow fields found in raw Knip output.

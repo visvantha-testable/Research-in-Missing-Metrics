@@ -1,0 +1,314 @@
+===== D:\Research in Missing Metrics\runtimes\apache-maven-3.9.6\bin\mvn.cmd clean compile test-compile =====
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Java Tool Testing JaCoCo                                           [pom]
+[INFO] JaCoCo Training Subject                                            [jar]
+[INFO] JaCoCo Platform Trigger                                            [jar]
+[INFO] 
+[INFO] -----------< com.testable.training:java-tool-testing-jacoco >-----------
+[INFO] Building Java Tool Testing JaCoCo 1.0.0                            [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ java-tool-testing-jacoco ---
+[INFO] 
+[INFO] ------------< com.testable.training:jacoco-sample-subject >-------------
+[INFO] Building JaCoCo Training Subject 1.0.0                             [2/3]
+[INFO]   from sample_subject\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ jacoco-sample-subject ---
+[INFO] Deleting D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\sample_subject\target
+[INFO] 
+[INFO] --- jacoco:0.8.15:prepare-agent (default) @ jacoco-sample-subject ---
+[INFO] argLine set to "-javaagent:C:\\Users\\WELCOME\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.15\\org.jacoco.agent-0.8.15-runtime.jar=destfile=D:\\Research in Missing Metrics\\Java\\JaCoCo Coverage\\workspace\\java-tool-testing-jacoco\\sample_subject\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jacoco-sample-subject ---
+[INFO] skip non existing resourceDirectory D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\sample_subject\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ jacoco-sample-subject ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 3 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- jacoco:0.8.15:prepare-agent (default) @ jacoco-sample-subject ---
+[INFO] argLine set to "-javaagent:C:\\Users\\WELCOME\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.15\\org.jacoco.agent-0.8.15-runtime.jar=destfile=D:\\Research in Missing Metrics\\Java\\JaCoCo Coverage\\workspace\\java-tool-testing-jacoco\\sample_subject\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jacoco-sample-subject ---
+[INFO] skip non existing resourceDirectory D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\sample_subject\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ jacoco-sample-subject ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ jacoco-sample-subject ---
+[INFO] skip non existing resourceDirectory D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\sample_subject\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ jacoco-sample-subject ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 3 source files with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] ---------------< com.testable.training:jacoco-platform >----------------
+[INFO] Building JaCoCo Platform Trigger 1.0.0                             [3/3]
+[INFO]   from jacoco-platform\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ jacoco-platform ---
+[INFO] Deleting D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\jacoco-platform\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jacoco-platform ---
+[INFO] skip non existing resourceDirectory D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\jacoco-platform\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ jacoco-platform ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 16 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jacoco-platform ---
+[INFO] skip non existing resourceDirectory D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\jacoco-platform\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ jacoco-platform ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ jacoco-platform ---
+[INFO] skip non existing resourceDirectory D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\jacoco-platform\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ jacoco-platform ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 17] to target\test-classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Java Tool Testing JaCoCo 1.0.0:
+[INFO] 
+[INFO] Java Tool Testing JaCoCo ........................... SUCCESS [  0.356 s]
+[INFO] JaCoCo Training Subject ............................ SUCCESS [  3.512 s]
+[INFO] JaCoCo Platform Trigger ............................ SUCCESS [  3.337 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.429 s
+[INFO] Finished at: 2026-07-15T12:35:40+05:30
+[INFO] ------------------------------------------------------------------------
+
+
+================================================================================
+JPF RUN: com.testable.training.platform.ArtifactCollector
+================================================================================
+Skipping JPF execution: com.testable.training.platform.ArtifactCollector has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.JacocoCounters
+================================================================================
+Skipping JPF execution: com.testable.training.platform.JacocoCounters has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.JacocoCoverageLoader
+================================================================================
+Skipping JPF execution: com.testable.training.platform.JacocoCoverageLoader has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.JacocoDashboardMetrics
+================================================================================
+Skipping JPF execution: com.testable.training.platform.JacocoDashboardMetrics has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.JacocoJsonVerifier
+================================================================================
+Skipping JPF execution: com.testable.training.platform.JacocoJsonVerifier has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.JacocoJsonVerifierCli
+================================================================================
+===== java -jar D:/Research in Missing Metrics/runtimes/jpf-core/build/RunJPF.jar +site=D:/Research in Missing Metrics/Java/JPF Path Analysis/workspace/jpf_site.properties D:/Research in Missing Metrics/Java/JPF Path Analysis/outputs/jpf_configs/com_testable_training_platform_JacocoJsonVerifierCli.jpf =====
+JavaPathfinder core system v8.0 (rev 5a48bf8f11af91d89802ce5598bb7e4dea73f265) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+com.testable.training.platform.JacocoJsonVerifierCli.main()
+
+====================================================== search started: 15/07/26, 12:35 pm
+[WARNING] orphan NativePeer method: jdk.internal.misc.Unsafe.getUnsafe()Lsun/misc/Unsafe;
+[WARNING] orphan NativePeer method: jdk.internal.misc.VM.initializeFromArchive
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.NoSuchMethodError: java.lang.String.value()[B
+	at java.lang.AbstractStringBuilder.appendChars(java/lang/AbstractStringBuilder.java:1752)
+	at java.lang.AbstractStringBuilder.append(java/lang/AbstractStringBuilder.java:684)
+	at java.lang.StringBuilder.append(java/lang/StringBuilder.java:218)
+	at sun.nio.fs.WindowsPathParser.normalize(sun/nio/fs/WindowsPathParser.java:175)
+	at sun.nio.fs.WindowsPathParser.parse(sun/nio/fs/WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(sun/nio/fs/WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsFileSystem.<init>(sun/nio/fs/WindowsFileSystem.java:51)
+	at sun.nio.fs.WindowsFileSystemProvider.<init>(sun/nio/fs/WindowsFileSystemProvider.java:54)
+	at sun.nio.fs.DefaultFileSystemProvider.<clinit>(sun/nio/fs/DefaultFileSystemProvider.java:34)
+	at java.nio.file.FileSystems.getDefault(java/nio/file/FileSystems.java:186)
+	at java.nio.file.Path.of(java/nio/file/Path.java:147)
+	at java.nio.file.Paths.get(java/nio/file/Paths.java:69)
+	at com.testable.training.platform.JacocoJsonVerifierCli.main(com/testable/training/platform/JacocoJsonVerifierCli.java:8)
+
+
+====================================================== trace #1
+------------------------------------------------------ transition #0 thread: 0
+gov.nasa.jpf.vm.choice.ThreadChoiceFromSet {id:"ROOT" ,1/1,isCascaded:false}
+      [9492 insn w/o sources]
+  com/testable/training/platform/JacocoJsonVerifierCli.java:8 : Path repoRoot = Paths.get("").toAbsolutePath();
+      [4389 insn w/o sources]
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.NoSuchMethodError: java.lang.String.valu..."
+
+====================================================== statistics
+elapsed time:       00:00:00
+states:             new=1,visited=0,backtracked=1,end=0
+search:             maxDepth=1,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=0
+heap:               new=797,released=0,maxLive=0,gcCycles=0
+instructions:       13885
+max memory:         254MB
+loaded code:        classes=133,methods=3054
+
+====================================================== search finished: 15/07/26, 12:35 pm
+
+
+================================================================================
+JPF RUN: com.testable.training.platform.JacocoTrigger
+================================================================================
+===== java -jar D:/Research in Missing Metrics/runtimes/jpf-core/build/RunJPF.jar +site=D:/Research in Missing Metrics/Java/JPF Path Analysis/workspace/jpf_site.properties D:/Research in Missing Metrics/Java/JPF Path Analysis/outputs/jpf_configs/com_testable_training_platform_JacocoTrigger.jpf =====
+JavaPathfinder core system v8.0 (rev 5a48bf8f11af91d89802ce5598bb7e4dea73f265) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+com.testable.training.platform.JacocoTrigger.main("--skip-verify")
+
+====================================================== search started: 15/07/26, 12:35 pm
+[WARNING] orphan NativePeer method: jdk.internal.misc.Unsafe.getUnsafe()Lsun/misc/Unsafe;
+[WARNING] orphan NativePeer method: jdk.internal.misc.VM.initializeFromArchive
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.NoSuchMethodError: java.lang.String.value()[B
+	at java.lang.AbstractStringBuilder.appendChars(java/lang/AbstractStringBuilder.java:1752)
+	at java.lang.AbstractStringBuilder.append(java/lang/AbstractStringBuilder.java:684)
+	at java.lang.StringBuilder.append(java/lang/StringBuilder.java:218)
+	at sun.nio.fs.WindowsPathParser.normalize(sun/nio/fs/WindowsPathParser.java:175)
+	at sun.nio.fs.WindowsPathParser.parse(sun/nio/fs/WindowsPathParser.java:153)
+	at sun.nio.fs.WindowsPathParser.parse(sun/nio/fs/WindowsPathParser.java:77)
+	at sun.nio.fs.WindowsFileSystem.<init>(sun/nio/fs/WindowsFileSystem.java:51)
+	at sun.nio.fs.WindowsFileSystemProvider.<init>(sun/nio/fs/WindowsFileSystemProvider.java:54)
+	at sun.nio.fs.DefaultFileSystemProvider.<clinit>(sun/nio/fs/DefaultFileSystemProvider.java:34)
+	at java.nio.file.FileSystems.getDefault(java/nio/file/FileSystems.java:186)
+	at java.nio.file.Path.of(java/nio/file/Path.java:147)
+	at java.nio.file.Paths.get(java/nio/file/Paths.java:69)
+	at com.testable.training.platform.JacocoTrigger.locateRepoRoot(com/testable/training/platform/JacocoTrigger.java:37)
+	at com.testable.training.platform.JacocoTrigger.main(com/testable/training/platform/JacocoTrigger.java:12)
+
+
+====================================================== trace #1
+------------------------------------------------------ transition #0 thread: 0
+gov.nasa.jpf.vm.choice.ThreadChoiceFromSet {id:"ROOT" ,1/1,isCascaded:false}
+      [9492 insn w/o sources]
+  com/testable/training/platform/JacocoTrigger.java:11 : boolean skipVerify = Arrays.asList(args).contains("--skip-verify");
+      [10 insn w/o sources]
+  com/testable/training/platform/JacocoTrigger.java:11 : boolean skipVerify = Arrays.asList(args).contains("--skip-verify");
+      [27 insn w/o sources]
+  com/testable/training/platform/JacocoTrigger.java:11 : boolean skipVerify = Arrays.asList(args).contains("--skip-verify");
+      [28 insn w/o sources]
+  com/testable/training/platform/JacocoTrigger.java:11 : boolean skipVerify = Arrays.asList(args).contains("--skip-verify");
+  com/testable/training/platform/JacocoTrigger.java:12 : Path repoRoot = locateRepoRoot();
+  com/testable/training/platform/JacocoTrigger.java:37 : Path current = Paths.get("").toAbsolutePath();
+      [4378 insn w/o sources]
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.NoSuchMethodError: java.lang.String.valu..."
+
+====================================================== statistics
+elapsed time:       00:00:01
+states:             new=1,visited=0,backtracked=1,end=0
+search:             maxDepth=1,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=0
+heap:               new=802,released=0,maxLive=0,gcCycles=0
+instructions:       13946
+max memory:         254MB
+loaded code:        classes=133,methods=3055
+
+====================================================== search finished: 15/07/26, 12:35 pm
+
+
+================================================================================
+JPF RUN: com.testable.training.platform.JacocoXmlParser
+================================================================================
+Skipping JPF execution: com.testable.training.platform.JacocoXmlParser has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.JacocoXmlSynthesizer
+================================================================================
+Skipping JPF execution: com.testable.training.platform.JacocoXmlSynthesizer has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.JsonUtils
+================================================================================
+Skipping JPF execution: com.testable.training.platform.JsonUtils has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.MetricCoverageValidator
+================================================================================
+Skipping JPF execution: com.testable.training.platform.MetricCoverageValidator has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.MetricDefinition
+================================================================================
+Skipping JPF execution: com.testable.training.platform.MetricDefinition has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.OfficialJacocoAnalyzer
+================================================================================
+Skipping JPF execution: com.testable.training.platform.OfficialJacocoAnalyzer has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.PlatformExporter
+================================================================================
+Skipping JPF execution: com.testable.training.platform.PlatformExporter has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.PlatformFixup
+================================================================================
+Skipping JPF execution: com.testable.training.platform.PlatformFixup has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.StaticDuAnalyzer
+================================================================================
+Skipping JPF execution: com.testable.training.platform.StaticDuAnalyzer has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.platform.JacocoMetricsEngineTest
+================================================================================
+Skipping JPF execution: com.testable.training.platform.JacocoMetricsEngineTest has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.DataFlowSample
+================================================================================
+Skipping JPF execution: com.testable.training.DataFlowSample has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.OrderService
+================================================================================
+Skipping JPF execution: com.testable.training.OrderService has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.PaymentValidator
+================================================================================
+Skipping JPF execution: com.testable.training.PaymentValidator has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.DataFlowSampleTest
+================================================================================
+Skipping JPF execution: com.testable.training.DataFlowSampleTest has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.OrderServiceTest
+================================================================================
+Skipping JPF execution: com.testable.training.OrderServiceTest has no public static void main method.
+
+================================================================================
+JPF RUN: com.testable.training.PaymentValidatorTest
+================================================================================
+Skipping JPF execution: com.testable.training.PaymentValidatorTest has no public static void main method.

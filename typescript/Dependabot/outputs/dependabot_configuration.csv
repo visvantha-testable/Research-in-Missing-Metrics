@@ -1,0 +1,3 @@
+ecosystem,directory,schedule,open_pull_requests_limit,reviewers,labels,assignees,config_file
+npm,/,daily,5,,dependencies; dependabot,,D:\Research in Missing Metrics\typescript\Dependabot\workspace\typescript-tool-testing-dependabot\.github\dependabot.yml
+npm,/sample_subject,daily,3,,dependencies; sample-subject,,D:\Research in Missing Metrics\typescript\Dependabot\workspace\typescript-tool-testing-dependabot\.github\dependabot.yml

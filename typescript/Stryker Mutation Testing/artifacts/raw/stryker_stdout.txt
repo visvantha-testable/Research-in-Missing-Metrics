@@ -1,0 +1,30 @@
+
+> typescript-tool-testing-stryker-mutator-core@1.0.0 stryker
+> stryker run
+
+[32m16:14:37 (23736) INFO ProjectReader[39m Found 1 of 2296 file(s) to be mutated.
+[32m16:14:37 (23736) INFO Instrumenter[39m Instrumented 1 source file(s) with 62 mutant(s)
+[32m16:14:40 (23736) INFO ConcurrencyTokenProvider[39m Creating 2 test runner process(es).
+[32m16:14:54 (23736) INFO DryRunExecutor[39m Starting initial test run (vitest test runner with "perTest" coverage analysis). This may take a while.
+[32m16:14:56 (23736) INFO DryRunExecutor[39m Initial test run succeeded. Ran 7 tests in 2 seconds (net 16.287000000000262 ms, overhead 1993.7129999999997 ms).
+
+All tests/mutants.test.ts
+  ✓ mutants — mutation-testing subject gradeScore kills boundary mutants at 50 and 75 (killed 14)
+  ✓ mutants — mutation-testing subject isStrictlyBelow kills <= boundary mutants (killed 5)
+  ✓ mutants — mutation-testing subject isStrictlyAbove kills >= boundary mutants (killed 5)
+  ✓ mutants — mutation-testing subject inRange kills comparator mutants (killed 10)
+  ✓ mutants — mutation-testing subject clamp kills min/max branch mutants via strict helpers (killed 7)
+  ✓ mutants — mutation-testing subject classifySign kills sign comparison mutants (killed 13)
+  ✓ mutants — mutation-testing subject pickLargerWithTieBreaker kills >= vs > mutant on ties (killed 8)
+
+Ran 1.00 tests per mutant on average.
+------------|------------------|----------|-----------|------------|----------|----------|
+            | % Mutation score |          |           |            |          |          |
+File        |  total | covered | # killed | # timeout | # survived | # no cov | # errors |
+------------|--------|---------|----------|-----------|------------|----------|----------|
+All files   | 100.00 |  100.00 |       62 |         0 |          0 |        0 |        0 |
+ mutants.ts | 100.00 |  100.00 |       62 |         0 |          0 |        0 |        0 |
+------------|--------|---------|----------|-----------|------------|----------|----------|
+[32m16:16:09 (23736) INFO MutationTestReportHelper[39m Final mutation score of 100.00 is greater than or equal to break threshold 100
+[32m16:16:09 (23736) INFO JsonReporter[39m Your report can be found at: file:///D:/Research%20in%20Missing%20Metrics/typescript/Stryker%20Mutation%20Testing/workspace/typescript-tool-testing-stryker-mutator-core/artifacts/training/mutation/mutation-report.json
+[32m16:16:09 (23736) INFO MutationTestExecutor[39m Done in 1 minute and 35 seconds.

@@ -1,0 +1,12 @@
+Config Field,Raw Value,Source File
+mutate,"[""sample_subject/src/**/*.ts"", ""!sample_subject/src/index.ts""]",stryker.config.json
+testRunner,"""vitest""",stryker.config.json
+coverageAnalysis,"""perTest""",stryker.config.json
+reporters,"[""json"", ""clear-text""]",stryker.config.json
+timeoutMS,60000,stryker.config.json
+jsonReporter,"{""fileName"": ""artifacts/training/mutation/mutation-report.json""}",stryker.config.json
+vitest,"{""configFile"": ""vitest.config.ts""}",stryker.config.json
+plugins,"[""@stryker-mutator/vitest-runner""]",stryker.config.json
+thresholds,"{""high"": 100, ""break"": 100, ""low"": 100}",stryker.config.json
+concurrency,2,stryker.config.json
+vitest.configFile,"""vitest.config.ts""",stryker.config.json

@@ -1,0 +1,57 @@
+metric_name,metric_value,artifact,emission_type
+total_lines,163,static_du.json:summary,Directly Emitted
+duplicated_lines,0,static_du.json:summary,Directly Emitted
+duplicated_lines_percent,0.0,static_du.json:summary,Directly Emitted
+duplicated_blocks,0,static_du.json:summary,Directly Emitted
+duplicated_files,0,static_du.json:summary,Directly Emitted
+duplicated_blocks_count,0,static_du.json:summary,Directly Emitted
+duplicated_files_count,0,static_du.json:summary,Directly Emitted
+duplicated_lines_count,0,static_du.json:summary,Directly Emitted
+duplication_density,0.0,static_du.json:summary,Directly Emitted
+duplication_density_percent,0.0,static_du.json:summary,Directly Emitted
+number_of_duplicated_blocks,0,static_du.json:summary,Directly Emitted
+number_of_duplicated_files,0,static_du.json:summary,Directly Emitted
+number_of_duplicated_lines,0,static_du.json:summary,Directly Emitted
+metrics_total,12,static_du.json:summary,Directly Emitted
+total_lines,163,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+duplicated_lines,0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+duplicated_lines_percent,0.0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+duplicated_blocks,0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+duplicated_files,0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+duplicated_blocks_count,0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+duplicated_files_count,0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+duplicated_lines_count,0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+duplication_density,0.0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+duplication_density_percent,0.0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+number_of_duplicated_blocks,0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+number_of_duplicated_files,0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+number_of_duplicated_lines,0,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+files_analyzed,"['DataFlowSample.java', 'InventoryService.java', 'OrderService.java', 'PaymentValidator.java', 'PricingEngine.java', 'ShipmentTracker.java']",static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+duplicate_blocks,[],static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+tool,static du,static_du.json:supplemental_raw_data.static_du_summary,Directly Emitted
+definitionsTotal,6,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+definitionsCovered,6,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+usesTotal,77,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+usesCovered,77,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+cUseTotal,10,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+cUseCovered,10,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+pUseTotal,67,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+pUseCovered,67,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+duPairsTotal,10,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+duPairsCovered,10,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+uncoveredDefinitions,0,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+partialUses,0,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+ghostUses,0,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+multipleDefinitionSites,1,jacoco.json:supplemental_raw_data.static_du_summary,Derived
+Duplicated lines (%),100,static_du.json:metrics,Directly Emitted
+Duplicated blocks,100,static_du.json:metrics,Directly Emitted
+Duplicated files,100,static_du.json:metrics,Directly Emitted
+Duplicated lines,100,static_du.json:metrics,Directly Emitted
+duplicated_blocks_count,100,static_du.json:metrics,Directly Emitted
+duplicated_files_count,100,static_du.json:metrics,Directly Emitted
+duplicated_lines_count,100,static_du.json:metrics,Directly Emitted
+duplication_density,100,static_du.json:metrics,Directly Emitted
+duplication_density_percent,100,static_du.json:metrics,Directly Emitted
+number_of_duplicated_blocks,100,static_du.json:metrics,Directly Emitted
+number_of_duplicated_files,100,static_du.json:metrics,Directly Emitted
+number_of_duplicated_lines,100,static_du.json:metrics,Directly Emitted

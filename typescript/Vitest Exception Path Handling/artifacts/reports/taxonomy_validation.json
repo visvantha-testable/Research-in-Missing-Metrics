@@ -1,0 +1,26 @@
+[
+  {
+    "Taxonomy Level": "Technique",
+    "Value": "Control Flow Testing",
+    "Supported": "Supported",
+    "Evidence": "Vitest runtime test execution completed; see raw_vitest_output.txt and raw_coverage_output.txt"
+  },
+  {
+    "Taxonomy Level": "Classification",
+    "Value": "Path Coverage",
+    "Supported": "Supported",
+    "Evidence": "total.branches.covered=72, total.branches.total=72, total.branches.pct=100"
+  },
+  {
+    "Taxonomy Level": "Metric",
+    "Value": "Exception Path Handling",
+    "Supported": "Supported",
+    "Evidence": "exception_path_files=3, exception_branches.covered=72, exception_branches.total=72"
+  },
+  {
+    "Taxonomy Level": "KPI",
+    "Value": "Error Flow Verification",
+    "Supported": "Supported",
+    "Evidence": "Error Flow Verification=100 derived from exception branch coverage and total branch coverage"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-07-22T06:33:43.067380+00:00",
+  "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+  "dotnet_version": "9.0.316",
+  "platform": "win32",
+  "exporter": "otlp",
+  "otel_exporter_otlp_endpoint": "",
+  "otel_exporter_otlp_traces_endpoint": "",
+  "otel_exporter_jaeger_endpoint": "",
+  "otel_exporter_zipkin_endpoint": ""
+}

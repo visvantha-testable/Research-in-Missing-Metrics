@@ -1,0 +1,164 @@
+{
+  "tool": "@stryker-mutator/core",
+  "generated_from": [
+    "artifacts\\training\\mutation\\mutation-report.json"
+  ],
+  "technique": "Mutation Testing",
+  "classification": "Mutation Score",
+  "kpi": "Mutation Score %",
+  "Mutation Testing": "Yes",
+  "Mutation Score": 100,
+  "Mutation Score %": 100,
+  "taxonomy_coverage": {
+    "Mutation Testing": {
+      "covered": "Yes",
+      "evidence": "Stryker mutation run completed; mutants_total=62, files_mutated=1, report=artifacts\\training\\mutation\\mutation-report.json"
+    },
+    "Mutation Score": {
+      "covered": "Yes",
+      "evidence": "mutation_score_percent=100, mutants_killed=62, mutants_survived=0, mutants_timeout=0"
+    },
+    "Fault Detection Capability": {
+      "covered": "Yes",
+      "evidence": "Logic Error Sensitivity=100 derived from mutation-report.json mutant counts"
+    },
+    "Logic Error Sensitivity": {
+      "covered": "Yes",
+      "evidence": "Fault Detection Capability=100 from logic_error_sensitivity_score"
+    },
+    "Test Coverage Quality Validation": {
+      "covered": "Yes",
+      "evidence": "Test Rigor Assessment=100 derived from mutation-report.json mutant counts"
+    },
+    "Test Rigor Assessment": {
+      "covered": "Yes",
+      "evidence": "Test Coverage Quality Validation=100 from test_rigor_assessment_score"
+    },
+    "Test Case Improvement Identification": {
+      "covered": "Yes",
+      "evidence": "Weak Spot Localization=100 derived from mutation-report.json mutant counts"
+    },
+    "Weak Spot Localization": {
+      "covered": "Yes",
+      "evidence": "Test Case Improvement Identification=100 from weak_spot_localization_score"
+    },
+    "Edge Case Detection": {
+      "covered": "Yes",
+      "evidence": "Boundary Mutant Analysis=100 derived from mutation-report.json mutant counts"
+    },
+    "Boundary Mutant Analysis": {
+      "covered": "Yes",
+      "evidence": "Edge Case Detection=100 from boundary_mutant_analysis_score"
+    },
+    "Regression Testing Validation": {
+      "covered": "Yes",
+      "evidence": "Mutation Regression Stability=100 derived from mutation-report.json mutant counts"
+    },
+    "Mutation Regression Stability": {
+      "covered": "Yes",
+      "evidence": "Regression Testing Validation=100 from mutation_regression_stability_score"
+    },
+    "Code Logic Validation": {
+      "covered": "Yes",
+      "evidence": "Semantic Logic Verification=100 derived from mutation-report.json mutant counts"
+    },
+    "Semantic Logic Verification": {
+      "covered": "Yes",
+      "evidence": "Code Logic Validation=100 from semantic_logic_verification_score"
+    },
+    "Test Suite Effectiveness Evaluation": {
+      "covered": "Yes",
+      "evidence": "Mutation Score %=100 derived from mutation-report.json mutant counts"
+    },
+    "Mutation Score %": {
+      "covered": "Yes",
+      "evidence": "Test Suite Effectiveness Evaluation=100 from mutation_score_percent_score"
+    }
+  },
+  "mutation_metrics": {
+    "mutation_score_percent": 100,
+    "mutants_total": 62,
+    "mutants_killed": 62,
+    "mutants_survived": 0,
+    "mutants_timeout": 0,
+    "mutants_no_coverage": 0,
+    "mutants_compile_error": 0,
+    "mutants_runtime_error": 0,
+    "boundary_mutants_total": 54,
+    "boundary_mutants_killed": 54,
+    "logic_mutants_total": 40,
+    "logic_mutants_killed": 40,
+    "weak_spots": 0,
+    "files_mutated": 1,
+    "baseline_mutation_score_percent": 100,
+    "mutation_regression_delta": 0
+  },
+  "metric_scores": {
+    "Fault Detection Capability": 100,
+    "Test Coverage Quality Validation": 100,
+    "Test Case Improvement Identification": 100,
+    "Edge Case Detection": 100,
+    "Regression Testing Validation": 100,
+    "Code Logic Validation": 100,
+    "Test Suite Effectiveness Evaluation": 100
+  },
+  "dashboard_capabilities": [
+    {
+      "classification": "Fault Detection Capability",
+      "l5_metric": "Logic Error Sensitivity",
+      "score": 100,
+      "covered": "Yes"
+    },
+    {
+      "classification": "Test Coverage Quality Validation",
+      "l5_metric": "Test Rigor Assessment",
+      "score": 100,
+      "covered": "Yes"
+    },
+    {
+      "classification": "Test Case Improvement Identification",
+      "l5_metric": "Weak Spot Localization",
+      "score": 100,
+      "covered": "Yes"
+    },
+    {
+      "classification": "Edge Case Detection",
+      "l5_metric": "Boundary Mutant Analysis",
+      "score": 100,
+      "covered": "Yes"
+    },
+    {
+      "classification": "Regression Testing Validation",
+      "l5_metric": "Mutation Regression Stability",
+      "score": 100,
+      "covered": "Yes"
+    },
+    {
+      "classification": "Code Logic Validation",
+      "l5_metric": "Semantic Logic Verification",
+      "score": 100,
+      "covered": "Yes"
+    },
+    {
+      "classification": "Test Suite Effectiveness Evaluation",
+      "l5_metric": "Mutation Score %",
+      "score": 100,
+      "covered": "Yes"
+    }
+  ],
+  "coverage_analysis": "perTest",
+  "mutation_report_path": "D:\\Research in Missing Metrics\\typescript\\Stryker Mutation Testing\\workspace\\typescript-tool-testing-stryker-mutator-core\\artifacts\\training\\mutation\\mutation-report.json",
+  "Fault Detection Capability": 100,
+  "Logic Error Sensitivity": 100,
+  "Test Coverage Quality Validation": 100,
+  "Test Rigor Assessment": 100,
+  "Test Case Improvement Identification": 100,
+  "Weak Spot Localization": 100,
+  "Edge Case Detection": 100,
+  "Boundary Mutant Analysis": 100,
+  "Regression Testing Validation": 100,
+  "Mutation Regression Stability": 100,
+  "Code Logic Validation": 100,
+  "Semantic Logic Verification": 100,
+  "Test Suite Effectiveness Evaluation": 100
+}

@@ -1,0 +1,10 @@
+{
+  "command": "C:\\Program Files\\nodejs\\npm.CMD run coverage",
+  "returncode": 0,
+  "elapsed_ms": 20884.092000000237,
+  "node_version": "v22.16.0",
+  "npm_version": "10.9.2",
+  "vitest_version": "vitest/2.1.9 win32-x64 node-v22.16.0",
+  "coverage_v8_version": "2.1.9",
+  "timestamp_utc": "2026-07-21T06:08:43.277662+00:00"
+}

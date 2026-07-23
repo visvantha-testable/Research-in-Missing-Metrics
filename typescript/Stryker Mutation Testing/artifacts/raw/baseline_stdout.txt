@@ -1,0 +1,15 @@
+
+> typescript-tool-testing-stryker-mutator-core@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 D:/Research in Missing Metrics/typescript/Stryker Mutation Testing/workspace/typescript-tool-testing-stryker-mutator-core
+
+ ✓ sample_subject/tests/mutants.test.ts (7 tests) 14ms
+ ✓ tests/platformFixup.test.ts (1 test) 10ms
+
+ Test Files  2 passed (2)
+      Tests  8 passed (8)
+   Start at  16:14:25
+   Duration  1.66s (transform 224ms, setup 0ms, collect 317ms, tests 24ms, environment 1ms, prepare 884ms)
+

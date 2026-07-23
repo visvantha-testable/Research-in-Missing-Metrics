@@ -1,0 +1,7 @@
+@using = jpf-core
+target = com.testable.training.platform.JacocoJsonVerifierCli
+classpath = D:/Research in Missing Metrics/Java/JaCoCo Coverage/workspace/java-tool-testing-jacoco/jacoco-platform/target/classes;D:/Research in Missing Metrics/Java/JaCoCo Coverage/workspace/java-tool-testing-jacoco/sample_subject/target/classes
+sourcepath = D:/Research in Missing Metrics/Java/JaCoCo Coverage/workspace/java-tool-testing-jacoco/jacoco-platform/src;D:/Research in Missing Metrics/Java/JaCoCo Coverage/workspace/java-tool-testing-jacoco/jacoco-platform/src/main/java;D:/Research in Missing Metrics/Java/JaCoCo Coverage/workspace/java-tool-testing-jacoco/sample_subject/src;D:/Research in Missing Metrics/Java/JaCoCo Coverage/workspace/java-tool-testing-jacoco/sample_subject/src/main/java
+report.console.start = jpf,sut
+report.console.property_violation = error,trace
+search.multiple_errors = true

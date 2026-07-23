@@ -1,0 +1,7 @@
+{
+  "path_coverage_available": "YES",
+  "path_coverage_statement": "Path coverage evidence found in taxonomy_metrics.json at field: pathCoverage",
+  "branch_coverage_note": "Vitest + @vitest/coverage-v8 branch coverage corroborates path coverage via path_coverage_percent=100, total_paths=34, covered_paths=34.",
+  "metric_available": "YES",
+  "evidence": "taxonomy_metrics.json pathCoverage; path_coverage_percent=100, total_paths=34, covered_paths=34"
+}

@@ -1,0 +1,15 @@
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.Jaeger' 1.6.0-rc.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-38h3-2333-qx47
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.11.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4625-4j76-fww9
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.Zipkin' 1.11.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-88hf-wf7h-7w4m
+  OpenTelemetryPlatform -> D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\bin\Debug\net9.0\OpenTelemetryPlatform.dll
+  OpenTelemetryPlatform.Tests -> D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\tests\OpenTelemetryPlatform.Tests\bin\Debug\net9.0\OpenTelemetryPlatform.Tests.dll
+
+Build succeeded.
+
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.Jaeger' 1.6.0-rc.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-38h3-2333-qx47
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.11.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4625-4j76-fww9
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.Zipkin' 1.11.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-88hf-wf7h-7w4m
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16

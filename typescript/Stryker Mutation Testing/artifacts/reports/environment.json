@@ -1,0 +1,10 @@
+{
+  "node_version": "v22.16.0",
+  "npm_version": "10.9.2",
+  "stryker_version": "9.6.1",
+  "git_version": "git version 2.49.0.windows.1",
+  "operating_system": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.14.2",
+  "repository_path": "D:\\Research in Missing Metrics\\typescript\\Stryker Mutation Testing\\workspace\\typescript-tool-testing-stryker-mutator-core",
+  "timestamp": "2026-07-21T11:35:58.694761+00:00"
+}

@@ -1,0 +1,2 @@
+Technique,Classification,Metric,Definition,Tool Used,Raw Output File,Metric Available,Evidence
+Control Flow Testing,Path Coverage,Path Detection Testing,Percentage of all distinct execution paths through a function that are exercised by the test suite.,Vitest + @vitest/coverage-v8,coverage-summary.json; coverage-final.json,YES,"taxonomy_metrics.json pathCoverage; path_coverage_percent=100, total_paths=34, covered_paths=34"

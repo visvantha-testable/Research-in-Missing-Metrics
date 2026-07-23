@@ -1,0 +1,26 @@
+[
+  {
+    "Taxonomy Level": "Technique",
+    "Value": "Control Flow Testing",
+    "Supported": "Partially Supported",
+    "Evidence": "Vitest stdout confirms test suite execution with passing tests."
+  },
+  {
+    "Taxonomy Level": "Classification",
+    "Value": "Path Coverage",
+    "Supported": "Partially Supported",
+    "Evidence": "total.branches.covered=29, total.branches.total=29, total.branches.pct=100"
+  },
+  {
+    "Taxonomy Level": "Metric",
+    "Value": "Exception Path Handling",
+    "Supported": "Partially Supported",
+    "Evidence": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.covered=29, D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.total=29, D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.pct=100"
+  },
+  {
+    "Taxonomy Level": "KPI",
+    "Value": "Error Flow Verification",
+    "Supported": "Not Supported",
+    "Evidence": "No Error Flow Verification field in coverage-summary.json or coverage-final.json."
+  }
+]

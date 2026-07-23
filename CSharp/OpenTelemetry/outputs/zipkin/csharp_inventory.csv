@@ -1,0 +1,13 @@
+file_path,file_name,directory
+src/OpenTelemetryPlatform/Models/PathExecutionMetrics.cs,PathExecutionMetrics.cs,src/OpenTelemetryPlatform/Models
+src/OpenTelemetryPlatform/Program.cs,Program.cs,src/OpenTelemetryPlatform
+src/OpenTelemetryPlatform/Services/MetricsCalculator.cs,MetricsCalculator.cs,src/OpenTelemetryPlatform/Services
+src/OpenTelemetryPlatform/Services/OpenTelemetryVerifier.cs,OpenTelemetryVerifier.cs,src/OpenTelemetryPlatform/Services
+src/OpenTelemetryPlatform/Services/PathExecutionTracker.cs,PathExecutionTracker.cs,src/OpenTelemetryPlatform/Services
+src/OpenTelemetryPlatform/Services/PlatformExporter.cs,PlatformExporter.cs,src/OpenTelemetryPlatform/Services
+src/OpenTelemetryPlatform/Services/PlatformFixup.cs,PlatformFixup.cs,src/OpenTelemetryPlatform/Services
+src/OpenTelemetryPlatform/Services/TypeScriptTestCollector.cs,TypeScriptTestCollector.cs,src/OpenTelemetryPlatform/Services
+tests/OpenTelemetryPlatform.Tests/MetricsCalculatorTests.cs,MetricsCalculatorTests.cs,tests/OpenTelemetryPlatform.Tests
+src/OpenTelemetryPlatform/OpenTelemetryPlatform.csproj,OpenTelemetryPlatform.csproj,src/OpenTelemetryPlatform
+tests/OpenTelemetryPlatform.Tests/OpenTelemetryPlatform.Tests.csproj,OpenTelemetryPlatform.Tests.csproj,tests/OpenTelemetryPlatform.Tests
+OpenTelemetryPlatform.sln,OpenTelemetryPlatform.sln,.

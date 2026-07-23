@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.testable.training:def-use-platform >---------------
+[INFO] Building Def-Use Unified Platform Trigger 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.3.0:java (default-cli) @ def-use-platform ---
+Starting Def-Use unified trigger (JaCoCo 33 + Static DU 12 = 45 metrics)
+Starting JaCoCo platform trigger (33 metrics)
+Using existing Maven JaCoCo report from sample_subject/target
+Collected JaCoCo artifacts in D:\Research in Missing Metrics\Java\JaCoCo Static DU Validation\workspace\java-tool-testing-def-use\artifacts\training
+Exported platform bundle:
+  jacoco.json
+  jacoco_metrics.json
+  jacoco_metric_evidence.json
+  dashboard_metrics.json
+  platform_metrics.json
+  metrics.json
+  testable_dashboard.json
+All 33 JaCoCo metrics are covered with 100/100 scores.
+PASS: jacoco.json has all 33 JaCoCo metrics covered=yes with 100/100 score
+
+TRIGGER COMPLETE: jacoco.json ready — all 33 JaCoCo metrics covered=yes 100/100
+Starting Static DU platform trigger (12 duplication metrics)
+Collected Static DU artifacts into D:\Research in Missing Metrics\Java\JaCoCo Static DU Validation\workspace\java-tool-testing-def-use\artifacts\training
+  total_lines=163
+  duplicated_lines=0
+  duplicated_blocks=0
+  duplicated_files=0
+  duplication_density_percent=0.0
+Exported platform bundle:
+  static_du.json
+  static_du_metrics.json
+  static_du_metric_evidence.json
+  dashboard_metrics.json
+  platform_metrics.json
+  metrics.json
+  testable_dashboard.json
+All 12 Static DU metrics are covered with 100/100 scores.
+PASS: static_du.json has all 12 Static DU metrics covered=yes with 100/100 score
+
+TRIGGER COMPLETE: static_du.json ready — all 12 Static DU metrics covered=yes 100/100
+Merged def_use.json — 45 metrics (JaCoCo 33 + Static DU 12)
+
+TRIGGER COMPLETE: def_use.json ready — all 45 metrics covered=yes 100/100
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.258 s
+[INFO] Finished at: 2026-07-16T13:41:10+05:30
+[INFO] ------------------------------------------------------------------------

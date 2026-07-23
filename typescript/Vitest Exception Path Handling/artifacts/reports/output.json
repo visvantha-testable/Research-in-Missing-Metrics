@@ -1,0 +1,199 @@
+{
+  "generated_at": "2026-07-21T03:24:27.973939+00:00",
+  "repository": {
+    "name": "typescript-tool-testing-knip",
+    "local_path": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip",
+    "commit_hash": "5c78c2d69e4a7c02974bc839cbd213909bfc7a64",
+    "programming_language": "TypeScript"
+  },
+  "taxonomy": {
+    "technique": "Control Flow Testing",
+    "classification": "Path Coverage",
+    "metric": "Exception Path Handling",
+    "kpi": "Error Flow Verification",
+    "definition": "Measures the code's ability to gracefully handle and recover from unexpected errors or try-catch blocks, ensuring the system does not crash when forced into a failure state.",
+    "tool": "Vitest + @vitest/coverage-v8"
+  },
+  "environment": {
+    "operating_system": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.2",
+    "node_version": "v22.16.0",
+    "npm_version": "10.9.2",
+    "package_manager": "npm",
+    "vitest_version": "vitest/2.1.9 win32-x64 node-v22.16.0",
+    "coverage_v8_version": "2.1.9",
+    "repository_commit_hash": "5c78c2d69e4a7c02974bc839cbd213909bfc7a64",
+    "execution_timestamp": "2026-07-21T03:24:17.841526+00:00"
+  },
+  "vitest_configuration": {
+    "config_path": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\vitest.config.ts",
+    "config_source": "repository vitest config",
+    "notes": []
+  },
+  "pipeline": {
+    "elapsed_ms": 22354.43,
+    "package_manager": "npm",
+    "install_command": "C:\\Program Files\\nodejs\\npm.CMD install",
+    "install_returncode": 0,
+    "vitest_command": "C:\\Program Files\\nodejs\\npm.CMD run coverage",
+    "vitest_returncode": 0,
+    "vitest_elapsed_ms": 10018.674399999782,
+    "vitest_packages": [
+      {
+        "package": "vitest",
+        "version": "2.1.9",
+        "status": "OK",
+        "action": "already present"
+      },
+      {
+        "package": "@vitest/coverage-v8",
+        "version": "2.1.9",
+        "status": "OK",
+        "action": "already present"
+      }
+    ]
+  },
+  "coverage_metrics": {
+    "Statements Covered": {
+      "json_field": "total.statements.covered",
+      "value": 73
+    },
+    "Statements Total": {
+      "json_field": "total.statements.total",
+      "value": 73
+    },
+    "Statements Coverage %": {
+      "json_field": "total.statements.pct",
+      "value": 100
+    },
+    "Branches Covered": {
+      "json_field": "total.branches.covered",
+      "value": 29
+    },
+    "Branches Total": {
+      "json_field": "total.branches.total",
+      "value": 29
+    },
+    "Branches Coverage %": {
+      "json_field": "total.branches.pct",
+      "value": 100
+    },
+    "Functions Covered": {
+      "json_field": "total.functions.covered",
+      "value": 5
+    },
+    "Functions Total": {
+      "json_field": "total.functions.total",
+      "value": 5
+    },
+    "Functions Coverage %": {
+      "json_field": "total.functions.pct",
+      "value": 100
+    },
+    "Lines Covered": {
+      "json_field": "total.lines.covered",
+      "value": 73
+    },
+    "Lines Total": {
+      "json_field": "total.lines.total",
+      "value": 73
+    },
+    "Lines Coverage %": {
+      "json_field": "total.lines.pct",
+      "value": 100
+    },
+    "Coverage Summary": {
+      "json_field": "total",
+      "value": "{\"branches\": {\"covered\": 29, \"pct\": 100, \"skipped\": 0, \"total\": 29}, \"branchesTrue\": {\"covered\": 0, \"pct\": \"Unknown\", \"skipped\": 0, \"total\": 0}, \"functions\": {\"covered\": 5, \"pct\": 100, \"skipped\": 0, \"total\": 5}, \"lines\": {\"covered\": 73, \"pct\": 100, \"skipped\": 0, \"total\": 73}, \"statements\": {\"covered\": 73, \"pct\": 100, \"skipped\": 0, \"total\": 73}}"
+    }
+  },
+  "exception_path_evidence": [
+    {
+      "Evidence Type": "Execution of try blocks",
+      "Present": "No",
+      "Evidence": "No runtime evidence available."
+    },
+    {
+      "Evidence Type": "Execution of catch blocks",
+      "Present": "No",
+      "Evidence": "No runtime evidence available."
+    },
+    {
+      "Evidence Type": "Thrown exceptions",
+      "Present": "Partial",
+      "Evidence": "Vitest stdout reports passing tests in sample_subject/tests/errorFlow.test.ts; individual throw/reject assertions are not emitted in default Vitest console output."
+    },
+    {
+      "Evidence Type": "Rejected promises",
+      "Present": "No",
+      "Evidence": "No runtime evidence available."
+    },
+    {
+      "Evidence Type": "Error handling branches executed",
+      "Present": "Yes",
+      "Evidence": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.covered=29, D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.total=29, D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.pct=100"
+    },
+    {
+      "Evidence Type": "Fallback logic executed",
+      "Present": "Partial",
+      "Evidence": "coverage-final.json b.* branch hits with non-zero execution=29/29"
+    },
+    {
+      "Evidence Type": "Recovery after exception",
+      "Present": "Partial",
+      "Evidence": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.pct=100 with all error-flow tests passing in Vitest stdout"
+    },
+    {
+      "Evidence Type": "Unhandled exceptions",
+      "Present": "No",
+      "Evidence": "Vitest stdout reports zero failed tests; no unhandled exception failures recorded in runtime output."
+    }
+  ],
+  "taxonomy_validation": [
+    {
+      "Taxonomy Level": "Technique",
+      "Value": "Control Flow Testing",
+      "Supported": "Partially Supported",
+      "Evidence": "Vitest stdout confirms test suite execution with passing tests."
+    },
+    {
+      "Taxonomy Level": "Classification",
+      "Value": "Path Coverage",
+      "Supported": "Partially Supported",
+      "Evidence": "total.branches.covered=29, total.branches.total=29, total.branches.pct=100"
+    },
+    {
+      "Taxonomy Level": "Metric",
+      "Value": "Exception Path Handling",
+      "Supported": "Partially Supported",
+      "Evidence": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.covered=29, D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.total=29, D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.pct=100"
+    },
+    {
+      "Taxonomy Level": "KPI",
+      "Value": "Error Flow Verification",
+      "Supported": "Not Supported",
+      "Evidence": "No Error Flow Verification field in coverage-summary.json or coverage-final.json."
+    }
+  ],
+  "final_taxonomy_validation": [
+    {
+      "Technique": "Control Flow Testing",
+      "Classification": "Path Coverage",
+      "Metric": "Exception Path Handling",
+      "KPI": "Error Flow Verification",
+      "Tool": "Vitest + @vitest/coverage-v8",
+      "Raw Output File": "coverage-summary.json; coverage-final.json",
+      "Supported": "PARTIAL",
+      "Evidence": "Thrown exceptions: Vitest stdout reports passing tests in sample_subject/tests/errorFlow.test.ts; individual throw/reject assertions are not emitted in default Vitest console output.; Error handling branches executed: D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.covered=29, D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.total=29, D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.pct=100; Fallback logic executed: coverage-final.json b.* branch hits with non-zero execution=29/29; Recovery after exception: D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.pct=100 with all error-flow tests passing in Vitest stdout"
+    }
+  ],
+  "raw_artifacts": {
+    "coverage-summary.json": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\artifacts\\raw\\coverage-summary.json",
+    "coverage-final.json": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\artifacts\\raw\\coverage-final.json",
+    "vitest_stdout.txt": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\artifacts\\raw\\vitest_stdout.txt",
+    "vitest_stderr.txt": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\artifacts\\raw\\vitest_stderr.txt",
+    "execution.json": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\artifacts\\reports\\execution.json",
+    "environment.json": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\artifacts\\reports\\environment.json",
+    "coverage_directory": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\artifacts\\raw\\coverage"
+  }
+}

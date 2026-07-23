@@ -1,0 +1,10 @@
+{
+  "operating_system": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.14.2",
+  "node_version": "v22.16.0",
+  "npm_version": "10.9.2",
+  "package_manager": "npm",
+  "vitest_version": "vitest/2.1.9 win32-x64 node-v22.16.0",
+  "coverage_v8_version": "2.1.9",
+  "execution_timestamp": "2026-07-21T06:35:02.838050+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "clone_status": "Using local repository at D:\\Research in Missing Metrics\\CSharp\\OpenTelemetry\\workspace\\csharp-testing-opentelemetry",
+  "repository_stats": {
+    "repository_name": "csharp-testing-opentelemetry",
+    "repository_size_bytes": 33463,
+    "csharp_file_count": 9,
+    "solution_files": [
+      "OpenTelemetryPlatform.sln"
+    ],
+    "project_files": [
+      "src/OpenTelemetryPlatform/OpenTelemetryPlatform.csproj",
+      "tests/OpenTelemetryPlatform.Tests/OpenTelemetryPlatform.Tests.csproj"
+    ],
+    "commit_hash": "50ea6cc32ddcb8e1fa0a813a7c3b7efa24d6d4a1"
+  },
+  "restore": {
+    "success": true,
+    "returncode": 0,
+    "elapsed_ms": 1761.65,
+    "target": "D:\\Research in Missing Metrics\\CSharp\\OpenTelemetry\\workspace\\csharp-testing-opentelemetry\\OpenTelemetryPlatform.sln"
+  },
+  "build": {
+    "success": true,
+    "returncode": 0,
+    "elapsed_ms": 1555.75,
+    "target": "D:\\Research in Missing Metrics\\CSharp\\OpenTelemetry\\workspace\\csharp-testing-opentelemetry\\OpenTelemetryPlatform.sln"
+  },
+  "run": {
+    "success": true,
+    "returncode": 0,
+    "elapsed_ms": 11351.79,
+    "project": "src\\OpenTelemetryPlatform\\OpenTelemetryPlatform.csproj",
+    "trigger_mode": true
+  },
+  "telemetry_source": "D:\\Research in Missing Metrics\\CSharp\\OpenTelemetry\\workspace\\csharp-testing-opentelemetry\\artifacts\\training\\otlp_export.json",
+  "exporter": "otlp",
+  "summary": {
+    "total_traces": 16,
+    "total_spans": 16,
+    "root_spans": 16,
+    "child_spans": 0,
+    "exception_events": 0,
+    "execution_status": "SUCCESS"
+  }
+}

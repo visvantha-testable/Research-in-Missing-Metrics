@@ -1,0 +1,5 @@
+timestamp,file,error_message
+
+===== COMMAND LOG =====
+{"timestamp": "2026-07-20T12:21:41.990569+00:00", "command": "C:\\Program Files\\nodejs\\npm.CMD install", "returncode": 0, "elapsed_ms": 3229.58, "stdout_bytes": 270, "stderr_bytes": 0}
+{"timestamp": "2026-07-20T12:21:51.572804+00:00", "command": "C:\\Program Files\\nodejs\\npx.CMD eslint . --ext .ts -f json -o D:\\Research in Missing Metrics\\typescript\\Path Coverage\\outputs\\eslint_raw_output.json", "returncode": 1, "elapsed_ms": 9571.97, "stdout_bytes": 0, "stderr_bytes": 0}

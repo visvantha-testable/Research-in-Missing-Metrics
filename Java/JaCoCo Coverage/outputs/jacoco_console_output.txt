@@ -1,0 +1,110 @@
+===== D:\Research in Missing Metrics\runtimes\apache-maven-3.9.6\bin\mvn.cmd clean test =====
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Java Tool Testing JaCoCo                                           [pom]
+[INFO] JaCoCo Training Subject                                            [jar]
+[INFO] JaCoCo Platform Trigger                                            [jar]
+[INFO] 
+[INFO] -----------< com.testable.training:java-tool-testing-jacoco >-----------
+[INFO] Building Java Tool Testing JaCoCo 1.0.0                            [1/3]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ java-tool-testing-jacoco ---
+[INFO] 
+[INFO] ------------< com.testable.training:jacoco-sample-subject >-------------
+[INFO] Building JaCoCo Training Subject 1.0.0                             [2/3]
+[INFO]   from sample_subject\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ jacoco-sample-subject ---
+[INFO] Deleting D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\sample_subject\target
+[INFO] 
+[INFO] --- jacoco:0.8.15:prepare-agent (default) @ jacoco-sample-subject ---
+[INFO] argLine set to "-javaagent:C:\\Users\\WELCOME\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.15\\org.jacoco.agent-0.8.15-runtime.jar=destfile=D:\\Research in Missing Metrics\\Java\\JaCoCo Coverage\\workspace\\java-tool-testing-jacoco\\sample_subject\\target\\jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jacoco-sample-subject ---
+[INFO] skip non existing resourceDirectory D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\sample_subject\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ jacoco-sample-subject ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 3 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ jacoco-sample-subject ---
+[INFO] skip non existing resourceDirectory D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\sample_subject\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ jacoco-sample-subject ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 3 source files with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ jacoco-sample-subject ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.testable.training.DataFlowSampleTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.233 s -- in com.testable.training.DataFlowSampleTest
+[INFO] Running com.testable.training.OrderServiceTest
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.116 s -- in com.testable.training.OrderServiceTest
+[INFO] Running com.testable.training.PaymentValidatorTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 s -- in com.testable.training.PaymentValidatorTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jacoco:0.8.15:report (report) @ jacoco-sample-subject ---
+[INFO] Loading execution data file D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\sample_subject\target\jacoco.exec
+[INFO] Analyzed bundle 'JaCoCo Training Subject' with 3 classes
+[INFO] 
+[INFO] ---------------< com.testable.training:jacoco-platform >----------------
+[INFO] Building JaCoCo Platform Trigger 1.0.0                             [3/3]
+[INFO]   from jacoco-platform\pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ jacoco-platform ---
+[INFO] Deleting D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\jacoco-platform\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ jacoco-platform ---
+[INFO] skip non existing resourceDirectory D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\jacoco-platform\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ jacoco-platform ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 16 source files with javac [debug release 17] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ jacoco-platform ---
+[INFO] skip non existing resourceDirectory D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco\jacoco-platform\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ jacoco-platform ---
+[INFO] Changes detected - recompiling the module! :dependency
+[INFO] Compiling 1 source file with javac [debug release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ jacoco-platform ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.testable.training.platform.JacocoMetricsEngineTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 s -- in com.testable.training.platform.JacocoMetricsEngineTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Java Tool Testing JaCoCo 1.0.0:
+[INFO] 
+[INFO] Java Tool Testing JaCoCo ........................... SUCCESS [  0.369 s]
+[INFO] JaCoCo Training Subject ............................ SUCCESS [  9.278 s]
+[INFO] JaCoCo Platform Trigger ............................ SUCCESS [  4.486 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.510 s
+[INFO] Finished at: 2026-07-15T11:51:51+05:30
+[INFO] ------------------------------------------------------------------------

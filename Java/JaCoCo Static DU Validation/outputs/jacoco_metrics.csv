@@ -1,0 +1,13 @@
+metric_name,covered,missed,coverage_percent
+Instruction Covered,303,0,100.0
+Branch Covered,76,2,97.44
+Line Covered,83,0,100.0
+Method Covered,24,0,100.0
+Class Covered,6,0,100.0
+Complexity Covered,62,2,96.88
+BRANCH Counter,76,2,97.44
+CLASS Counter,6,0,100.0
+COMPLEXITY Counter,62,2,96.88
+INSTRUCTION Counter,303,0,100.0
+LINE Counter,83,0,100.0
+METHOD Counter,24,0,100.0

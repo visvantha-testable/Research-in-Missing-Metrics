@@ -1,0 +1,54 @@
+{
+  "Statements Covered": {
+    "json_field": "total.statements.covered",
+    "value": 73
+  },
+  "Statements Total": {
+    "json_field": "total.statements.total",
+    "value": 73
+  },
+  "Statements Coverage %": {
+    "json_field": "total.statements.pct",
+    "value": 100
+  },
+  "Branches Covered": {
+    "json_field": "total.branches.covered",
+    "value": 29
+  },
+  "Branches Total": {
+    "json_field": "total.branches.total",
+    "value": 29
+  },
+  "Branches Coverage %": {
+    "json_field": "total.branches.pct",
+    "value": 100
+  },
+  "Functions Covered": {
+    "json_field": "total.functions.covered",
+    "value": 5
+  },
+  "Functions Total": {
+    "json_field": "total.functions.total",
+    "value": 5
+  },
+  "Functions Coverage %": {
+    "json_field": "total.functions.pct",
+    "value": 100
+  },
+  "Lines Covered": {
+    "json_field": "total.lines.covered",
+    "value": 73
+  },
+  "Lines Total": {
+    "json_field": "total.lines.total",
+    "value": 73
+  },
+  "Lines Coverage %": {
+    "json_field": "total.lines.pct",
+    "value": 100
+  },
+  "Coverage Summary": {
+    "json_field": "total",
+    "value": "{\"branches\": {\"covered\": 29, \"pct\": 100, \"skipped\": 0, \"total\": 29}, \"branchesTrue\": {\"covered\": 0, \"pct\": \"Unknown\", \"skipped\": 0, \"total\": 0}, \"functions\": {\"covered\": 5, \"pct\": 100, \"skipped\": 0, \"total\": 5}, \"lines\": {\"covered\": 73, \"pct\": 100, \"skipped\": 0, \"total\": 73}, \"statements\": {\"covered\": 73, \"pct\": 100, \"skipped\": 0, \"total\": 73}}"
+  }
+}

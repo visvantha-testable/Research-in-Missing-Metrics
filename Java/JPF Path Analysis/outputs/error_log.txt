@@ -1,0 +1,22 @@
+timestamp,step,class,error
+2026-07-15 07:05:40 UTC,jpf_config,com.testable.training.platform.ArtifactCollector,Skipping JPF execution: com.testable.training.platform.ArtifactCollector has no public static void main method.
+2026-07-15 07:05:40 UTC,jpf_config,com.testable.training.platform.JacocoCounters,Skipping JPF execution: com.testable.training.platform.JacocoCounters has no public static void main method.
+2026-07-15 07:05:40 UTC,jpf_config,com.testable.training.platform.JacocoCoverageLoader,Skipping JPF execution: com.testable.training.platform.JacocoCoverageLoader has no public static void main method.
+2026-07-15 07:05:40 UTC,jpf_config,com.testable.training.platform.JacocoDashboardMetrics,Skipping JPF execution: com.testable.training.platform.JacocoDashboardMetrics has no public static void main method.
+2026-07-15 07:05:40 UTC,jpf_config,com.testable.training.platform.JacocoJsonVerifier,Skipping JPF execution: com.testable.training.platform.JacocoJsonVerifier has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.platform.JacocoXmlParser,Skipping JPF execution: com.testable.training.platform.JacocoXmlParser has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.platform.JacocoXmlSynthesizer,Skipping JPF execution: com.testable.training.platform.JacocoXmlSynthesizer has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.platform.JsonUtils,Skipping JPF execution: com.testable.training.platform.JsonUtils has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.platform.MetricCoverageValidator,Skipping JPF execution: com.testable.training.platform.MetricCoverageValidator has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.platform.MetricDefinition,Skipping JPF execution: com.testable.training.platform.MetricDefinition has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.platform.OfficialJacocoAnalyzer,Skipping JPF execution: com.testable.training.platform.OfficialJacocoAnalyzer has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.platform.PlatformExporter,Skipping JPF execution: com.testable.training.platform.PlatformExporter has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.platform.PlatformFixup,Skipping JPF execution: com.testable.training.platform.PlatformFixup has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.platform.StaticDuAnalyzer,Skipping JPF execution: com.testable.training.platform.StaticDuAnalyzer has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.platform.JacocoMetricsEngineTest,Skipping JPF execution: com.testable.training.platform.JacocoMetricsEngineTest has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.DataFlowSample,Skipping JPF execution: com.testable.training.DataFlowSample has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.OrderService,Skipping JPF execution: com.testable.training.OrderService has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.PaymentValidator,Skipping JPF execution: com.testable.training.PaymentValidator has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.DataFlowSampleTest,Skipping JPF execution: com.testable.training.DataFlowSampleTest has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.OrderServiceTest,Skipping JPF execution: com.testable.training.OrderServiceTest has no public static void main method.
+2026-07-15 07:05:43 UTC,jpf_config,com.testable.training.PaymentValidatorTest,Skipping JPF execution: com.testable.training.PaymentValidatorTest has no public static void main method.

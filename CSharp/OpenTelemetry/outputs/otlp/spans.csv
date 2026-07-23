@@ -1,0 +1,17 @@
+trace_id,span_id,parent_span_id,span_name,operation_name,kind,status,duration_ms,start_time,end_time
+272e8b453c2c127edd6b60f8efc1f334,f80e9731c6f3b38f,,path/safeReadLines:missing,path/safeReadLines:missing,,,0.972,2026-07-22T06:34:02.0070974+00:00,2026-07-22T06:34:02.0080692+00:00
+d882c193cd977e1d41d785cb3dbe1509,29baa83f0aee2af7,,path/safeReadLines:happy,path/safeReadLines:happy,,,0.021,2026-07-22T06:34:02.06186+00:00,2026-07-22T06:34:02.0618814+00:00
+7210204699fcbb6aef2716be063f4bd3,4f936d27521107d4,,path/safeReadLines:permission,path/safeReadLines:permission,,,0.006,2026-07-22T06:34:02.0622254+00:00,2026-07-22T06:34:02.0622314+00:00
+d8cc15091d6cbec80332e638ef0ec117,1e36e4df1e567e68,,path/safeReadLines:decode,path/safeReadLines:decode,,,0.004,2026-07-22T06:34:02.0623097+00:00,2026-07-22T06:34:02.0623133+00:00
+5ddf6b41e71838ebcea3f3d60dbbfbca,21453bd4a12de1da,,path/safeReadLines:rethrow,path/safeReadLines:rethrow,,,0.004,2026-07-22T06:34:02.0624114+00:00,2026-07-22T06:34:02.0624153+00:00
+1cb3a77326bfc378bad8e4363c40840e,faf2c1ed4caa21de,,path/parseJsonSafely:valid,path/parseJsonSafely:valid,,,0.003,2026-07-22T06:34:02.0625364+00:00,2026-07-22T06:34:02.0625392+00:00
+286683747a6411e66990b45d9987932f,c87dd6eec4b5e136,,path/parseJsonSafely:invalid,path/parseJsonSafely:invalid,,,0.002,2026-07-22T06:34:02.0626161+00:00,2026-07-22T06:34:02.0626187+00:00
+5ef4475f94ae2e790a5b68055bbe664c,c3f906d0019bbb4d,,path/divideSafely:success,path/divideSafely:success,,,0.003,2026-07-22T06:34:02.0627014+00:00,2026-07-22T06:34:02.062704+00:00
+ff8f8ba42f713279dddb5ba34e5fe927,b50e5094c20ec656,,path/divideSafely:zero,path/divideSafely:zero,,,0.002,2026-07-22T06:34:02.0627746+00:00,2026-07-22T06:34:02.0627769+00:00
+41cfec762f3d6703d6bd13c9ae66283f,ad35b253cd066f28,,path/divideSafely:rethrow,path/divideSafely:rethrow,,,0.003,2026-07-22T06:34:02.0628886+00:00,2026-07-22T06:34:02.0628916+00:00
+e50bb3cd980b2e57acd000b972c6c22d,20f1ff8c496c3c7b,,path/retryOperation:success-after-retry,path/retryOperation:success-after-retry,,,0.003,2026-07-22T06:34:02.0629735+00:00,2026-07-22T06:34:02.062976+00:00
+cd102f018732a4aa034c01b031a61494,980dabe15474bdd6,,path/retryOperation:final-failure,path/retryOperation:final-failure,,,0.003,2026-07-22T06:34:02.0630732+00:00,2026-07-22T06:34:02.0630769+00:00
+90794633a0b51fca8a4d7a3d172159f9,adef8f6cadcf306d,,path/classifyHttpStatus:success,path/classifyHttpStatus:success,,,0.003,2026-07-22T06:34:02.0631443+00:00,2026-07-22T06:34:02.0631471+00:00
+efc52e97830643417bb43f72feb442c4,d96cc1d2437ff939,,path/classifyHttpStatus:client,path/classifyHttpStatus:client,,,0.002,2026-07-22T06:34:02.063226+00:00,2026-07-22T06:34:02.0632284+00:00
+79a7bfede6abdcf0f5dea0760abfadb8,edbf85f1261f4a23,,path/classifyHttpStatus:server,path/classifyHttpStatus:server,,,0.002,2026-07-22T06:34:02.063313+00:00,2026-07-22T06:34:02.0633153+00:00
+51b9db5e21d6448c759e7305fe445782,646a8c2dfadf07ee,,path/classifyHttpStatus:unknown,path/classifyHttpStatus:unknown,,,0.002,2026-07-22T06:34:02.0634081+00:00,2026-07-22T06:34:02.0634105+00:00

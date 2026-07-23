@@ -1,0 +1,2 @@
+Repository,Build Tool,Tests Executed,JaCoCo Status,Static DU Status,Control Flow Metrics Supported,Regression Metrics Supported,Data Flow Metrics Supported,Total Metrics Supported,Unsupported Metrics,Unified DefUse Trigger
+java-tool-testing-def-use,Maven,8,OK,OK,10,6,16,32,0,Yes

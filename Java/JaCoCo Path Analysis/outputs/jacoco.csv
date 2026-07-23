@@ -1,0 +1,4 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+JaCoCo Training Subject,com.testable.training,DataFlowSample,0,26,0,6,0,10,0,6,0,3
+JaCoCo Training Subject,com.testable.training,OrderService,2,68,4,16,0,22,3,13,0,6
+JaCoCo Training Subject,com.testable.training,PaymentValidator,0,34,1,5,0,7,1,5,0,3

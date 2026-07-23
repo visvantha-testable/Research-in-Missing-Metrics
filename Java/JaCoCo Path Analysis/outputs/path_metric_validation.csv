@@ -1,0 +1,11 @@
+Metric,Supported,Evidence Source,Artifact,Comments
+Path Execution Tracking,Not Supported,,,"JaCoCo emits counters ['BRANCH', 'CLASS', 'COMPLEXITY', 'INSTRUCTION', 'LINE', 'METHOD'] only; no explicit Path Coverage metric found."
+Complete Coverage Path Verification,Not Supported,,,"JaCoCo emits counters ['BRANCH', 'CLASS', 'COMPLEXITY', 'INSTRUCTION', 'LINE', 'METHOD'] only; no explicit Path Coverage metric found."
+Partial Path Coverage Detection,Not Supported,,,"JaCoCo emits counters ['BRANCH', 'CLASS', 'COMPLEXITY', 'INSTRUCTION', 'LINE', 'METHOD'] only; no explicit Path Coverage metric found."
+Nested Condition Path Testing,Not Supported,,,"JaCoCo emits counters ['BRANCH', 'CLASS', 'COMPLEXITY', 'INSTRUCTION', 'LINE', 'METHOD'] only; no explicit Path Coverage metric found."
+Loop Path Detection,Not Supported,,,"JaCoCo emits counters ['BRANCH', 'CLASS', 'COMPLEXITY', 'INSTRUCTION', 'LINE', 'METHOD'] only; no explicit Path Coverage metric found."
+Unreachable Path Detection,Not Supported,,,"JaCoCo emits counters ['BRANCH', 'CLASS', 'COMPLEXITY', 'INSTRUCTION', 'LINE', 'METHOD'] only; no explicit Path Coverage metric found."
+Exception Path Handling,Not Supported,,,"JaCoCo emits counters ['BRANCH', 'CLASS', 'COMPLEXITY', 'INSTRUCTION', 'LINE', 'METHOD'] only; no explicit Path Coverage metric found."
+Multi-Function Path Tracking,Not Supported,,,"JaCoCo emits counters ['BRANCH', 'CLASS', 'COMPLEXITY', 'INSTRUCTION', 'LINE', 'METHOD'] only; no explicit Path Coverage metric found."
+CI/CD Integration Test,Not Supported,,,"JaCoCo emits counters ['BRANCH', 'CLASS', 'COMPLEXITY', 'INSTRUCTION', 'LINE', 'METHOD'] only; no explicit Path Coverage metric found."
+Path Detection Testing,Not Supported,,,"JaCoCo emits counters ['BRANCH', 'CLASS', 'COMPLEXITY', 'INSTRUCTION', 'LINE', 'METHOD'] only; no explicit Path Coverage metric found."

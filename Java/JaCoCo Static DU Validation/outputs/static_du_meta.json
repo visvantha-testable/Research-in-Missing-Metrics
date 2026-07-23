@@ -1,0 +1,8 @@
+{
+  "tool" : "static du",
+  "tool_label" : "Static DU",
+  "source_root" : "D:\\Research in Missing Metrics\\Java\\JaCoCo Static DU Validation\\workspace\\java-tool-testing-def-use\\sample_subject\\src\\main\\java",
+  "analysis_mode" : "static_code_duplication",
+  "min_block_lines" : 6,
+  "metrics_total" : 12
+}

@@ -1,0 +1,295 @@
+{
+  "exporter": "OpenTelemetry.Exporter.OpenTelemetryProtocol",
+  "protocol": "http/protobuf",
+  "endpoint": "http://127.0.0.1:4318/v1/traces",
+  "resourceSpans": [
+    {
+      "traceId": "272e8b453c2c127edd6b60f8efc1f334",
+      "spanId": "f80e9731c6f3b38f",
+      "name": "path/safeReadLines:missing",
+      "pathId": "safeReadLines:missing",
+      "function": "safeReadLines",
+      "route": "ENOENT branch",
+      "startTime": "2026-07-22T06:34:02.0070974+00:00",
+      "endTime": "2026-07-22T06:34:02.0080692+00:00",
+      "tags": {
+        "path.id": "safeReadLines:missing",
+        "path.function": "safeReadLines",
+        "path.route": "ENOENT branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "d882c193cd977e1d41d785cb3dbe1509",
+      "spanId": "29baa83f0aee2af7",
+      "name": "path/safeReadLines:happy",
+      "pathId": "safeReadLines:happy",
+      "function": "safeReadLines",
+      "route": "success branch",
+      "startTime": "2026-07-22T06:34:02.06186+00:00",
+      "endTime": "2026-07-22T06:34:02.0618814+00:00",
+      "tags": {
+        "path.id": "safeReadLines:happy",
+        "path.function": "safeReadLines",
+        "path.route": "success branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "7210204699fcbb6aef2716be063f4bd3",
+      "spanId": "4f936d27521107d4",
+      "name": "path/safeReadLines:permission",
+      "pathId": "safeReadLines:permission",
+      "function": "safeReadLines",
+      "route": "EACCES branch",
+      "startTime": "2026-07-22T06:34:02.0622254+00:00",
+      "endTime": "2026-07-22T06:34:02.0622314+00:00",
+      "tags": {
+        "path.id": "safeReadLines:permission",
+        "path.function": "safeReadLines",
+        "path.route": "EACCES branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "d8cc15091d6cbec80332e638ef0ec117",
+      "spanId": "1e36e4df1e567e68",
+      "name": "path/safeReadLines:decode",
+      "pathId": "safeReadLines:decode",
+      "function": "safeReadLines",
+      "route": "decode branch",
+      "startTime": "2026-07-22T06:34:02.0623097+00:00",
+      "endTime": "2026-07-22T06:34:02.0623133+00:00",
+      "tags": {
+        "path.id": "safeReadLines:decode",
+        "path.function": "safeReadLines",
+        "path.route": "decode branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "5ddf6b41e71838ebcea3f3d60dbbfbca",
+      "spanId": "21453bd4a12de1da",
+      "name": "path/safeReadLines:rethrow",
+      "pathId": "safeReadLines:rethrow",
+      "function": "safeReadLines",
+      "route": "rethrow branch",
+      "startTime": "2026-07-22T06:34:02.0624114+00:00",
+      "endTime": "2026-07-22T06:34:02.0624153+00:00",
+      "tags": {
+        "path.id": "safeReadLines:rethrow",
+        "path.function": "safeReadLines",
+        "path.route": "rethrow branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "1cb3a77326bfc378bad8e4363c40840e",
+      "spanId": "faf2c1ed4caa21de",
+      "name": "path/parseJsonSafely:valid",
+      "pathId": "parseJsonSafely:valid",
+      "function": "parseJsonSafely",
+      "route": "valid JSON branch",
+      "startTime": "2026-07-22T06:34:02.0625364+00:00",
+      "endTime": "2026-07-22T06:34:02.0625392+00:00",
+      "tags": {
+        "path.id": "parseJsonSafely:valid",
+        "path.function": "parseJsonSafely",
+        "path.route": "valid JSON branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "286683747a6411e66990b45d9987932f",
+      "spanId": "c87dd6eec4b5e136",
+      "name": "path/parseJsonSafely:invalid",
+      "pathId": "parseJsonSafely:invalid",
+      "function": "parseJsonSafely",
+      "route": "catch branch",
+      "startTime": "2026-07-22T06:34:02.0626161+00:00",
+      "endTime": "2026-07-22T06:34:02.0626187+00:00",
+      "tags": {
+        "path.id": "parseJsonSafely:invalid",
+        "path.function": "parseJsonSafely",
+        "path.route": "catch branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "5ef4475f94ae2e790a5b68055bbe664c",
+      "spanId": "c3f906d0019bbb4d",
+      "name": "path/divideSafely:success",
+      "pathId": "divideSafely:success",
+      "function": "divideSafely",
+      "route": "success branch",
+      "startTime": "2026-07-22T06:34:02.0627014+00:00",
+      "endTime": "2026-07-22T06:34:02.062704+00:00",
+      "tags": {
+        "path.id": "divideSafely:success",
+        "path.function": "divideSafely",
+        "path.route": "success branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "ff8f8ba42f713279dddb5ba34e5fe927",
+      "spanId": "b50e5094c20ec656",
+      "name": "path/divideSafely:zero",
+      "pathId": "divideSafely:zero",
+      "function": "divideSafely",
+      "route": "RangeError branch",
+      "startTime": "2026-07-22T06:34:02.0627746+00:00",
+      "endTime": "2026-07-22T06:34:02.0627769+00:00",
+      "tags": {
+        "path.id": "divideSafely:zero",
+        "path.function": "divideSafely",
+        "path.route": "RangeError branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "41cfec762f3d6703d6bd13c9ae66283f",
+      "spanId": "ad35b253cd066f28",
+      "name": "path/divideSafely:rethrow",
+      "pathId": "divideSafely:rethrow",
+      "function": "divideSafely",
+      "route": "TypeError rethrow branch",
+      "startTime": "2026-07-22T06:34:02.0628886+00:00",
+      "endTime": "2026-07-22T06:34:02.0628916+00:00",
+      "tags": {
+        "path.id": "divideSafely:rethrow",
+        "path.function": "divideSafely",
+        "path.route": "TypeError rethrow branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "e50bb3cd980b2e57acd000b972c6c22d",
+      "spanId": "20f1ff8c496c3c7b",
+      "name": "path/retryOperation:success-after-retry",
+      "pathId": "retryOperation:success-after-retry",
+      "function": "retryOperation",
+      "route": "retry success branch",
+      "startTime": "2026-07-22T06:34:02.0629735+00:00",
+      "endTime": "2026-07-22T06:34:02.062976+00:00",
+      "tags": {
+        "path.id": "retryOperation:success-after-retry",
+        "path.function": "retryOperation",
+        "path.route": "retry success branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "cd102f018732a4aa034c01b031a61494",
+      "spanId": "980dabe15474bdd6",
+      "name": "path/retryOperation:final-failure",
+      "pathId": "retryOperation:final-failure",
+      "function": "retryOperation",
+      "route": "final failure branch",
+      "startTime": "2026-07-22T06:34:02.0630732+00:00",
+      "endTime": "2026-07-22T06:34:02.0630769+00:00",
+      "tags": {
+        "path.id": "retryOperation:final-failure",
+        "path.function": "retryOperation",
+        "path.route": "final failure branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "90794633a0b51fca8a4d7a3d172159f9",
+      "spanId": "adef8f6cadcf306d",
+      "name": "path/classifyHttpStatus:success",
+      "pathId": "classifyHttpStatus:success",
+      "function": "classifyHttpStatus",
+      "route": "2xx branch",
+      "startTime": "2026-07-22T06:34:02.0631443+00:00",
+      "endTime": "2026-07-22T06:34:02.0631471+00:00",
+      "tags": {
+        "path.id": "classifyHttpStatus:success",
+        "path.function": "classifyHttpStatus",
+        "path.route": "2xx branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "efc52e97830643417bb43f72feb442c4",
+      "spanId": "d96cc1d2437ff939",
+      "name": "path/classifyHttpStatus:client",
+      "pathId": "classifyHttpStatus:client",
+      "function": "classifyHttpStatus",
+      "route": "4xx branch",
+      "startTime": "2026-07-22T06:34:02.063226+00:00",
+      "endTime": "2026-07-22T06:34:02.0632284+00:00",
+      "tags": {
+        "path.id": "classifyHttpStatus:client",
+        "path.function": "classifyHttpStatus",
+        "path.route": "4xx branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "79a7bfede6abdcf0f5dea0760abfadb8",
+      "spanId": "edbf85f1261f4a23",
+      "name": "path/classifyHttpStatus:server",
+      "pathId": "classifyHttpStatus:server",
+      "function": "classifyHttpStatus",
+      "route": "5xx branch",
+      "startTime": "2026-07-22T06:34:02.063313+00:00",
+      "endTime": "2026-07-22T06:34:02.0633153+00:00",
+      "tags": {
+        "path.id": "classifyHttpStatus:server",
+        "path.function": "classifyHttpStatus",
+        "path.route": "5xx branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    },
+    {
+      "traceId": "51b9db5e21d6448c759e7305fe445782",
+      "spanId": "646a8c2dfadf07ee",
+      "name": "path/classifyHttpStatus:unknown",
+      "pathId": "classifyHttpStatus:unknown",
+      "function": "classifyHttpStatus",
+      "route": "unknown branch",
+      "startTime": "2026-07-22T06:34:02.0634081+00:00",
+      "endTime": "2026-07-22T06:34:02.0634105+00:00",
+      "tags": {
+        "path.id": "classifyHttpStatus:unknown",
+        "path.function": "classifyHttpStatus",
+        "path.route": "unknown branch",
+        "testing.strategy": "Control Flow Testing",
+        "testing.classification": "Path Coverage",
+        "testing.metric": "Path Execution Tracking"
+      }
+    }
+  ]
+}

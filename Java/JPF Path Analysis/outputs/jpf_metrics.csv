@@ -1,0 +1,41 @@
+metric_name,metric_value,source_class,method
+Visited States,0,com.testable.training.platform.JacocoJsonVerifierCli,statistics.states
+New States,1,com.testable.training.platform.JacocoJsonVerifierCli,statistics.states
+Backtracked States,1,com.testable.training.platform.JacocoJsonVerifierCli,statistics.states
+End States,0,com.testable.training.platform.JacocoJsonVerifierCli,statistics.states
+Search Depth,1,com.testable.training.platform.JacocoJsonVerifierCli,statistics.search
+Choice Generators,"thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=0",com.testable.training.platform.JacocoJsonVerifierCli,statistics.choice_generators
+Transition Count,1,com.testable.training.platform.JacocoJsonVerifierCli,trace.transition
+Path Count,1,com.testable.training.platform.JacocoJsonVerifierCli,trace.transition
+Error States,1,com.testable.training.platform.JacocoJsonVerifierCli,results.error
+Exception States,2,com.testable.training.platform.JacocoJsonVerifierCli,results.exception
+Execution Paths,1,com.testable.training.platform.JacocoJsonVerifierCli,search
+Search Statistics,"elapsed time:       00:00:00
+states:             new=1,visited=0,backtracked=1,end=0
+search:             maxDepth=1,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=0
+heap:               new=797,released=0,maxLive=0,gcCycles=0
+instructions:       13885
+max memory:         254MB
+loaded code:        classes=133,methods=3054",com.testable.training.platform.JacocoJsonVerifierCli,statistics
+Elapsed Time,00:00:00,com.testable.training.platform.JacocoJsonVerifierCli,statistics.elapsed_time
+Visited States,0,com.testable.training.platform.JacocoTrigger,statistics.states
+New States,1,com.testable.training.platform.JacocoTrigger,statistics.states
+Backtracked States,1,com.testable.training.platform.JacocoTrigger,statistics.states
+End States,0,com.testable.training.platform.JacocoTrigger,statistics.states
+Search Depth,1,com.testable.training.platform.JacocoTrigger,statistics.search
+Choice Generators,"thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=0",com.testable.training.platform.JacocoTrigger,statistics.choice_generators
+Transition Count,1,com.testable.training.platform.JacocoTrigger,trace.transition
+Path Count,1,com.testable.training.platform.JacocoTrigger,trace.transition
+Error States,1,com.testable.training.platform.JacocoTrigger,results.error
+Exception States,2,com.testable.training.platform.JacocoTrigger,results.exception
+Execution Paths,1,com.testable.training.platform.JacocoTrigger,search
+Search Statistics,"elapsed time:       00:00:01
+states:             new=1,visited=0,backtracked=1,end=0
+search:             maxDepth=1,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=0
+heap:               new=802,released=0,maxLive=0,gcCycles=0
+instructions:       13946
+max memory:         254MB
+loaded code:        classes=133,methods=3055",com.testable.training.platform.JacocoTrigger,statistics
+Elapsed Time,00:00:01,com.testable.training.platform.JacocoTrigger,statistics.elapsed_time

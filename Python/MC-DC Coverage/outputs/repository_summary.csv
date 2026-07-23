@@ -1,0 +1,75 @@
+repository_name,repository_location,total_files,total_python_files,directory_count,repository_size_bytes,directory_structure
+python-tool-testing-pymcdc,D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc,65,18,5,39737,"python-tool-testing-pymcdc/
+├── artifacts/
+│   └── training/
+│       ├── logic.py.mdc
+│       ├── pymcdc.json
+│       └── pymcdc_report.json
+├── config/
+│   ├── execution_trigger.json
+│   ├── metric_coverage.json
+│   └── platform_trigger.json
+├── platform/
+│   ├── condition_metric_evidence.json
+│   ├── dashboard_metrics.json
+│   ├── metrics.json
+│   ├── platform_metrics.json
+│   ├── pymcdc.json
+│   ├── pymcdc_metrics.json
+│   ├── pymcdc_report.json
+│   └── testable_dashboard.json
+├── pymcdc_platform/
+│   ├── __init__.py
+│   ├── __init__.py.mdc
+│   ├── __main__.py
+│   ├── __main__.py.mdc
+│   ├── cli.py
+│   └── cli.py.mdc
+├── sample_subject/
+│   ├── logic.py
+│   ├── logic.py.mdc
+│   ├── test_logic.py
+│   └── test_logic.py.mdc
+├── scripts/
+│   ├── collect_artifacts.py
+│   ├── collect_artifacts.py.mdc
+│   ├── export_platform_bundle.py
+│   ├── export_platform_bundle.py.mdc
+│   ├── platform_pymcdc_fixup.py
+│   ├── platform_pymcdc_fixup.py.mdc
+│   ├── verify_100_percent.py
+│   ├── verify_100_percent.py.mdc
+│   ├── verify_pymcdc_json.py
+│   └── verify_pymcdc_json.py.mdc
+├── tests/
+│   ├── __init__.py
+│   ├── __init__.py.mdc
+│   ├── test_integration_pipeline.py
+│   ├── test_integration_pipeline.py.mdc
+│   ├── test_metrics.py
+│   ├── test_metrics.py.mdc
+│   ├── test_platform_fixup.py
+│   ├── test_platform_fixup.py.mdc
+│   ├── test_trigger.py
+│   └── test_trigger.py.mdc
+├── .gitignore
+├── condition_metric_evidence.json
+├── dashboard_metrics.json
+├── metrics.json
+├── METRICS_COVERAGE.md
+├── platform_metrics.json
+├── pymcdc.json
+├── pymcdc_metrics.json
+├── pymcdc_metrics.py
+├── pymcdc_metrics.py.mdc
+├── pymcdc_report.json
+├── pymcdc_trigger.py
+├── pymcdc_trigger.py.mdc
+├── pyproject.toml
+├── README.md
+├── requirements.txt
+├── testable_dashboard.json
+├── TESTING_TEAM.md
+├── TRIGGER.md
+├── validate_metric_coverage.py
+└── validate_metric_coverage.py.mdc"

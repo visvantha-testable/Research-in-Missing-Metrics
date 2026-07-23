@@ -1,0 +1,10 @@
+{
+  "preservation_note": "GitHub API responses preserved verbatim in raw_pages.",
+  "fetched_at": "2026-07-19T18:58:20.446717+00:00",
+  "owner": "visvantha-testable",
+  "repository": "typescript-tool-testing-dependabot",
+  "api_endpoint": "GET /repos/visvantha-testable/typescript-tool-testing-dependabot/dependabot/alerts",
+  "page_count": 0,
+  "request_records": [],
+  "raw_pages": []
+}

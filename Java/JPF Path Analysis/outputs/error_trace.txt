@@ -1,0 +1,23 @@
+====================================================== trace #1
+------------------------------------------------------ transition #0 thread: 0
+gov.nasa.jpf.vm.choice.ThreadChoiceFromSet {id:"ROOT" ,1/1,isCascaded:false}
+      [9492 insn w/o sources]
+  com/testable/training/platform/JacocoJsonVerifierCli.java:8 : Path repoRoot = Paths.get("").toAbsolutePath();
+      [4389 insn w/o sources]
+
+
+====================================================== trace #1
+------------------------------------------------------ transition #0 thread: 0
+gov.nasa.jpf.vm.choice.ThreadChoiceFromSet {id:"ROOT" ,1/1,isCascaded:false}
+      [9492 insn w/o sources]
+  com/testable/training/platform/JacocoTrigger.java:11 : boolean skipVerify = Arrays.asList(args).contains("--skip-verify");
+      [10 insn w/o sources]
+  com/testable/training/platform/JacocoTrigger.java:11 : boolean skipVerify = Arrays.asList(args).contains("--skip-verify");
+      [27 insn w/o sources]
+  com/testable/training/platform/JacocoTrigger.java:11 : boolean skipVerify = Arrays.asList(args).contains("--skip-verify");
+      [28 insn w/o sources]
+  com/testable/training/platform/JacocoTrigger.java:11 : boolean skipVerify = Arrays.asList(args).contains("--skip-verify");
+  com/testable/training/platform/JacocoTrigger.java:12 : Path repoRoot = locateRepoRoot();
+  com/testable/training/platform/JacocoTrigger.java:37 : Path current = Paths.get("").toAbsolutePath();
+      [4378 insn w/o sources]
+

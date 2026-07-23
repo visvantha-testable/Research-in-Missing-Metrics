@@ -1,0 +1,9 @@
+{
+  "operating_system": "Windows-11-10.0.26200-SP0",
+  "node_version": "v22.16.0",
+  "npm_version": "10.9.2",
+  "package_manager": "npm",
+  "knip_version": "6.27.0",
+  "repository_commit_hash": "5c78c2d69e4a7c02974bc839cbd213909bfc7a64",
+  "execution_timestamp": "2026-07-21T03:07:18.039929+00:00"
+}

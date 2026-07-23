@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Def-Use Training Subject,com.testable.training,PricingEngine,0,63,0,14,0,14,0,11,0,4
+Def-Use Training Subject,com.testable.training,DataFlowSample,0,26,0,6,0,10,0,6,0,3
+Def-Use Training Subject,com.testable.training,OrderService,0,70,2,18,0,22,2,14,0,6
+Def-Use Training Subject,com.testable.training,PaymentValidator,0,34,0,6,0,7,0,6,0,3
+Def-Use Training Subject,com.testable.training,ShipmentTracker,0,52,0,16,0,14,0,13,0,4
+Def-Use Training Subject,com.testable.training,InventoryService,0,58,0,16,0,16,0,12,0,4

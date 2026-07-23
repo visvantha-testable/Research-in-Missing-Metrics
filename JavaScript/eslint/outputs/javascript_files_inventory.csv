@@ -1,0 +1,13 @@
+file_path,file_name,directory
+eslint.config.js,eslint.config.js,.
+sample_subject/src/lib/shared/deep-merge-arrays.js,deep-merge-arrays.js,sample_subject/src/lib/shared
+sample_subject/src/lib/shared/message-counts.js,message-counts.js,sample_subject/src/lib/shared
+sample_subject/src/lib/shared/severity.js,severity.js,sample_subject/src/lib/shared
+sample_subject/src/lib/shared/string-utils.js,string-utils.js,sample_subject/src/lib/shared
+src/eslintTrigger.js,eslintTrigger.js,src
+src/metrics/eslintMetrics.js,eslintMetrics.js,src/metrics
+src/platform/exportPlatformBundle.js,exportPlatformBundle.js,src/platform
+src/platform/platformFixup.js,platformFixup.js,src/platform
+src/verify/verifyCli.js,verifyCli.js,src/verify
+src/verify/verifyEslintJson.js,verifyEslintJson.js,src/verify
+tests/platform.test.js,platform.test.js,tests

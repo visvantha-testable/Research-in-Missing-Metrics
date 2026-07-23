@@ -1,0 +1,24 @@
+Metric,Value
+Repository,java-tool-testing-def-use
+Build Tool,Maven
+Java Files,45
+Packages,3
+Classes,31
+Methods,19
+Tests Executed,8
+JaCoCo Status,OK
+Static DU Status,OK
+Control Flow Metrics Supported,10
+Coverage Regression Metrics Supported,6
+Data Flow Metrics Supported,16
+Unsupported Metrics,0
+JaCoCo XML Branch Percent,97.44
+Platform jacoco.json Branch Percent,100.0
+Branch Percent Discrepancy,Yes
+Branch Percent Delta (Platform - XML),2.56
+Branch Discrepancy Detail,Platform jacoco.json branch_percent=100.0 differs from native jacoco.xml BRANCH=97.44%
+Taxonomy Rows Native Tier,1
+Taxonomy Rows Platform Derived Tier,31
+Taxonomy Rows Not Supported Tier,0
+Taxonomy Rows Weak Evidence,5
+Taxonomy Rows Missing Evidence,0

@@ -1,0 +1,42 @@
+[
+  {
+    "Evidence Type": "Execution of try blocks",
+    "Present": "No",
+    "Evidence": "No runtime evidence available."
+  },
+  {
+    "Evidence Type": "Execution of catch blocks",
+    "Present": "No",
+    "Evidence": "No runtime evidence available."
+  },
+  {
+    "Evidence Type": "Thrown exceptions",
+    "Present": "Partial",
+    "Evidence": "Vitest stdout reports passing tests in sample_subject/tests/errorFlow.test.ts; individual throw/reject assertions are not emitted in default Vitest console output."
+  },
+  {
+    "Evidence Type": "Rejected promises",
+    "Present": "No",
+    "Evidence": "No runtime evidence available."
+  },
+  {
+    "Evidence Type": "Error handling branches executed",
+    "Present": "Yes",
+    "Evidence": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.covered=29, D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.total=29, D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.pct=100"
+  },
+  {
+    "Evidence Type": "Fallback logic executed",
+    "Present": "Partial",
+    "Evidence": "coverage-final.json b.* branch hits with non-zero execution=29/29"
+  },
+  {
+    "Evidence Type": "Recovery after exception",
+    "Present": "Partial",
+    "Evidence": "D:\\Research in Missing Metrics\\typescript\\Vitest Exception Path Handling\\workspace\\typescript-tool-testing-knip\\sample_subject\\src\\errorFlow.ts.branches.pct=100 with all error-flow tests passing in Vitest stdout"
+  },
+  {
+    "Evidence Type": "Unhandled exceptions",
+    "Present": "No",
+    "Evidence": "Vitest stdout reports zero failed tests; no unhandled exception failures recorded in runtime output."
+  }
+]

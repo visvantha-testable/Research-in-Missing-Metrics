@@ -1,0 +1,2 @@
+Repository,ESLint Version,SonarJS Version,Files Analysed,Errors,Warnings,SonarJS Issues,Path Detection Support,Path Coverage Support,Execution Status
+typescript-tool-testing-eslint-eslint-plugin-sonarjs,9.39.5,3.0.7,23,146,0,7,Derived,Not Supported,SUCCESS

@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-07-21T03:07:34.888362+00:00",
+  "repository": {
+    "name": "typescript-tool-testing-knip",
+    "local_path": "D:\\Research in Missing Metrics\\workspace\\typescript-tool-testing-knip",
+    "commit_hash": "5c78c2d69e4a7c02974bc839cbd213909bfc7a64",
+    "programming_language": "TypeScript"
+  },
+  "environment": {
+    "operating_system": "Windows-11-10.0.26200-SP0",
+    "node_version": "v22.16.0",
+    "npm_version": "10.9.2",
+    "package_manager": "npm",
+    "knip_version": "6.27.0",
+    "repository_commit_hash": "5c78c2d69e4a7c02974bc839cbd213909bfc7a64",
+    "execution_timestamp": "2026-07-21T03:07:18.039929+00:00"
+  },
+  "knip_configuration": {
+    "config_path": "D:\\Research in Missing Metrics\\typescript\\Knip Error Flow Verification\\artifacts\\temp\\knip.notebook.config.json",
+    "config_source": "package.json#knip copied to temporary notebook config",
+    "notes": [
+      "Ignored knip.json because it contains platform metric output, not Knip configuration.",
+      "Using temporary Knip config extracted from package.json to avoid invalid root knip.json platform output."
+    ]
+  },
+  "pipeline": {
+    "elapsed_ms": 22290.18,
+    "package_manager": "npm",
+    "install_command": "C:\\Program Files\\nodejs\\npm.CMD install",
+    "install_returncode": 0,
+    "knip_install": {
+      "package": "knip",
+      "version": "6.27.0",
+      "status": "OK",
+      "action": "already present"
+    },
+    "console_command": "C:\\Program Files\\nodejs\\npx.CMD knip -c D:\\Research in Missing Metrics\\typescript\\Knip Error Flow Verification\\artifacts\\temp\\knip.notebook.config.json",
+    "console_returncode": 0,
+    "json_command": "C:\\Program Files\\nodejs\\npx.CMD knip -c D:\\Research in Missing Metrics\\typescript\\Knip Error Flow Verification\\artifacts\\temp\\knip.notebook.config.json --reporter json",
+    "json_returncode": 0
+  },
+  "knip_metrics": {
+    "Issues": {
+      "json_field": "issues",
+      "value": []
+    },
+    "Issues Count": {
+      "json_field": "issues",
+      "value": 0
+    }
+  },
+  "taxonomy_validation": [
+    {
+      "Taxonomy Level": "Technique",
+      "Value": "Control Flow Testing",
+      "Supported": "Not Supported",
+      "Evidence": "No exception-flow or error-flow fields found in raw Knip output."
+    },
+    {
+      "Taxonomy Level": "Classification",
+      "Value": "Path Coverage",
+      "Supported": "Not Supported",
+      "Evidence": "No exception-flow or error-flow fields found in raw Knip output."
+    },
+    {
+      "Taxonomy Level": "Metric",
+      "Value": "Exception Path Handling",
+      "Supported": "Not Supported",
+      "Evidence": "No exception-flow or error-flow fields found in raw Knip output."
+    },
+    {
+      "Taxonomy Level": "KPI",
+      "Value": "Error Flow Verification",
+      "Supported": "Not Supported",
+      "Evidence": "No exception-flow or error-flow fields found in raw Knip output."
+    },
+    {
+      "Taxonomy Level": "Assessment",
+      "Value": "Knip is a static dependency analysis tool and does not execute the application. Therefore Exception Path Handling and Error Flow Verification cannot be directly measured.",
+      "Supported": "Not Supported",
+      "Evidence": "No exception-flow or error-flow fields found in raw Knip output."
+    }
+  ],
+  "final_metric_report": {
+    "Technique": "Control Flow Testing",
+    "Classification": "Path Coverage",
+    "Metric": "Exception Path Handling",
+    "Definition": "Measures the code's ability to gracefully handle and recover from unexpected errors or try-catch blocks, ensuring the system does not crash when forced into a failure state.",
+    "Tool": "Knip",
+    "Raw Output File": "knip-report.json",
+    "Supported": "NO",
+    "Evidence": "No exception-flow or error-flow fields found in raw Knip output."
+  },
+  "assessment": "Knip is a static dependency analysis tool and does not execute the application. Therefore Exception Path Handling and Error Flow Verification cannot be directly measured.",
+  "raw_artifacts": {
+    "knip_report_json": "D:\\Research in Missing Metrics\\typescript\\Knip Error Flow Verification\\artifacts\\raw\\knip-report.json",
+    "knip_stdout_txt": "D:\\Research in Missing Metrics\\typescript\\Knip Error Flow Verification\\artifacts\\raw\\knip_stdout.txt",
+    "knip_stderr_txt": "D:\\Research in Missing Metrics\\typescript\\Knip Error Flow Verification\\artifacts\\raw\\knip_stderr.txt",
+    "knip_json_stdout_txt": "D:\\Research in Missing Metrics\\typescript\\Knip Error Flow Verification\\artifacts\\raw\\knip_json_stdout.txt",
+    "execution_json": "D:\\Research in Missing Metrics\\typescript\\Knip Error Flow Verification\\artifacts\\reports\\execution.json",
+    "environment_json": "D:\\Research in Missing Metrics\\typescript\\Knip Error Flow Verification\\artifacts\\reports\\environment.json"
+  }
+}

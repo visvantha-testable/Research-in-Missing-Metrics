@@ -1,0 +1,5 @@
+Config File,Check,Expected,Actual,Status
+D:\Research in Missing Metrics\workspace\typescript-tool-testing-eslint-eslint-plugin-sonarjs\eslint.config.js,eslint-plugin-sonarjs configured,present,present,PASS
+D:\Research in Missing Metrics\workspace\typescript-tool-testing-eslint-eslint-plugin-sonarjs\eslint.config.js,TypeScript parser configured,present,present,PASS
+D:\Research in Missing Metrics\workspace\typescript-tool-testing-eslint-eslint-plugin-sonarjs\eslint.config.js,SonarJS recommended rules enabled,enabled,enabled,PASS
+D:\Research in Missing Metrics\workspace\typescript-tool-testing-eslint-eslint-plugin-sonarjs\eslint.config.js,TypeScript source files included,included,included,PASS

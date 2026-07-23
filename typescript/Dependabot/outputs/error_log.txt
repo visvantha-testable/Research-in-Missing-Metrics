@@ -1,0 +1,8 @@
+timestamp,file,error_message
+2026-07-19 18:58:20 UTC,GITHUB_TOKEN,GITHUB_TOKEN is missing or still set to placeholder. Dependabot Alerts API requires a valid token.
+2026-07-19 18:58:20 UTC,GITHUB_TOKEN,GitHub authentication failed: GITHUB_TOKEN is missing or still set to the placeholder value. Provide a Personal Access Token with Dependabot alerts read permission.
+
+===== COMMAND LOG =====
+{"timestamp": "2026-07-19T18:58:20.438418+00:00", "command": "C:\\Program Files\\nodejs\\npm.CMD install", "returncode": 0, "elapsed_ms": 2556.24, "stdout_bytes": 269, "stderr_bytes": 0}
+
+===== API LOG =====

@@ -1,0 +1,3 @@
+Class,Visited States,Execution Paths,Error States,Exceptions,Loops,Search Depth,Transitions,JPF Success,Raw Output Contains Statistics
+com.testable.training.platform.JacocoJsonVerifierCli,0,1,1,2,1,1,1,Yes,Yes
+com.testable.training.platform.JacocoTrigger,0,1,1,2,1,1,1,Yes,Yes

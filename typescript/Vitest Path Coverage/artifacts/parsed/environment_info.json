@@ -1,0 +1,7 @@
+{
+  "node": "v22.16.0",
+  "npm": "10.9.2",
+  "vitest": "vitest/2.1.9 win32-x64 node-v22.16.0",
+  "@vitest/coverage-v8": "2.1.9",
+  "vitest_package": "2.1.9"
+}

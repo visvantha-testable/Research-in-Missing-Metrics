@@ -1,0 +1,9 @@
+Evidence Type,Present,Evidence
+Execution of try blocks,No,No runtime evidence available.
+Execution of catch blocks,No,No runtime evidence available.
+Thrown exceptions,Partial,Vitest stdout reports passing tests in sample_subject/tests/errorFlow.test.ts; individual throw/reject assertions are not emitted in default Vitest console output.
+Rejected promises,No,No runtime evidence available.
+Error handling branches executed,Yes,"D:\Research in Missing Metrics\typescript\Vitest Exception Path Handling\workspace\typescript-tool-testing-knip\sample_subject\src\errorFlow.ts.branches.covered=29, D:\Research in Missing Metrics\typescript\Vitest Exception Path Handling\workspace\typescript-tool-testing-knip\sample_subject\src\errorFlow.ts.branches.total=29, D:\Research in Missing Metrics\typescript\Vitest Exception Path Handling\workspace\typescript-tool-testing-knip\sample_subject\src\errorFlow.ts.branches.pct=100"
+Fallback logic executed,Partial,coverage-final.json b.* branch hits with non-zero execution=29/29
+Recovery after exception,Partial,D:\Research in Missing Metrics\typescript\Vitest Exception Path Handling\workspace\typescript-tool-testing-knip\sample_subject\src\errorFlow.ts.branches.pct=100 with all error-flow tests passing in Vitest stdout
+Unhandled exceptions,No,Vitest stdout reports zero failed tests; no unhandled exception failures recorded in runtime output.

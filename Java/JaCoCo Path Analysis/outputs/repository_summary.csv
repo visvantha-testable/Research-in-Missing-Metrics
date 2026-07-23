@@ -1,0 +1,2 @@
+repository_name,repository_location,build_tool,java_version,total_java_files,total_files,repository_size_bytes
+java-tool-testing-jacoco,D:\Research in Missing Metrics\Java\JaCoCo Coverage\workspace\java-tool-testing-jacoco,Maven,"openjdk version ""17.0.19"" 2026-04-21 | OpenJDK Runtime Environment Temurin-17.0.19+10 (build 17.0.19+10) | OpenJDK 64-Bit Server VM Temurin-17.0.19+10 (build 17.0.19+10, mixed mode, sharing)",23,53,67393

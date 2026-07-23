@@ -1,0 +1,6 @@
+Mutator Type,Mutant Count,Source
+BlockStatement,14,mutation-report.json mutatorName
+ConditionalExpression,22,mutation-report.json mutatorName
+EqualityOperator,17,mutation-report.json mutatorName
+LogicalOperator,1,mutation-report.json mutatorName
+StringLiteral,8,mutation-report.json mutatorName

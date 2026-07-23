@@ -1,0 +1,501 @@
+<?xml version="1.0" ?>
+<pymcdc_output tool="pymcdc" note="Structured export parsed from PyMCDC console output. PyMCDC does not emit native XML.">
+  <repository_summary>
+    <metric name="Repository Name">python-tool-testing-pymcdc</metric>
+    <metric name="Total Python Files">18</metric>
+    <metric name="Total Functions">7</metric>
+    <metric name="Total Decisions">14</metric>
+    <metric name="Total Conditions">47</metric>
+    <metric name="Decision Coverage %">0.0</metric>
+    <metric name="Condition Coverage %">0.0</metric>
+    <metric name="MC/DC Coverage %">0.0</metric>
+    <metric name="Execution Time (seconds)">3.24162</metric>
+  </repository_summary>
+  <files>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\pymcdc_metrics.py" exit_code="0">
+      <execution_time_seconds>0.0111</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.01110 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\pymcdc_platform\__init__.py" exit_code="0">
+      <execution_time_seconds>0.0016</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00160 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\pymcdc_platform\__main__.py" exit_code="0">
+      <execution_time_seconds>0.00249</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00249 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\pymcdc_platform\cli.py" exit_code="0">
+      <execution_time_seconds>0.00382</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00382 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\pymcdc_trigger.py" exit_code="0">
+      <execution_time_seconds>0.00378</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00378 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\sample_subject\logic.py" exit_code="0">
+      <execution_time_seconds>0.00226</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>11</total_requirements>
+      <decision_count>3</decision_count>
+      <mcdc_coverage_percent>0</mcdc_coverage_percent>
+      <decisions>
+        <decision line="6" column="7" function="evaluate_access">
+          <text>user_active and has_permission and session_valid</text>
+          <conditions>
+            <condition>user_active</condition>
+            <condition>has_permission</condition>
+            <condition>session_valid</condition>
+          </conditions>
+        </decision>
+        <decision line="13" column="7" function="evaluate_alert">
+          <text>level_high or threshold_exceeded</text>
+          <conditions>
+            <condition>level_high</condition>
+            <condition>threshold_exceeded</condition>
+          </conditions>
+        </decision>
+        <decision line="20" column="7" function="evaluate_mixed">
+          <text>(flag_a and flag_b) or flag_c</text>
+          <conditions>
+            <condition>flag_a</condition>
+            <condition>flag_b</condition>
+            <condition>flag_c</condition>
+          </conditions>
+        </decision>
+      </decisions>
+      <raw_output>Line number: (6, 7)
+Decision: user_active and has_permission and session_valid
+Combinations to be covered: 
+    | Result.   user_active    has_permission    session_valid   Cover. 
+------------------------------------------------------------------------
+  1 |  False       True             True             False       False  
+  2 |  False       True            False             ----        False  
+  3 |  False       False            ----             ----        False  
+  4 |   True       True             True             True        False  
+
+Line number: (13, 7)
+Decision: level_high or threshold_exceeded
+Combinations to be covered: 
+    | Result.   level_high    threshold_exceeded   Cover. 
+----------------------------------------------------------
+  1 |  False      False             False          False  
+  2 |   True       True              ----          False  
+  3 |   True      False              True          False  
+
+Line number: (20, 7)
+Decision: (flag_a and flag_b) or flag_c
+Combinations to be covered: 
+    | Result.   flag_a    flag_b    flag_c   Cover. 
+----------------------------------------------------
+  1 |  False     True     False     False    False  
+  2 |  False    False      ----     False    False  
+  3 |   True     True      True      ----    False  
+  4 |   True    False      ----      True    False  
+
+
+Covered 0 out of 11 requirements in 3 decisions (0%)
+	      
+Run time: 0.00226 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\sample_subject\test_logic.py" exit_code="0">
+      <execution_time_seconds>0.0021</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00210 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\scripts\collect_artifacts.py" exit_code="0">
+      <execution_time_seconds>0.00221</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00221 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\scripts\export_platform_bundle.py" exit_code="0">
+      <execution_time_seconds>0.00319</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00319 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\scripts\platform_pymcdc_fixup.py" exit_code="0">
+      <execution_time_seconds>0.00434</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>6</total_requirements>
+      <decision_count>2</decision_count>
+      <mcdc_coverage_percent>0</mcdc_coverage_percent>
+      <decisions>
+        <decision line="67" column="13" function="verify_platform_ratios">
+          <text>unified.get("totals") or {}</text>
+          <conditions>
+            <condition>unified.get("totals")</condition>
+            <condition>{}</condition>
+          </conditions>
+        </decision>
+        <decision line="71" column="11" function="verify_platform_ratios">
+          <text>isinstance(covered, (int, float)) and covered / total_req &lt; 10</text>
+          <conditions>
+            <condition>isinstance(covered,</condition>
+            <condition>(int,</condition>
+            <condition>float))</condition>
+            <condition>covered</condition>
+            <condition>/</condition>
+            <condition>total_req</condition>
+            <condition>&lt;</condition>
+            <condition>10</condition>
+          </conditions>
+        </decision>
+      </decisions>
+      <raw_output>Line number: (67, 13)
+Decision: unified.get("totals") or {}
+Combinations to be covered: 
+    | Result.   unified.get("totals")     {}     Cover. 
+--------------------------------------------------------
+  1 |  False            False            False   False  
+  2 |   True            True             ----    False  
+  3 |   True            False            True    False  
+
+Line number: (71, 11)
+Decision: isinstance(covered, (int, float)) and covered / total_req &lt; 10
+Combinations to be covered: 
+    | Result.   isinstance(covered, (int, float))    covered / total_req &lt; 10   Cover. 
+---------------------------------------------------------------------------------------
+  1 |  False                  True                            False             False  
+  2 |  False                  False                            ----             False  
+  3 |   True                  True                             True             False  
+
+
+Covered 0 out of 6 requirements in 2 decisions (0%)
+	      
+Run time: 0.00434 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\scripts\verify_100_percent.py" exit_code="0">
+      <execution_time_seconds>0.00394</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>9</total_requirements>
+      <decision_count>3</decision_count>
+      <mcdc_coverage_percent>0</mcdc_coverage_percent>
+      <decisions>
+        <decision line="22" column="17" function="verify">
+          <text>metrics.get("normalized_scores") or {}</text>
+          <conditions>
+            <condition>metrics.get("normalized_scores")</condition>
+            <condition>{}</condition>
+          </conditions>
+        </decision>
+        <decision line="29" column="11" function="verify">
+          <text>dashboard.get("rows") or []</text>
+          <conditions>
+            <condition>dashboard.get("rows")</condition>
+            <condition>[]</condition>
+          </conditions>
+        </decision>
+        <decision line="30" column="7" function="verify">
+          <text>not rows or int(rows[0].get("score", 0)) &lt; 100</text>
+          <conditions>
+            <condition>rows</condition>
+            <condition>int(rows[0].get("score",</condition>
+            <condition>0))</condition>
+            <condition>&lt;</condition>
+            <condition>100</condition>
+          </conditions>
+        </decision>
+      </decisions>
+      <raw_output>Line number: (22, 17)
+Decision: metrics.get("normalized_scores") or {}
+Combinations to be covered: 
+    | Result.   metrics.get("normalized_scores")     {}     Cover. 
+-------------------------------------------------------------------
+  1 |  False                 False                  False   False  
+  2 |   True                  True                  ----    False  
+  3 |   True                 False                  True    False  
+
+Line number: (29, 11)
+Decision: dashboard.get("rows") or []
+Combinations to be covered: 
+    | Result.   dashboard.get("rows")     []     Cover. 
+--------------------------------------------------------
+  1 |  False            False            False   False  
+  2 |   True            True             ----    False  
+  3 |   True            False            True    False  
+
+Line number: (30, 7)
+Decision: not rows or int(rows[0].get("score", 0)) &lt; 100
+Combinations to be covered: 
+    | Result.   rows     int(rows[0].get("score", 0)) &lt; 100   Cover. 
+---------------------------------------------------------------------
+  1 |   True    False                   ----                  False  
+  2 |  False    True                   False                  False  
+  3 |   True    True                    True                  False  
+
+
+Covered 0 out of 9 requirements in 3 decisions (0%)
+	      
+Run time: 0.00394 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\scripts\verify_pymcdc_json.py" exit_code="0">
+      <execution_time_seconds>0.00336</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>13</total_requirements>
+      <decision_count>4</decision_count>
+      <mcdc_coverage_percent>0</mcdc_coverage_percent>
+      <decisions>
+        <decision line="25" column="14" function="verify">
+          <text>payload.get("metrics") or []</text>
+          <conditions>
+            <condition>payload.get("metrics")</condition>
+            <condition>[]</condition>
+          </conditions>
+        </decision>
+        <decision line="46" column="13" function="verify">
+          <text>payload.get("totals") or payload.get("platform_totals") or {}</text>
+          <conditions>
+            <condition>payload.get("totals")</condition>
+            <condition>payload.get("platform_totals")</condition>
+            <condition>{}</condition>
+          </conditions>
+        </decision>
+        <decision line="51" column="11" function="verify">
+          <text>total_req &gt; 0 and totals.get("covered_requirements", 0) / total_req &lt; 10</text>
+          <conditions>
+            <condition>total_req</condition>
+            <condition>&gt;</condition>
+            <condition>0</condition>
+            <condition>totals.get("covered_requirements",</condition>
+            <condition>0)</condition>
+            <condition>/</condition>
+            <condition>total_req</condition>
+            <condition>&lt;</condition>
+            <condition>10</condition>
+          </conditions>
+        </decision>
+        <decision line="58" column="14" function="verify">
+          <text>payload.get("summary") or {}</text>
+          <conditions>
+            <condition>payload.get("summary")</condition>
+            <condition>{}</condition>
+          </conditions>
+        </decision>
+      </decisions>
+      <raw_output>Line number: (25, 14)
+Decision: payload.get("metrics") or []
+Combinations to be covered: 
+    | Result.   payload.get("metrics")     []     Cover. 
+---------------------------------------------------------
+  1 |  False            False             False   False  
+  2 |   True             True             ----    False  
+  3 |   True            False             True    False  
+
+Line number: (46, 13)
+Decision: payload.get("totals") or payload.get("platform_totals") or {}
+Combinations to be covered: 
+    | Result.   payload.get("totals")    payload.get("platform_totals")     {}     Cover. 
+------------------------------------------------------------------------------------------
+  1 |  False            False                        False                 False   False  
+  2 |   True            True                          ----                 ----    False  
+  3 |   True            False                         True                 ----    False  
+  4 |   True            False                        False                 True    False  
+
+Line number: (51, 11)
+Decision: total_req &gt; 0 and totals.get("covered_requirements", 0) / total_req &lt; 10
+Combinations to be covered: 
+    | Result.   total_req &gt; 0    totals.get("covered_requirements", 0) / total_req &lt; 10   Cover. 
+-------------------------------------------------------------------------------------------------
+  1 |  False        True                                 False                            False  
+  2 |  False        False                                 ----                            False  
+  3 |   True        True                                  True                            False  
+
+Line number: (58, 14)
+Decision: payload.get("summary") or {}
+Combinations to be covered: 
+    | Result.   payload.get("summary")     {}     Cover. 
+---------------------------------------------------------
+  1 |  False            False             False   False  
+  2 |   True             True             ----    False  
+  3 |   True            False             True    False  
+
+
+Covered 0 out of 13 requirements in 4 decisions (0%)
+	      
+Run time: 0.00336 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\tests\__init__.py" exit_code="0">
+      <execution_time_seconds>0.00137</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00137 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\tests\test_integration_pipeline.py" exit_code="0">
+      <execution_time_seconds>0.00182</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00182 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\tests\test_metrics.py" exit_code="0">
+      <execution_time_seconds>0.0023</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00230 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\tests\test_platform_fixup.py" exit_code="0">
+      <execution_time_seconds>0.00249</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00249 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\tests\test_trigger.py" exit_code="0">
+      <execution_time_seconds>0.00293</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>0</total_requirements>
+      <decision_count>0</decision_count>
+      <mcdc_coverage_percent>100</mcdc_coverage_percent>
+      <decisions/>
+      <raw_output>
+Covered 0 out of 0 requirements in 0 decisions (100%)
+	      
+Run time: 0.00293 
+</raw_output>
+    </file>
+    <file path="D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\validate_metric_coverage.py" exit_code="0">
+      <execution_time_seconds>0.00354</execution_time_seconds>
+      <covered_requirements>0</covered_requirements>
+      <total_requirements>6</total_requirements>
+      <decision_count>2</decision_count>
+      <mcdc_coverage_percent>0</mcdc_coverage_percent>
+      <decisions>
+        <decision line="33" column="7" function="validate">
+          <text>metrics_json and metrics_json.exists()</text>
+          <conditions>
+            <condition>metrics_json</condition>
+            <condition>metrics_json.exists()</condition>
+          </conditions>
+        </decision>
+        <decision line="36" column="17" function="validate">
+          <text>payload.get("normalized_scores") or {}</text>
+          <conditions>
+            <condition>payload.get("normalized_scores")</condition>
+            <condition>{}</condition>
+          </conditions>
+        </decision>
+      </decisions>
+      <raw_output>Line number: (33, 7)
+Decision: metrics_json and metrics_json.exists()
+Combinations to be covered: 
+    | Result.   metrics_json    metrics_json.exists()   Cover. 
+---------------------------------------------------------------
+  1 |  False        True                False           False  
+  2 |  False       False                ----            False  
+  3 |   True        True                True            False  
+
+Line number: (36, 17)
+Decision: payload.get("normalized_scores") or {}
+Combinations to be covered: 
+    | Result.   payload.get("normalized_scores")     {}     Cover. 
+-------------------------------------------------------------------
+  1 |  False                 False                  False   False  
+  2 |   True                  True                  ----    False  
+  3 |   True                 False                  True    False  
+
+
+Covered 0 out of 6 requirements in 2 decisions (0%)
+	      
+Run time: 0.00354 
+</raw_output>
+    </file>
+  </files>
+</pymcdc_output>

@@ -1,0 +1,19 @@
+
+> typescript-tool-testing-eslint-eslint-plugin-sonarjs@1.0.0 coverage
+> vitest run --coverage && tsx src/coverage/coverageTaxonomyReport.ts
+
+
+ RUN  v2.1.9 D:/Research in Missing Metrics/typescript/Vitest Path Coverage/workspace/typescript-tool-testing-eslint-eslint-plugin-sonarjs
+      Coverage enabled with v8
+
+ ✓ tests/coverageTaxonomyReport.test.ts (1 test) 10ms
+ ✓ sample_subject/tests/pathRouter.test.ts (4 tests) 17ms
+ ✓ tests/platformFixup.test.ts (1 test) 16ms
+ ✓ sample_subject/tests/pathComplexity.test.ts (4 tests) 19ms
+
+ Test Files  4 passed (4)
+      Tests  10 passed (10)
+   Start at  11:38:25
+   Duration  15.17s (transform 504ms, setup 0ms, collect 926ms, tests 62ms, environment 5ms, prepare 3.53s)
+
+Wrote D:\Research in Missing Metrics\typescript\Vitest Path Coverage\workspace\typescript-tool-testing-eslint-eslint-plugin-sonarjs\artifacts\training\coverage\taxonomy_metrics.json

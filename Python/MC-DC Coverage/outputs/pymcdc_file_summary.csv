@@ -1,0 +1,19 @@
+file,functions_analyzed,decisions,conditions,decision_coverage,condition_coverage,mcdc_coverage
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\pymcdc_metrics.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\pymcdc_platform\__init__.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\pymcdc_platform\__main__.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\pymcdc_platform\cli.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\pymcdc_trigger.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\sample_subject\logic.py,3,3,8,0.0,0.0,0
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\sample_subject\test_logic.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\scripts\collect_artifacts.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\scripts\export_platform_bundle.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\scripts\platform_pymcdc_fixup.py,1,2,10,0.0,0.0,0
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\scripts\verify_100_percent.py,1,3,9,0.0,0.0,0
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\scripts\verify_pymcdc_json.py,1,4,16,0.0,0.0,0
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\tests\__init__.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\tests\test_integration_pipeline.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\tests\test_metrics.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\tests\test_platform_fixup.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\tests\test_trigger.py,0,0,0,100.0,100.0,100
+D:\Research in Missing Metrics\Python\MC-DC Coverage\workspace\python-tool-testing-pymcdc\validate_metric_coverage.py,1,2,4,0.0,0.0,0

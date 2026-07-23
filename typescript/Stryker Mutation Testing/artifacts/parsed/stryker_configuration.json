@@ -1,0 +1,57 @@
+[
+  {
+    "Config Field":"mutate",
+    "Raw Value":"[\"sample_subject\/src\/**\/*.ts\", \"!sample_subject\/src\/index.ts\"]",
+    "Source File":"stryker.config.json"
+  },
+  {
+    "Config Field":"testRunner",
+    "Raw Value":"\"vitest\"",
+    "Source File":"stryker.config.json"
+  },
+  {
+    "Config Field":"coverageAnalysis",
+    "Raw Value":"\"perTest\"",
+    "Source File":"stryker.config.json"
+  },
+  {
+    "Config Field":"reporters",
+    "Raw Value":"[\"json\", \"clear-text\"]",
+    "Source File":"stryker.config.json"
+  },
+  {
+    "Config Field":"timeoutMS",
+    "Raw Value":"60000",
+    "Source File":"stryker.config.json"
+  },
+  {
+    "Config Field":"jsonReporter",
+    "Raw Value":"{\"fileName\": \"artifacts\/training\/mutation\/mutation-report.json\"}",
+    "Source File":"stryker.config.json"
+  },
+  {
+    "Config Field":"vitest",
+    "Raw Value":"{\"configFile\": \"vitest.config.ts\"}",
+    "Source File":"stryker.config.json"
+  },
+  {
+    "Config Field":"plugins",
+    "Raw Value":"[\"@stryker-mutator\/vitest-runner\"]",
+    "Source File":"stryker.config.json"
+  },
+  {
+    "Config Field":"thresholds",
+    "Raw Value":"{\"high\": 100, \"break\": 100, \"low\": 100}",
+    "Source File":"stryker.config.json"
+  },
+  {
+    "Config Field":"concurrency",
+    "Raw Value":"2",
+    "Source File":"stryker.config.json"
+  },
+  {
+    "Config Field":"vitest.configFile",
+    "Raw Value":"\"vitest.config.ts\"",
+    "Source File":"stryker.config.json"
+  }
+]

@@ -58,6 +58,12 @@ Maintainability Nesting Depth/          (project root)
 │       ├── tool/
 │       ├── workspace/
 │       └── outputs/
+│   └── MC/DC Coverage/
+│       ├── pymcdc_mcdc_coverage_extraction.ipynb
+│       ├── requirements.txt
+│       ├── tool/
+│       ├── workspace/
+│       └── outputs/
 ├── C/
 │   ├── Maintainability Nesting Depth/
 │   │   ├── lizard_nesting_depth_extraction.ipynb
@@ -140,6 +146,36 @@ Maintainability Nesting Depth/          (project root)
 │       └── outputs/
 │   └── File & Function Length/
 │       ├── lizard_file_function_length_extraction.ipynb
+│       ├── requirements.txt
+│       ├── tool/
+│       ├── workspace/
+│       └── outputs/
+│   └── JaCoCo Coverage/
+│       ├── jacoco_coverage_extraction.ipynb
+│       ├── requirements.txt
+│       ├── tool/
+│       ├── workspace/
+│       └── outputs/
+│   └── JaCoCo Path Analysis/
+│       ├── jacoco_path_analysis_validation.ipynb
+│       ├── requirements.txt
+│       ├── tool/
+│       ├── workspace/
+│       └── outputs/
+│   └── JPF Path Analysis/
+│       ├── jpf_path_analysis_extraction.ipynb
+│       ├── requirements.txt
+│       ├── tool/
+│       ├── workspace/
+│       └── outputs/
+│   └── Static DU Analysis/
+│       ├── static_du_extraction.ipynb
+│       ├── requirements.txt
+│       ├── tool/
+│       ├── workspace/
+│       └── outputs/
+│   └── JaCoCo Static DU Validation/
+│       ├── jacoco_static_du_validation.ipynb
 │       ├── requirements.txt
 │       ├── tool/
 │       ├── workspace/
@@ -237,6 +273,7 @@ pip install -r "Python/Maintainability Nesting Depth/requirements.txt"
 pip install -r "Python/Comment-to-Code Ratio/requirements.txt"
 pip install -r "Python/Parameter Count/requirements.txt"
 pip install -r "Python/File & Function Length/requirements.txt"
+pip install -r "Python/MC/DC Coverage/requirements.txt"
 pip install -r "C/Maintainability Nesting Depth/requirements.txt"
 pip install -r "C/Comment-to-Code Ratio/requirements.txt"
 pip install -r "C/Parameter Count/requirements.txt"
@@ -245,6 +282,11 @@ pip install -r "Java/Maintainability Nesting Depth/requirements.txt"
 pip install -r "Java/Comment-to-Code Ratio/requirements.txt"
 pip install -r "Java/Parameter Count/requirements.txt"
 pip install -r "Java/File & Function Length/requirements.txt"
+pip install -r "Java/JaCoCo Coverage/requirements.txt"
+pip install -r "Java/JaCoCo Path Analysis/requirements.txt"
+pip install -r "Java/JPF Path Analysis/requirements.txt"
+pip install -r "Java/Static DU Analysis/requirements.txt"
+pip install -r "Java/JaCoCo Static DU Validation/requirements.txt"
 pip install -r "JavaScript/Maintainability Nesting Depth/requirements.txt"
 pip install -r "JavaScript/Comment-to-Code Ratio/requirements.txt"
 pip install -r "JavaScript/Parameter Count/requirements.txt"
@@ -265,6 +307,7 @@ python "Python/God Class / Long Method/tool/run_god_class_long_method_benchmark.
 python "Python/Comment-to-Code Ratio/tool/run_comment_to_code_ratio_benchmark.py"
 python "Python/Parameter Count/tool/run_parameter_count_benchmark.py"
 python "Python/File & Function Length/tool/run_file_function_length_benchmark.py"
+python "Python/MC/DC Coverage/tool/run_pymcdc_benchmark.py"
 python "C/Maintainability Nesting Depth/tool/run_lizard_benchmark.py"
 python "C/Code Smells Count/tool/run_code_smells_benchmark.py"
 python "C/Maintainability Rating (SQALE A-E)/tool/run_sqale_rating_benchmark.py"
@@ -279,6 +322,11 @@ python "Java/God Class / Long Method/tool/run_god_class_long_method_benchmark.py
 python "Java/Comment-to-Code Ratio/tool/run_comment_to_code_ratio_benchmark.py"
 python "Java/Parameter Count/tool/run_parameter_count_benchmark.py"
 python "Java/File & Function Length/tool/run_file_function_length_benchmark.py"
+python "Java/JaCoCo Coverage/tool/run_jacoco_benchmark.py"
+python "Java/JaCoCo Path Analysis/tool/run_jacoco_path_analysis_benchmark.py"
+python "Java/JPF Path Analysis/tool/run_jpf_benchmark.py"
+python "Java/Static DU Analysis/tool/run_static_du_benchmark.py"
+python "Java/JaCoCo Static DU Validation/tool/run_jacoco_static_du_validation_benchmark.py"
 python "JavaScript/Maintainability Nesting Depth/tool/run_eslint_benchmark.py"
 python "JavaScript/Code Smells Count/tool/run_code_smells_benchmark.py"
 python "JavaScript/Maintainability Rating (SQALE A-E)/tool/run_sqale_rating_benchmark.py"
@@ -316,6 +364,7 @@ LOCAL_REPO_PATH = "./workspace/<benchmark_repo>"
 | Python | Comment-to-Code Ratio | Radon | `Python/Comment-to-Code Ratio/radon_comment_to_code_ratio_extraction.ipynb` | pallets/flask |
 | Python | Parameter Count | Lizard | `Python/Parameter Count/lizard_parameter_count_extraction.ipynb` | pallets/flask |
 | Python | File & Function Length | Lizard | `Python/File & Function Length/lizard_file_function_length_extraction.ipynb` | pallets/flask |
+| Python | MC/DC Coverage | PyMCDC | `Python/MC/DC Coverage/pymcdc_mcdc_coverage_extraction.ipynb` | visvantha-testable/python-tool-testing-pymcdc |
 | C | Nesting Depth | Lizard | `C/Maintainability Nesting Depth/lizard_nesting_depth_extraction.ipynb` | redis/redis |
 | C | Code Smells Count | Cppcheck | `C/Code Smells Count/cppcheck_code_smells_extraction.ipynb` | redis/redis |
 | C | Maintainability Rating (SQALE A-E) | Lizard | `C/Maintainability Rating (SQALE A-E)/lizard_maintainability_rating_extraction.ipynb` | redis/redis |
@@ -330,6 +379,11 @@ LOCAL_REPO_PATH = "./workspace/<benchmark_repo>"
 | Java | Comment-to-Code Ratio | PMD | `Java/Comment-to-Code Ratio/pmd_comment_to_code_ratio_extraction.ipynb` | spring-petclinic |
 | Java | Parameter Count | Lizard | `Java/Parameter Count/lizard_parameter_count_extraction.ipynb` | spring-petclinic |
 | Java | File & Function Length | Lizard | `Java/File & Function Length/lizard_file_function_length_extraction.ipynb` | spring-petclinic |
+| Java | JaCoCo Coverage | JaCoCo | `Java/JaCoCo Coverage/jacoco_coverage_extraction.ipynb` | visvantha-testable/java-tool-testing-jacoco |
+| Java | JaCoCo Path Analysis | JaCoCo | `Java/JaCoCo Path Analysis/jacoco_path_analysis_validation.ipynb` | visvantha-testable/java-tool-testing-jacoco |
+| Java | JPF Path Analysis | Java PathFinder | `Java/JPF Path Analysis/jpf_path_analysis_extraction.ipynb` | visvantha-testable/java-tool-testing-jacoco |
+| Java | Static DU Analysis | Static DU | `Java/Static DU Analysis/static_du_extraction.ipynb` | visvantha-testable/java-tool-testing-static-du |
+| Java | JaCoCo + Static DU Validation | JaCoCo + Static DU | `Java/JaCoCo Static DU Validation/jacoco_static_du_validation.ipynb` | visvantha-testable/java-tool-testing-def-use |
 | JavaScript | Nesting Depth | ESLint | `JavaScript/Maintainability Nesting Depth/eslint_nesting_depth_extraction.ipynb` | facebook/react |
 | JavaScript | Code Smells Count | ESLint | `JavaScript/Code Smells Count/eslint_code_smells_extraction.ipynb` | facebook/react |
 | JavaScript | Maintainability Rating (SQALE A-E) | ESLint | `JavaScript/Maintainability Rating (SQALE A-E)/eslint_maintainability_rating_extraction.ipynb` | expressjs/express |
@@ -359,6 +413,7 @@ Toolchains in `runtimes/` are referenced via `../../runtimes/` from each metric 
 | Python (Comment-to-Code Ratio) | Ratio 0.33, Percentage 33.33%, MI 77.28, Rating B | OK |
 | Python (Parameter Count) | Max PARAM 8, Long Param List 1, Max Nesting 3 | OK |
 | Python (File & Function Length) | Max Function Length 54 (NLOC), Max File Length 57, Long Functions 1 | OK |
+| Python (MC/DC Coverage) | Total Decisions 14, Total Requirements 45, logic.py Decisions 3 / Requirements 11 | OK |
 | C (Code Smells) | 13 code smells | OK |
 | C (SQALE A-E) | MI 59.08, Rating C | OK |
 | C (God Class / Long Method) | Long 1, God Module 1, Combined 2 | OK |
@@ -371,6 +426,11 @@ Toolchains in `runtimes/` are referenced via `../../runtimes/` from each metric 
 | Java (Comment-to-Code Ratio) | Ratio 0.67, Percentage 66.67%, Code Smells 50 | OK |
 | Java (Parameter Count) | Max PARAM 8, Long Param List 1, Max Nesting 3 | OK |
 | Java (File & Function Length) | Max Function Length 55 (NLOC), Max File Length 58 (NLOC), Long Methods 1 | OK |
+| Java (JaCoCo Coverage) | Classes 3, Line 100%, Instruction 98.46%, Branch 84.38%, Method 100% | OK |
+| Java (JaCoCo Path Analysis) | Path metrics Supported 0 / Not Supported 10, XML nodes 163, keywords found 3 | OK |
+| Java (JPF Path Analysis) | Classes executed 2, Path metrics Supported 9 / No Evidence 0, JPF metrics rows 26 | OK |
+| Java (Static DU Analysis) | DU pairs 7, Data Flow metrics Supported 5 / Directly Emitted 5, definitions aggregate-only | OK |
+| Java (JaCoCo + Static DU Validation) | Control Flow 10/10, Coverage Regression 6/6, Data Flow 16/16, 45 Java files | OK |
 | C# (Code Smells) | 32 code smells | OK |
 | C# (SQALE A-E) | Score 58.75, Rating C, 66 violations | OK |
 | C# (God Class / Long Method) | Long 24, God 1, Combined 25, Code Smells 28 | OK |

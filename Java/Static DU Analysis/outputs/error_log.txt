@@ -1,0 +1,2 @@
+timestamp,step,error
+2026-07-15 10:32:10 UTC,parse_definitions,Static DU did not emit per-definition records; only aggregate definition counts are present in JSON.

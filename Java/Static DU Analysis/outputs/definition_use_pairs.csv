@@ -1,0 +1,8 @@
+file,class,method,variable,definition_line,use_line,use_type,du_pair
+DataFlowSample.java,DataFlowSample,,result,,result = result + 5;,C-Use,result@result = result + 5;
+DataFlowSample.java,DataFlowSample,,result,,return result * 2;,C-Use,result@return result * 2;
+OrderService.java,OrderService,,i,,for (int i = 0; i < limit; i++) {,C-Use,i@for (int i = 0; i < limit; i++) {
+OrderService.java,OrderService,,i,,for (int i = 0; i < limit; i++) {,C-Use,i@for (int i = 0; i < limit; i++) {
+OrderService.java,OrderService,,i,,total += i;,C-Use,i@total += i;
+OrderService.java,OrderService,,total,,return total;,C-Use,total@return total;
+OrderService.java,OrderService,,masked,,return validator.validate(masked);,C-Use,masked@return validator.validate(masked);

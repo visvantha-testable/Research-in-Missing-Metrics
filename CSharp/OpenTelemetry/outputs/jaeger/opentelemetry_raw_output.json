@@ -1,0 +1,358 @@
+{
+  "exporter": "OpenTelemetry.Exporter.Jaeger",
+  "endpoint": "http://127.0.0.1:14268/api/traces",
+  "data": [
+    {
+      "traceID": "04c1c8d51f2a1dd9cf19b1188a1b973b",
+      "spanID": "f4a614ed663b63b7",
+      "operationName": "path/safeReadLines:missing",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "safeReadLines:missing"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "safeReadLines"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "ENOENT branch"
+        }
+      ]
+    },
+    {
+      "traceID": "44260fd3a953f446b6cf4902baa0381d",
+      "spanID": "5e4a89e3cdbbb4f6",
+      "operationName": "path/safeReadLines:happy",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "safeReadLines:happy"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "safeReadLines"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "success branch"
+        }
+      ]
+    },
+    {
+      "traceID": "5b63586fea43ac00d1ea1b7be647473c",
+      "spanID": "be3007ff4d586c5f",
+      "operationName": "path/safeReadLines:permission",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "safeReadLines:permission"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "safeReadLines"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "EACCES branch"
+        }
+      ]
+    },
+    {
+      "traceID": "bd979994e8c14337defcb898785cbd05",
+      "spanID": "045e3b719b32b0cf",
+      "operationName": "path/safeReadLines:decode",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "safeReadLines:decode"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "safeReadLines"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "decode branch"
+        }
+      ]
+    },
+    {
+      "traceID": "da3c558b204c90b2e7f50b0ee46b22dd",
+      "spanID": "479975d4104be38e",
+      "operationName": "path/safeReadLines:rethrow",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "safeReadLines:rethrow"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "safeReadLines"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "rethrow branch"
+        }
+      ]
+    },
+    {
+      "traceID": "f8889115b39fe3cc816e576026056d7f",
+      "spanID": "0dfaba42f9373add",
+      "operationName": "path/parseJsonSafely:valid",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "parseJsonSafely:valid"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "parseJsonSafely"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "valid JSON branch"
+        }
+      ]
+    },
+    {
+      "traceID": "7066a402bcdbdf0909e7bc9b17fd4444",
+      "spanID": "a6d8f52642585580",
+      "operationName": "path/parseJsonSafely:invalid",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "parseJsonSafely:invalid"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "parseJsonSafely"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "catch branch"
+        }
+      ]
+    },
+    {
+      "traceID": "10fb7a281b6c0c02a7debebe5c955918",
+      "spanID": "e1c13d8505948b43",
+      "operationName": "path/divideSafely:success",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "divideSafely:success"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "divideSafely"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "success branch"
+        }
+      ]
+    },
+    {
+      "traceID": "c92f656aa6ba03a2308d3b8c1691eac5",
+      "spanID": "3b1638a45eec0acf",
+      "operationName": "path/divideSafely:zero",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "divideSafely:zero"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "divideSafely"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "RangeError branch"
+        }
+      ]
+    },
+    {
+      "traceID": "978252823664ebfddc3a42a8700929bf",
+      "spanID": "e0fa04ba9268b150",
+      "operationName": "path/divideSafely:rethrow",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "divideSafely:rethrow"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "divideSafely"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "TypeError rethrow branch"
+        }
+      ]
+    },
+    {
+      "traceID": "255ce8255db38d2151a9b8d68282820d",
+      "spanID": "fccf5345b9fa7d12",
+      "operationName": "path/retryOperation:success-after-retry",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "retryOperation:success-after-retry"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "retryOperation"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "retry success branch"
+        }
+      ]
+    },
+    {
+      "traceID": "4e8e37ddb149cf473d7b8b8b64c181d8",
+      "spanID": "68193177f0fe76f4",
+      "operationName": "path/retryOperation:final-failure",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "retryOperation:final-failure"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "retryOperation"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "final failure branch"
+        }
+      ]
+    },
+    {
+      "traceID": "b5a0a68980a876bf2232d1c12ba06a0f",
+      "spanID": "a928929a31849c78",
+      "operationName": "path/classifyHttpStatus:success",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "classifyHttpStatus:success"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "classifyHttpStatus"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "2xx branch"
+        }
+      ]
+    },
+    {
+      "traceID": "8c0020e1d9a4e1bda3dfb53cbc7e439a",
+      "spanID": "a33802c01c03e8ea",
+      "operationName": "path/classifyHttpStatus:client",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "classifyHttpStatus:client"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "classifyHttpStatus"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "4xx branch"
+        }
+      ]
+    },
+    {
+      "traceID": "36e34f59da248970491201ea7f4a25c0",
+      "spanID": "5a6a03140cb9b877",
+      "operationName": "path/classifyHttpStatus:server",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "classifyHttpStatus:server"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "classifyHttpStatus"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "5xx branch"
+        }
+      ]
+    },
+    {
+      "traceID": "362a758d06c0abeef89566d7df42116e",
+      "spanID": "1d53edfc36bf1a46",
+      "operationName": "path/classifyHttpStatus:unknown",
+      "tags": [
+        {
+          "key": "path.id",
+          "type": "string",
+          "value": "classifyHttpStatus:unknown"
+        },
+        {
+          "key": "path.function",
+          "type": "string",
+          "value": "classifyHttpStatus"
+        },
+        {
+          "key": "path.route",
+          "type": "string",
+          "value": "unknown branch"
+        }
+      ]
+    }
+  ]
+}

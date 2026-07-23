@@ -1,0 +1,2 @@
+Testing Type,Classification,Metric,Capability,Supported,Directly Emitted,Derived,Evidence,Comments
+Security White-box Testing,Dependency Risk (SCA),Continuous Dependency Monitoring,Real-Time Alerting,Not Supported,No,No,"dependabot.yml detected, but live Dependabot alerts were not retrieved successfully.",Metric must be evaluated solely from live GitHub Dependabot alert data.

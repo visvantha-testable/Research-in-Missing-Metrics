@@ -1,0 +1,320 @@
+"""Generate eslint_extraction.ipynb."""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+METRIC_ROOT = ROOT.parent
+NOTEBOOK = METRIC_ROOT / "eslint_extraction.ipynb"
+
+
+def md(source: str) -> dict:
+    return {"cell_type": "markdown", "metadata": {}, "source": [line + "\n" for line in source.split("\n")]}
+
+
+def code(source: str) -> dict:
+    return {"cell_type": "code", "execution_count": None, "metadata": {}, "outputs": [], "source": [line + "\n" for line in source.split("\n")]}
+
+
+cells = [
+    md(
+        "# ESLint — Raw Lint Analysis Output Extraction (JavaScript)\n\n"
+        "Analyze **JavaScript repositories** with **ESLint** and capture the complete raw lint output "
+        "required for White Box metric extraction and validation.\n\n"
+        "This notebook preserves the original ESLint output exactly as emitted by the tool.\n\n"
+        "**Default benchmark repository:** "
+        "[javascript-testing-eslint](https://github.com/visvantha-testable/javascript-testing-eslint)\n\n"
+        "> **Note:** This workflow extracts and parses raw ESLint fields only. "
+        "It does **not** calculate taxonomy metrics or custom scores."
+    ),
+    md(
+        "## Section 1 — Install Dependencies\n\n"
+        "Install Python packages and verify `node`, `npm`, and `npx eslint`."
+    ),
+    code("!pip install -q gitpython pandas jupyter\n!pip install -q -r requirements.txt"),
+    code(
+        "import os\nimport sys\nfrom pathlib import Path\n\n"
+        "os.environ.pop('PYTHONPATH', None)\n"
+        "METRIC_ROOT = Path('.').resolve()\n"
+        "if not (METRIC_ROOT / 'tool' / '_eslint_utils.py').exists():\n"
+        "    METRIC_ROOT = Path('..').resolve()\n"
+        "TOOL_ROOT = METRIC_ROOT / 'tool'\n"
+        "if str(TOOL_ROOT) not in sys.path:\n"
+        "    sys.path.insert(0, str(TOOL_ROOT))\n\n"
+        "from IPython.display import display\n\n"
+        "from _eslint_utils import (\n"
+        "    ANALYSIS_TYPE, PROGRAMMING_LANGUAGE, REPO_URL, TOOL_NAME, NotebookLogger,\n"
+        "    collect_prerequisite_versions, ensure_output_dirs, resolve_metric_root,\n"
+        ")\n\n"
+        "METRIC_ROOT = resolve_metric_root(METRIC_ROOT)\n"
+        "DIRS = ensure_output_dirs(METRIC_ROOT)\n"
+        "OUTPUT_DIR = DIRS['outputs']\n"
+        "WORKSPACE_DIR = DIRS['workspace']\n"
+        "LOGGER = NotebookLogger(OUTPUT_DIR / 'error_log.txt')\n\n"
+        "PREREQ_DF = collect_prerequisite_versions()\n"
+        "display(PREREQ_DF)"
+    ),
+    md(
+        "## Section 2 — Configuration\n\n"
+        "Choose Git clone mode or local repository mode."
+    ),
+    code(
+        "USE_GIT_URL = True\n\n"
+        "REPO_URL = 'https://github.com/visvantha-testable/javascript-testing-eslint.git'\n\n"
+        "LOCAL_REPO_PATH = './workspace/javascript-testing-eslint'\n\n"
+        "WORKSPACE_DIR = './workspace'\n\n"
+        "OUTPUT_DIR = './outputs'\n\n"
+        "IF_CLONE_EXISTS = 'reuse'  # reuse | reclone\n\n"
+        "# Local mode example:\n"
+        "# USE_GIT_URL = False\n"
+        "# LOCAL_REPO_PATH = './workspace/javascript-testing-eslint'"
+    ),
+    md("## Section 3 — Repository Setup\n\nClone or reuse the repository and display repository metadata."),
+    code(
+        "from IPython.display import display\n\n"
+        "from _eslint_utils import (\n"
+        "    compute_repository_stats, discover_javascript_files, resolve_repository_path,\n"
+        ")\n\n"
+        "OUTPUT_PATH = Path(OUTPUT_DIR).resolve()\n"
+        "WORKSPACE_PATH = Path(WORKSPACE_DIR).resolve()\n"
+        "OUTPUT_PATH.mkdir(parents=True, exist_ok=True)\n\n"
+        "try:\n"
+        "    REPO_PATH, CLONE_STATUS = resolve_repository_path(\n"
+        "        USE_GIT_URL, REPO_URL, LOCAL_REPO_PATH, WORKSPACE_PATH, IF_CLONE_EXISTS, LOGGER\n"
+        "    )\n"
+        "except Exception as exc:\n"
+        "    LOGGER.error(f'Repository setup failed: {exc}')\n"
+        "    raise\n\n"
+        "INVENTORY_DF = discover_javascript_files(REPO_PATH)\n"
+        "REPO_STATS = compute_repository_stats(REPO_PATH, INVENTORY_DF)\n\n"
+        "print(CLONE_STATUS)\n"
+        "print(f\"Repository Name: {REPO_STATS['repository_name']}\")\n"
+        "print(f\"Repository Size (JS bytes): {REPO_STATS['repository_size_bytes']:,}\")\n"
+        "print(f\"Number of Directories: {REPO_STATS['directory_count']}\")\n"
+        "print(f\"Number of JavaScript Files: {REPO_STATS['javascript_file_count']}\")\n"
+        "print(f\"Current Commit Hash: {REPO_STATS['commit_hash']}\")\n"
+        "print(f\"package.json present: {REPO_STATS['package_json_present']}\")"
+    ),
+    md(
+        "## Section 4 — Discover JavaScript Files\n\n"
+        "Recursively discover `*.js`, `*.mjs`, and `*.cjs` files and export the inventory CSV."
+    ),
+    code(
+        "INVENTORY_CSV = OUTPUT_PATH / 'javascript_files_inventory.csv'\n"
+        "INVENTORY_DF.to_csv(INVENTORY_CSV, index=False)\n"
+        "print(f'Total JavaScript Files Found : {REPO_STATS[\"javascript_file_count\"]}')\n"
+        "print(f'Saved inventory to: {INVENTORY_CSV}')\n"
+        "display(INVENTORY_DF.head(20))"
+    ),
+    md("## Section 5 — Install Project Dependencies\n\nRun `npm install` and capture stdout, stderr, exit code, and execution time."),
+    code(
+        "from _eslint_utils import run_npm_install\n\n"
+        "try:\n"
+        "    NPM_INSTALL_RESULT = run_npm_install(REPO_PATH, LOGGER)\n"
+        "    print('--- npm install stdout ---')\n"
+        "    print(NPM_INSTALL_RESULT['stdout'])\n"
+        "    print('--- npm install stderr ---')\n"
+        "    print(NPM_INSTALL_RESULT['stderr'])\n"
+        "    print(f\"Exit Code: {NPM_INSTALL_RESULT['returncode']}\")\n"
+        "    print(f\"Execution Time (ms): {NPM_INSTALL_RESULT['elapsed_ms']}\")\n"
+        "    if not NPM_INSTALL_RESULT['success']:\n"
+        "        LOGGER.error('npm install failed.', file=str(REPO_PATH / 'package.json'))\n"
+        "except Exception as exc:\n"
+        "    NPM_INSTALL_RESULT = {'success': False, 'stdout': '', 'stderr': str(exc), 'returncode': 1, 'elapsed_ms': 0}\n"
+        "    LOGGER.error(f'npm install raised an exception: {exc}')"
+    ),
+    md(
+        "## Section 6 — Verify ESLint Installation\n\n"
+        "Verify ESLint is available. If missing, install with `npm install --save-dev eslint`.\n\n"
+        "If no ESLint configuration exists in the repository, report the issue and stop without modifying source files."
+    ),
+    code(
+        "from _eslint_utils import discover_eslint_config, verify_eslint_installation\n\n"
+        "ESLINT_CONFIG = discover_eslint_config(REPO_PATH)\n"
+        "ESLINT_VERIFY = {'installed': False, 'version': ''}\n"
+        "if NPM_INSTALL_RESULT.get('success'):\n"
+        "    ESLINT_VERIFY = verify_eslint_installation(REPO_PATH, LOGGER)\n"
+        "    print(f\"ESLint version: {ESLINT_VERIFY.get('version', '')}\")\n"
+        "    print(f\"ESLint installed: {ESLINT_VERIFY.get('installed')}\")\n"
+        "else:\n"
+        "    LOGGER.error('Skipped ESLint verification because npm install failed.', file=str(REPO_PATH))\n\n"
+        "if ESLINT_CONFIG is None:\n"
+        "    LOGGER.error('No ESLint configuration found. Stopping without modifying the repository.', file=str(REPO_PATH))\n"
+        "    print('Supported configs: eslint.config.js, .eslintrc.*, package.json eslintConfig')\n"
+        "else:\n"
+        "    print(f'Using ESLint configuration: {ESLINT_CONFIG}')"
+    ),
+    md(
+        "## Section 7 — Execute ESLint\n\n"
+        "Run `npm run lint` when available and `npx eslint . -f json`. "
+        "Capture stdout, stderr, exit code, and execution duration."
+    ),
+    code(
+        "from _eslint_utils import combine_console_output, has_lint_script, run_eslint_json, run_npm_lint\n\n"
+        "LINT_SCRIPT_RESULT = None\n"
+        "ESLINT_JSON_RESULT = {\n"
+        "    'stdout': '',\n"
+        "    'stderr': 'Skipped because prerequisites failed.',\n"
+        "    'returncode': 1,\n"
+        "    'elapsed_ms': 0,\n"
+        "    'success': False,\n"
+        "}\n\n"
+        "if NPM_INSTALL_RESULT.get('success') and ESLINT_CONFIG is not None and ESLINT_VERIFY.get('installed'):\n"
+        "    if has_lint_script(REPO_PATH):\n"
+        "        LINT_SCRIPT_RESULT = run_npm_lint(REPO_PATH, LOGGER)\n"
+        "        print('--- npm run lint stdout ---')\n"
+        "        print(LINT_SCRIPT_RESULT['stdout'])\n"
+        "        print('--- npm run lint stderr ---')\n"
+        "        print(LINT_SCRIPT_RESULT['stderr'])\n"
+        "        print(f\"Exit Code: {LINT_SCRIPT_RESULT['returncode']}\")\n"
+        "        print(f\"Execution Time (ms): {LINT_SCRIPT_RESULT['elapsed_ms']}\")\n"
+        "    else:\n"
+        "        print('No npm run lint script found; continuing with npx eslint . -f json')\n\n"
+        "    ESLINT_JSON_RESULT = run_eslint_json(REPO_PATH, LOGGER)\n"
+        "    print('--- npx eslint . -f json stdout ---')\n"
+        "    print(ESLINT_JSON_RESULT['stdout'][:500] + ('...' if len(ESLINT_JSON_RESULT['stdout']) > 500 else ''))\n"
+        "    print('--- npx eslint . -f json stderr ---')\n"
+        "    print(ESLINT_JSON_RESULT['stderr'])\n"
+        "    print(f\"Exit Code: {ESLINT_JSON_RESULT['returncode']}\")\n"
+        "    print(f\"Execution Time (ms): {ESLINT_JSON_RESULT['elapsed_ms']}\")\n"
+        "else:\n"
+        "    LOGGER.error('Skipped ESLint execution because prerequisites were not met.', file=str(REPO_PATH))"
+    ),
+    md(
+        "## Section 8 — Extract Raw Tool Output\n\n"
+        "Store the original ESLint JSON output exactly as generated. Do not modify or remove fields.\n\n"
+        "Raw fields preserved for downstream White Box extraction:\n\n"
+        "```text\n"
+        "Rule Violations, Rule Severity, Rule Identifier, Violation Count,\n"
+        "File-wise Violations, Line Number, Column Number, Message,\n"
+        "Node Type, Fix Availability, ESLint Summary\n"
+        "```"
+    ),
+    code(
+        "RAW_JSON_TEXT = ESLINT_JSON_RESULT.get('stdout', '') or '[]'\n"
+        "RAW_OUTPUT_PATH = OUTPUT_PATH / 'eslint_raw_output.json'\n"
+        "RAW_OUTPUT_PATH.write_text(RAW_JSON_TEXT, encoding='utf-8')\n\n"
+        "console_chunks = [('npm install', NPM_INSTALL_RESULT)]\n"
+        "if ESLINT_VERIFY.get('install_result'):\n"
+        "    console_chunks.append(('npm install --save-dev eslint', ESLINT_VERIFY['install_result']))\n"
+        "if LINT_SCRIPT_RESULT is not None:\n"
+        "    console_chunks.append(('npm run lint', LINT_SCRIPT_RESULT))\n"
+        "console_chunks.append(('npx eslint . -f json', ESLINT_JSON_RESULT))\n"
+        "CONSOLE_OUTPUT = combine_console_output(console_chunks)\n\n"
+        "(OUTPUT_PATH / 'eslint_stdout.txt').write_text(ESLINT_JSON_RESULT.get('stdout', ''), encoding='utf-8')\n"
+        "(OUTPUT_PATH / 'eslint_stderr.txt').write_text(ESLINT_JSON_RESULT.get('stderr', ''), encoding='utf-8')\n"
+        "(OUTPUT_PATH / 'eslint_console_output.txt').write_text(CONSOLE_OUTPUT, encoding='utf-8')\n\n"
+        "print(f'Preserved raw ESLint JSON at: {RAW_OUTPUT_PATH}')"
+    ),
+    md("## Section 9 — Parse ESLint Results\n\nGenerate violation, file summary, and rule frequency CSV files."),
+    code(
+        "import json\n\n"
+        "from _eslint_utils import (\n"
+        "    build_file_summary_dataframe,\n"
+        "    build_rule_frequency_dataframe,\n"
+        "    build_rule_violations_dataframe,\n"
+        "    parse_eslint_json,\n"
+        ")\n\n"
+        "RECORDS = []\n"
+        "try:\n"
+        "    RECORDS = parse_eslint_json(RAW_JSON_TEXT)\n"
+        "except (json.JSONDecodeError, ValueError) as exc:\n"
+        "    LOGGER.error(f'Malformed ESLint JSON output: {exc}', file=str(RAW_OUTPUT_PATH))\n\n"
+        "VIOLATIONS_DF = build_rule_violations_dataframe(RECORDS)\n"
+        "FILE_SUMMARY_DF = build_file_summary_dataframe(RECORDS)\n"
+        "RULE_FREQUENCY_DF = build_rule_frequency_dataframe(VIOLATIONS_DF)\n\n"
+        "VIOLATIONS_CSV = OUTPUT_PATH / 'rule_violations_results.csv'\n"
+        "FILE_SUMMARY_CSV = OUTPUT_PATH / 'file_summary.csv'\n"
+        "RULE_FREQUENCY_CSV = OUTPUT_PATH / 'rule_frequency.csv'\n"
+        "VIOLATIONS_DF.to_csv(VIOLATIONS_CSV, index=False)\n"
+        "FILE_SUMMARY_DF.to_csv(FILE_SUMMARY_CSV, index=False)\n"
+        "RULE_FREQUENCY_DF.to_csv(RULE_FREQUENCY_CSV, index=False)\n\n"
+        "print(f'Violations CSV: {VIOLATIONS_CSV}')\n"
+        "print(f'File summary CSV: {FILE_SUMMARY_CSV}')\n"
+        "print(f'Rule frequency CSV: {RULE_FREQUENCY_CSV}')\n"
+        "display(VIOLATIONS_DF.head(20))"
+    ),
+    md("## Section 10 — Summary Dashboard\n\nDisplay lint counts and overall ESLint execution status."),
+    code(
+        "import pandas as pd\n\n"
+        "from _eslint_utils import build_summary_dashboard, collect_environment_json\n\n"
+        "EXECUTION_STATUS = 'SUCCESS' if ESLINT_JSON_RESULT.get('returncode') in {0, 1} and RECORDS else 'FAILED'\n"
+        "if ESLINT_CONFIG is None:\n"
+        "    EXECUTION_STATUS = 'MISSING_ESLINT_CONFIG'\n"
+        "SUMMARY = build_summary_dashboard(INVENTORY_DF, VIOLATIONS_DF, RECORDS, EXECUTION_STATUS)\n"
+        "ENVIRONMENT = collect_environment_json(REPO_PATH, str(ESLINT_VERIFY.get('version', '')), ESLINT_CONFIG)\n\n"
+        "summary_df = pd.DataFrame(\n"
+        "    [\n"
+        "        {'Metric': 'Total JavaScript Files', 'Value': SUMMARY['total_javascript_files']},\n"
+        "        {'Metric': 'Total Violations', 'Value': SUMMARY['total_violations']},\n"
+        "        {'Metric': 'Total Errors', 'Value': SUMMARY['total_errors']},\n"
+        "        {'Metric': 'Total Warnings', 'Value': SUMMARY['total_warnings']},\n"
+        "        {'Metric': 'Fixable Violations', 'Value': SUMMARY['fixable_violations']},\n"
+        "        {'Metric': 'Unique Rules Triggered', 'Value': SUMMARY['unique_rules_triggered']},\n"
+        "        {'Metric': 'ESLint Execution Status', 'Value': SUMMARY['eslint_execution_status']},\n"
+        "    ]\n"
+        ")\n"
+        "display(summary_df)\n\n"
+        "EXECUTION_METADATA = {\n"
+        "    'clone_status': CLONE_STATUS,\n"
+        "    'repository_stats': REPO_STATS,\n"
+        "    'eslint_config': str(ESLINT_CONFIG) if ESLINT_CONFIG else '',\n"
+        "    'npm_install': NPM_INSTALL_RESULT,\n"
+        "    'eslint_verification': ESLINT_VERIFY,\n"
+        "    'lint_script_result': LINT_SCRIPT_RESULT,\n"
+        "    'eslint_json_result': ESLINT_JSON_RESULT,\n"
+        "    'summary': SUMMARY,\n"
+        "}\n"
+        "(OUTPUT_PATH / 'execution_metadata.json').write_text(json.dumps(EXECUTION_METADATA, indent=2, default=str), encoding='utf-8')\n"
+        "(OUTPUT_PATH / 'environment.json').write_text(json.dumps(ENVIRONMENT, indent=2), encoding='utf-8')"
+    ),
+    md(
+        "## Expected Raw Output Support\n\n"
+        "The preserved ESLint JSON supports later extraction of White Box metrics such as "
+        "Lint / Rule Violations, Violation Density per KLOC, Unused Variable Detection, "
+        "Naming Convention Validation, Code Style Rule Validation, Complexity Rule Detection, "
+        "Rule Severity Classification, Multiple Violations Detection, Configuration File Handling, "
+        "CI/CD Integration Validation, and Violation Reporting Validation.\n\n"
+        "This notebook does **not** calculate those metrics."
+    ),
+    md("## Section 11 — Error Handling\n\nReview captured errors and confirm deliverables under `outputs/`."),
+    code(
+        "from _eslint_utils import read_text\n\n"
+        "LOGGER.write_errors()\n"
+        "ERROR_LOG = OUTPUT_PATH / 'error_log.txt'\n"
+        "print(f'Error log: {ERROR_LOG}')\n"
+        "print(read_text(ERROR_LOG) or 'No errors recorded.')\n\n"
+        "deliverables = [\n"
+        "    'eslint_raw_output.json',\n"
+        "    'eslint_stdout.txt',\n"
+        "    'eslint_stderr.txt',\n"
+        "    'eslint_console_output.txt',\n"
+        "    'rule_violations_results.csv',\n"
+        "    'file_summary.csv',\n"
+        "    'rule_frequency.csv',\n"
+        "    'javascript_files_inventory.csv',\n"
+        "    'execution_metadata.json',\n"
+        "    'environment.json',\n"
+        "    'error_log.txt',\n"
+        "]\n"
+        "print('\\nDeliverables:')\n"
+        "for name in deliverables:\n"
+        "    path = OUTPUT_PATH / name\n"
+        "    status = 'OK' if path.exists() else 'MISSING'\n"
+        "    print(f'  [{status}] {path}')"
+    ),
+]
+
+notebook = {
+    "cells": cells,
+    "metadata": {
+        "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
+        "language_info": {"name": "python", "pygments_lexer": "ipython3"},
+    },
+    "nbformat": 4,
+    "nbformat_minor": 5,
+}
+
+NOTEBOOK.write_text(json.dumps(notebook, indent=1), encoding="utf-8")
+print(f"Wrote {NOTEBOOK}")

@@ -1,0 +1,7 @@
+﻿@using = jpf-core
+target = com.testable.training.platform.JacocoTrigger
+target.args = --skip-verify
+classpath = d:/Research in Missing Metrics/Java/JaCoCo Coverage/workspace/java-tool-testing-jacoco/jacoco-platform/target/classes;d:/Research in Missing Metrics/Java/JaCoCo Coverage/workspace/java-tool-testing-jacoco/sample_subject/target/classes
+sourcepath = d:/Research in Missing Metrics/Java/JaCoCo Coverage/workspace/java-tool-testing-jacoco/jacoco-platform/src/main/java;d:/Research in Missing Metrics/Java/JaCoCo Coverage/workspace/java-tool-testing-jacoco/sample_subject/src/main/java
+report.console.start = jpf,sut
+report.console.property_violation = error,trace

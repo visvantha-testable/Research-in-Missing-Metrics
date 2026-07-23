@@ -1,0 +1,10 @@
+Metric,Value
+Repository,java-tool-testing-jacoco
+Build Tool,Maven
+Java Classes,23
+Execution Paths,2
+Visited States,0
+Error States,2
+Exceptions,4
+Loop Paths,2
+Search Depth,1

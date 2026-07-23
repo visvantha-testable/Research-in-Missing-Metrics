@@ -1,0 +1,2 @@
+package,instruction_coverage,branch_coverage,line_coverage,method_coverage,class_coverage,complexity_coverage
+com.testable.training,98.46,84.38,100.0,100.0,100.0,85.71

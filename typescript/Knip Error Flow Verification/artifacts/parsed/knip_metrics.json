@@ -1,0 +1,10 @@
+{
+  "Issues": {
+    "json_field": "issues",
+    "value": []
+  },
+  "Issues Count": {
+    "json_field": "issues",
+    "value": 0
+  }
+}

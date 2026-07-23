@@ -1,0 +1,4 @@
+Field,Value,Source
+Coverage Analysis Mode,perTest,mutation-report.json config.coverageAnalysis
+Ignore Static,False,mutation-report.json config.ignoreStatic
+Schema Version,1.0,mutation-report.json schemaVersion

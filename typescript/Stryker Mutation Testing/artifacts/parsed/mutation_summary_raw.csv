@@ -1,0 +1,5 @@
+Field,Value,Source
+Mutation Score,100.00,clear-text console
+Thresholds,"{""high"": 100, ""break"": 100, ""low"": 100}",mutation-report.json thresholds
+Framework Name,StrykerJS,mutation-report.json framework.name
+Framework Version,9.6.1,mutation-report.json framework.version

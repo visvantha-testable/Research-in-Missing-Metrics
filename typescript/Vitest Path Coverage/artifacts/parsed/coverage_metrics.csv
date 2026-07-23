@@ -1,0 +1,12 @@
+Metric,JSON Field,Value
+Total Branches,total.branches.total,34
+Covered Branches,total.branches.covered,34
+Uncovered Branches,total.branches.total - total.branches.covered,0
+Branch Coverage %,total.branches.pct,100
+Functions Covered,total.functions.covered,8
+Functions Total,total.functions.total,8
+Lines Covered,total.lines.covered,87
+Lines Total,total.lines.total,87
+Statements Covered,total.statements.covered,87
+Statements Total,total.statements.total,87
+Coverage Summary,total,"{""branches"": {""covered"": 34, ""pct"": 100, ""skipped"": 0, ""total"": 34}, ""branchesTrue"": {""covered"": 0, ""pct"": ""Unknown"", ""skipped"": 0, ""total"": 0}, ""functions"": {""covered"": 8, ""pct"": 100, ""skipped"": 0, ""total"": 8}, ""lines"": {""covered"": 87, ""pct"": 100, ""skipped"": 0, ""total"": 87}, ""statements"": {""covered"": 87, ""pct"": 100, ""skipped"": 0, ""total"": 87}}"

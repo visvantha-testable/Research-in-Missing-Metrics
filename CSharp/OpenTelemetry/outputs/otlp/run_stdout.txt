@@ -1,0 +1,384 @@
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.Jaeger' 1.6.0-rc.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-38h3-2333-qx47
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.11.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4625-4j76-fww9
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.Zipkin' 1.11.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-88hf-wf7h-7w4m
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.Jaeger' 1.6.0-rc.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-38h3-2333-qx47
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.OpenTelemetryProtocol' 1.11.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-4625-4j76-fww9
+D:\Research in Missing Metrics\CSharp\OpenTelemetry\workspace\csharp-testing-opentelemetry\src\OpenTelemetryPlatform\OpenTelemetryPlatform.csproj : warning NU1902: Package 'OpenTelemetry.Exporter.Zipkin' 1.11.2 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-88hf-wf7h-7w4m
+Starting OpenTelemetry platform trigger (Path Execution Tracking)
+Activity.TraceId:            272e8b453c2c127edd6b60f8efc1f334
+Activity.SpanId:             f80e9731c6f3b38f
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/safeReadLines:missing
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0070974Z
+Activity.Duration:           00:00:00.0009718
+Activity.Tags:
+    path.id: safeReadLines:missing
+    path.function: safeReadLines
+    path.route: ENOENT branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            d882c193cd977e1d41d785cb3dbe1509
+Activity.SpanId:             29baa83f0aee2af7
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/safeReadLines:happy
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0618600Z
+Activity.Duration:           00:00:00.0000214
+Activity.Tags:
+    path.id: safeReadLines:happy
+    path.function: safeReadLines
+    path.route: success branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            7210204699fcbb6aef2716be063f4bd3
+Activity.SpanId:             4f936d27521107d4
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/safeReadLines:permission
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0622254Z
+Activity.Duration:           00:00:00.0000060
+Activity.Tags:
+    path.id: safeReadLines:permission
+    path.function: safeReadLines
+    path.route: EACCES branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            d8cc15091d6cbec80332e638ef0ec117
+Activity.SpanId:             1e36e4df1e567e68
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/safeReadLines:decode
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0623097Z
+Activity.Duration:           00:00:00.0000036
+Activity.Tags:
+    path.id: safeReadLines:decode
+    path.function: safeReadLines
+    path.route: decode branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            5ddf6b41e71838ebcea3f3d60dbbfbca
+Activity.SpanId:             21453bd4a12de1da
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/safeReadLines:rethrow
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0624114Z
+Activity.Duration:           00:00:00.0000039
+Activity.Tags:
+    path.id: safeReadLines:rethrow
+    path.function: safeReadLines
+    path.route: rethrow branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            1cb3a77326bfc378bad8e4363c40840e
+Activity.SpanId:             faf2c1ed4caa21de
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/parseJsonSafely:valid
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0625364Z
+Activity.Duration:           00:00:00.0000028
+Activity.Tags:
+    path.id: parseJsonSafely:valid
+    path.function: parseJsonSafely
+    path.route: valid JSON branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            286683747a6411e66990b45d9987932f
+Activity.SpanId:             c87dd6eec4b5e136
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/parseJsonSafely:invalid
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0626161Z
+Activity.Duration:           00:00:00.0000026
+Activity.Tags:
+    path.id: parseJsonSafely:invalid
+    path.function: parseJsonSafely
+    path.route: catch branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            5ef4475f94ae2e790a5b68055bbe664c
+Activity.SpanId:             c3f906d0019bbb4d
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/divideSafely:success
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0627014Z
+Activity.Duration:           00:00:00.0000026
+Activity.Tags:
+    path.id: divideSafely:success
+    path.function: divideSafely
+    path.route: success branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            ff8f8ba42f713279dddb5ba34e5fe927
+Activity.SpanId:             b50e5094c20ec656
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/divideSafely:zero
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0627746Z
+Activity.Duration:           00:00:00.0000023
+Activity.Tags:
+    path.id: divideSafely:zero
+    path.function: divideSafely
+    path.route: RangeError branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            41cfec762f3d6703d6bd13c9ae66283f
+Activity.SpanId:             ad35b253cd066f28
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/divideSafely:rethrow
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0628886Z
+Activity.Duration:           00:00:00.0000030
+Activity.Tags:
+    path.id: divideSafely:rethrow
+    path.function: divideSafely
+    path.route: TypeError rethrow branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            e50bb3cd980b2e57acd000b972c6c22d
+Activity.SpanId:             20f1ff8c496c3c7b
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/retryOperation:success-after-retry
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0629735Z
+Activity.Duration:           00:00:00.0000025
+Activity.Tags:
+    path.id: retryOperation:success-after-retry
+    path.function: retryOperation
+    path.route: retry success branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            cd102f018732a4aa034c01b031a61494
+Activity.SpanId:             980dabe15474bdd6
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/retryOperation:final-failure
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0630732Z
+Activity.Duration:           00:00:00.0000037
+Activity.Tags:
+    path.id: retryOperation:final-failure
+    path.function: retryOperation
+    path.route: final failure branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            90794633a0b51fca8a4d7a3d172159f9
+Activity.SpanId:             adef8f6cadcf306d
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/classifyHttpStatus:success
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0631443Z
+Activity.Duration:           00:00:00.0000028
+Activity.Tags:
+    path.id: classifyHttpStatus:success
+    path.function: classifyHttpStatus
+    path.route: 2xx branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            efc52e97830643417bb43f72feb442c4
+Activity.SpanId:             d96cc1d2437ff939
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/classifyHttpStatus:client
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0632260Z
+Activity.Duration:           00:00:00.0000024
+Activity.Tags:
+    path.id: classifyHttpStatus:client
+    path.function: classifyHttpStatus
+    path.route: 4xx branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            79a7bfede6abdcf0f5dea0760abfadb8
+Activity.SpanId:             edbf85f1261f4a23
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/classifyHttpStatus:server
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0633130Z
+Activity.Duration:           00:00:00.0000023
+Activity.Tags:
+    path.id: classifyHttpStatus:server
+    path.function: classifyHttpStatus
+    path.route: 5xx branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Activity.TraceId:            51b9db5e21d6448c759e7305fe445782
+Activity.SpanId:             646a8c2dfadf07ee
+Activity.TraceFlags:         Recorded
+Activity.DisplayName:        path/classifyHttpStatus:unknown
+Activity.Kind:               Internal
+Activity.StartTime:          2026-07-22T06:34:02.0634081Z
+Activity.Duration:           00:00:00.0000024
+Activity.Tags:
+    path.id: classifyHttpStatus:unknown
+    path.function: classifyHttpStatus
+    path.route: unknown branch
+    testing.strategy: Control Flow Testing
+    testing.classification: Path Coverage
+    testing.metric: Path Execution Tracking
+StatusCode: Ok
+Instrumentation scope (ActivitySource):
+    Name: OpenTelemetryPlatform.PathExecution
+Resource associated with Activity:
+    telemetry.sdk.name: opentelemetry
+    telemetry.sdk.language: dotnet
+    telemetry.sdk.version: 1.11.2
+    service.name: unknown_service:OpenTelemetryPlatform
+
+Exported platform bundle:
+  opentelemetry.json
+  opentelemetry_report.json
+  opentelemetry_metrics.json
+  control_flow_metric_evidence.json
+  dashboard_metrics.json
+  platform_metrics.json
+  metrics.json
+  testable_dashboard.json

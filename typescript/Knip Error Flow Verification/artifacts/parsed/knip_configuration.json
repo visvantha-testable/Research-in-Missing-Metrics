@@ -1,0 +1,8 @@
+{
+  "config_path": "D:\\Research in Missing Metrics\\typescript\\Knip Error Flow Verification\\artifacts\\temp\\knip.notebook.config.json",
+  "config_source": "package.json#knip copied to temporary notebook config",
+  "notes": [
+    "Ignored knip.json because it contains platform metric output, not Knip configuration.",
+    "Using temporary Knip config extracted from package.json to avoid invalid root knip.json platform output."
+  ]
+}

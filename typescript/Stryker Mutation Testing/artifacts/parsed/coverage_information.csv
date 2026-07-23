@@ -1,0 +1,7 @@
+Coverage Field,Raw Value,Evidence File,JSON Key
+coverageAnalysis,"""perTest""",mutation-report.json,config.coverageAnalysis
+testRunner,"""vitest""",mutation-report.json,config.testRunner
+mutate,"[""sample_subject/src/**/*.ts"", ""!sample_subject/src/index.ts""]",mutation-report.json,config.mutate
+mutate,"[""sample_subject/src/**/*.ts"", ""!sample_subject/src/index.ts""]",stryker.config.json,mutate
+testRunner,"""vitest""",stryker.config.json,testRunner
+coverageAnalysis,"""perTest""",stryker.config.json,coverageAnalysis

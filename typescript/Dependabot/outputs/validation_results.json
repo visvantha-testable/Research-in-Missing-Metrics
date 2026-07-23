@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-07-19T18:12:11.908404+00:00",
+  "repository": {
+    "owner": "visvantha-testable",
+    "name": "typescript-tool-testing-dependabot",
+    "local_path": "D:\\Research in Missing Metrics\\typescript\\Dependabot\\workspace\\typescript-tool-testing-dependabot",
+    "package_manager": "npm",
+    "dependabot_config_present": true
+  },
+  "pipeline": {
+    "benchmark_ready": true,
+    "elapsed_ms": 3795.27,
+    "install_command": "C:\\Program Files\\nodejs\\npm.CMD install",
+    "install_returncode": 0,
+    "install_elapsed_ms": 3755.7732999994187,
+    "api_fetch_ok": false,
+    "continuous_dependency_monitoring_status": "FAIL"
+  },
+  "github_api": {
+    "endpoint": "GET /repos/visvantha-testable/typescript-tool-testing-dependabot/dependabot/alerts",
+    "fetched_at": "2026-07-19T18:12:11.892077+00:00",
+    "page_count": 0,
+    "request_records": [],
+    "token_validation": {
+      "token_present": false,
+      "repo_access_ok": false,
+      "dependabot_alerts_access_ok": false,
+      "rate_limit_remaining": null
+    },
+    "raw_alerts_file": "dependabot_alerts_raw.json"
+  },
+  "alert_summary": {
+    "total_alerts": 0,
+    "open_alerts": 0,
+    "fixed_alerts": 0,
+    "dismissed_alerts": 0,
+    "critical_alerts": 0,
+    "high_alerts": 0,
+    "moderate_alerts": 0,
+    "low_alerts": 0,
+    "vulnerable_dependencies": 0
+  },
+  "security_metric_validation": [
+    {
+      "Testing Type": "Security White-box Testing",
+      "Classification": "Dependency Risk (SCA)",
+      "Metric": "Continuous Dependency Monitoring",
+      "KPI": "Real-Time Alerting",
+      "Primary Tool": "Dependabot (GitHub Dependabot Alerts API)",
+      "Supported": "Partially Supported",
+      "Directly Emitted": "No",
+      "Derived": "Yes",
+      "Evidence": "dependabot.yml present; Dependabot Alerts API unavailable or not authorized.",
+      "Comments": "Configuration proves monitoring intent; Real-Time Alerting requires successful Dependabot Alerts API retrieval."
+    }
+  ],
+  "repository_summary": [
+    {
+      "Repository Name": "typescript-tool-testing-dependabot",
+      "Package Manager": "npm",
+      "Total Dependencies": 121,
+      "Vulnerable Dependencies": 0,
+      "Open Alerts": 0,
+      "Fixed Alerts": 0,
+      "Dismissed Alerts": 0,
+      "Critical Alerts": 0,
+      "High Alerts": 0,
+      "Moderate Alerts": 0,
+      "Low Alerts": 0
+    }
+  ],
+  "dependabot_configuration": [
+    {
+      "ecosystem": "npm",
+      "directory": "/",
+      "schedule": "daily",
+      "open_pull_requests_limit": "5",
+      "reviewers": "",
+      "labels": "dependencies; dependabot",
+      "assignees": "",
+      "config_file": "D:\\Research in Missing Metrics\\typescript\\Dependabot\\workspace\\typescript-tool-testing-dependabot\\.github\\dependabot.yml"
+    },
+    {
+      "ecosystem": "npm",
+      "directory": "/sample_subject",
+      "schedule": "daily",
+      "open_pull_requests_limit": "3",
+      "reviewers": "",
+      "labels": "dependencies; sample-subject",
+      "assignees": "",
+      "config_file": "D:\\Research in Missing Metrics\\typescript\\Dependabot\\workspace\\typescript-tool-testing-dependabot\\.github\\dependabot.yml"
+    }
+  ],
+  "dependabot_alerts": [],
+  "dashboard_summary": [
+    {
+      "Item": "Repository",
+      "Value": "typescript-tool-testing-dependabot"
+    },
+    {
+      "Item": "Package Manager",
+      "Value": "npm"
+    },
+    {
+      "Item": "Dependabot Config Present",
+      "Value": "Yes"
+    },
+    {
+      "Item": "Dependabot Alerts API",
+      "Value": "FAILED"
+    },
+    {
+      "Item": "Total Alerts",
+      "Value": 0
+    },
+    {
+      "Item": "Open Alerts",
+      "Value": 0
+    },
+    {
+      "Item": "Fixed Alerts",
+      "Value": 0
+    },
+    {
+      "Item": "Critical",
+      "Value": 0
+    },
+    {
+      "Item": "High",
+      "Value": 0
+    },
+    {
+      "Item": "Moderate",
+      "Value": 0
+    },
+    {
+      "Item": "Low",
+      "Value": 0
+    },
+    {
+      "Item": "Continuous Dependency Monitoring",
+      "Value": "FAIL"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "definitions_total" : 4,
+  "definitions_covered" : 4,
+  "uses_total" : 32,
+  "uses_covered" : 32,
+  "c_use_total" : 7,
+  "c_use_covered" : 7,
+  "p_use_total" : 25,
+  "p_use_covered" : 25,
+  "du_pairs_total" : 7,
+  "du_pairs_covered" : 7,
+  "uncovered_definitions" : 0,
+  "partial_uses" : 0,
+  "ghost_uses" : 0,
+  "multiple_definition_sites" : 0,
+  "cross_function_uses" : 4,
+  "all_defs_percent" : 100.0,
+  "all_uses_percent" : 100.0,
+  "du_path_percent" : 100.0,
+  "data_path_correlation_percent" : 100.0,
+  "files" : [ "DataFlowSample.java", "OrderService.java", "PaymentValidator.java" ],
+  "du_paths" : [ {
+    "file" : "DataFlowSample.java",
+    "variable" : "result",
+    "use_type" : "computational",
+    "line" : "result = result + 5;",
+    "covered" : true
+  }, {
+    "file" : "DataFlowSample.java",
+    "variable" : "result",
+    "use_type" : "return",
+    "line" : "return result * 2;",
+    "covered" : true
+  }, {
+    "file" : "OrderService.java",
+    "variable" : "i",
+    "use_type" : "computational",
+    "line" : "for (int i = 0; i < limit; i++) {",
+    "covered" : true
+  }, {
+    "file" : "OrderService.java",
+    "variable" : "i",
+    "use_type" : "computational",
+    "line" : "for (int i = 0; i < limit; i++) {",
+    "covered" : true
+  }, {
+    "file" : "OrderService.java",
+    "variable" : "i",
+    "use_type" : "computational",
+    "line" : "total += i;",
+    "covered" : true
+  }, {
+    "file" : "OrderService.java",
+    "variable" : "total",
+    "use_type" : "return",
+    "line" : "return total;",
+    "covered" : true
+  }, {
+    "file" : "OrderService.java",
+    "variable" : "masked",
+    "use_type" : "return",
+    "line" : "return validator.validate(masked);",
+    "covered" : true
+  } ]
+}

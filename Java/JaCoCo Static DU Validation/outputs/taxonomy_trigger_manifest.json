@@ -1,0 +1,62 @@
+[
+  {
+    "pipeline_id": "jacoco_static_du_validation",
+    "pipeline_name": "JaCoCo Static DU Validation (current)",
+    "project_path": "Java/JaCoCo Static DU Validation",
+    "repo_url": "https://github.com/visvantha-testable/java-tool-testing-def-use.git",
+    "repo_folder": "workspace/java-tool-testing-def-use",
+    "tools_triggered": "JaCoCo Maven plugin + jacoco-platform JacocoTrigger + static-du-platform StaticDuTrigger",
+    "build_command": "mvn clean test",
+    "jacoco_trigger": "mvn -pl jacoco-platform exec:java -Dexec.mainClass=com.testable.training.platform.JacocoTrigger -Dexec.args=--skip-verify",
+    "static_du_trigger": "mvn -pl static-du-platform exec:java -Dexec.mainClass=com.testable.training.platform.StaticDuTrigger -Dexec.args=--skip-verify",
+    "run_command": "python tool/run_jacoco_static_du_validation_benchmark.py",
+    "primary_outputs": "outputs/jacoco.xml; outputs/jacoco.json; outputs/static_du_output.json; outputs/taxonomy_truth_table.csv",
+    "covers_taxonomy_natively": "1 of 32 metrics (Coverage Delta XML baseline only)",
+    "missing_data_to_add": "baseline_jacoco.xml already in artifacts/training; path and def-use need alternate repos below"
+  },
+  {
+    "pipeline_id": "jacoco_coverage",
+    "pipeline_name": "JaCoCo Coverage (native counters + baseline delta)",
+    "project_path": "Java/JaCoCo Coverage",
+    "repo_url": "https://github.com/visvantha-testable/java-tool-testing-jacoco.git",
+    "repo_folder": "workspace/java-tool-testing-jacoco",
+    "tools_triggered": "JaCoCo Maven plugin",
+    "build_command": "mvn clean test",
+    "jacoco_trigger": "mvn -pl jacoco-platform exec:java -Dexec.mainClass=com.testable.training.platform.JacocoTrigger -Dexec.args=--skip-verify",
+    "static_du_trigger": "",
+    "run_command": "cd \"Java/JaCoCo Coverage\" && python tool/run_jacoco_benchmark.py",
+    "primary_outputs": "outputs/jacoco.xml; outputs/jacoco.csv; outputs/jacoco_metrics.csv",
+    "covers_taxonomy_natively": "INSTRUCTION/LINE/BRANCH/METHOD/CLASS/COMPLEXITY + XML coverage delta",
+    "missing_data_to_add": "Clone repo; ensure Maven JaCoCo plugin in pom.xml; optional baseline_jacoco.xml for delta"
+  },
+  {
+    "pipeline_id": "jpf_path_analysis",
+    "pipeline_name": "JPF Path Analysis (real path execution)",
+    "project_path": "Java/JPF Path Analysis",
+    "repo_url": "https://github.com/visvantha-testable/java-tool-testing-jacoco.git",
+    "repo_folder": "workspace/java-tool-testing-jacoco",
+    "tools_triggered": "Java PathFinder (JPF)",
+    "build_command": "mvn clean test (subject repo)",
+    "jacoco_trigger": "",
+    "static_du_trigger": "",
+    "run_command": "cd \"Java/JPF Path Analysis\" && python tool/run_jpf_benchmark.py",
+    "primary_outputs": "outputs/jpf_metrics.csv; outputs/path_report.txt; outputs/visited_states.txt",
+    "covers_taxonomy_natively": "Control Flow / Path Coverage (10 metrics) via path count, visited states, execution paths",
+    "missing_data_to_add": "JPF install at runtimes/jpf-core; .jpf config per class; subject with branching paths"
+  },
+  {
+    "pipeline_id": "static_du_analysis",
+    "pipeline_name": "Static DU Analysis (real def-use)",
+    "project_path": "Java/Static DU Analysis",
+    "repo_url": "https://github.com/visvantha-testable/java-tool-testing-static-du.git",
+    "repo_folder": "workspace/java-tool-testing-static-du",
+    "tools_triggered": "static-du-platform StaticDuTrigger",
+    "build_command": "mvn clean test",
+    "jacoco_trigger": "",
+    "static_du_trigger": "mvn -pl static-du-platform exec:java -Dexec.mainClass=com.testable.training.platform.StaticDuTrigger -Dexec.args=--skip-verify",
+    "run_command": "cd \"Java/Static DU Analysis\" && python tool/run_static_du_benchmark.py",
+    "primary_outputs": "outputs/static_du_output.json (definitions_total, c_use_total, p_use_total, du_pairs_total, cross_function_uses)",
+    "covers_taxonomy_natively": "Data Flow Testing 16 metrics (all-defs, all-uses, C-use, P-use, DU pairs)",
+    "missing_data_to_add": "Clone java-tool-testing-static-du; sample_subject with DataFlowSample.java and test coverage"
+  }
+]

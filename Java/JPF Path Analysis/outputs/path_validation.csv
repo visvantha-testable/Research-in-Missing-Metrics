@@ -1,0 +1,10 @@
+Metric,Supported,Evidence,Source File,Comments
+Path Execution Tracking,Supported,transition: transition #0 | trace: trace #1 | instructions: instructions:       13885,jpf_console_output.txt,Explicit JPF output matched without inference.
+Complete Coverage Path Verification,Supported,"states end: states:             new=1,visited=0,backtracked=1,end=0 | search finished: search finished",jpf_console_output.txt,Explicit JPF output matched without inference.
+Partial Path Coverage Detection,Supported,"visited states: states:             new=1,visited=0 | backtracked: backtracked=1",jpf_console_output.txt,Explicit JPF output matched without inference.
+Nested Condition Path Testing,Supported,choice generators: choice generators: | constraints: constraints=0,jpf_console_output.txt,Explicit JPF output matched without inference.
+Loop Path Detection,Supported,backtracked: backtracked=1 | maxDepth: maxDepth=1,jpf_console_output.txt,Explicit JPF output matched without inference.
+Unreachable Path Detection,Supported,"end states: states:             new=1,visited=0,backtracked=1,end=0 | backtracked: backtracked=1",jpf_console_output.txt,Explicit JPF output matched without inference.
+Exception Path Handling,Supported,NoUncaughtExceptionsProperty: NoUncaughtExceptionsProperty,jpf_console_output.txt,Explicit JPF output matched without inference.
+Multi-Function Path Tracking,Supported,"transition stack: at java.lang.AbstractStringBuilder.appendChars(java/lang/AbstractStringBuilder.java:1752) | loaded methods: loaded code:        classes=133,methods=3054",jpf_console_output.txt,Explicit JPF output matched without inference.
+Path Detection Testing,Supported,visited states: visited=0 | new states: new=1 | statistics: statistics,jpf_console_output.txt,Explicit JPF output matched without inference.
