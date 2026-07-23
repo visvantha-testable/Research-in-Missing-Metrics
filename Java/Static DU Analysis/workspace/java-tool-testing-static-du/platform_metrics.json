@@ -1,0 +1,12 @@
+{
+  "tool" : "Static DU",
+  "target_repository" : "sample_subject",
+  "metrics_total" : 5,
+  "metrics_covered" : 5,
+  "metric_coverage_complete" : true,
+  "Variable Definition Detection" : 100,
+  "Definition-Use Mapping" : 100,
+  "Coverage Measurement" : 100,
+  "Uncovered Definition Detection" : 100,
+  "Variable Use Detection" : 100
+}

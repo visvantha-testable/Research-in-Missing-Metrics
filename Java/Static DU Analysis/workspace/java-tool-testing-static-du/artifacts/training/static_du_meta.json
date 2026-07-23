@@ -1,0 +1,7 @@
+{
+  "tool" : "Static DU",
+  "source_root" : "D:\\Research in Missing Metrics\\Java\\Static DU Analysis\\workspace\\java-tool-testing-static-du\\sample_subject\\src\\main\\java",
+  "test_root" : "D:\\Research in Missing Metrics\\Java\\Static DU Analysis\\workspace\\java-tool-testing-static-du\\sample_subject\\src\\test\\java",
+  "all_tests_present" : true,
+  "analysis_mode" : "static_definition_use"
+}

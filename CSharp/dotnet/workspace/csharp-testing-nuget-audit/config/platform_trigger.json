@@ -1,0 +1,42 @@
+{
+  "platform": "Testable",
+  "tool": "dotnet NuGet audit",
+  "language": "C#",
+  "trigger_command": "dotnet run --project src/NuGetAuditPlatform -- trigger",
+  "trigger_command_alt": "dotnet run --project src/NuGetAuditPlatform -- trigger",
+  "do_not_run_raw_dotnet_list_alone": true,
+  "primary_output_file": "nuget_audit.json",
+  "required_root_fields": [
+    "totals",
+    "License Compliance Testing",
+    "Supply Chain Security Analysis",
+    "Dependency Health Monitoring",
+    "Continuous Dependency Monitoring",
+    "license_compliance_score",
+    "supply_chain_score",
+    "dependency_health_score",
+    "continuous_monitoring_score",
+    "licenses",
+    "dependency_tree",
+    "baseline_audit"
+  ],
+  "totals_required_fields": [
+    "compliant_licenses",
+    "trusted_dependencies",
+    "community_vitality",
+    "license_compliance_score",
+    "supply_chain_score",
+    "dependency_health_score",
+    "continuous_monitoring_score"
+  ],
+  "expected_scores": {
+    "Transitive Dependency Analysis": 100,
+    "License Compliance Testing": 100,
+    "Supply Chain Security Analysis": 100,
+    "Dependency Health Monitoring": 100,
+    "Risk Prioritization": 100,
+    "Continuous Dependency Monitoring": 100,
+    "Vulnerability Dependency Detection": 100,
+    "Outdated Dependency Detection": 100
+  }
+}

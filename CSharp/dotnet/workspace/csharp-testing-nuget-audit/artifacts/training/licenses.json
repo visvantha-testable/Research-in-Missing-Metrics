@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Microsoft.Extensions.Logging.Abstractions",
+    "License": "MIT"
+  },
+  {
+    "Name": "System.Text.Json",
+    "License": "MIT"
+  },
+  {
+    "Name": "Microsoft.Extensions.DependencyInjection.Abstractions",
+    "License": "MIT"
+  },
+  {
+    "Name": "System.Diagnostics.DiagnosticSource",
+    "License": "MIT"
+  },
+  {
+    "Name": "System.IO.Pipelines",
+    "License": "MIT"
+  },
+  {
+    "Name": "System.Text.Encodings.Web",
+    "License": "MIT"
+  }
+]

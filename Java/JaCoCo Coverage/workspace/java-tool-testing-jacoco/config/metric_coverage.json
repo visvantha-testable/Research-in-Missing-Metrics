@@ -1,0 +1,869 @@
+{
+  "tool": "JaCoCo",
+  "strategy": "Metric and Classification Testing",
+  "category": "Java Code Coverage",
+  "metrics_total": 33,
+  "target_repository": "sample_subject",
+  "source_root": "sample_subject/src/main/java",
+  "test_root": "sample_subject/src/test/java",
+  "metrics": [
+    {
+      "l3_strategy": "Control Flow Testing",
+      "l4_classification": "Path Coverage",
+      "l5_metric": "Path Execution Tracking",
+      "normalized_score_key": "Path Execution Tracking",
+      "score_field": "path_execution_tracking_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Control Flow Testing",
+      "l4_classification": "Path Coverage",
+      "l5_metric": "Complete Coverage Path Verification",
+      "normalized_score_key": "Complete Coverage Path Verification",
+      "score_field": "complete_coverage_path_verification_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Control Flow Testing",
+      "l4_classification": "Path Coverage",
+      "l5_metric": "Partial Path Coverage Detection",
+      "normalized_score_key": "Partial Path Coverage Detection",
+      "score_field": "partial_path_coverage_detection_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Control Flow Testing",
+      "l4_classification": "Path Coverage",
+      "l5_metric": "Nested Condition Path Testing",
+      "normalized_score_key": "Nested Condition Path Testing",
+      "score_field": "nested_condition_path_testing_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Control Flow Testing",
+      "l4_classification": "Path Coverage",
+      "l5_metric": "Loop Path Detection",
+      "normalized_score_key": "Loop Path Detection",
+      "score_field": "loop_path_detection_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Control Flow Testing",
+      "l4_classification": "Path Coverage",
+      "l5_metric": "Unreachable Path Detection",
+      "normalized_score_key": "Unreachable Path Detection",
+      "score_field": "unreachable_path_detection_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Control Flow Testing",
+      "l4_classification": "Path Coverage",
+      "l5_metric": "Exception Path Handling",
+      "normalized_score_key": "Exception Path Handling",
+      "score_field": "exception_path_handling_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Control Flow Testing",
+      "l4_classification": "Path Coverage",
+      "l5_metric": "Multi-Function Path Tracking",
+      "normalized_score_key": "Multi-Function Path Tracking",
+      "score_field": "multi_function_path_tracking_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Control Flow Testing",
+      "l4_classification": "Path Coverage",
+      "l5_metric": "CI/CD Integration Test",
+      "normalized_score_key": "CI/CD Integration Test",
+      "score_field": "cicd_integration_test_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Control Flow Testing",
+      "l4_classification": "Path Coverage",
+      "l5_metric": "Path Detection Testing",
+      "normalized_score_key": "Path Detection Testing",
+      "score_field": "path_coverage_percent_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Test Regression/Coverage Analysis",
+      "l4_classification": "Coverage Delta",
+      "l5_metric": "Regression Testing Monitoring",
+      "normalized_score_key": "Regression Testing Monitoring",
+      "score_field": "regression_testing_monitoring_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Test Regression/Coverage Analysis",
+      "l4_classification": "Coverage Delta",
+      "l5_metric": "Test Suite Effectiveness Tracking",
+      "normalized_score_key": "Test Suite Effectiveness Tracking",
+      "score_field": "test_suite_effectiveness_tracking_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Test Regression/Coverage Analysis",
+      "l4_classification": "Coverage Delta",
+      "l5_metric": "CI/CD Quality Gate Enforcement",
+      "normalized_score_key": "CI/CD Quality Gate Enforcement",
+      "score_field": "cicd_quality_gate_enforcement_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Test Regression/Coverage Analysis",
+      "l4_classification": "Coverage Delta",
+      "l5_metric": "Change Impact Analysis",
+      "normalized_score_key": "Change Impact Analysis",
+      "score_field": "change_impact_analysis_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Test Regression/Coverage Analysis",
+      "l4_classification": "Coverage Delta",
+      "l5_metric": "New Code Testing Validation",
+      "normalized_score_key": "New Code Testing Validation",
+      "score_field": "new_code_testing_validation_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Test Regression/Coverage Analysis",
+      "l4_classification": "Coverage Delta",
+      "l5_metric": "Quality Improvement Measurement",
+      "normalized_score_key": "Quality Improvement Measurement",
+      "score_field": "quality_improvement_measurement_score",
+      "jacoco_native": true,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Definition Coverage",
+      "l5_metric": "Variable Definition Detection",
+      "normalized_score_key": "Variable Definition Detection",
+      "score_field": "variable_definition_detection_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Definition Coverage",
+      "l5_metric": "Definition-Use Mapping",
+      "normalized_score_key": "Definition-Use Mapping",
+      "score_field": "definition_use_mapping_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Definition Coverage",
+      "l5_metric": "Coverage Measurement",
+      "normalized_score_key": "Coverage Measurement",
+      "score_field": "coverage_measurement_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Definition Coverage",
+      "l5_metric": "Uncovered Definition Detection",
+      "normalized_score_key": "Uncovered Definition Detection",
+      "score_field": "uncovered_definition_detection_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Definition Coverage",
+      "l5_metric": "Edge Case Handling",
+      "normalized_score_key": "Edge Case Handling",
+      "score_field": "edge_case_handling_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Definition Coverage",
+      "l5_metric": "Reporting Validation",
+      "normalized_score_key": "Reporting Validation",
+      "score_field": "reporting_validation_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Uses Coverage",
+      "l5_metric": "Computational Use Detection (C-Use)",
+      "normalized_score_key": "Computational Use Detection (C-Use)",
+      "score_field": "computational_use_detection_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Uses Coverage",
+      "l5_metric": "Predicate Use Detection (P-Use)",
+      "normalized_score_key": "Predicate Use Detection (P-Use)",
+      "score_field": "predicate_use_detection_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Uses Coverage",
+      "l5_metric": "Definition-Use Pair Identification",
+      "normalized_score_key": "Definition-Use Pair Identification",
+      "score_field": "definition_use_pair_identification_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Uses Coverage",
+      "l5_metric": "All-Uses Coverage Verification",
+      "normalized_score_key": "All-Uses Coverage Verification",
+      "score_field": "all_uses_coverage_verification_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Uses Coverage",
+      "l5_metric": "Partial Uses Coverage Detection",
+      "normalized_score_key": "Partial Uses Coverage Detection",
+      "score_field": "partial_uses_coverage_detection_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Uses Coverage",
+      "l5_metric": "Multiple Definitions Handling",
+      "normalized_score_key": "Multiple Definitions Handling",
+      "score_field": "multiple_definitions_handling_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Uses Coverage",
+      "l5_metric": "Cross-Function Use Detection",
+      "normalized_score_key": "Cross-Function Use Detection",
+      "score_field": "cross_function_use_detection_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Uses Coverage",
+      "l5_metric": "Unreachable Use Detection",
+      "normalized_score_key": "Unreachable Use Detection",
+      "score_field": "unreachable_use_detection_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Uses Coverage",
+      "l5_metric": "Coverage Reporting Validation",
+      "normalized_score_key": "Coverage Reporting Validation",
+      "score_field": "coverage_reporting_validation_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Uses Coverage",
+      "l5_metric": "Variable Use Detection",
+      "normalized_score_key": "Variable Use Detection",
+      "score_field": "variable_use_detection_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Development Process Analysis",
+      "l4_classification": "Code Churn",
+      "l5_metric": "Regression Testing Focus",
+      "normalized_score_key": "Regression Testing Focus",
+      "score_field": "regression_testing_focus_score",
+      "jacoco_native": false,
+      "required_artifacts": [
+        "artifacts/training/jacoco.xml",
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/churn.json"
+      ],
+      "raw_parameters": [
+        "line_percent",
+        "branch_percent",
+        "instruction_percent",
+        "path_coverage_percent",
+        "coverage_delta_percent",
+        "all_defs_percent",
+        "all_uses_percent",
+        "c_use_percent",
+        "p_use_percent"
+      ],
+      "formula": "Derived from JaCoCo jacoco.xml + static DU + baseline delta",
+      "expected_score": 100
+    }
+  ]
+}

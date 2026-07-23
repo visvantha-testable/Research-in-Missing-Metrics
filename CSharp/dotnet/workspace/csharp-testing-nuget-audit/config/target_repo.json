@@ -1,0 +1,58 @@
+{
+  "strategy": "Dependency Risk (SCA)",
+  "l2_strategy": "Security White-box Testing",
+  "tool": "dotnet NuGet audit",
+  "language": "C#",
+  "recommended_repository": {
+    "name": "NuGet/Home",
+    "url": "https://github.com/NuGet/Home",
+    "project_path": "sample_subject/SampleSubject.csproj"
+  },
+  "local_subject": {
+    "path": "sample_subject/SampleSubject.csproj",
+    "language": "C#",
+    "package_manager": "NuGet"
+  },
+  "metrics": [
+    {
+      "l4_classification": "Transitive Dependency Analysis",
+      "l5_metric": "Hidden Relationship Mapping",
+      "formula": "MAX(0, 100 - Transitive_Risk_Score)"
+    },
+    {
+      "l4_classification": "License Compliance Testing",
+      "l5_metric": "Legal Risk Validation",
+      "formula": "MAX(0, 100 - License_Risk)"
+    },
+    {
+      "l4_classification": "Supply Chain Security Analysis",
+      "l5_metric": "Trust Integrity Verification",
+      "formula": "MAX(0, 100 - Trust_Score)"
+    },
+    {
+      "l4_classification": "Dependency Health Monitoring",
+      "l5_metric": "Community Vitality Tracking",
+      "formula": "MAX(0, 100 - Vitality_Score)"
+    },
+    {
+      "l4_classification": "Risk Prioritization",
+      "l5_metric": "Mitigation Effort Ranking",
+      "formula": "Prioritization Coverage %"
+    },
+    {
+      "l4_classification": "Continuous Dependency Monitoring",
+      "l5_metric": "Real-Time Alerting",
+      "formula": "Alert Response Rate %"
+    },
+    {
+      "l4_classification": "Vulnerability Dependency Detection",
+      "l5_metric": "Known CVE Count",
+      "formula": "MAX(0, 100 - CVE_Score)"
+    },
+    {
+      "l4_classification": "Outdated Dependency Detection",
+      "l5_metric": "Version Lag Assessment",
+      "formula": "MAX(0, 100 - Version_Lag_Score)"
+    }
+  ]
+}

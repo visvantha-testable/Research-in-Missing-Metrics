@@ -1,0 +1,22 @@
+{
+  "definitions_total": 4,
+  "definitions_covered": 4,
+  "uses_total": 35,
+  "uses_covered": 35,
+  "c_use_total": 7,
+  "c_use_covered": 7,
+  "p_use_total": 28,
+  "p_use_covered": 28,
+  "du_pairs_total": 7,
+  "du_pairs_covered": 7,
+  "uncovered_definitions": 0,
+  "partial_uses": 0,
+  "ghost_uses": 0,
+  "cross_function_uses": 2,
+  "multiple_definition_sites": 0,
+  "files": [
+    "DataFlowSample.java",
+    "OrderService.java",
+    "PaymentValidator.java"
+  ]
+}

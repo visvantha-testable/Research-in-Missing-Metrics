@@ -1,0 +1,33 @@
+{
+  "tool": "pymcdc",
+  "metrics_total": 1,
+  "metrics_covered": 1,
+  "metric_coverage_complete": true,
+  "scores": {
+    "Logical Sub-expression Validation": 100.0,
+    "Condition Coverage": 100.0
+  },
+  "metric_evidence": [
+    {
+      "l3_strategy": "Cyclomatic Complexity",
+      "classification": "Condition Coverage",
+      "l5_metric": "Logical Sub-expression Validation",
+      "score": 100.0,
+      "covered": true,
+      "pymcdc_native": true,
+      "raw_parameters": {
+        "decision_count": 3,
+        "total_requirements": 11,
+        "covered_requirements": 11,
+        "uncovered_requirements": 0,
+        "coverage_percent": 100.0,
+        "subexpression_true_evaluations": 14,
+        "subexpression_false_evaluations": 13,
+        "subexpression_both_sides_validated": 34,
+        "mcdc_requirements_met": 11,
+        "short_circuit_irrelevant_slots": 7
+      },
+      "formula": "100 * covered_requirements / total_requirements"
+    }
+  ]
+}

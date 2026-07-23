@@ -1,0 +1,5 @@
+**/target/
+/platform/
+.idea/
+*.iml
+.DS_Store

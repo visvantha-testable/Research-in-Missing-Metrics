@@ -1,0 +1,110 @@
+{
+  "tool": "Static DU",
+  "strategy": "Metric and Classification Testing",
+  "category": "Data Flow Testing",
+  "metrics_total": 5,
+  "target_repository": "sample_subject",
+  "source_root": "sample_subject/src/main/java",
+  "test_root": "sample_subject/src/test/java",
+  "metrics": [
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Definition Coverage",
+      "l5_metric": "Variable Definition Detection",
+      "kpi": "All-Defs Coverage %",
+      "normalized_score_key": "Variable Definition Detection",
+      "score_field": "all_defs_coverage_score",
+      "static_du_native": true,
+      "required_artifacts": [
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/du_path_correlation.json"
+      ],
+      "raw_parameters": [
+        "all_defs_percent",
+        "definitions_total",
+        "definitions_covered"
+      ],
+      "formula": "Percentage of variable definition points exercised by at least one test path",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Definition Coverage",
+      "l5_metric": "Definition-Use Mapping",
+      "kpi": "Data Path Correlation",
+      "normalized_score_key": "Definition-Use Mapping",
+      "score_field": "data_path_correlation_score",
+      "static_du_native": true,
+      "required_artifacts": [
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/du_path_correlation.json"
+      ],
+      "raw_parameters": [
+        "data_path_correlation_percent",
+        "du_pairs_total",
+        "du_pairs_covered"
+      ],
+      "formula": "Bridge between variable definition and subsequent read/modify use points",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Definition Coverage",
+      "l5_metric": "Coverage Measurement",
+      "kpi": "DU-Path Validation",
+      "normalized_score_key": "Coverage Measurement",
+      "score_field": "du_path_validation_score",
+      "static_du_native": true,
+      "required_artifacts": [
+        "artifacts/training/static_du_summary.json",
+        "artifacts/training/du_path_correlation.json"
+      ],
+      "raw_parameters": [
+        "du_path_percent",
+        "du_pairs_total",
+        "du_pairs_covered"
+      ],
+      "formula": "Percentage of Definition-Use pairs exercised by test suite",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Definition Coverage",
+      "l5_metric": "Uncovered Definition Detection",
+      "kpi": "Dead Data Identification",
+      "normalized_score_key": "Uncovered Definition Detection",
+      "score_field": "dead_data_identification_score",
+      "static_du_native": true,
+      "required_artifacts": [
+        "artifacts/training/static_du_summary.json"
+      ],
+      "raw_parameters": [
+        "uncovered_definitions",
+        "ghost_uses"
+      ],
+      "formula": "Identifies variables assigned but never used (zombie variables)",
+      "expected_score": 100
+    },
+    {
+      "l3_strategy": "Data Flow Testing",
+      "l4_classification": "All Uses Coverage",
+      "l5_metric": "Variable Use Detection",
+      "kpi": "All-Uses Coverage %",
+      "normalized_score_key": "Variable Use Detection",
+      "score_field": "all_uses_coverage_score",
+      "static_du_native": true,
+      "required_artifacts": [
+        "artifacts/training/static_du_summary.json"
+      ],
+      "raw_parameters": [
+        "all_uses_percent",
+        "uses_total",
+        "uses_covered",
+        "c_use_total",
+        "p_use_total"
+      ],
+      "formula": "Percentage of definition-use pairs exercised by tests",
+      "expected_score": 100
+    }
+  ]
+}

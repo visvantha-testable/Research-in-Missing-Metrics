@@ -1,0 +1,39 @@
+{
+  "tool": "pymcdc",
+  "strategy": "Cyclomatic Complexity",
+  "category": "Condition Coverage",
+  "target_repository": "sample_subject",
+  "source_file": "sample_subject/logic.py",
+  "unittest_file": "sample_subject/test_logic.py",
+  "steps": [
+    {
+      "order": 1,
+      "description": "Install pymcdc",
+      "command": "python -m pip install pymcdc>=0.2.5"
+    },
+    {
+      "order": 2,
+      "description": "Static MC/DC requirement analysis",
+      "command": "python -m pymcdc logic.py",
+      "cwd": "sample_subject"
+    },
+    {
+      "order": 3,
+      "description": "Execute unittest suite and record MC/DC coverage",
+      "command": "python -m pymcdc --unittest test_logic.py --path . logic.py",
+      "cwd": "sample_subject"
+    },
+    {
+      "order": 4,
+      "description": "Export platform bundle with 100/100 metric",
+      "command": "python scripts/export_platform_bundle.py"
+    }
+  ],
+  "expected_output": {
+    "decision_count": 3,
+    "total_requirements": 11,
+    "covered_requirements": 11,
+    "coverage_percent": 100,
+    "Logical Sub-expression Validation": 100
+  }
+}

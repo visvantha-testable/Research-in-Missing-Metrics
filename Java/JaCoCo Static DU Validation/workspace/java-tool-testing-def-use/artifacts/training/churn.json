@@ -1,0 +1,12 @@
+{
+  "modules_with_churn": 6,
+  "modules_tested": 6,
+  "files": [
+    "DataFlowSample.java",
+    "OrderService.java",
+    "PaymentValidator.java",
+    "InventoryService.java",
+    "PricingEngine.java",
+    "ShipmentTracker.java"
+  ]
+}

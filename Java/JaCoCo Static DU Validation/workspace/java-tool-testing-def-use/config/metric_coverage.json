@@ -1,0 +1,12 @@
+{
+  "tools": ["JaCoCo", "static du"],
+  "metrics_total": 45,
+  "jacoco_metrics_total": 33,
+  "static_du_metrics_total": 12,
+  "target_repository": "sample_subject",
+  "config_files": {
+    "jacoco": "config/metric_coverage_jacoco.json",
+    "static_du": "config/metric_coverage_static_du.json"
+  },
+  "expected_score": 100
+}

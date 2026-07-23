@@ -1,0 +1,29 @@
+{
+  "platform": "Testable",
+  "tool": "pymcdc",
+  "trigger_command": "python pymcdc_trigger.py",
+  "trigger_command_alt": "python -m pymcdc_platform sample_subject/logic.py -o pymcdc.json",
+  "do_not_run_static_pymcdc_alone": true,
+  "primary_output_file": "pymcdc.json",
+  "required_root_fields": [
+    "totals",
+    "Condition Coverage",
+    "Logical Sub-expression Validation",
+    "logical_subexpression_validation_score",
+    "condition_coverage_percent",
+    "decisions",
+    "summary"
+  ],
+  "totals_required_fields": [
+    "decision_count",
+    "total_requirements",
+    "covered_requirements",
+    "coverage_percent",
+    "logical_subexpression_validation_score",
+    "condition_coverage_percent"
+  ],
+  "expected_scores": {
+    "Condition Coverage": 100,
+    "Logical Sub-expression Validation": 100
+  }
+}

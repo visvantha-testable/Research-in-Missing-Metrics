@@ -1,0 +1,11 @@
+{
+  "tool": "pymcdc",
+  "target_repository": "sample_subject",
+  "metrics_total": 1,
+  "metrics_covered": 1,
+  "metric_coverage_complete": true,
+  "Condition Coverage": 100,
+  "Logical Sub-expression Validation": 100,
+  "logical_subexpression_validation_score": 100,
+  "condition_coverage_percent": 100
+}

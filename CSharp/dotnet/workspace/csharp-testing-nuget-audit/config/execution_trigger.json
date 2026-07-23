@@ -1,0 +1,66 @@
+{
+  "metric": "Dependency Risk (SCA)",
+  "strategy": "Security White-box Testing",
+  "tool": "dotnet NuGet audit",
+  "language": "C#",
+  "target_repository": {
+    "name": "NuGet/Home",
+    "url": "https://github.com/NuGet/Home",
+    "project_path": "sample_subject/SampleSubject.csproj",
+    "why": "Official NuGet audit owner — dotnet list package --vulnerable JSON spec"
+  },
+  "local_subject": {
+    "path": "sample_subject/SampleSubject.csproj",
+    "language": "C#",
+    "package_manager": "NuGet"
+  },
+  "trigger_command": "dotnet run --project src/NuGetAuditPlatform -- trigger",
+  "trigger_command_alt": "dotnet run --project src/NuGetAuditPlatform -- trigger",
+  "do_not_use": "dotnet list package --include-transitive --vulnerable --format json",
+  "trigger_sequence": [
+    {
+      "step": 1,
+      "tool": "NuGetAuditPlatform",
+      "command": "dotnet run --project src/NuGetAuditPlatform -- trigger",
+      "purpose": "Collect 5 artifacts + derive 8 metrics + export nuget_audit.json"
+    },
+    {
+      "step": 2,
+      "tool": "NuGetAuditVerifier",
+      "command": "dotnet run --project src/NuGetAuditPlatform -- verify --nuget-audit-json nuget_audit.json",
+      "purpose": "Verify all 8 metrics covered=yes and 100/100"
+    }
+  ],
+  "primary_platform_output": "nuget_audit.json",
+  "one_shot_script": "dotnet run --project src/NuGetAuditPlatform -- trigger",
+  "one_shot_scripts": [
+    "dotnet run --project src/NuGetAuditPlatform -- trigger",
+    "dotnet test NuGetAudit.sln"
+  ],
+  "required_output_fields": [
+    "output_complete",
+    "metric_coverage_complete",
+    "metrics_covered",
+    "supplemental_raw_data",
+    "metrics",
+    "platform_scores"
+  ],
+  "expected_sample_output": {
+    "total_dependencies": 6,
+    "direct_dependencies": 2,
+    "transitive_dependencies": 4,
+    "total_vulnerabilities": 0,
+    "known_cve_count": 0,
+    "outdated_dependencies": 0,
+    "metrics_covered": 8,
+    "metric_coverage_complete": true,
+    "Transitive Dependency Analysis": 100,
+    "License Compliance Testing": 100,
+    "Supply Chain Security Analysis": 100,
+    "Dependency Health Monitoring": 100,
+    "Risk Prioritization": 100,
+    "Continuous Dependency Monitoring": 100,
+    "Vulnerability Dependency Detection": 100,
+    "Outdated Dependency Detection": 100
+  }
+}

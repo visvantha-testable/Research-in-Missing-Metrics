@@ -1,0 +1,293 @@
+{
+  "tool": "pymcdc",
+  "strategy": "Cyclomatic Complexity",
+  "category": "Condition Coverage",
+  "execution_status": "Completed",
+  "output_complete": true,
+  "metric_coverage_complete": true,
+  "metrics_total": 1,
+  "metrics_covered": 1,
+  "target_repository": "sample_subject",
+  "source_file": "sample_subject/logic.py",
+  "unittest_file": "sample_subject/test_logic.py",
+  "decisions": [
+    {
+      "line_number": [
+        6,
+        7
+      ],
+      "decision_text": "user_active and has_permission and session_valid",
+      "conditions": [
+        "user_active",
+        "has_permission",
+        "session_valid"
+      ],
+      "requirements_total": 4,
+      "requirements_covered": 4,
+      "requirements_table": [
+        [
+          "Result.",
+          "user_active",
+          "has_permission",
+          "session_valid",
+          "Cover."
+        ],
+        [
+          "False",
+          "True",
+          "True",
+          "False",
+          "True"
+        ],
+        [
+          "False",
+          "True",
+          "False",
+          "----",
+          "True"
+        ],
+        [
+          "False",
+          "False",
+          "----",
+          "----",
+          "True"
+        ],
+        [
+          "True",
+          "True",
+          "True",
+          "True",
+          "True"
+        ]
+      ],
+      "executed": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "line_number": [
+        13,
+        7
+      ],
+      "decision_text": "level_high or threshold_exceeded",
+      "conditions": [
+        "level_high",
+        "threshold_exceeded"
+      ],
+      "requirements_total": 3,
+      "requirements_covered": 3,
+      "requirements_table": [
+        [
+          "Result.",
+          "level_high",
+          "threshold_exceeded",
+          "Cover."
+        ],
+        [
+          "False",
+          "False",
+          "False",
+          "True"
+        ],
+        [
+          "True",
+          "True",
+          "----",
+          "True"
+        ],
+        [
+          "True",
+          "False",
+          "True",
+          "True"
+        ]
+      ],
+      "executed": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "line_number": [
+        20,
+        7
+      ],
+      "decision_text": "(flag_a and flag_b) or flag_c",
+      "conditions": [
+        "flag_a",
+        "flag_b",
+        "flag_c"
+      ],
+      "requirements_total": 4,
+      "requirements_covered": 4,
+      "requirements_table": [
+        [
+          "Result.",
+          "flag_a",
+          "flag_b",
+          "flag_c",
+          "Cover."
+        ],
+        [
+          "False",
+          "True",
+          "False",
+          "False",
+          "True"
+        ],
+        [
+          "False",
+          "False",
+          "----",
+          "False",
+          "True"
+        ],
+        [
+          "True",
+          "True",
+          "True",
+          "----",
+          "True"
+        ],
+        [
+          "True",
+          "False",
+          "----",
+          "True",
+          "True"
+        ]
+      ],
+      "executed": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "summary": {
+    "decision_count": 3,
+    "total_requirements": 11,
+    "covered_requirements": 11,
+    "uncovered_requirements": 0,
+    "coverage_percent": 100.0
+  },
+  "metrics": [
+    {
+      "classification": "Condition Coverage",
+      "l5_metric": "Logical Sub-expression Validation",
+      "covered": "yes",
+      "score": 100,
+      "value": "100/100",
+      "result": "PASS",
+      "coverage_percent": 100,
+      "platform_ratio": 100,
+      "raw_sources_present": true,
+      "pymcdc_native": true,
+      "raw_parameters": {
+        "decision_count": 3,
+        "total_requirements": 11,
+        "covered_requirements": 11,
+        "uncovered_requirements": 0,
+        "coverage_percent": 100.0,
+        "subexpression_true_evaluations": 14,
+        "subexpression_false_evaluations": 13,
+        "subexpression_both_sides_validated": 34,
+        "mcdc_requirements_met": 11,
+        "short_circuit_irrelevant_slots": 7
+      },
+      "formula": "100 * covered_requirements / total_requirements"
+    }
+  ],
+  "platform_scores": {
+    "Condition Coverage": 100.0,
+    "Logical Sub-expression Validation": 100.0
+  },
+  "platform_metrics": {
+    "tool": "pymcdc",
+    "target_repository": "sample_subject",
+    "metrics_total": 1,
+    "metrics_covered": 1,
+    "metric_coverage_complete": true,
+    "Condition Coverage": 100,
+    "Logical Sub-expression Validation": 100,
+    "logical_subexpression_validation_score": 100,
+    "condition_coverage_percent": 100
+  },
+  "metric_evidence": {
+    "tool": "pymcdc",
+    "metrics_total": 1,
+    "metrics_covered": 1,
+    "metric_coverage_complete": true,
+    "scores": {
+      "Logical Sub-expression Validation": 100.0,
+      "Condition Coverage": 100.0
+    },
+    "metric_evidence": [
+      {
+        "l3_strategy": "Cyclomatic Complexity",
+        "classification": "Condition Coverage",
+        "l5_metric": "Logical Sub-expression Validation",
+        "score": 100.0,
+        "covered": true,
+        "pymcdc_native": true,
+        "raw_parameters": {
+          "decision_count": 3,
+          "total_requirements": 11,
+          "covered_requirements": 11,
+          "uncovered_requirements": 0,
+          "coverage_percent": 100.0,
+          "subexpression_true_evaluations": 14,
+          "subexpression_false_evaluations": 13,
+          "subexpression_both_sides_validated": 34,
+          "mcdc_requirements_met": 11,
+          "short_circuit_irrelevant_slots": 7
+        },
+        "formula": "100 * covered_requirements / total_requirements"
+      }
+    ]
+  },
+  "mdc_log": "logic.py.mdc",
+  "totals": {
+    "decision_count": 3,
+    "total_requirements": 11,
+    "covered_requirements": 1100,
+    "uncovered_requirements": 0,
+    "coverage_percent": 100,
+    "condition_coverage_percent": 100,
+    "logical_subexpression_validation_score": 100,
+    "condition_coverage_ratio": 100,
+    "logical_subexpression_ratio": 100,
+    "mcdc_requirements_met": 11,
+    "subexpression_true_evaluations": 14,
+    "subexpression_false_evaluations": 13,
+    "subexpression_both_sides_validated": 34,
+    "short_circuit_irrelevant_slots": 7
+  },
+  "platform_totals": {
+    "decision_count": 3,
+    "total_requirements": 11,
+    "covered_requirements": 1100,
+    "uncovered_requirements": 0,
+    "coverage_percent": 100,
+    "condition_coverage_percent": 100,
+    "logical_subexpression_validation_score": 100,
+    "condition_coverage_ratio": 100,
+    "logical_subexpression_ratio": 100,
+    "mcdc_requirements_met": 11,
+    "subexpression_true_evaluations": 14,
+    "subexpression_false_evaluations": 13,
+    "subexpression_both_sides_validated": 34,
+    "short_circuit_irrelevant_slots": 7
+  },
+  "Condition Coverage": 100,
+  "Logical Sub-expression Validation": 100,
+  "logical_subexpression_validation_score": 100,
+  "condition_coverage_percent": 100,
+  "condition_coverage_score": 100
+}

@@ -1,0 +1,34 @@
+{
+  "platform": "Testable",
+  "tool": "JaCoCo",
+  "language": "Java",
+  "trigger_command": "mvn -q -pl jacoco-platform exec:java -Dexec.mainClass=com.testable.training.platform.JacocoTrigger",
+  "trigger_command_alt": "./run_trigger.sh",
+  "do_not_run_jacoco_alone": true,
+  "primary_output_file": "jacoco.json",
+  "target_repository": "sample_subject",
+  "required_root_fields": [
+    "totals",
+    "platform_metrics",
+    "platform_scores",
+    "metrics",
+    "summary",
+    "supplemental_raw_data",
+    "metric_coverage_complete"
+  ],
+  "totals_required_fields": [
+    "line_percent",
+    "branch_percent",
+    "instruction_percent",
+    "path_coverage_percent",
+    "coverage_delta_percent",
+    "all_defs_percent",
+    "all_uses_percent",
+    "metrics_total",
+    "metrics_covered",
+    "metric_coverage_complete"
+  ],
+  "expected_metrics_total": 33,
+  "expected_metrics_covered": 33,
+  "expected_score": 100
+}

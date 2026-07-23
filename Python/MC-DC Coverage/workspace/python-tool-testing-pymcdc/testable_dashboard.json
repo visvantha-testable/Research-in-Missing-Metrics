@@ -1,0 +1,35 @@
+{
+  "tool": "pymcdc",
+  "target_repository": "sample_subject",
+  "execution_status": "Completed",
+  "metric_coverage_complete": true,
+  "metrics_covered": 1,
+  "metrics_total": 1,
+  "metrics": [
+    {
+      "classification": "Condition Coverage",
+      "l5_metric": "Logical Sub-expression Validation",
+      "covered": "yes",
+      "score": 100,
+      "value": "100/100",
+      "result": "PASS",
+      "coverage_percent": 100,
+      "platform_ratio": 100,
+      "raw_sources_present": true,
+      "pymcdc_native": true,
+      "raw_parameters": {
+        "decision_count": 3,
+        "total_requirements": 11,
+        "covered_requirements": 11,
+        "uncovered_requirements": 0,
+        "coverage_percent": 100.0,
+        "subexpression_true_evaluations": 14,
+        "subexpression_false_evaluations": 13,
+        "subexpression_both_sides_validated": 34,
+        "mcdc_requirements_met": 11,
+        "short_circuit_irrelevant_slots": 7
+      },
+      "formula": "100 * covered_requirements / total_requirements"
+    }
+  ]
+}

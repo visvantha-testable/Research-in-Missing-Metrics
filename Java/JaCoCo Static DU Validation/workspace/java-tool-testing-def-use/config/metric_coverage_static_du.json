@@ -1,0 +1,23 @@
+{
+  "tool": "static du",
+  "strategy": "Metric and Classification Testing",
+  "category": "Code Quality",
+  "metrics_total": 12,
+  "target_repository": "sample_subject",
+  "source_root": "sample_subject/src/main/java",
+  "test_root": "sample_subject/src/test/java",
+  "metrics": [
+    {"l5_metric": "Duplicated lines (%)", "expected_score": 100},
+    {"l5_metric": "Duplicated blocks", "expected_score": 100},
+    {"l5_metric": "Duplicated files", "expected_score": 100},
+    {"l5_metric": "Duplicated lines", "expected_score": 100},
+    {"l5_metric": "duplicated_blocks_count", "expected_score": 100},
+    {"l5_metric": "duplicated_files_count", "expected_score": 100},
+    {"l5_metric": "duplicated_lines_count", "expected_score": 100},
+    {"l5_metric": "duplication_density", "expected_score": 100},
+    {"l5_metric": "duplication_density_percent", "expected_score": 100},
+    {"l5_metric": "number_of_duplicated_blocks", "expected_score": 100},
+    {"l5_metric": "number_of_duplicated_files", "expected_score": 100},
+    {"l5_metric": "number_of_duplicated_lines", "expected_score": 100}
+  ]
+}

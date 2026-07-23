@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "parameters": "--include-transitive",
+  "projects": [
+    {
+      "path": "D:/Research in Missing Metrics/CSharp/dotnet/workspace/csharp-testing-nuget-audit/sample_subject/SampleSubject.csproj",
+      "frameworks": [
+        {
+          "framework": "net9.0",
+          "topLevelPackages": [
+            {
+              "id": "Microsoft.Extensions.Logging.Abstractions",
+              "requestedVersion": "10.0.10",
+              "resolvedVersion": "10.0.10"
+            },
+            {
+              "id": "System.Text.Json",
+              "requestedVersion": "10.0.10",
+              "resolvedVersion": "10.0.10"
+            }
+          ],
+          "transitivePackages": [
+            {
+              "id": "Microsoft.Extensions.DependencyInjection.Abstractions",
+              "resolvedVersion": "10.0.10"
+            },
+            {
+              "id": "System.Diagnostics.DiagnosticSource",
+              "resolvedVersion": "10.0.10"
+            },
+            {
+              "id": "System.IO.Pipelines",
+              "resolvedVersion": "10.0.10"
+            },
+            {
+              "id": "System.Text.Encodings.Web",
+              "resolvedVersion": "10.0.10"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

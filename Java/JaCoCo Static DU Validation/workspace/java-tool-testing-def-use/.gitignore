@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+**/target/
+/platform/
+.jacoco_platform/
+# Generated at repo root by trigger (reference copies live in artifacts/training/)
+/def_use.json
+/def_use_metrics.json
+/jacoco.json
+/jacoco_metric_evidence.json
+/jacoco_metrics.json
+/static_du.json
+/static_du_metric_evidence.json
+/static_du_metrics.json
+/dashboard_metrics.json
+/platform_metrics.json
+/metrics.json
+/testable_dashboard.json
+artifacts/training/jacoco.exec

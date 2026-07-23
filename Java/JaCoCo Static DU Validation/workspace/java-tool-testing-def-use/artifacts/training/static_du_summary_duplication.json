@@ -1,0 +1,22 @@
+{
+  "total_lines": 0,
+  "duplicated_lines": 0,
+  "duplicated_lines_percent": 0.0,
+  "duplicated_blocks": 0,
+  "duplicated_files": 0,
+  "duplicated_blocks_count": 0,
+  "duplicated_files_count": 0,
+  "duplicated_lines_count": 0,
+  "duplication_density": 0.0,
+  "duplication_density_percent": 0.0,
+  "number_of_duplicated_blocks": 0,
+  "number_of_duplicated_files": 0,
+  "number_of_duplicated_lines": 0,
+  "files_analyzed": [
+    "InventoryService.java",
+    "PricingEngine.java",
+    "ShipmentTracker.java"
+  ],
+  "duplicate_blocks": [],
+  "tool": "static du"
+}

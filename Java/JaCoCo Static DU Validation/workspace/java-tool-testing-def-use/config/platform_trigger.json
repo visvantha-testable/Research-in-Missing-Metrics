@@ -1,0 +1,32 @@
+{
+  "platform": "Testable",
+  "tool": "Def-Use",
+  "tools": ["JaCoCo", "static du"],
+  "language": "Java",
+  "build_command": "mvn clean test",
+  "trigger_command": "mvn -q -pl def-use-platform exec:java -Dexec.mainClass=com.testable.training.defuse.DefUseTrigger",
+  "trigger_command_skip_verify": "mvn -q -pl def-use-platform exec:java -Dexec.mainClass=com.testable.training.defuse.DefUseTrigger -Dexec.args=--skip-verify",
+  "trigger_command_alt": "./run_trigger.sh",
+  "primary_output_file": "def_use.json",
+  "preserved_outputs": ["jacoco.json", "static_du.json"],
+  "training_artifacts_dir": "artifacts/training",
+  "target_repository": "sample_subject",
+  "expected_metrics_total": 45,
+  "expected_metrics_covered": 45,
+  "jacoco_metrics_total": 33,
+  "static_du_metrics_total": 12,
+  "expected_score": 100,
+  "taxonomy_config": {
+    "truth_table": "config/taxonomy_truth_table.csv",
+    "action_plan": "config/metric_coverage_action_plan.csv",
+    "trigger_manifest": "config/taxonomy_trigger_manifest.json",
+    "repo_routing": "config/repo_routing.csv",
+    "documentation": "TAXONOMY_COVERAGE.md"
+  },
+  "required_inputs": [
+    "artifacts/training/baseline_jacoco.xml",
+    "sample_subject/target/jacoco.exec",
+    "config/metric_coverage_jacoco.json",
+    "config/metric_coverage_static_du.json"
+  ]
+}

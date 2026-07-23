@@ -1,0 +1,50 @@
+{
+  "tool" : "Static DU",
+  "metrics_total" : 5,
+  "metrics_covered" : 5,
+  "metric_coverage_complete" : true,
+  "all_scores_100" : true,
+  "scores" : {
+    "Variable Definition Detection" : 100.0,
+    "Definition-Use Mapping" : 100.0,
+    "Coverage Measurement" : 100.0,
+    "Uncovered Definition Detection" : 100.0,
+    "Variable Use Detection" : 100.0
+  },
+  "rows" : [ {
+    "classification" : "All Definition Coverage",
+    "l5_metric" : "Variable Definition Detection",
+    "kpi" : "All-Defs Coverage %",
+    "score" : 100,
+    "result" : "PASS",
+    "coverage_complete" : true
+  }, {
+    "classification" : "All Definition Coverage",
+    "l5_metric" : "Definition-Use Mapping",
+    "kpi" : "Data Path Correlation",
+    "score" : 100,
+    "result" : "PASS",
+    "coverage_complete" : true
+  }, {
+    "classification" : "All Definition Coverage",
+    "l5_metric" : "Coverage Measurement",
+    "kpi" : "DU-Path Validation",
+    "score" : 100,
+    "result" : "PASS",
+    "coverage_complete" : true
+  }, {
+    "classification" : "All Definition Coverage",
+    "l5_metric" : "Uncovered Definition Detection",
+    "kpi" : "Dead Data Identification",
+    "score" : 100,
+    "result" : "PASS",
+    "coverage_complete" : true
+  }, {
+    "classification" : "All Uses Coverage",
+    "l5_metric" : "Variable Use Detection",
+    "kpi" : "All-Uses Coverage %",
+    "score" : 100,
+    "result" : "PASS",
+    "coverage_complete" : true
+  } ]
+}

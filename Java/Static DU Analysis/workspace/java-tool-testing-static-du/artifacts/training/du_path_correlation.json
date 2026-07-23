@@ -1,0 +1,48 @@
+{
+  "du_pairs_total" : 7,
+  "du_pairs_covered" : 7,
+  "data_path_correlation_percent" : 100.0,
+  "du_paths" : [ {
+    "file" : "DataFlowSample.java",
+    "variable" : "result",
+    "use_type" : "computational",
+    "line" : "result = result + 5;",
+    "covered" : true
+  }, {
+    "file" : "DataFlowSample.java",
+    "variable" : "result",
+    "use_type" : "return",
+    "line" : "return result * 2;",
+    "covered" : true
+  }, {
+    "file" : "OrderService.java",
+    "variable" : "i",
+    "use_type" : "computational",
+    "line" : "for (int i = 0; i < limit; i++) {",
+    "covered" : true
+  }, {
+    "file" : "OrderService.java",
+    "variable" : "i",
+    "use_type" : "computational",
+    "line" : "for (int i = 0; i < limit; i++) {",
+    "covered" : true
+  }, {
+    "file" : "OrderService.java",
+    "variable" : "i",
+    "use_type" : "computational",
+    "line" : "total += i;",
+    "covered" : true
+  }, {
+    "file" : "OrderService.java",
+    "variable" : "total",
+    "use_type" : "return",
+    "line" : "return total;",
+    "covered" : true
+  }, {
+    "file" : "OrderService.java",
+    "variable" : "masked",
+    "use_type" : "return",
+    "line" : "return validator.validate(masked);",
+    "covered" : true
+  } ]
+}

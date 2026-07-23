@@ -1,0 +1,59 @@
+{
+  "tool": "dotnet NuGet audit",
+  "collector_command": "dotnet list package --include-transitive --vulnerable --format json",
+  "strategy": "Security White-box Testing",
+  "category": "Dependency Risk (SCA)",
+  "metrics_total": 8,
+  "target_repository": {
+    "name": "NuGet/Home",
+    "url": "https://github.com/NuGet/Home",
+    "rationale": "Official NuGet audit owner repository — dotnet list package JSON spec and vulnerability auditing"
+  },
+  "local_subject": {
+    "path": "sample_subject/SampleSubject.csproj",
+    "language": "C#",
+    "package_manager": "NuGet"
+  },
+  "metrics": [
+    {
+      "l4_classification": "Transitive Dependency Analysis",
+      "l5_metric": "Hidden Relationship Mapping",
+      "expected_score": 100
+    },
+    {
+      "l4_classification": "License Compliance Testing",
+      "l5_metric": "Legal Risk Validation",
+      "expected_score": 100
+    },
+    {
+      "l4_classification": "Supply Chain Security Analysis",
+      "l5_metric": "Trust Integrity Verification",
+      "expected_score": 100
+    },
+    {
+      "l4_classification": "Dependency Health Monitoring",
+      "l5_metric": "Community Vitality Tracking",
+      "expected_score": 100
+    },
+    {
+      "l4_classification": "Risk Prioritization",
+      "l5_metric": "Mitigation Effort Ranking",
+      "expected_score": 100
+    },
+    {
+      "l4_classification": "Continuous Dependency Monitoring",
+      "l5_metric": "Real-Time Alerting",
+      "expected_score": 100
+    },
+    {
+      "l4_classification": "Vulnerability Dependency Detection",
+      "l5_metric": "Known CVE Count",
+      "expected_score": 100
+    },
+    {
+      "l4_classification": "Outdated Dependency Detection",
+      "l5_metric": "Version Lag Assessment",
+      "expected_score": 100
+    }
+  ]
+}

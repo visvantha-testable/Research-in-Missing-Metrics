@@ -1,0 +1,33 @@
+{
+  "platform": "Testable",
+  "tool": "Static DU",
+  "language": "Java",
+  "trigger_command": "mvn -q -pl static-du-platform exec:java -Dexec.mainClass=com.testable.training.platform.StaticDuTrigger",
+  "trigger_command_alt": "./run_trigger.sh",
+  "do_not_run_static_du_alone": true,
+  "primary_output_file": "static_du.json",
+  "target_repository": "sample_subject",
+  "required_root_fields": [
+    "summary",
+    "platform_metrics",
+    "platform_scores",
+    "metrics",
+    "supplemental_raw_data",
+    "metric_coverage_complete"
+  ],
+  "totals_required_fields": [
+    "all_defs_percent",
+    "all_uses_percent",
+    "du_path_percent",
+    "data_path_correlation_percent",
+    "definitions_total",
+    "uses_total",
+    "du_pairs_total",
+    "metrics_total",
+    "metrics_covered",
+    "metric_coverage_complete"
+  ],
+  "expected_metrics_total": 5,
+  "expected_metrics_covered": 5,
+  "expected_score": 100
+}

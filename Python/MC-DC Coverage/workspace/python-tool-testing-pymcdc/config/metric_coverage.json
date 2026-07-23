@@ -1,0 +1,39 @@
+{
+  "tool": "pymcdc",
+  "strategy": "Cyclomatic Complexity",
+  "category": "Condition Coverage",
+  "metrics_total": 1,
+  "target_repository": "sample_subject",
+  "source_file": "sample_subject/logic.py",
+  "unittest_file": "sample_subject/test_logic.py",
+  "metrics": [
+    {
+      "l3_strategy": "Cyclomatic Complexity",
+      "l4_classification": "Condition Coverage",
+      "l5_metric": "Logical Sub-expression Validation",
+      "normalized_score_key": "Logical Sub-expression Validation",
+      "score_field": "logical_subexpression_validation_score",
+      "penalty_field": "uncovered_requirements",
+      "pymcdc_native": true,
+      "required_artifacts": [
+        "artifacts/training/pymcdc_report.json",
+        "artifacts/training/logic.py.mdc"
+      ],
+      "raw_parameters": [
+        "decision_count",
+        "total_requirements",
+        "covered_requirements",
+        "uncovered_requirements",
+        "coverage_percent",
+        "subexpression_true_evaluations",
+        "subexpression_false_evaluations",
+        "subexpression_both_sides_validated",
+        "mcdc_requirements_met",
+        "short_circuit_irrelevant_slots"
+      ],
+      "formula": "100 * covered_requirements / total_requirements",
+      "collector_command": "python -m pymcdc --unittest sample_subject/test_logic.py --path sample_subject sample_subject/logic.py",
+      "expected_score": 100
+    }
+  ]
+}

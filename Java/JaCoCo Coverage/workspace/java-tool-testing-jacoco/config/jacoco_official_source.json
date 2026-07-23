@@ -1,0 +1,13 @@
+{
+  "official_repository": "https://github.com/jacoco/jacoco",
+  "official_branch": "master",
+  "official_release": "0.8.15",
+  "official_website": "https://www.jacoco.org/jacoco",
+  "maven_artifact": "org.jacoco:org.jacoco.core",
+  "maven_plugin": "org.jacoco:jacoco-maven-plugin",
+  "integration": "jacoco-platform uses org.jacoco.core (ReportGenerator/CoreTutorial pattern)",
+  "example_sources": [
+    "org.jacoco.examples.ReportGenerator",
+    "org.jacoco.examples.CoreTutorial"
+  ]
+}

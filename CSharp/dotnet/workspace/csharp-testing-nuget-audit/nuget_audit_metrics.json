@@ -1,0 +1,290 @@
+{
+  "TotalDependencies": 6,
+  "DirectDependencies": 2,
+  "TransitiveDependencies": 4,
+  "TotalVulnerabilities": 0,
+  "KnownCveCount": 0,
+  "CriticalCveCount": 0,
+  "HighCveCount": 0,
+  "MediumCveCount": 0,
+  "LowCveCount": 0,
+  "VulnerabilitiesWithFix": 0,
+  "TransitiveVulnerableCount": 0,
+  "HiddenRelationshipRisk": 0,
+  "LegalRiskProxy": 0,
+  "SupplyChainRisk": 0,
+  "CommunityVitalityScore": 100,
+  "MitigationEffort": 0,
+  "AlertSignal": 0,
+  "VersionLagCount": 0,
+  "OutdatedDependencies": 0,
+  "CopyleftLicenseCount": 0,
+  "RestrictedLicenseCount": 0,
+  "CveScore": 0,
+  "TransitiveRiskScore": 0,
+  "LicenseRiskScore": 0,
+  "TrustScore": 0,
+  "VitalityScore": 0,
+  "PrioritizationCoveragePercent": 100,
+  "AlertResponseRatePercent": 100,
+  "VersionLagScore": 0,
+  "TransitiveDependencyScore": 100,
+  "LicenseComplianceScore": 100,
+  "SupplyChainScore": 100,
+  "DependencyHealthScore": 100,
+  "RiskPrioritizationScore": 100,
+  "ContinuousMonitoringScore": 100,
+  "VulnerabilityDetectionScore": 100,
+  "OutdatedDependencyScore": 100,
+  "normalized_scores": {
+    "Transitive Dependency Analysis": 100,
+    "License Compliance Testing": 100,
+    "Supply Chain Security Analysis": 100,
+    "Dependency Health Monitoring": 100,
+    "Risk Prioritization": 100,
+    "Continuous Dependency Monitoring": 100,
+    "Vulnerability Dependency Detection": 100,
+    "Outdated Dependency Detection": 100
+  },
+  "dashboard_export": {
+    "tool": "dotnet NuGet audit",
+    "target_repository": "sample_subject",
+    "scores": {
+      "Transitive Dependency Analysis": 100,
+      "License Compliance Testing": 100,
+      "Supply Chain Security Analysis": 100,
+      "Dependency Health Monitoring": 100,
+      "Risk Prioritization": 100,
+      "Continuous Dependency Monitoring": 100,
+      "Vulnerability Dependency Detection": 100,
+      "Outdated Dependency Detection": 100
+    },
+    "metrics": [
+      {
+        "classification": "Transitive Dependency Analysis",
+        "value": "100/100",
+        "result": "PASS",
+        "coverage_percent": 100
+      },
+      {
+        "classification": "License Compliance Testing",
+        "value": "100/100",
+        "result": "PASS",
+        "coverage_percent": 100
+      },
+      {
+        "classification": "Supply Chain Security Analysis",
+        "value": "100/100",
+        "result": "PASS",
+        "coverage_percent": 100
+      },
+      {
+        "classification": "Dependency Health Monitoring",
+        "value": "100/100",
+        "result": "PASS",
+        "coverage_percent": 100
+      },
+      {
+        "classification": "Risk Prioritization",
+        "value": "100/100",
+        "result": "PASS",
+        "coverage_percent": 100
+      },
+      {
+        "classification": "Continuous Dependency Monitoring",
+        "value": "100/100",
+        "result": "PASS",
+        "coverage_percent": 100
+      },
+      {
+        "classification": "Vulnerability Dependency Detection",
+        "value": "100/100",
+        "result": "PASS",
+        "coverage_percent": 100
+      },
+      {
+        "classification": "Outdated Dependency Detection",
+        "value": "100/100",
+        "result": "PASS",
+        "coverage_percent": 100
+      }
+    ]
+  },
+  "metric_evidence": {
+    "tool": "dotnet NuGet audit",
+    "metrics_total": 8,
+    "metrics_covered": 8,
+    "metric_coverage_complete": true,
+    "all_scores_100": true,
+    "scores": {
+      "Transitive Dependency Analysis": 100,
+      "License Compliance Testing": 100,
+      "Supply Chain Security Analysis": 100,
+      "Dependency Health Monitoring": 100,
+      "Risk Prioritization": 100,
+      "Continuous Dependency Monitoring": 100,
+      "Vulnerability Dependency Detection": 100,
+      "Outdated Dependency Detection": 100
+    },
+    "full_metrics_payload": {
+      "TotalDependencies": 6,
+      "DirectDependencies": 2,
+      "TransitiveDependencies": 4,
+      "TotalVulnerabilities": 0,
+      "KnownCveCount": 0,
+      "CriticalCveCount": 0,
+      "HighCveCount": 0,
+      "MediumCveCount": 0,
+      "LowCveCount": 0,
+      "VulnerabilitiesWithFix": 0,
+      "TransitiveVulnerableCount": 0,
+      "HiddenRelationshipRisk": 0,
+      "LegalRiskProxy": 0,
+      "SupplyChainRisk": 0,
+      "CommunityVitalityScore": 100,
+      "MitigationEffort": 0,
+      "AlertSignal": 0,
+      "VersionLagCount": 0,
+      "OutdatedDependencies": 0,
+      "CopyleftLicenseCount": 0,
+      "RestrictedLicenseCount": 0,
+      "CveScore": 0,
+      "TransitiveRiskScore": 0,
+      "LicenseRiskScore": 0,
+      "TrustScore": 0,
+      "VitalityScore": 0,
+      "PrioritizationCoveragePercent": 100,
+      "AlertResponseRatePercent": 100,
+      "VersionLagScore": 0,
+      "TransitiveDependencyScore": 100,
+      "LicenseComplianceScore": 100,
+      "SupplyChainScore": 100,
+      "DependencyHealthScore": 100,
+      "RiskPrioritizationScore": 100,
+      "ContinuousMonitoringScore": 100,
+      "VulnerabilityDetectionScore": 100,
+      "OutdatedDependencyScore": 100
+    },
+    "metric_evidence": [
+      {
+        "classification": "Transitive Dependency Analysis",
+        "l5_metric": "Hidden Relationship Mapping",
+        "score": 100,
+        "score_field": "transitive_dependency_score",
+        "nuget_audit_native": false,
+        "raw_sources": [
+          "dependency_tree.json",
+          "nuget_audit_report.json"
+        ],
+        "raw_parameters": {
+          "transitive_dependencies": 4,
+          "transitive_vulnerable_count": 0,
+          "hidden_relationship_risk": 0
+        },
+        "formula": "MAX(0, 100 - transitive_vulnerable_count * 20)",
+        "coverage_complete": true
+      },
+      {
+        "classification": "License Compliance Testing",
+        "l5_metric": "Legal Risk Validation",
+        "score": 100,
+        "score_field": "license_compliance_score",
+        "nuget_audit_native": false,
+        "raw_sources": [
+          "licenses.json"
+        ],
+        "raw_parameters": {
+          "copyleft_license_count": 0,
+          "restricted_license_count": 0
+        },
+        "formula": "MAX(0, 100 - (copyleft*20 \u002B restricted*10 \u002B legal_risk_proxy))",
+        "coverage_complete": true
+      },
+      {
+        "classification": "Supply Chain Security Analysis",
+        "l5_metric": "Trust Integrity Verification",
+        "score": 100,
+        "score_field": "supply_chain_score",
+        "nuget_audit_native": true,
+        "raw_sources": [
+          "nuget_audit_report.json"
+        ],
+        "raw_parameters": {
+          "total_vulnerabilities": 0
+        },
+        "formula": "MAX(0, 100 - total_vulnerabilities * 5)",
+        "coverage_complete": true
+      },
+      {
+        "classification": "Dependency Health Monitoring",
+        "l5_metric": "Community Vitality Tracking",
+        "score": 100,
+        "score_field": "dependency_health_score",
+        "nuget_audit_native": true,
+        "raw_sources": [],
+        "raw_parameters": {
+          "total_dependencies": 6,
+          "community_vitality_score": 100
+        },
+        "formula": "MAX(0, 100 - (vulnerable_packages / total_dependencies) * 100)",
+        "coverage_complete": true
+      },
+      {
+        "classification": "Risk Prioritization",
+        "l5_metric": "Mitigation Effort Ranking",
+        "score": 100,
+        "score_field": "risk_prioritization_score",
+        "nuget_audit_native": true,
+        "raw_sources": [],
+        "raw_parameters": {
+          "critical_cve_count": 0,
+          "high_cve_count": 0,
+          "prioritization_coverage_percent": 100
+        },
+        "formula": "100 if no critical/high CVEs else (crit_high_with_fix / crit_high) * 100",
+        "coverage_complete": true
+      },
+      {
+        "classification": "Continuous Dependency Monitoring",
+        "l5_metric": "Real-Time Alerting",
+        "score": 100,
+        "score_field": "continuous_monitoring_score",
+        "nuget_audit_native": false,
+        "raw_sources": [],
+        "raw_parameters": {
+          "alert_signal": 0,
+          "alert_response_rate_percent": 100
+        },
+        "formula": "100 if alert_signal == 0 else MAX(0, 100 - alert_signal * 20)",
+        "coverage_complete": true
+      },
+      {
+        "classification": "Vulnerability Dependency Detection",
+        "l5_metric": "Known CVE Count",
+        "score": 100,
+        "score_field": "vulnerability_detection_score",
+        "nuget_audit_native": true,
+        "raw_sources": [],
+        "raw_parameters": {
+          "known_cve_count": 0
+        },
+        "formula": "MAX(0, 100 - (critical*25 \u002B high*10 \u002B medium*3 \u002B low*1))",
+        "coverage_complete": true
+      },
+      {
+        "classification": "Outdated Dependency Detection",
+        "l5_metric": "Version Lag Assessment",
+        "score": 100,
+        "score_field": "outdated_dependency_score",
+        "nuget_audit_native": false,
+        "raw_sources": [],
+        "raw_parameters": {
+          "outdated_dependencies": 0,
+          "version_lag_count": 0
+        },
+        "formula": "MAX(0, 100 - (outdated_dependencies*15 \u002B version_lag_count*5))",
+        "coverage_complete": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "repository": "java-tool-testing-def-use",
+  "repository_url": "https://github.com/visvantha-testable/java-tool-testing-def-use",
+  "unified_trigger": {
+    "command": "mvn -q -pl def-use-platform exec:java -Dexec.mainClass=com.testable.training.defuse.DefUseTrigger",
+    "command_skip_verify": "mvn -q -pl def-use-platform exec:java -Dexec.mainClass=com.testable.training.defuse.DefUseTrigger -Dexec.args=--skip-verify",
+    "scripts": ["./run_trigger.sh", ".\\run_trigger.ps1", "run_trigger.bat"],
+    "pipeline_steps": [
+      "mvn clean test",
+      "JacocoTrigger (33 metrics) -> jacoco.json",
+      "StaticDuTrigger (12 duplication metrics) -> static_du.json",
+      "DefUseMerger -> def_use.json (45 metrics)"
+    ],
+    "primary_outputs": ["def_use.json", "jacoco.json", "static_du.json"],
+    "training_artifacts": "artifacts/training/"
+  },
+  "platform_metrics": {
+    "jacoco_total": 33,
+    "static_du_total": 12,
+    "unified_total": 45,
+    "expected_score": 100
+  },
+  "taxonomy_audit": {
+    "taxonomy_rows": 32,
+    "native_tier_rows": 1,
+    "platform_derived_rows": 31,
+    "native_metric": "Coverage Delta (XML baseline comparison)",
+    "truth_table": "config/taxonomy_truth_table.csv",
+    "action_plan": "config/metric_coverage_action_plan.csv",
+    "repo_routing": "config/repo_routing.csv"
+  },
+  "alternative_pipelines_for_native_coverage": [
+    {
+      "metric_family": "Control Flow / Path Coverage (10 metrics)",
+      "tool": "Java PathFinder (JPF)",
+      "repo": "https://github.com/visvantha-testable/java-tool-testing-jacoco.git",
+      "required_data": "JPF .jpf config; branching sample_subject code"
+    },
+    {
+      "metric_family": "Data Flow / Def-Use (16 metrics)",
+      "tool": "Static DU def-use analyzer",
+      "repo": "https://github.com/visvantha-testable/java-tool-testing-static-du.git",
+      "required_data": "static_du.json with definitions_total, c_use_total, p_use_total, du_pairs_total, cross_function_uses"
+    },
+    {
+      "metric_family": "Native JaCoCo counters + baseline delta",
+      "tool": "JaCoCo Maven plugin",
+      "repo": "https://github.com/visvantha-testable/java-tool-testing-jacoco.git",
+      "required_data": "baseline_jacoco.xml + current jacoco.xml in artifacts/training/"
+    }
+  ]
+}

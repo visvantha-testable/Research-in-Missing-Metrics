@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+sample_subject/logic.py.mdc
+**/logic.py.mdc
+!artifacts/training/logic.py.mdc

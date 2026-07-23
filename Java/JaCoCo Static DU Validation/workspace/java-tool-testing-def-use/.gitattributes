@@ -1,0 +1,6 @@
+# Generated JSON/XML artifacts should not dominate language stats
+*.json linguist-generated
+*.xml linguist-generated
+artifacts/** linguist-generated
+platform/** linguist-generated
+config/** linguist-vendored

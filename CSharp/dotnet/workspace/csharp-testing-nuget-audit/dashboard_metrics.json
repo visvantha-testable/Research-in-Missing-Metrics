@@ -1,0 +1,64 @@
+{
+  "tool": "dotnet NuGet audit",
+  "target_repository": "sample_subject",
+  "scores": {
+    "Transitive Dependency Analysis": 100,
+    "License Compliance Testing": 100,
+    "Supply Chain Security Analysis": 100,
+    "Dependency Health Monitoring": 100,
+    "Risk Prioritization": 100,
+    "Continuous Dependency Monitoring": 100,
+    "Vulnerability Dependency Detection": 100,
+    "Outdated Dependency Detection": 100
+  },
+  "metrics": [
+    {
+      "classification": "Transitive Dependency Analysis",
+      "value": "100/100",
+      "result": "PASS",
+      "coverage_percent": 100
+    },
+    {
+      "classification": "License Compliance Testing",
+      "value": "100/100",
+      "result": "PASS",
+      "coverage_percent": 100
+    },
+    {
+      "classification": "Supply Chain Security Analysis",
+      "value": "100/100",
+      "result": "PASS",
+      "coverage_percent": 100
+    },
+    {
+      "classification": "Dependency Health Monitoring",
+      "value": "100/100",
+      "result": "PASS",
+      "coverage_percent": 100
+    },
+    {
+      "classification": "Risk Prioritization",
+      "value": "100/100",
+      "result": "PASS",
+      "coverage_percent": 100
+    },
+    {
+      "classification": "Continuous Dependency Monitoring",
+      "value": "100/100",
+      "result": "PASS",
+      "coverage_percent": 100
+    },
+    {
+      "classification": "Vulnerability Dependency Detection",
+      "value": "100/100",
+      "result": "PASS",
+      "coverage_percent": 100
+    },
+    {
+      "classification": "Outdated Dependency Detection",
+      "value": "100/100",
+      "result": "PASS",
+      "coverage_percent": 100
+    }
+  ]
+}

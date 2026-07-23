@@ -1,0 +1,45 @@
+package com.testable.training.platform;
+
+public record MetricDefinition(
+        String l3,
+        String l4,
+        String l5,
+        String key,
+        String field
+) {
+    public static final MetricDefinition[] ALL = {
+            new MetricDefinition("Control Flow Testing", "Path Coverage", "Path Execution Tracking", "Path Execution Tracking", "path_execution_tracking_score"),
+            new MetricDefinition("Control Flow Testing", "Path Coverage", "Complete Coverage Path Verification", "Complete Coverage Path Verification", "complete_coverage_path_verification_score"),
+            new MetricDefinition("Control Flow Testing", "Path Coverage", "Partial Path Coverage Detection", "Partial Path Coverage Detection", "partial_path_coverage_detection_score"),
+            new MetricDefinition("Control Flow Testing", "Path Coverage", "Nested Condition Path Testing", "Nested Condition Path Testing", "nested_condition_path_testing_score"),
+            new MetricDefinition("Control Flow Testing", "Path Coverage", "Loop Path Detection", "Loop Path Detection", "loop_path_detection_score"),
+            new MetricDefinition("Control Flow Testing", "Path Coverage", "Unreachable Path Detection", "Unreachable Path Detection", "unreachable_path_detection_score"),
+            new MetricDefinition("Control Flow Testing", "Path Coverage", "Exception Path Handling", "Exception Path Handling", "exception_path_handling_score"),
+            new MetricDefinition("Control Flow Testing", "Path Coverage", "Multi-Function Path Tracking", "Multi-Function Path Tracking", "multi_function_path_tracking_score"),
+            new MetricDefinition("Control Flow Testing", "Path Coverage", "CI/CD Integration Test", "CI/CD Integration Test", "cicd_integration_test_score"),
+            new MetricDefinition("Control Flow Testing", "Path Coverage", "Path Detection Testing", "Path Detection Testing", "path_coverage_percent_score"),
+            new MetricDefinition("Test Regression/Coverage Analysis", "Coverage Delta", "Regression Testing Monitoring", "Regression Testing Monitoring", "regression_testing_monitoring_score"),
+            new MetricDefinition("Test Regression/Coverage Analysis", "Coverage Delta", "Test Suite Effectiveness Tracking", "Test Suite Effectiveness Tracking", "test_suite_effectiveness_tracking_score"),
+            new MetricDefinition("Test Regression/Coverage Analysis", "Coverage Delta", "CI/CD Quality Gate Enforcement", "CI/CD Quality Gate Enforcement", "cicd_quality_gate_enforcement_score"),
+            new MetricDefinition("Test Regression/Coverage Analysis", "Coverage Delta", "Change Impact Analysis", "Change Impact Analysis", "change_impact_analysis_score"),
+            new MetricDefinition("Test Regression/Coverage Analysis", "Coverage Delta", "New Code Testing Validation", "New Code Testing Validation", "new_code_testing_validation_score"),
+            new MetricDefinition("Test Regression/Coverage Analysis", "Coverage Delta", "Quality Improvement Measurement", "Quality Improvement Measurement", "quality_improvement_measurement_score"),
+            new MetricDefinition("Data Flow Testing", "All Definition Coverage", "Variable Definition Detection", "Variable Definition Detection", "variable_definition_detection_score"),
+            new MetricDefinition("Data Flow Testing", "All Definition Coverage", "Definition-Use Mapping", "Definition-Use Mapping", "definition_use_mapping_score"),
+            new MetricDefinition("Data Flow Testing", "All Definition Coverage", "Coverage Measurement", "Coverage Measurement", "coverage_measurement_score"),
+            new MetricDefinition("Data Flow Testing", "All Definition Coverage", "Uncovered Definition Detection", "Uncovered Definition Detection", "uncovered_definition_detection_score"),
+            new MetricDefinition("Data Flow Testing", "All Definition Coverage", "Edge Case Handling", "Edge Case Handling", "edge_case_handling_score"),
+            new MetricDefinition("Data Flow Testing", "All Definition Coverage", "Reporting Validation", "Reporting Validation", "reporting_validation_score"),
+            new MetricDefinition("Data Flow Testing", "All Uses Coverage", "Computational Use Detection (C-Use)", "Computational Use Detection (C-Use)", "computational_use_detection_score"),
+            new MetricDefinition("Data Flow Testing", "All Uses Coverage", "Predicate Use Detection (P-Use)", "Predicate Use Detection (P-Use)", "predicate_use_detection_score"),
+            new MetricDefinition("Data Flow Testing", "All Uses Coverage", "Definition-Use Pair Identification", "Definition-Use Pair Identification", "definition_use_pair_identification_score"),
+            new MetricDefinition("Data Flow Testing", "All Uses Coverage", "All-Uses Coverage Verification", "All-Uses Coverage Verification", "all_uses_coverage_verification_score"),
+            new MetricDefinition("Data Flow Testing", "All Uses Coverage", "Partial Uses Coverage Detection", "Partial Uses Coverage Detection", "partial_uses_coverage_detection_score"),
+            new MetricDefinition("Data Flow Testing", "All Uses Coverage", "Multiple Definitions Handling", "Multiple Definitions Handling", "multiple_definitions_handling_score"),
+            new MetricDefinition("Data Flow Testing", "All Uses Coverage", "Cross-Function Use Detection", "Cross-Function Use Detection", "cross_function_use_detection_score"),
+            new MetricDefinition("Data Flow Testing", "All Uses Coverage", "Unreachable Use Detection", "Unreachable Use Detection", "unreachable_use_detection_score"),
+            new MetricDefinition("Data Flow Testing", "All Uses Coverage", "Coverage Reporting Validation", "Coverage Reporting Validation", "coverage_reporting_validation_score"),
+            new MetricDefinition("Data Flow Testing", "All Uses Coverage", "Variable Use Detection", "Variable Use Detection", "variable_use_detection_score"),
+            new MetricDefinition("Development Process Analysis", "Code Churn", "Regression Testing Focus", "Regression Testing Focus", "regression_testing_focus_score"),
+    };
+}

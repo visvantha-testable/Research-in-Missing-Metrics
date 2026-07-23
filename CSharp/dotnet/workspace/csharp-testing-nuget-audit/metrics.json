@@ -1,0 +1,19 @@
+{
+  "tool": "dotnet NuGet audit",
+  "target_repository": "sample_subject",
+  "metrics_total": 8,
+  "metrics_covered": 8,
+  "metric_coverage_complete": true,
+  "Transitive Dependency Analysis": 100,
+  "License Compliance Testing": 100,
+  "Supply Chain Security Analysis": 100,
+  "Dependency Health Monitoring": 100,
+  "Risk Prioritization": 100,
+  "Continuous Dependency Monitoring": 100,
+  "Vulnerability Dependency Detection": 100,
+  "Outdated Dependency Detection": 100,
+  "license_compliance_percent": 100,
+  "supply_chain_integrity_percent": 100,
+  "dependency_health_percent": 100,
+  "continuous_monitoring_percent": 100
+}
